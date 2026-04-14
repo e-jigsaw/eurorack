@@ -45,3 +45,6 @@ build
 *_BETA.sch
 *_beta.brd
 *_BETA.brd
+
+# Claude Code local settings
+.claude/settings.local.json

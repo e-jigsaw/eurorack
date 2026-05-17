@@ -128,6 +128,60 @@ Autodesk EAGLE は **2026-06 に完全 EOL**、インストーラ配布終了予
 
 もし残すなら、Dockerfile 冒頭に本ドキュメントへのリンクと「変換品質の注意喚起」を明記すべき。不要なら削除して構わない。
 
+## ルート C: PDF 回路図 + BOM からの再構築 (links で試行中)
+
+Autodesk/OSS ツールによる自動変換ルートとは別に、**公開 PDF 回路図 + xlsx BOM を入力に KiCad 10 ネイティブプロジェクトを再構築する手法**を試行。
+
+### 入力データ
+
+- `links_v40.pdf`: mutable-instruments-documentation リポジトリの公式 PDF 回路図 (CC-BY-SA)
+- `Links.xlsx`: リポジトリ内の公式 BOM (refdes + value + package + MPN + 数量)
+- `links_quickstart.pdf`: ユーザマニュアル (動作仕様確認用、ゲイン 1/3 等)
+
+### 生成物 (`links/hardware_design/kicad/`)
+
+- `links_v40.kicad_pro`: プロジェクト設定
+- `links_v40.kicad_sch`: 62 シンボル (54 部品 + op-amp 電源ユニット + PWR_FLAG) + 146 net label、全接続実装済み
+- `links_v40.kicad_pcb`: 空 (Update PCB from Schematic で後から同期)
+
+### 実装アプローチ
+
+Python スクリプトで S-expr を直接生成:
+
+1. KiCad 公式標準ライブラリ (`/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols/`) から必要なシンボル定義を抽出して sch の `(lib_symbols ...)` に埋め込み
+2. `(extends ...)` 継承を解決 (親シンボルの pin/graphics を子にマージ)
+3. 部品を 4 列グリッド (1:3 / 2:2 / 3:1 / 電源) に配置、1.27mm グリッドスナップ
+4. 埋め込みシンボルから pin 座標を抽出 → ネットマップから各 pin の world 座標に net label を配置
+5. VCC/VEE/GND は `power:VCC`/`VEE`/`GND` シンボル、電源フラグは `power:PWR_FLAG`
+6. 未使用の jack S/TN pin に `(no_connect)` マーカー
+
+### 検証結果
+
+- `kicad-cli sch erc`: **0 エラー、28 警告** (lib_symbol_mismatch 13 / footprint_link_issues 12 / endpoint_off_grid 3 — いずれも電気的影響なし)
+- `kicad-cli sch export netlist`: 58 net 検出、topology 仕様通り (summing amp のゲイン、voltage follower の feedback、LED driver の電流制限すべて正しく接続)
+- `kicad-cli sch export bom`: MPN/Manufacturer 付き BOM 正常エクスポート
+
+### ルート比較
+
+| | ルート A (Autodesk) | ルート B (pcb-rnd) | ルート C (PDF 再構築) |
+|---|---|---|---|
+| PCB DRC 電気的エラー | 0 | 62+ | N/A (PCB 未着手) |
+| ネットリスト整合 | ◯ (警告 83 件、全コスメ) | × (unconnected 13 件) | ◯ (ERC 警告 28 件、全コスメ) |
+| シンボル/フットプリント | Eagle 由来のカスタム lib | Eagle 由来 (ロス大) | KiCad 公式 lib |
+| PCB レイアウト | 保持 (手動 DRC 修正要) | 壊れた状態 | 未着手 (手作業 or import/ 参照) |
+| 作業コスト | 低 (自動) + DRC fixup | × 使用不能 | 中 (スクリプト + 手配線 + PCB 作業) |
+| 成果物の純度 | 中 (Eagle アーティファクト残存) | × | 高 (KiCad ネイティブ) |
+
+### 適用条件
+
+- **ルート C が適する**: 小〜中規模モジュール (links 程度 = 54 部品、1 sheet)。公式 PDF/BOM が公開されているモジュール。
+- **ルート A が適する**: 大規模モジュール、PCB レイアウトの再利用が必須、Autodesk EAGLE が使える環境
+- **ルート B は非推奨**: 電気的再現度が低すぎる
+
+### links 以外への展開
+
+公開 PDF + BOM が揃っている Mutable モジュールなら同じアプローチが使える。Python 生成スクリプトは `/tmp/gen_links_sch.py` に置いたが、現在は一時的。再利用するなら `tools/` 配下に配置すべき。
+
 ## 参考
 
 - pcb-rnd 公式ドキュメント: http://repo.hu/projects/pcb-rnd/

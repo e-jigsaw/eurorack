@@ -1,0 +1,88 @@
+# links_v40 JLCPCB BOM substitution script (Eagle SCRIPT)
+# Generated: 2026-04-29
+# Source:    links_v40_jlcpcb_bom.md
+#
+# Run via: Fusion Schematic editor menu
+#   ユーティリティ -> 自動化 -> スクリプトを実行
+#   (English: Utilities -> Automate -> Run Script)
+# After run: File -> Save  (Cmd+S)
+#
+# Scope of THIS script:
+#   - Attribute swaps (MPN/MANUFACTURER/LCSC) for parts where footprint
+#     and value stay the same.
+#   - Value+attribute swaps for C6,C9 (10pF -> 15pF).
+#
+# NOT in this script (do via GUI REPLACE first, then re-run with the
+# commented blocks at the bottom uncommented):
+#   - C1,C2  : radial electrolytic -> 0805 SMD ceramic (4.7uF -> 10uF)
+#   - IC2,IC4: TSSOP-8 -> SOIC-8
+#
+# If your library uses different attribute names (e.g. MFR instead of
+# MANUFACTURER, or PARTNO instead of MPN), edit the names below.
+
+# ============================================================
+# C3-C5, C7, C8, C10  :  100nF 0603 X7R
+#   Murata GRM188R71E104JA1J  ->  YAGEO CC0603KRX7R9BB104
+# ============================================================
+ATTRIBUTE C3  MPN          'CC0603KRX7R9BB104';
+ATTRIBUTE C3  MANUFACTURER 'YAGEO';
+ATTRIBUTE C3  LCSC         'C14663';
+
+ATTRIBUTE C4  MPN          'CC0603KRX7R9BB104';
+ATTRIBUTE C4  MANUFACTURER 'YAGEO';
+ATTRIBUTE C4  LCSC         'C14663';
+
+ATTRIBUTE C5  MPN          'CC0603KRX7R9BB104';
+ATTRIBUTE C5  MANUFACTURER 'YAGEO';
+ATTRIBUTE C5  LCSC         'C14663';
+
+ATTRIBUTE C7  MPN          'CC0603KRX7R9BB104';
+ATTRIBUTE C7  MANUFACTURER 'YAGEO';
+ATTRIBUTE C7  LCSC         'C14663';
+
+ATTRIBUTE C8  MPN          'CC0603KRX7R9BB104';
+ATTRIBUTE C8  MANUFACTURER 'YAGEO';
+ATTRIBUTE C8  LCSC         'C14663';
+
+ATTRIBUTE C10 MPN          'CC0603KRX7R9BB104';
+ATTRIBUTE C10 MANUFACTURER 'YAGEO';
+ATTRIBUTE C10 LCSC         'C14663';
+
+# ============================================================
+# C6, C9  :  10pF -> 15pF C0G 0603
+#   Murata GRM185C1H100JA01J  ->  Samsung CL10C150JB8NNNC
+# ============================================================
+VALUE     C6  '15pF';
+ATTRIBUTE C6  MPN          'CL10C150JB8NNNC';
+ATTRIBUTE C6  MANUFACTURER 'Samsung';
+ATTRIBUTE C6  LCSC         'C1644';
+
+VALUE     C9  '15pF';
+ATTRIBUTE C9  MPN          'CL10C150JB8NNNC';
+ATTRIBUTE C9  MANUFACTURER 'Samsung';
+ATTRIBUTE C9  LCSC         'C1644';
+
+# ============================================================
+# Below: only run AFTER doing GUI REPLACE for footprint change.
+# Uncomment after replacement is done.
+# ============================================================
+
+# --- C1, C2 : Panasonic 4.7uF radial  ->  0805 10uF SMD ---
+# VALUE     C1  '10uF';
+# ATTRIBUTE C1  MPN          'CL21A106KAYNNNE';
+# ATTRIBUTE C1  MANUFACTURER 'Samsung';
+# ATTRIBUTE C1  LCSC         'C15850';
+#
+# VALUE     C2  '10uF';
+# ATTRIBUTE C2  MPN          'CL21A106KAYNNNE';
+# ATTRIBUTE C2  MANUFACTURER 'Samsung';
+# ATTRIBUTE C2  LCSC         'C15850';
+
+# --- IC2, IC4 : TL072 TSSOP-8  ->  SOIC-8 ---
+# ATTRIBUTE IC2 MPN          'TL072CDR';
+# ATTRIBUTE IC2 MANUFACTURER 'TI';
+# ATTRIBUTE IC2 LCSC         'C67473';
+#
+# ATTRIBUTE IC4 MPN          'TL072CDR';
+# ATTRIBUTE IC4 MANUFACTURER 'TI';
+# ATTRIBUTE IC4 LCSC         'C67473';

@@ -1,50 +1,66 @@
 # EurorackPowerInput
 
-Doepfer 電源ヘッダ + 直列 Schottky リバース保護 + バルクコンデンサ をひとまとめにした subcircuit。Mutable Instruments 系で繰り返し出てくる標準パターンを再現。
+Eurorack モジュールの電源入力 subcircuit。Doepfer 2×5 power header にバルクコンデンサを 2 個ぶら下げただけのシンプルな構成。
 
 ## 構成
 
-- [`DoepferHeader`](doepfer-header.md) (`JP1`)
-- D1 / D2: **1N5819HW-7-F** (SOD-123) — 直列ブロッキング Schottky
-- C1: 47 µF / 25 V 0805 polarized (VCC バルク)
-- C2: 47 µF / 25 V 0805 polarized (VEE バルク)
+- [`DoepferHeader`](doepfer-header.md) (`JP1`) — 2×5 box header
+- C1: **22 µF / 25 V / 0805 polarized** (VCC バルク)
+- C2: **22 µF / 25 V / 0805 polarized** (VEE バルク)
 
 ## トポロジ
 
 ```
-JP1.VEE_A,B ──◄|── D1 (1N5819HW) ──┬── net.VEE  (= −12V rail)
-              anode    cathode      │
-                                    └── C2 47µF ── net.GND
-JP1.GND_A..F ───────────────────────── net.GND
-JP1.VCC_A,B ──|►── D2 (1N5819HW) ──┬── net.VCC  (= +12V rail)
-              anode    cathode      │
-                                    └── C1 47µF ── net.GND
+JP1.VEE_A,B ──────┬── net.VEE  (= −12V rail)
+                  └── C2 22µF ── net.GND
+JP1.GND_A..F ─────── net.GND
+JP1.VCC_A,B ──────┬── net.VCC  (= +12V rail)
+                  └── C1 22µF ── net.GND
 ```
 
-- 正常時: 順バイアスで両 rail に通電 (順方向降下 ≈ 0.3 V)
-- 逆挿入時: 両 D が逆バイアスで遮断、IC 群は保護される
+## 含まないもの (= 意図的に省略)
+
+- **逆挿入保護**: Doepfer box header の notch + 正規 ribbon ケーブル (Tiptop / Make Noise / Erica / Doepfer 純正等) の IDC コネクタキーで物理的に逆挿し不可、保護回路は冗長。MiniOSC v2.1 等の DIY 流派と同じ判断。Mutable 商用品は保険として 1N5819HW × 2 を入れていたが、ember では省略
+- **IC ごと 100 nF デカップリング**: モジュール本体で IC ごとに付ける責務 (下記)
+
+## デカップリングのお作法
+
+各 IC の VCC / VEE ピンに **100 nF X7R 0603 を 1 個ずつ**、IC 近傍に置く。tscircuit の `decouplingFor` / `decouplingTo` props を使うと自動配置される:
+
+```tsx
+<chip name="U1" footprint="soic8" pinLabels={{ pin4: "VEE", pin8: "VCC", ... }}
+  connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />
+
+<capacitor
+  name="C_DEC_VCC_U1"
+  capacitance="100nF"
+  footprint="0603"
+  decouplingFor="U1.VCC"
+  decouplingTo="net.GND"
+/>
+<capacitor
+  name="C_DEC_VEE_U1"
+  capacitance="100nF"
+  footprint="0603"
+  decouplingFor="U1.VEE"
+  decouplingTo="net.GND"
+/>
+```
+
+IC が N 個あれば 2N 個のデカップリング。命名規約は `C_DEC_{VCC|VEE}_{IC name}`。
 
 ## 公開 net
 
-subcircuit の外から接続して使う net (global scope):
-
 | net | 説明 |
 |---|---|
-| `net.VCC` | +12V rail (D2 cathode 側) |
-| `net.VEE` | −12V rail (D1 anode 側) |
+| `net.VCC` | +12V rail |
+| `net.VEE` | −12V rail |
 | `net.GND` | グラウンド |
-
-内部 net (`net.VCC_RAW` / `net.VEE_RAW`) はヘッダ ↔ ダイオードの間にのみ存在。
-
-## 含まないもの
-
-- **IC ごとの 100 nF デカップリング**: モジュール本体側で IC 近くに置く責務 (`<capacitor decouplingFor="..." />` で自動配置を期待)
-- **TVS / ヒューズ / PTC**: Mutable はオリジナルで採用してないので含めない。必要なモジュールごとに追加
 
 ## 出典
 
-- Mutable schematic (e.g. リポジトリ内 `links/hardware_design/links_v40.pdf` Sheet 3、`archive/eagle_parser/pdfs/braids_v50.pdf`)
-- 1N5819HW datasheet: https://www.diodes.com/assets/Datasheets/1N5819HW.pdf
+- Doepfer A-100 technical: https://doepfer.de/a100_man/a100t_e.htm
+- MiniOSC v2.1 schematic (保護なし参考): `/Users/jigsaw/dev/github.com/e-jigsaw/MiniOSC/docs/MiniOSC v2.1 - Schematics.png`
 
 ## 関連 Linear
 

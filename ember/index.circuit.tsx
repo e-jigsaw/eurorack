@@ -1,7 +1,8 @@
-import { EurorackPowerInput } from "./primitives/power/eurorack-power-input"
+import { EurorackPCB } from "./primitives/pcb/eurorack-pcb"
+import { PJ301M12 } from "./primitives/jacks/pj301m-12"
 
 export default () => (
-  <board width="40mm" height="40mm">
-    <EurorackPowerInput name="PWR" />
-  </board>
+  <EurorackPCB>
+    <PJ301M12 name="J1" />
+  </EurorackPCB>
 )

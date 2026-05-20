@@ -1,0 +1,51 @@
+import { LM321 } from "../../../../primitives/chips/lm321.tsx";
+
+export interface UtilitySumBufferProps {
+  name?: string;
+  pcbX?: number;
+  pcbY?: number;
+}
+
+/**
+ * Unity-gain follower (LM321) exposed as a group with IN/OUT ports.
+ * Internal IC name and dec caps are hidden behind the port interface.
+ * Usage:
+ *   <UtilitySumBuffer name="buf" />
+ *   <trace from=".source" to=".buf > .IN" />
+ *   <trace from=".buf > .OUT" to=".destination" />
+ */
+export const UtilitySumBuffer = ({
+  name = "buf",
+  pcbX = 0,
+  pcbY = -12,
+}: UtilitySumBufferProps = {}) => (
+  <subcircuit
+    name={name}
+    pcbX={pcbX}
+    pcbY={pcbY}
+    autorouter="sequential-trace"
+    showAsSchematicBox
+    connections={{
+      IN: ".IC > .IN_POS",
+      OUT: ".IC > .OUT",
+    }}
+  >
+    <LM321 name="IC" pcbX={0} pcbY={0}
+      connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />
+
+    {/* IC decoupling */}
+    <capacitor name="C_VCC" capacitance="100nF" footprint="0603"
+      pcbX={-2.5} pcbY={-4} />
+    <capacitor name="C_VEE" capacitance="100nF" footprint="0603"
+      pcbX={2.5} pcbY={-4} />
+    <trace from=".C_VCC > .pin1" to=".IC > .VCC" />
+    <trace from=".C_VCC > .pin2" to="net.GND" />
+    <trace from=".C_VEE > .pin1" to=".IC > .VEE" />
+    <trace from=".C_VEE > .pin2" to="net.GND" />
+
+    {/* Unity-gain feedback */}
+    <trace from=".IC > .IN_NEG" to=".IC > .OUT" />
+  </subcircuit>
+);
+
+export default UtilitySumBuffer;

@@ -1,8 +1,8 @@
 import { EurorackPCB } from "../../primitives/pcb/eurorack-pcb.tsx";
 import { EurorackPowerInput } from "../../primitives/power/eurorack-power-input.tsx";
-import { BufferedMult } from "./blocks/buffered-mult.tsx";
-import { UtilitySum2x2 } from "./blocks/utility-sum.tsx";
-import { SumMixer3to1 } from "./blocks/sum-mixer.tsx";
+import { BufferedMult } from "./blocks/buffered-mult/index.tsx";
+import { UtilitySum2x2 } from "./blocks/utility-sum/index.tsx";
+import { SumMixer3to1 } from "./blocks/sum-mixer/index.tsx";
 
 // jack/LED 位置は Mutable Links 実機 (PCB 中央原点に換算) と一致。
 const Y_PWR = 52.3;

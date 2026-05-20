@@ -16,7 +16,16 @@ export const EurorackPCB = ({
   thickness = 1.6,
   children,
 }: EurorackPCBProps) => (
-  <board width={width} height={height} thickness={thickness}>
+  <board
+    width={width}
+    height={height}
+    thickness={thickness}
+    layers={2}
+    defaultTraceWidth="0.15mm"
+    minTraceWidth="0.12mm"
+    minTraceToPadEdgeClearance="0.08mm"
+    autorouter="sequential-trace"
+  >
     {children}
   </board>
 )

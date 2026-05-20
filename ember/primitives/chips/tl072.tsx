@@ -17,7 +17,7 @@ export const TL072 = (props: TL072Props) => (
   <chip
     {...props}
     pinLabels={pinLabels}
-    footprint="tssop8"
+    footprint="tssop8_p0.65mm"
     manufacturerPartNumber="TL072CPW"
     pinAttributes={{
       VCC: { requiresPower: true },

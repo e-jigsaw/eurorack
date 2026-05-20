@@ -23,7 +23,7 @@ export const OPA4171 = (props: OPA4171Props) => (
   <chip
     {...props}
     pinLabels={pinLabels}
-    footprint="tssop14"
+    footprint="tssop14_p0.65mm"
     manufacturerPartNumber="OPA4171AIPW"
     pinAttributes={{
       VCC: { requiresPower: true },

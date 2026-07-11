@@ -16,7 +16,7 @@ export const SumMixerControl = ({ pcbX, pcbY }: SumMixerControlProps = {}) => (
     <EurorackJack name="J11" pcbX={-5} pcbY={-6.35} />
     <EurorackJack name="J12" pcbX={5} pcbY={-6.35} />
     <WP937EGW name="LED3" pcbX={0} pcbY={14.6} />
-    <InterconnectHeader1x6 name="HDR" gender="male" pinLabels={SM_PINS} pcbY={HEADER_Y_LOCAL} />
+    <InterconnectHeader1x6 name="HDR" gender="male" layer="bottom" pinLabels={SM_PINS} pcbY={HEADER_Y_LOCAL} />
 
     {/* jack ↔ header */}
     <trace from=".J9 > .TIP" to=".HDR > .IN_A" />

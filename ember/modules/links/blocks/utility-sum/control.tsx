@@ -16,7 +16,7 @@ export const UtilitySumControl = ({ pcbX, pcbY }: UtilitySumControlProps = {}) =
     <EurorackJack name="J7" pcbX={-5} pcbY={-6.35} />
     <EurorackJack name="J8" pcbX={5} pcbY={-6.35} />
     <WP937EGW name="LED2" pcbX={0} pcbY={14.6} />
-    <InterconnectHeader1x6 name="HDR" gender="male" pinLabels={US_PINS} pcbY={HEADER_Y_LOCAL} />
+    <InterconnectHeader1x6 name="HDR" gender="male" layer="bottom" pinLabels={US_PINS} pcbY={HEADER_Y_LOCAL} />
 
     {/* jack ↔ header */}
     <trace from=".J5 > .TIP" to=".HDR > .IN_A" />

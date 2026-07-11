@@ -1,6 +1,10 @@
-// Verify the two Links boards mate correctly: every interconnect header
-// pin on the control board must land on the same-labeled pin of the main
-// board when the main board is flipped around the vertical axis (x → -x).
+// Verify the two Links boards mate correctly. Both boards face the panel
+// with their component side, so their XY frames coincide in the rack: a
+// control-board header pin at (x, y) plugs into whatever main-board socket
+// pin sits at the SAME (x, y). The label mirroring needed for that to line
+// up comes from the parts, not the boards: the control header is
+// rear-mounted (layer="bottom", which mirrors its label→hole mapping) and
+// the main side reverses its pinLabels via mainPinOrder.
 //
 // Usage: bun scripts/check-interconnect.ts <control.circuit.json> <main.circuit.json>
 
@@ -72,23 +76,18 @@ if (control.length !== 18 || main.length !== 18) {
   process.exit(1);
 }
 
-// Mirror the control board around the Y axis and compare. (Template strings
-// render -0 as "0", so no separate zero guard is needed for x === 0 pins.)
-const mirrored = control.map((p) => ({
-  ...p,
-  x: round(-p.x),
-}));
-const a = sorted(mirrored);
+// Same global frame on both boards → direct (x, y, label) set equality.
+const a = sorted(control);
 const b = sorted(main);
 const diff = a.filter((k, i) => k !== b[i]);
 
 if (diff.length > 0) {
-  console.error("FAIL: header pin mismatch after mirroring");
-  console.error("control (mirrored):", a.join("\n  "));
+  console.error("FAIL: header pin mismatch (same-frame comparison)");
+  console.error("control:", a.join("\n  "));
   console.error("main:", b.join("\n  "));
   process.exit(1);
 }
 
 console.log(
-  "PASS: 18 header pins mate 1:1 (position + label) after Y-axis flip",
+  "PASS: 18 header pins mate 1:1 (position + label) in the shared board frame",
 );

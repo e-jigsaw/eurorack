@@ -31,8 +31,9 @@ export const BM_PINS: HeaderPins = ["IN", "OUT_A", "OUT_B", "OUT_C", "LED", "GND
 export const US_PINS: HeaderPins = ["IN_A", "IN_B", "OUT_A", "OUT_B", "LED", "GND"];
 export const SM_PINS: HeaderPins = ["IN_A", "IN_B", "IN_C", "OUT", "LED", "GND"];
 
-// The main board faces the control board, i.e. it is flipped around the
-// vertical axis relative to the control board's top view. Hole positions
-// are symmetric (row centered at x=0) but the label-to-hole mapping
-// reverses.
+// Both boards face the panel with their component side, so their XY frames
+// coincide in the rack and mating is direct (x, y) equality. The control
+// board's male header is rear-mounted (layer="bottom"), which mirrors its
+// label-to-hole mapping; the main side compensates by reversing its
+// pinLabels with this helper. Hole rows stay x-symmetric (centered at x=0).
 export const mainPinOrder = (pins: HeaderPins): string[] => [...pins].reverse();

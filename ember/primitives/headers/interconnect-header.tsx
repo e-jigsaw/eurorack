@@ -9,11 +9,18 @@ const PLATED_DIAMETER = "1.7mm";
 
 export interface InterconnectHeader1x6Props {
   name: string;
-  /** male on the control board (back side pins), female socket on the main board */
+  /** male on the control board (rear-mounted), female socket on the main board */
   gender: "male" | "female";
   pinLabels: HeaderPins | string[];
   pcbX?: number;
   pcbY?: number;
+  /**
+   * Both boards face the panel with their component side, so the control
+   * board's male header must mount on its rear face (layer="bottom") for the
+   * pins to reach the main board. The side-flip mirrors the label→hole
+   * mapping, which is what mates with the main side's mainPinOrder reversal.
+   */
+  layer?: "top" | "bottom";
 }
 
 export const InterconnectHeader1x6 = ({
@@ -22,6 +29,7 @@ export const InterconnectHeader1x6 = ({
   pinLabels,
   pcbX = 0,
   pcbY = 0,
+  layer = "top",
 }: InterconnectHeader1x6Props) => (
   <pinheader
     name={name}
@@ -36,6 +44,7 @@ export const InterconnectHeader1x6 = ({
     pinLabels={[...pinLabels]}
     pcbX={pcbX}
     pcbY={pcbY}
+    layer={layer}
   />
 );
 

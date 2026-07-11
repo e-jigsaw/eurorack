@@ -16,7 +16,7 @@ export const BufferedMultControl = ({ pcbX, pcbY }: BufferedMultControlProps = {
     <EurorackJack name="J3" pcbX={-5} pcbY={-6.35} />
     <EurorackJack name="J4" pcbX={5} pcbY={-6.35} />
     <WP937EGW name="LED1" pcbX={0} pcbY={14.6} />
-    <InterconnectHeader1x6 name="HDR" gender="male" pinLabels={BM_PINS} pcbY={HEADER_Y_LOCAL} />
+    <InterconnectHeader1x6 name="HDR" gender="male" layer="bottom" pinLabels={BM_PINS} pcbY={HEADER_Y_LOCAL} />
 
     {/* jack ↔ header */}
     <trace from=".J1 > .TIP" to=".HDR > .IN" />

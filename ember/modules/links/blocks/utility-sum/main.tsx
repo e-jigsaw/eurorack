@@ -62,8 +62,12 @@ export const UtilitySumMain = ({ pcbX, pcbY }: UtilitySumMainProps = {}) => (
         pad just east of it, and the header's GND pin picks the net up
         from the VCC-cap GND pad. net.GND itself is anchored inside the
         amp unit (C5/C7 GND pads) — an explicit anchor here would sweep
-        along the board edge. */}
+        along the board edge. The C_VEE→C7 run ties the buffer/header
+        ground group to the amp's net.GND-anchored pads: without that
+        copper they are two disjoint islands (and the header pin is this
+        block's only ground return to the control board). */}
     <trace from=".amp > .IC2 > .IN_B_POS" to=".amp > .C5 > .pin2" />
+    <trace from=".buf > .C_VEE > .pin2" to=".amp > .C7 > .pin2" />
     <trace from=".buf > .C_VCC > .pin2" to=".HDR > .GND" />
   </subcircuit>
 );

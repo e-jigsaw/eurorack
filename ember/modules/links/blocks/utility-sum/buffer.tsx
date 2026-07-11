@@ -30,8 +30,11 @@ export const UtilitySumBuffer = ({
         faces the chip. */}
     <capacitor name="C_VCC" capacitance="100nF" footprint="0603"
       pcbX={-3.5} pcbY={2} pcbRotation={180} />
+    {/* C_VEE y=-3.4 (was -4): with the interconnect header at
+        HEADER_Y_LOCAL=-17.8 the old spot overlapped the header courtyard
+        by 0.2mm; -3.4 clears it by ~0.4mm while staying beside VEE. */}
     <capacitor name="C_VEE" capacitance="100nF" footprint="0603"
-      pcbX={-2.5} pcbY={-4} pcbRotation={180} />
+      pcbX={-2.5} pcbY={-3.4} pcbRotation={180} />
     <trace from=".C_VCC > .pin1" to=".IC > .VCC" />
     <trace from=".C_VEE > .pin1" to=".IC > .VEE" />
     {/* C_VEE grounds via C_VCC's GND pad (same net) — a short pad-to-pad

@@ -39,8 +39,13 @@ export const UtilitySumMain = ({ pcbX, pcbY }: UtilitySumMainProps = {}) => (
         and listed first so it routes before the header feeds wall it in
         (document order = routing order). */}
     <trace from=".input > .R_A > .pin2" to=".amp > .IC2 > .IN_A_NEG" />
-    <trace from=".HDR > .IN_A" to=".input > .R_A > .pin1" />
+    {/* IN_B before IN_A: on the full board IN_A's east-to-west crossing
+        walls in R_B.pin1 from the south (its west run hugs y just below
+        the input resistors) and IN_B then finds no channel. Routed first,
+        IN_B takes the short straight ascent; IN_A crosses it on the
+        bottom layer. */}
     <trace from=".HDR > .IN_B" to=".input > .R_B > .pin1" />
+    <trace from=".HDR > .IN_A" to=".input > .R_A > .pin1" />
 
     {/* amp OUT_B → output resistors (R_C.pin1 == R_D.pin1, unit 内で短絡済) + buffer.
         OUT_B faces south (chip rotated for it) so both hops are short:

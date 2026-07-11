@@ -11,7 +11,15 @@ export const Y_3TO1 = -36.25;
 // Interconnect header row: block-local Y, centered at x=0.
 // Centering keeps hole positions x-symmetric, so board mating (a flip
 // around the Y axis) only reverses pin order — see mainPinOrder.
-export const HEADER_Y_LOCAL = -19;
+//
+// The value is bounded by neighboring-block clearances on the control
+// board: at magnitude ≥ ~17.95 the header pins collide with the NEXT
+// block's LED pads (block pitch ~34.3mm − LED offset 14.6mm − 17.95mm <
+// 1.75mm = header pad radius 0.85 + LED pad radius 0.8 + 0.1mm min
+// clearance — and the header's ±1.27mm middle pins land exactly on the
+// LED's ±1.27mm pads). The main-board side (buffer caps / output R around
+// block-local y ≈ −15) is kept clear by those units' own placement.
+export const HEADER_Y_LOCAL = -17.8;
 
 export type HeaderPins = readonly [string, string, string, string, string, string];
 

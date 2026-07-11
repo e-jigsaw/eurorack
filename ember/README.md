@@ -16,7 +16,10 @@ Mutable Instruments **Links** v4.0 (4 HP、3 ブロック + 電源) を最初の
 
 - `primitives/` — 再利用コンポーネント (ジャック、電源ヘッダ、パネル等)
   - `jacks/pj301m-12.tsx` — Thonkiconn 3.5mm vertical mono jack ([詳細](primitives/jacks/pj301m-12.md))
-- `index.circuit.tsx` — 現在の作業ターゲット (今はプリミティブのデモ表示)
+- `links-control.circuit.tsx` — 制御面ボード。ジャック / LED / オス側インターコネクトヘッダのみ (100% THT、裸基板発注)
+- `links-main.circuit.tsx` — メインボード。回路 / 電源 / メス側インターコネクトソケット (SMD、実装済み基板発注)
+
+2 枚は `primitives/headers/interconnect-header.tsx` のヘッダ列で嵌合する (メインボードを裏返して制御面ボードに重ねる想定)。整合性は `bun run check:interconnect` で検証する (要ビルド後の `circuit.json`)。
 
 ## 開発
 

@@ -1,4 +1,11 @@
-import type { HeaderPins } from "../../modules/links/interconnect";
+import type { HeaderPins } from "../../modules/links/interconnect.ts";
+
+// Kept as named constants (rather than literals repeated below and inside
+// `footprint`) so the pitch/hole/plated-diameter props and the footprint
+// string can't silently drift apart.
+const PITCH = "2.54mm";
+const HOLE_DIAMETER = "1mm";
+const PLATED_DIAMETER = "1.7mm";
 
 export interface InterconnectHeader1x6Props {
   name: string;
@@ -19,12 +26,12 @@ export const InterconnectHeader1x6 = ({
   <pinheader
     name={name}
     pinCount={6}
-    pitch="2.54mm"
+    pitch={PITCH}
     gender={gender}
     pcbOrientation="horizontal"
-    holeDiameter="1mm"
-    platedDiameter="1.7mm"
-    footprint="pinrow6_p2.54mm_id1mm_od1.7mm"
+    holeDiameter={HOLE_DIAMETER}
+    platedDiameter={PLATED_DIAMETER}
+    footprint={`pinrow6_p${PITCH}_id${HOLE_DIAMETER}_od${PLATED_DIAMETER}`}
     showSilkscreenPinLabels
     pinLabels={[...pinLabels]}
     pcbX={pcbX}

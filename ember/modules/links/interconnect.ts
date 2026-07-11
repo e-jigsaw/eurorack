@@ -2,6 +2,10 @@
 // Both boards import block Y positions, header placement, and pin order
 // from here so the mating interface cannot drift.
 
+// Board outline (identical on both boards — see control.tsx / main.tsx)
+export const BOARD_WIDTH = 20;
+export const BOARD_HEIGHT = 115;
+
 // Block Y positions (board-center origin, same on both boards)
 export const Y_PWR = 52.3;   // main board only
 export const Y_1TO3 = 32.37;

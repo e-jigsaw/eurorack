@@ -3,7 +3,7 @@ import { EurorackPowerInput } from "../../primitives/power/eurorack-power-input.
 import { BufferedMultMain } from "./blocks/buffered-mult/main.tsx";
 import { UtilitySumMain } from "./blocks/utility-sum/main.tsx";
 import { SumMixerMain } from "./blocks/sum-mixer/main.tsx";
-import { Y_PWR, Y_1TO3, Y_2X2, Y_3TO1 } from "./interconnect.ts";
+import { BOARD_WIDTH, BOARD_HEIGHT, Y_PWR, Y_1TO3, Y_2X2, Y_3TO1 } from "./interconnect.ts";
 
 /**
  * Main board: circuitry + power + female sockets (SMD parts PCBA'd).
@@ -15,7 +15,7 @@ import { Y_PWR, Y_1TO3, Y_2X2, Y_3TO1 } from "./interconnect.ts";
  * (pad-level traces cross subcircuit boundaries; net names do not).
  */
 export const LinksMainBoard = () => (
-  <EurorackPCB width={20} height={115}>
+  <EurorackPCB width={BOARD_WIDTH} height={BOARD_HEIGHT}>
     <net name="GND" />
     <net name="VCC" />
     <net name="VEE" />

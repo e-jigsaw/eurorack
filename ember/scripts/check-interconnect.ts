@@ -12,6 +12,9 @@ declare const process: {
   exit: (code: number) => never;
 };
 
+// Note for future extensions: tscircuit can emit duplicate pcb_trace_ids
+// (e.g. multiple "pcb_trace_for___net_trace_tmp") — don't key a Map/Set by
+// pcb_trace_id if this script ever needs to inspect pcb_trace entries.
 type CircuitEntry = Record<string, unknown>;
 
 type PinAt = { x: number; y: number; label: string };
@@ -69,10 +72,11 @@ if (control.length !== 18 || main.length !== 18) {
   process.exit(1);
 }
 
-// Mirror the control board around the Y axis and compare.
+// Mirror the control board around the Y axis and compare. (Template strings
+// render -0 as "0", so no separate zero guard is needed for x === 0 pins.)
 const mirrored = control.map((p) => ({
   ...p,
-  x: round(p.x === 0 ? 0 : -p.x),
+  x: round(-p.x),
 }));
 const a = sorted(mirrored);
 const b = sorted(main);

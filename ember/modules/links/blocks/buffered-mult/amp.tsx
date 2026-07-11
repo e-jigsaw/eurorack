@@ -21,8 +21,7 @@ export const BufferedMultAmp = ({
   pcbY = 0,
 }: BufferedMultAmpProps = {}) => (
   <group name={name} pcbX={pcbX} pcbY={pcbY}>
-    <OPA4171 name="IC1" pcbX={0} pcbY={0} pcbRotation={90}
-      connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />
+    <OPA4171 name="IC1" pcbX={0} pcbY={0} pcbRotation={90} />
 
     {/* IC1 decoupling */}
     <capacitor name="C3" capacitance="100nF" footprint="0603" pcbX={-2} pcbY={-9} />
@@ -42,6 +41,13 @@ export const BufferedMultAmp = ({
     <trace from=".IC1 > .IN_B_NEG" to=".IC1 > .OUT_B" />
     <trace from=".IC1 > .IN_C_NEG" to=".IC1 > .OUT_C" />
     <trace from=".IC1 > .IN_D_NEG" to=".IC1 > .OUT_D" />
+
+    {/* Supply hookup last (explicit traces instead of a `connections` prop
+        on the chip): the sequential router runs in document order, and the
+        long VCC/VEE net sweeps must not wall off the short local traces
+        above. Same nets/topology either way. */}
+    <trace from=".IC1 > .VCC" to="net.VCC" />
+    <trace from=".IC1 > .VEE" to="net.VEE" />
   </group>
 );
 

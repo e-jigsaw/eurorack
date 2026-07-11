@@ -45,7 +45,17 @@ export const WP937EGW = ({
           holeDiameter={0.8}
           outerDiameter={1.6}
         />
-        <silkscreencircle pcbX={0} pcbY={0} radius={1.5} />
+        {/* Assembly silk on the bottom (solder-side) face, like the jacks —
+           the top face is hidden behind the panel. Straight bar = cathode. */}
+        <silkscreencircle pcbX={0} pcbY={0} radius={1.5} layer="bottom" />
+        <silkscreenline
+          x1={1.9}
+          y1={-1.1}
+          x2={1.9}
+          y2={1.1}
+          strokeWidth={0.25}
+          layer="bottom"
+        />
       </footprint>
     }
   />

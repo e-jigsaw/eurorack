@@ -1,7 +1,10 @@
-import { UtilitySumAmp } from "./amp.tsx";
-import { UtilitySumBuffer } from "./buffer.tsx";
-import { UtilitySumInput } from "./input.tsx";
-import { UtilitySumOutput } from "./output.tsx";
+// Sibling imports use the "../<block>/" specifier form: @tscircuit/eval caches
+// modules by raw specifier string, so a bare "./amp.tsx" would collide with
+// other blocks' same-named files when several blocks load in one eval session.
+import { UtilitySumAmp } from "../utility-sum/amp.tsx";
+import { UtilitySumBuffer } from "../utility-sum/buffer.tsx";
+import { UtilitySumInput } from "../utility-sum/input.tsx";
+import { UtilitySumOutput } from "../utility-sum/output.tsx";
 import { InterconnectHeader1x6 } from "../../../../primitives/headers/interconnect-header.tsx";
 import { US_PINS, HEADER_Y_LOCAL, mainPinOrder } from "../../interconnect.ts";
 

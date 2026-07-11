@@ -1,4 +1,7 @@
-import { BufferedMultAmp } from "./amp.tsx";
+// Sibling imports use the "../<block>/" specifier form: @tscircuit/eval caches
+// modules by raw specifier string, so a bare "./amp.tsx" would collide with
+// other blocks' same-named files when several blocks load in one eval session.
+import { BufferedMultAmp } from "../buffered-mult/amp.tsx";
 import { BufferedMultInputBias } from "./input-bias.tsx";
 import { BufferedMultOutputs } from "./outputs.tsx";
 import { InterconnectHeader1x6 } from "../../../../primitives/headers/interconnect-header.tsx";

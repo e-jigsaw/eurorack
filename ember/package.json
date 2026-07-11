@@ -18,9 +18,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@tscircuit/capacity-autorouter": "0.0.519",
+    "@tscircuit/capacity-autorouter": "0.0.662",
     "@types/react": "^19.2.14",
-    "tscircuit": "^0.0.1766",
+    "tscircuit": "0.0.2046",
     "typescript": "^5.0.0"
   }
 }

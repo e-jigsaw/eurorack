@@ -1,4 +1,5 @@
 import type { ReactNode } from "react"
+import { CLEARANCE, FAB_ROUTING_PROPS, TRACE_WIDTH } from "./fab-limits.ts"
 
 export const HP_MM = 5.08
 export const PANEL_MM_PER_HP = 5.0
@@ -21,10 +22,10 @@ export const EurorackPCB = ({
     height={height}
     thickness={thickness}
     layers={2}
-    defaultTraceWidth="0.15mm"
-    minTraceWidth="0.12mm"
-    minTraceToPadEdgeClearance="0.08mm"
-    autorouter="sequential-trace"
+    defaultTraceWidth={TRACE_WIDTH}
+    {...FAB_ROUTING_PROPS}
+    minTraceToPadEdgeClearance="0.13mm"
+    autorouter={{ preset: "sequential_trace", traceClearance: CLEARANCE }}
   >
     {children}
   </board>

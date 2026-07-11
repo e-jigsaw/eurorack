@@ -6,6 +6,7 @@ import { BufferedMultInputBias } from "./input-bias.tsx";
 import { BufferedMultOutputs } from "./outputs.tsx";
 import { InterconnectHeader1x6 } from "../../../../primitives/headers/interconnect-header.tsx";
 import { BM_PINS, HEADER_Y_LOCAL, mainPinOrder } from "../../interconnect.ts";
+import { CLEARANCE, FAB_ROUTING_PROPS } from "../../../../primitives/pcb/fab-limits.ts";
 
 export interface BufferedMultMainProps {
   pcbX?: number;
@@ -14,7 +15,13 @@ export interface BufferedMultMainProps {
 
 /** Main-board half: buffer circuitry + LED series resistor + female socket. */
 export const BufferedMultMain = ({ pcbX, pcbY }: BufferedMultMainProps = {}) => (
-  <subcircuit name="BM" pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
+  <subcircuit
+    name="BM"
+    pcbX={pcbX}
+    pcbY={pcbY}
+    {...FAB_ROUTING_PROPS}
+    autorouter={{ preset: "sequential_trace", traceClearance: CLEARANCE }}
+  >
     {/* declare block nets once up front: without this, each net.X trace
         reference at different tree depths (unit groups vs block level) races
         and creates its own duplicate Net child → pcb_trace_error "Multiple

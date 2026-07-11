@@ -62,15 +62,21 @@ export const EurorackPowerInput = ({
       layer="bottom"
     />
 
-    <trace from=".JP1 > .VEE_A" to="net.VEE" />
+    {/* Each rail's redundant Doepfer pins are chained pad-to-pad (adjacent
+        pins, 2.54mm hops) instead of each independently to "net.X" — the
+        latter leaves every pin its own single-pad island, which tscircuit
+        only joins via a backup net-island router that ignores this file's
+        trace-width/via props (always 0.1mm copper, below JLCPCB's floor).
+        Same nets/topology either way. */}
+    <trace from=".JP1 > .VEE_A" to=".JP1 > .VEE_B" />
     <trace from=".JP1 > .VEE_B" to="net.VEE" />
-    <trace from=".JP1 > .GND_A" to="net.GND" />
-    <trace from=".JP1 > .GND_B" to="net.GND" />
-    <trace from=".JP1 > .GND_C" to="net.GND" />
-    <trace from=".JP1 > .GND_D" to="net.GND" />
-    <trace from=".JP1 > .GND_E" to="net.GND" />
+    <trace from=".JP1 > .GND_A" to=".JP1 > .GND_B" />
+    <trace from=".JP1 > .GND_B" to=".JP1 > .GND_D" />
+    <trace from=".JP1 > .GND_D" to=".JP1 > .GND_C" />
+    <trace from=".JP1 > .GND_C" to=".JP1 > .GND_E" />
+    <trace from=".JP1 > .GND_E" to=".JP1 > .GND_F" />
     <trace from=".JP1 > .GND_F" to="net.GND" />
-    <trace from=".JP1 > .VCC_A" to="net.VCC" />
+    <trace from=".JP1 > .VCC_A" to=".JP1 > .VCC_B" />
     <trace from=".JP1 > .VCC_B" to="net.VCC" />
   </group>
 );

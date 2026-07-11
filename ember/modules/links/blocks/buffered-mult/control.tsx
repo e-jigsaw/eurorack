@@ -2,6 +2,7 @@ import { EurorackJack } from "../../../../primitives/jacks/eurorack-jack.tsx";
 import { WP937EGW } from "../../../../primitives/leds/wp937egw.tsx";
 import { InterconnectHeader1x6 } from "../../../../primitives/headers/interconnect-header.tsx";
 import { BM_PINS, HEADER_Y_LOCAL } from "../../interconnect.ts";
+import { CLEARANCE, FAB_ROUTING_PROPS } from "../../../../primitives/pcb/fab-limits.ts";
 
 export interface BufferedMultControlProps {
   pcbX?: number;
@@ -10,7 +11,12 @@ export interface BufferedMultControlProps {
 
 /** Control-board half: jacks + LED + male interconnect header. 100% THT. */
 export const BufferedMultControl = ({ pcbX, pcbY }: BufferedMultControlProps = {}) => (
-  <subcircuit pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
+  <subcircuit
+    pcbX={pcbX}
+    pcbY={pcbY}
+    {...FAB_ROUTING_PROPS}
+    autorouter={{ preset: "sequential_trace", traceClearance: CLEARANCE }}
+  >
     <EurorackJack name="J1" pcbX={-5} pcbY={6.35} />
     <EurorackJack name="J2" pcbX={5} pcbY={6.35} />
     <EurorackJack name="J3" pcbX={-5} pcbY={-6.35} />

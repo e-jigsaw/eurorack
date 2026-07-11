@@ -2,6 +2,7 @@ import { EurorackJack } from "../../../../primitives/jacks/eurorack-jack.tsx";
 import { WP937EGW } from "../../../../primitives/leds/wp937egw.tsx";
 import { InterconnectHeader1x6 } from "../../../../primitives/headers/interconnect-header.tsx";
 import { SM_PINS, HEADER_Y_LOCAL } from "../../interconnect.ts";
+import { CLEARANCE, FAB_ROUTING_PROPS } from "../../../../primitives/pcb/fab-limits.ts";
 
 export interface SumMixerControlProps {
   pcbX?: number;
@@ -10,7 +11,12 @@ export interface SumMixerControlProps {
 
 /** Control-board half: jacks + LED + male interconnect header. 100% THT. */
 export const SumMixerControl = ({ pcbX, pcbY }: SumMixerControlProps = {}) => (
-  <subcircuit pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
+  <subcircuit
+    pcbX={pcbX}
+    pcbY={pcbY}
+    {...FAB_ROUTING_PROPS}
+    autorouter={{ preset: "sequential_trace", traceClearance: CLEARANCE }}
+  >
     <EurorackJack name="J9" pcbX={-5} pcbY={6.35} />
     <EurorackJack name="J10" pcbX={5} pcbY={6.35} />
     <EurorackJack name="J11" pcbX={-5} pcbY={-6.35} />
@@ -29,11 +35,16 @@ export const SumMixerControl = ({ pcbX, pcbY }: SumMixerControlProps = {}) => (
     <trace from=".LED3 > .cathode" to="net.GND" />
     <trace from=".HDR > .GND" to="net.GND" />
 
-    {/* SLEEVE GND: each jack wired directly to GND (avoids a same-net via
-        clash from two independent traces converging on one jack pad) */}
-    <trace from=".J9 > .SLEEVE" to="net.GND" />
-    <trace from=".J10 > .SLEEVE" to="net.GND" />
-    <trace from=".J11 > .SLEEVE" to="net.GND" />
+    {/* SLEEVE GND chains (mirrors buffered-mult's pattern): explicit
+        adjacent-jack hops keep every SLEEVE pad on one connected copper
+        island so the router's own traces carry the net — leaving jacks
+        independently tied to net.GND left three separate single-pad
+        islands that only tscircut's net-island "backup" stitcher (which
+        does not consult the subcircuit's minTraceWidth/clearance props)
+        would join, producing an unmeasurable/unfixable 0.1mm trace. */}
+    <trace from=".J9 > .SLEEVE" to=".J11 > .SLEEVE" />
+    <trace from=".J10 > .SLEEVE" to=".J12 > .SLEEVE" />
+    <trace from=".J11 > .SLEEVE" to=".J12 > .SLEEVE" />
     <trace from=".J12 > .SLEEVE" to="net.GND" />
   </subcircuit>
 );

@@ -43,7 +43,7 @@ export const SumMixerAmp = ({
     {/* IC4 decoupling — each cap flanks the chip on the side of its supply
         pad (rot 270: VEE on the NW pad, VCC on the SE pad). C10 is rotated
         180° so its pin1 (VEE side) faces the chip. */}
-    <capacitor name="C8" capacitance="100nF" footprint="0603" pcbX={4.5} pcbY={-4} />
+    <capacitor name="C8" capacitance="100nF" footprint="0603" pcbX={4.5} pcbY={-3} />
     <capacitor name="C10" capacitance="100nF" footprint="0603" pcbX={-4.5} pcbY={3}
       pcbRotation={180} />
     <trace from=".C8 > .pin1" to=".IC4 > .VCC" />

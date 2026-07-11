@@ -7,6 +7,7 @@ import { UtilitySumInput } from "../utility-sum/input.tsx";
 import { UtilitySumOutput } from "../utility-sum/output.tsx";
 import { InterconnectHeader1x6 } from "../../../../primitives/headers/interconnect-header.tsx";
 import { US_PINS, HEADER_Y_LOCAL, mainPinOrder } from "../../interconnect.ts";
+import { CLEARANCE, FAB_ROUTING_PROPS } from "../../../../primitives/pcb/fab-limits.ts";
 
 export interface UtilitySumMainProps {
   pcbX?: number;
@@ -15,7 +16,13 @@ export interface UtilitySumMainProps {
 
 /** Main-board half: summing circuitry + LED series resistor + female socket. */
 export const UtilitySumMain = ({ pcbX, pcbY }: UtilitySumMainProps = {}) => (
-  <subcircuit name="US" pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
+  <subcircuit
+    name="US"
+    pcbX={pcbX}
+    pcbY={pcbY}
+    {...FAB_ROUTING_PROPS}
+    autorouter={{ preset: "sequential_trace", traceClearance: CLEARANCE }}
+  >
     {/* Declared explicitly so nested group references reuse one net (lazy-create race) */}
     <net name="GND" />
     <net name="VCC" />
@@ -29,7 +36,7 @@ export const UtilitySumMain = ({ pcbX, pcbY }: UtilitySumMainProps = {}) => (
         column the OUT_B descent, so the LED chain gets the west. buf's x
         puts IN_POS directly below R_D.pin1 for a straight tap. */}
     <UtilitySumBuffer name="buf" pcbX={-4.4} pcbY={-11.5} />
-    <resistor name="R_led" resistance="1k" footprint="0603" pcbX={-7.5} pcbY={-12} pcbRotation={90} />
+    <resistor name="R_led" resistance="1k" footprint="0603" pcbX={-7.5} pcbY={-11.8} pcbRotation={90} />
     <InterconnectHeader1x6
       name="HDR"
       gender="female"

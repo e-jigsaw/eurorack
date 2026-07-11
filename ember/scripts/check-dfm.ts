@@ -135,46 +135,45 @@ if (pcbVias.length > 0) {
 // shared pcb_port (the stitch pad). Two traces literally joined at a shared
 // port are never a clearance violation against each other, so traces are
 // additionally unioned whenever they share a start/end pcb_port_id.
-const initialNetId = (t: CircuitEntry): string => {
+const initialNetId = (t: CircuitEntry, index: number): string => {
   const srcId = t.source_trace_id as string | undefined;
   const src = srcId ? sourceTraces.get(srcId) : undefined;
   const mapKey = src?.subcircuit_connectivity_map_key as string | undefined;
-  return mapKey ?? `own:${t.pcb_trace_id as string}`;
+  // Keyless traces fall back to the array INDEX, not pcb_trace_id:
+  // tscircuit can emit duplicate pcb_trace_ids (e.g. several
+  // "pcb_trace_for___net_trace_tmp" — see the warning in
+  // check-interconnect.ts), and an id-based fallback would silently merge
+  // unrelated keyless traces into one net, skipping their spacing check.
+  return mapKey ?? `own:${index}`;
 };
 
-const parent = new Map<string, string>();
-const find = (x: string): string => {
+// Union-find over pcb_trace ARRAY INDICES (same duplicate-id quirk as
+// above: keying nodes by pcb_trace_id could alias distinct traces).
+const parent: number[] = pcbTraces.map((_, i) => i);
+const find = (x: number): number => {
   let root = x;
-  while (parent.get(root) !== undefined && parent.get(root) !== root) {
-    root = parent.get(root)!;
-  }
-  parent.set(x, root);
+  while (parent[root] !== root) root = parent[root]!;
+  parent[x] = root;
   return root;
 };
-const union = (a: string, b: string) => {
+const union = (a: number, b: number) => {
   const ra = find(a);
   const rb = find(b);
-  if (ra !== rb) parent.set(ra, rb);
+  if (ra !== rb) parent[ra] = rb;
 };
 
-for (const t of pcbTraces) {
-  const traceId = t.pcb_trace_id as string;
-  if (!parent.has(traceId)) parent.set(traceId, traceId);
-}
 // Union traces sharing an initial (map-key-derived) net id.
-const byInitialNet = new Map<string, string>();
-for (const t of pcbTraces) {
-  const traceId = t.pcb_trace_id as string;
-  const key = initialNetId(t);
+const byInitialNet = new Map<string, number>();
+for (let i = 0; i < pcbTraces.length; i++) {
+  const key = initialNetId(pcbTraces[i]!, i);
   const existing = byInitialNet.get(key);
-  if (existing) union(existing, traceId);
-  else byInitialNet.set(key, traceId);
+  if (existing !== undefined) union(existing, i);
+  else byInitialNet.set(key, i);
 }
 // Union traces that share a physical pcb_port_id at a route endpoint.
-const byPort = new Map<string, string>();
-for (const t of pcbTraces) {
-  const traceId = t.pcb_trace_id as string;
-  const route = (t.route as RoutePoint[] | undefined) ?? [];
+const byPort = new Map<string, number>();
+for (let i = 0; i < pcbTraces.length; i++) {
+  const route = (pcbTraces[i]!.route as RoutePoint[] | undefined) ?? [];
   for (const r of route as (RoutePoint & {
     start_pcb_port_id?: string;
     end_pcb_port_id?: string;
@@ -182,18 +181,17 @@ for (const t of pcbTraces) {
     for (const portId of [r.start_pcb_port_id, r.end_pcb_port_id]) {
       if (!portId) continue;
       const existing = byPort.get(portId);
-      if (existing) union(existing, traceId);
-      else byPort.set(portId, traceId);
+      if (existing !== undefined) union(existing, i);
+      else byPort.set(portId, i);
     }
   }
 }
 
-const netIdFor = (t: CircuitEntry): string => find(t.pcb_trace_id as string);
-
 const segments: Segment[] = [];
-for (const t of pcbTraces) {
-  const traceId = t.pcb_trace_id as string;
-  const netId = netIdFor(t);
+for (let ti = 0; ti < pcbTraces.length; ti++) {
+  const t = pcbTraces[ti]!;
+  const traceId = `#${ti}:${t.pcb_trace_id as string}`;
+  const netId = `net:${find(ti)}`;
   const route = (t.route as RoutePoint[] | undefined) ?? [];
   for (let i = 0; i < route.length - 1; i++) {
     const a = route[i]!;

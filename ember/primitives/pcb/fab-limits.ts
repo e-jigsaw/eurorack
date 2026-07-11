@@ -31,6 +31,7 @@ export const TRACE_WIDTH = "0.13mm"
 export const VIA_HOLE = "0.3mm"
 export const VIA_PAD = "0.6mm"
 export const CLEARANCE = "0.15mm"
+export const PAD_EDGE_CLEARANCE = "0.13mm"
 
 // JLCPCB 2-layer hard floors (mm, as numbers for scripts/check-dfm.ts).
 export const FLOOR_TRACE_WIDTH_MM = 0.127

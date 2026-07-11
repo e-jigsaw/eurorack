@@ -12,6 +12,11 @@ export interface BufferedMultMainProps {
 /** Main-board half: buffer circuitry + LED series resistor + female socket. */
 export const BufferedMultMain = ({ pcbX, pcbY }: BufferedMultMainProps = {}) => (
   <subcircuit pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
+    {/* declare GND once up front: without this, each net.GND trace reference
+        (one inside the bias group, one at this level) races and creates its
+        own duplicate Net child → pcb_trace_error "Multiple immediate children
+        found with name GND" */}
+    <net name="GND" />
     <BufferedMultAmp name="amp" />
     <BufferedMultInputBias name="bias" />
     <BufferedMultOutputs name="outputs" />
@@ -23,20 +28,20 @@ export const BufferedMultMain = ({ pcbX, pcbY }: BufferedMultMainProps = {}) => 
       pcbY={HEADER_Y_LOCAL}
     />
 
-    {/* input: header → bias + amp */}
-    <trace from=".HDR > .IN" to=".bias > .IO" />
-    <trace from=".HDR > .IN" to=".amp > .IN" />
+    {/* input: header → bias + amp (pad-to-pad; alias ports are unroutable) */}
+    <trace from=".HDR > .IN" to=".bias > .R > .pin1" />
+    <trace from=".HDR > .IN" to=".amp > .IC1 > .IN_A_POS" />
 
     {/* amp outputs → 51Ω → header (channel mapping preserved from v1) */}
-    <trace from=".amp > .OUT_C" to=".outputs > .SRC_A" />
-    <trace from=".outputs > .OUT_A" to=".HDR > .OUT_A" />
-    <trace from=".amp > .OUT_D" to=".outputs > .SRC_B" />
-    <trace from=".outputs > .OUT_B" to=".HDR > .OUT_B" />
-    <trace from=".amp > .OUT_A" to=".outputs > .SRC_C" />
-    <trace from=".outputs > .OUT_C" to=".HDR > .OUT_C" />
+    <trace from=".amp > .IC1 > .OUT_C" to=".outputs > .R_A > .pin1" />
+    <trace from=".outputs > .R_A > .pin2" to=".HDR > .OUT_A" />
+    <trace from=".amp > .IC1 > .OUT_D" to=".outputs > .R_B > .pin1" />
+    <trace from=".outputs > .R_B > .pin2" to=".HDR > .OUT_B" />
+    <trace from=".amp > .IC1 > .OUT_A" to=".outputs > .R_C > .pin1" />
+    <trace from=".outputs > .R_C > .pin2" to=".HDR > .OUT_C" />
 
     {/* LED drive: current-limited before crossing the header */}
-    <trace from=".amp > .OUT_B" to=".R_led > .pin1" />
+    <trace from=".amp > .IC1 > .OUT_B" to=".R_led > .pin1" />
     <trace from=".R_led > .pin2" to=".HDR > .LED" />
     <trace from=".HDR > .GND" to="net.GND" />
   </subcircuit>

@@ -11,7 +11,7 @@ const Y_2X2 = -1.92;
 const Y_3TO1 = -36.25;
 
 export const LinksModule = () => (
-  <EurorackPCB width={20} height={115}>
+  <EurorackPCB width={50} height={115}>
     <EurorackPowerInput name="PWR" pcbY={Y_PWR} />
     <BufferedMult pcbY={Y_1TO3} />
     <UtilitySum2x2 pcbY={Y_2X2} />

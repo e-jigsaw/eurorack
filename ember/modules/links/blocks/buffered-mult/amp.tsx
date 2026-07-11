@@ -1,15 +1,15 @@
 import { OPA4171 } from "../../../../primitives/chips/opa4171.tsx";
 
 /**
- * 4-channel unity-gain buffer core (OPA4171 IC1). All 4 IN_POS share the IN port.
- * Each channel's IN_NEG is internally connected to its OUT (unity gain).
+ * 4-channel unity-gain buffer core (OPA4171 IC1). All 4 IN_POS share one
+ * input node; each channel's IN_NEG is tied to its OUT (unity gain).
  *
- * Ports (via `connections`):
- *   IN    → IC1.IN_A_POS  (4 IN_POS pins shorted internally → single input)
- *   OUT_A → IC1.OUT_A
- *   OUT_B → IC1.OUT_B
- *   OUT_C → IC1.OUT_C
- *   OUT_D → IC1.OUT_D
+ * External wiring uses through-selectors:
+ *   IN    → .amp > .IC1 > .IN_A_POS  (or any IN_x_POS, they are shorted)
+ *   OUT_A → .amp > .IC1 > .OUT_A
+ *   OUT_B → .amp > .IC1 > .OUT_B
+ *   OUT_C → .amp > .IC1 > .OUT_C
+ *   OUT_D → .amp > .IC1 > .OUT_D
  */
 export interface BufferedMultAmpProps {
   name?: string;
@@ -27,14 +27,6 @@ export const BufferedMultAmp = ({
     pcbX={pcbX}
     pcbY={pcbY}
     autorouter="sequential-trace"
-    showAsSchematicBox
-    connections={{
-      IN:    ".IC1 > .IN_A_POS",
-      OUT_A: ".IC1 > .OUT_A",
-      OUT_B: ".IC1 > .OUT_B",
-      OUT_C: ".IC1 > .OUT_C",
-      OUT_D: ".IC1 > .OUT_D",
-    }}
   >
     <OPA4171 name="IC1" pcbX={0} pcbY={0} pcbRotation={90}
       connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />

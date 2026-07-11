@@ -21,18 +21,27 @@ export const SumMixer3to1 = ({ pcbX, pcbY }: SumMixer3to1Props = {}) => (
     <SumMixerAmp name="amp" />
     <SumMixerOutput name="output" pcbX={2.6} pcbY={-7} />
     <SumMixerBuffer name="buf" />
-    <SumMixerLed connections={{ IN: ".buf > .OUT" }} />
+    <SumMixerLed connections={{ IN: ".buf > .IC > .OUT" }} />
 
-    {/* Input jacks → input section */}
-    <trace from=".J9 > .TIP" to=".input > .IN_A" />
-    <trace from=".J10 > .TIP" to=".input > .IN_B" />
-    <trace from=".J11 > .TIP" to=".input > .IN_C" />
-    <trace from=".input > .SUM" to=".amp > .SUM_A" />
+    {/* Input jacks → input summing resistors */}
+    <trace from=".J9 > .TIP" to=".input > .R_in_A > .pin1" />
+    <trace from=".J10 > .TIP" to=".input > .R_in_B > .pin1" />
+    <trace from=".J11 > .TIP" to=".input > .R_in_C > .pin1" />
+    {/* SUM bus → IC4.IN_A_NEG: same Manhattan path as utility-sum. */}
+    <trace
+      from=".input > .R_in_A > .pin2"
+      to=".amp > .IC4 > .IN_A_NEG"
+      pcbPath={[
+        { x: 0.85, y: 0,        via: true, fromLayer: "top",    toLayer: "bottom" },
+        { x: 0.85, y: -13.625 },
+        { x: 2.275, y: -13.625, via: true, fromLayer: "bottom", toLayer: "top" },
+      ]}
+    />
 
-    {/* amp.OUT_B → output → J12, and → buffer */}
-    <trace from=".amp > .OUT_B" to=".output > .SRC" />
-    <trace from=".amp > .OUT_B" to=".buf > .IN" />
-    <trace from=".output > .OUT" to=".J12 > .TIP" />
+    {/* Amp OUT_B → output resistor + buffer */}
+    <trace from=".amp > .IC4 > .OUT_B" to=".output > .R_out > .pin1" />
+    <trace from=".amp > .IC4 > .OUT_B" to=".buf > .IC > .IN_POS" />
+    <trace from=".output > .R_out > .pin2" to=".J12 > .TIP" />
 
     {/* SLEEVE GND chains */}
     <trace from=".J9 > .SLEEVE" to=".J11 > .SLEEVE" />

@@ -4,9 +4,8 @@ import { TL072 } from "../../../../primitives/chips/tl072.tsx";
  * 2-stage opamp core (TL072) with feedback A (100k), feedback B (100k + 10pF),
  * inter-stage R10 (100k), and IC2 decoupling.
  *
- * Ports (created via `connections`):
- *   SUM_A → IC2.IN_A_NEG  (where stage-A input summing happens)
- *   OUT_B → IC2.OUT_B     (final output to downstream stages)
+ * External wiring uses through-selectors (`.amp > .IC2 > .IN_A_NEG`,
+ * `.amp > .IC2 > .OUT_B`) instead of exposing dedicated ports.
  */
 export interface UtilitySumAmpProps {
   name?: string;
@@ -24,11 +23,6 @@ export const UtilitySumAmp = ({
     pcbX={pcbX}
     pcbY={pcbY}
     autorouter="sequential-trace"
-    showAsSchematicBox
-    connections={{
-      SUM_A: ".IC2 > .IN_A_NEG",
-      OUT_B: ".IC2 > .OUT_B",
-    }}
   >
     <TL072 name="IC2" pcbX={0} pcbY={0} pcbRotation={90}
       connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />
@@ -36,17 +30,15 @@ export const UtilitySumAmp = ({
     {/* Feedback A (south of IC2) */}
     <resistor name="R6" resistance="100k" footprint="0603" pcbX={0} pcbY={-4} />
 
-    {/* Feedback B (north of IC2): R7 + C9 */}
-    <resistor name="R7" resistance="100k" footprint="0603" pcbX={0} pcbY={4} />
-    <capacitor name="C6" capacitance="10pF" footprint="0603" pcbX={0} pcbY={5.5} />
-
-    {/* Inter-stage 100k (east of IC2, vertical) */}
+    {/* Feedback B/inter-stage/decoupling — pushed out to X=±8 so they sit
+       clearly outside the jack column (jack centres X=±5, jack pads extend
+       to X=±6) and outside the IC2 leads (X=±2). */}
+    <resistor name="R7" resistance="100k" footprint="0603" pcbX={-8} pcbY={4} />
+    <capacitor name="C6" capacitance="10pF" footprint="0603" pcbX={8} pcbY={4} />
     <resistor name="R10" resistance="100k" footprint="0603"
-      pcbX={3.2} pcbY={0} pcbRotation={90} />
-
-    {/* IC2 decoupling */}
-    <capacitor name="C5" capacitance="100nF" footprint="0603" pcbX={-2} pcbY={-9} />
-    <capacitor name="C7" capacitance="100nF" footprint="0603" pcbX={2} pcbY={-9} />
+      pcbX={8} pcbY={-3} pcbRotation={90} />
+    <capacitor name="C5" capacitance="100nF" footprint="0603" pcbX={-8} pcbY={0} />
+    <capacitor name="C7" capacitance="100nF" footprint="0603" pcbX={-8} pcbY={-3} />
     <trace from=".C5 > .pin1" to=".IC2 > .VCC" />
     <trace from=".C5 > .pin2" to="net.GND" />
     <trace from=".C7 > .pin1" to=".IC2 > .VEE" />

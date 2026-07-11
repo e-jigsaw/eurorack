@@ -19,19 +19,19 @@ export const BufferedMult = ({ pcbX, pcbY }: BufferedMultProps = {}) => (
     <BufferedMultAmp name="amp" />
     <BufferedMultInputBias name="bias" />
     <BufferedMultOutputs name="outputs" />
-    <BufferedMultLed connections={{ IN: ".amp > .OUT_B" }} />
+    <BufferedMultLed connections={{ IN: ".amp > .IC1 > .OUT_B" }} />
 
-    {/* J1 input → bias resistor + amp IN */}
-    <trace from=".J1 > .TIP" to=".bias > .IO" />
-    <trace from=".J1 > .TIP" to=".amp > .IN" />
+    {/* J1 input → bias resistor + amp input (any IN_x_POS, all shorted) */}
+    <trace from=".J1 > .TIP" to=".bias > .R > .pin1" />
+    <trace from=".J1 > .TIP" to=".amp > .IC1 > .IN_A_POS" />
 
     {/* amp outputs → 51Ω → output jacks */}
-    <trace from=".amp > .OUT_A" to=".outputs > .SRC_C" />
-    <trace from=".outputs > .OUT_C" to=".J4 > .TIP" />
-    <trace from=".amp > .OUT_C" to=".outputs > .SRC_A" />
-    <trace from=".outputs > .OUT_A" to=".J2 > .TIP" />
-    <trace from=".amp > .OUT_D" to=".outputs > .SRC_B" />
-    <trace from=".outputs > .OUT_B" to=".J3 > .TIP" />
+    <trace from=".amp > .IC1 > .OUT_A" to=".outputs > .R_out_C > .pin1" />
+    <trace from=".outputs > .R_out_C > .pin2" to=".J4 > .TIP" />
+    <trace from=".amp > .IC1 > .OUT_C" to=".outputs > .R_out_A > .pin1" />
+    <trace from=".outputs > .R_out_A > .pin2" to=".J2 > .TIP" />
+    <trace from=".amp > .IC1 > .OUT_D" to=".outputs > .R_out_B > .pin1" />
+    <trace from=".outputs > .R_out_B > .pin2" to=".J3 > .TIP" />
 
     {/* SLEEVE GND chains */}
     <trace from=".J1 > .SLEEVE" to=".J3 > .SLEEVE" />

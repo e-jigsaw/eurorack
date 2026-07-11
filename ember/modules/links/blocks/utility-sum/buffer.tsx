@@ -7,12 +7,9 @@ export interface UtilitySumBufferProps {
 }
 
 /**
- * Unity-gain follower (LM321) exposed as a group with IN/OUT ports.
- * Internal IC name and dec caps are hidden behind the port interface.
- * Usage:
- *   <UtilitySumBuffer name="buf" />
- *   <trace from=".source" to=".buf > .IN" />
- *   <trace from=".buf > .OUT" to=".destination" />
+ * Unity-gain follower (LM321). External wiring uses through-selectors:
+ *   IN  → .buf > .IC > .IN_POS
+ *   OUT → .buf > .IC > .OUT
  */
 export const UtilitySumBuffer = ({
   name = "buf",
@@ -24,11 +21,6 @@ export const UtilitySumBuffer = ({
     pcbX={pcbX}
     pcbY={pcbY}
     autorouter="sequential-trace"
-    showAsSchematicBox
-    connections={{
-      IN: ".IC > .IN_POS",
-      OUT: ".IC > .OUT",
-    }}
   >
     <LM321 name="IC" pcbX={0} pcbY={0}
       connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />

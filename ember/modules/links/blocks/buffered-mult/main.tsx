@@ -11,12 +11,14 @@ export interface BufferedMultMainProps {
 
 /** Main-board half: buffer circuitry + LED series resistor + female socket. */
 export const BufferedMultMain = ({ pcbX, pcbY }: BufferedMultMainProps = {}) => (
-  <subcircuit pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
-    {/* declare GND once up front: without this, each net.GND trace reference
-        (one inside the bias group, one at this level) races and creates its
-        own duplicate Net child → pcb_trace_error "Multiple immediate children
-        found with name GND" */}
+  <subcircuit name="BM" pcbX={pcbX} pcbY={pcbY} autorouter="sequential-trace">
+    {/* declare block nets once up front: without this, each net.X trace
+        reference at different tree depths (unit groups vs block level) races
+        and creates its own duplicate Net child → pcb_trace_error "Multiple
+        immediate children found with name ..." */}
     <net name="GND" />
+    <net name="VCC" />
+    <net name="VEE" />
     <BufferedMultAmp name="amp" />
     <BufferedMultInputBias name="bias" />
     <BufferedMultOutputs name="outputs" />

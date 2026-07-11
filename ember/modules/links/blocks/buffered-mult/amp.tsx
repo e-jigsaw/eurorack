@@ -20,12 +20,7 @@ export const BufferedMultAmp = ({
   pcbX = 0,
   pcbY = 0,
 }: BufferedMultAmpProps = {}) => (
-  <subcircuit
-    name={name}
-    pcbX={pcbX}
-    pcbY={pcbY}
-    autorouter="sequential-trace"
-  >
+  <group name={name} pcbX={pcbX} pcbY={pcbY}>
     <OPA4171 name="IC1" pcbX={0} pcbY={0} pcbRotation={90}
       connections={{ VCC: "net.VCC", VEE: "net.VEE" }} />
 
@@ -47,7 +42,7 @@ export const BufferedMultAmp = ({
     <trace from=".IC1 > .IN_B_NEG" to=".IC1 > .OUT_B" />
     <trace from=".IC1 > .IN_C_NEG" to=".IC1 > .OUT_C" />
     <trace from=".IC1 > .IN_D_NEG" to=".IC1 > .OUT_D" />
-  </subcircuit>
+  </group>
 );
 
 export default BufferedMultAmp;

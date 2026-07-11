@@ -42,7 +42,6 @@ export const DoepferHeader = (props: DoepferHeaderProps) => (
           const { x, y } = pinXY(p);
           return (
             <platedhole
-              key={p}
               portHints={[`pin${p}`]}
               pcbX={x}
               pcbY={y}

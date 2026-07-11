@@ -31,11 +31,18 @@ const pinXY = (pin: number): { x: number; y: number } => {
 
 export type DoepferHeaderProps = ChipProps<typeof pinLabels>;
 
+// ZHOURI DC3-2.54-10PAS: keyed 2x5 IDC box header, JLCPCB-assemblable (the
+// interconnect headers stay hand-soldered; this one goes on the PCBA BOM).
+// Drop-in for the Amphenol 67996-410HLF (2.54mm grid, key on long side).
+// Body is 20.3mm long — flush with the 20mm board, 0.15mm overhang per end.
+// Verify CPL rotation at order time: the key side must put the ribbon's red
+// stripe on the VEE column.
 export const DoepferHeader = (props: DoepferHeaderProps) => (
   <chip
     {...props}
     pinLabels={pinLabels}
-    manufacturerPartNumber="67996-410HLF"
+    manufacturerPartNumber="DC3-2.54-10PAS"
+    supplierPartNumbers={{ jlcpcb: ["C2977596"] }}
     footprint={
       <footprint>
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((p) => {

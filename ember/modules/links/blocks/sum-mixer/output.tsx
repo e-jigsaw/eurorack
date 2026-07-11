@@ -1,9 +1,10 @@
 /**
- * Single 51Ω series output resistor.
+ * Output section: single 51Ω series resistor from the amp's output to the
+ * interconnect header.
  *
- * Ports (via `connections`):
- *   SRC → R.pin1
- *   OUT → R.pin2
+ * Consumers wire pad-to-pad (alias ports on groups are unroutable in tscircuit):
+ *   SRC → `.output > .R > .pin1`
+ *   OUT → `.output > .R > .pin2`
  */
 export interface SumMixerOutputProps {
   name?: string;
@@ -18,16 +19,7 @@ export const SumMixerOutput = ({
   pcbY = -7,
   resistance = "51",
 }: SumMixerOutputProps = {}) => (
-  <group
-    name={name}
-    pcbX={pcbX}
-    pcbY={pcbY}
-    showAsSchematicBox
-    connections={{
-      SRC: ".R > .pin1",
-      OUT: ".R > .pin2",
-    }}
-  >
+  <group name={name} pcbX={pcbX} pcbY={pcbY}>
     <resistor name="R" resistance={resistance} footprint="0603" pcbX={0} pcbY={0} />
   </group>
 );

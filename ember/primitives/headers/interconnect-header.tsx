@@ -24,6 +24,7 @@ export const InterconnectHeader1x6 = ({
     pcbOrientation="horizontal"
     holeDiameter="1mm"
     platedDiameter="1.7mm"
+    footprint="pinrow6_p2.54mm_id1mm_od1.7mm"
     showSilkscreenPinLabels
     pinLabels={[...pinLabels]}
     pcbX={pcbX}

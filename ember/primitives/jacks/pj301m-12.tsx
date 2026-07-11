@@ -15,7 +15,7 @@ export const PJ301M12 = (props: PJ301M12Props) => (
     manufacturerPartNumber="PJ301M-12"
     footprint={
       <footprint>
-        <silkscreencircle radius={3.6} pcbX={0} pcbY={-0.5} layer="bottom" />
+        <silkscreencircle radius={3.6} pcbX={0} pcbY={-0.5} />
 
         <platedhole
           portHints={["pin1", "TIP"]}
@@ -45,7 +45,7 @@ export const PJ301M12 = (props: PJ301M12Props) => (
           rectPadHeight={2}
         />
 
-        <silkscreenrect pcbX={0} pcbY={-0.4} width={9.8} height={10.9} layer="bottom" />
+        <silkscreenrect pcbX={0} pcbY={-0.4} width={9.8} height={10.9} />
       </footprint>
     }
   />

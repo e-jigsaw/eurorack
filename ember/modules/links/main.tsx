@@ -4,6 +4,7 @@ import { BufferedMultMain } from "./blocks/buffered-mult/main.tsx";
 import { UtilitySumMain } from "./blocks/utility-sum/main.tsx";
 import { SumMixerMain } from "./blocks/sum-mixer/main.tsx";
 import { BOARD_WIDTH, BOARD_HEIGHT, Y_PWR, Y_1TO3, Y_2X2, Y_3TO1 } from "./interconnect.ts";
+import { LinksMarking } from "./marking.tsx";
 
 /**
  * Main board: circuitry + power + female sockets (SMD parts PCBA'd).
@@ -37,6 +38,11 @@ export const LinksMainBoard = () => (
     <trace from=".US > .amp > .IC2 > .VEE" to="net.VEE" />
     <trace from=".SM > .amp > .IC4 > .VCC" to="net.VCC" />
     <trace from=".SM > .amp > .IC4 > .VEE" to="net.VEE" />
+
+    {/* Rear-face id block between the BM header row (y≈17.6) and the power
+       shroud (y≥45.8) — bottom face carries only vias here, so silk gets at
+       most cosmetic clipping. */}
+    <LinksMarking board="main" pcbY={30} />
   </EurorackPCB>
 );
 

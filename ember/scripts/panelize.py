@@ -18,6 +18,13 @@ coordinates, via coordinates, and total copper length of copy B exactly
 match copy A shifted by the panel pitch (19mm board width + 2mm gap =
 21mm), for both Links boards.
 
+Tab placement and mouse-bite offsets are handled by the custom KiKit
+plugins in scripts/panel_tabs.py (EdgeAwareTabs / EdgeAwareBites): tabs
+are positioned only where the board's edge strip is copper-free, because
+links-main routes traces as close as ~0.26mm to its long edges and evenly
+spaced tabs put a bite row through a track (see the bite-clearance section
+of the report). scripts/check-bite-clearance.py gates the output.
+
 Usage:
   python3 scripts/panelize.py <input.kicad_pcb> <output-panel.kicad_pcb>
 
@@ -31,11 +38,15 @@ import shutil
 import subprocess
 import sys
 
+PLUGIN_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "panel_tabs.py")
+
 # Panel geometry, fixed for both Links boards (both are exactly
 # 19mm x 108.4mm, "rail-safe" outline -- see ca55697).
 LAYOUT = "rows: 1; cols: 2; hspace: 2mm; vspace: 2mm"
-TABS = "type: fixed; vwidth: 2mm; hwidth: 2mm; vcount: 3; hcount: 3; mindistance: 3mm"
-CUTS = "type: mousebites; drillsize: 0.5mm; spacing: 0.75mm; offset: 0.2mm"
+# Tab positions + widths and bite drill/spacing/offsets live in
+# panel_tabs.py (copper-aware; see its header comment).
+TABS = f"type: plugin; code: {PLUGIN_FILE}.EdgeAwareTabs"
+CUTS = f"type: plugin; code: {PLUGIN_FILE}.EdgeAwareBites"
 # railslr = rails on left/right, i.e. on the board's LONG (108.4mm) edges,
 # since the two copies sit side-by-side along the board's 19mm (short) axis.
 FRAMING = "type: railslr; width: 5mm; space: 2mm"

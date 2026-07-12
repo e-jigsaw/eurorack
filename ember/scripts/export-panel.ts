@@ -51,6 +51,9 @@ declare const process: {
 };
 
 const KICAD_CLI = "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli";
+// KiCad's bundled python -- the only interpreter with a working pcbnew binding.
+const KICAD_PYTHON =
+  "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3";
 const GERBER_LAYERS =
   "F.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts";
 
@@ -275,6 +278,15 @@ const processBoard = async (entry: string): Promise<PanelResult> => {
 
   console.log("panelizing (KiKit: 1x2, rails on long sides, mouse bites, fiducials) ...");
   await mustRun(["python3", "scripts/panelize.py", singlePcb, panelPcb], `panelize.py (${entry})`);
+
+  console.log("gating: mouse-bite holes vs board copper clearance ...");
+  const gate = await run([KICAD_PYTHON, "scripts/check-bite-clearance.py", panelPcb]);
+  // pcbnew prints harmless wx assert noise to stderr; the PASS/FAIL line is on stdout.
+  const gateLine = gate.stdout.trim().split("\n").pop() ?? "";
+  console.log(`  ${gateLine}`);
+  if (gate.code !== 0) {
+    throw new Error(`bite-clearance gate failed for ${entry}: ${gateLine}`);
+  }
 
   console.log("exporting panel gerbers + drill ...");
   await mustRun(

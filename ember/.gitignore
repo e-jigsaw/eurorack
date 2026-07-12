@@ -5,6 +5,9 @@ node_modules/
 dist/
 build/
 
+# JLCPCB fab export output (gerbers/BOM/CPL) — regenerate with `bun run export:fab`
+fab/
+
 # Environment variables
 .env
 .env.local

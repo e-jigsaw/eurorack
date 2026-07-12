@@ -17,7 +17,8 @@
     "start": "tsci dev",
     "typecheck": "tsc --noEmit",
     "check:interconnect": "bun scripts/check-interconnect.ts dist/links-control/circuit.json dist/links-main/circuit.json",
-    "check:dfm": "bun scripts/check-dfm.ts dist/links-control/circuit.json && bun scripts/check-dfm.ts dist/links-main/circuit.json"
+    "check:dfm": "bun scripts/check-dfm.ts dist/links-control/circuit.json && bun scripts/check-dfm.ts dist/links-main/circuit.json",
+    "export:fab": "bun scripts/export-fab.ts"
   },
   "devDependencies": {
     "@tscircuit/capacity-autorouter": "0.0.662",

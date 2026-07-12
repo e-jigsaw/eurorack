@@ -40,7 +40,7 @@ export const LinksMainBoard = () => (
     <trace from=".SM > .amp > .IC4 > .VEE" to="net.VEE" />
 
     {/* Rear-face id block between the BM header row (y≈17.6) and the power
-       shroud (y≥45.8) — bottom face carries only vias here, so silk gets at
+       shroud (y≥44.3) — bottom face carries only vias here, so silk gets at
        most cosmetic clipping. */}
     <LinksMarking board="main" pcbY={30} />
   </EurorackPCB>

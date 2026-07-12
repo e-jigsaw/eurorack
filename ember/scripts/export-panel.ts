@@ -276,7 +276,7 @@ const processBoard = async (entry: string): Promise<PanelResult> => {
     `tsci export kicad_pcb (${entry})`,
   );
 
-  console.log("panelizing (KiKit: 1x2, rails on long sides, mouse bites, fiducials) ...");
+  console.log("panelizing (KiKit: 1x2, top/bottom rails, seam + short-edge tabs, fiducials) ...");
   await mustRun(["python3", "scripts/panelize.py", singlePcb, panelPcb], `panelize.py (${entry})`);
 
   console.log("gating: mouse-bite holes vs board copper clearance ...");

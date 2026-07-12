@@ -23,10 +23,12 @@ export const BOARD_HEIGHT = 108.4;
 // - Top extreme: PWR's JP1 header, top pad row at Y_PWR + 1.27 (pitch/2),
 //   pad radius 0.85 (Ø1.7mm plated hole) → top edge = Y_PWR + 2.12.
 //   (The DoepferHeader's plastic shroud body is 8.38mm tall, i.e. ±4.19
-//   from Y_PWR, which DOES overhang the board's top edge at the chosen
-//   Y_PWR below — that's fine, only copper/pads need clearance, and the
-//   shroud is on the board's rear face pointing off the rack rear, not
-//   into the neighboring module.)
+//   from Y_PWR — at the chosen Y_PWR below its top sits at ~52.7, ~1.5mm
+//   INSIDE the board's +54.2 edge. That physical clearance matters for the
+//   fab panel: the panel rides top/bottom rails and the top edge carries
+//   breakaway tabs + mouse bites, so the shroud must stay clear of the
+//   break line — both for the bite drill row and for the post-break
+//   cleanup pass.)
 // - Bottom extreme: SM's interconnect header (bottommost block), bottom
 //   pad row at Y_3TO1 + HEADER_Y_LOCAL - 0.85 (Ø1.7mm plated hole).
 //
@@ -34,13 +36,13 @@ export const BOARD_HEIGHT = 108.4;
 // these come to +54.42 / -54.9 (span 109.32mm) — both outside the new
 // ±53.9 window, so two independent moves are needed:
 //
-// 1. Y_PWR drops from 52.3 to 50.0 (our choice — the power header position
-//    isn't jack-grid-locked). New top edge = 50.0 + 2.12 = 52.12, margin to
-//    the +54.2 edge = 2.08mm — generously more than the 0.3mm floor, which
-//    is deliberate: this is the header nearest the rack rail the resize is
-//    meant to protect, plus its shroud already overhangs the edge (above),
-//    so extra copper clearance here costs nothing and buys margin against
-//    manufacturing tolerance.
+// 1. Y_PWR drops from 52.3 to 48.5 (our choice — the power header position
+//    isn't jack-grid-locked; first lowered to 50.0 for the resize, then to
+//    48.5 so the shroud clears the panel's top break line, see above). New
+//    top pad edge = 48.5 + 2.12 = 50.62, margin to the +54.2 edge = 3.58mm
+//    — this is the copper-free zone the panel's top-edge tabs and mouse
+//    bites drill into, so the generous margin is load-bearing, not just
+//    manufacturing slack.
 // 2. Y_1TO3/Y_2X2/Y_3TO1 shift by a COMMON delta Δ=+1.5 (their spacing is
 //    jack-grid-frozen, only a uniform shift is allowed). New Y_3TO1 =
 //    -36.25 + 1.5 = -34.75, new bottom edge = -34.75 - 17.8 - 0.85 = -53.4,
@@ -48,7 +50,7 @@ export const BOARD_HEIGHT = 108.4;
 //
 // HEADER_Y_LOCAL is left untouched (see its own comment) — the bottom-edge
 // margin above already clears with room to spare without touching it.
-export const Y_PWR = 50.0;   // main board only
+export const Y_PWR = 48.5;   // main board only
 export const Y_1TO3 = 33.87;
 export const Y_2X2 = -0.42;
 export const Y_3TO1 = -34.75;

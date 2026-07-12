@@ -1,27 +1,38 @@
 # KiKit plugins for the Links 1x2 panel: copper-aware tab placement and
 # per-cut mouse-bite offsets.
 #
-# Why this exists: KiKit's stock `tabs: fixed` spreads tabs evenly along each
-# edge and its `cuts: mousebites` applies one global offset. With the flush
-# offset (0.2mm into the board, holes reaching 0.45mm inside), links-main --
-# whose edge-hugging traces sit as close as ~0.26-0.6mm to its long edges --
-# got a bite row drilled straight through a track (measured -0.215mm
-# clearance). These plugins fix that structurally:
+# Panel topology (user decision): the two board copies sit side by side and
+# ride TOP/BOTTOM rails (KiKit railstb). The boards' long (108.4mm) edges
+# are both the copper-crowded ones (links-main routes traces at ~0.26-0.6mm
+# from them) and the rack-visible ones, so:
+#   - the OUTER long edges carry ZERO tabs -- they come out of the mill as
+#     clean, unbroken 108.4mm edges (no bites, no stubs, nothing to sand);
+#   - lengthwise support comes from 3 tabs on the middle SEAM between the
+#     copies (the only long edges that get cuts -- they face each other,
+#     never visible in the rack);
+#   - each copy's SHORT (19mm) edges carry 2 tabs into the top/bottom rails.
+#     The short edges are kept copper-free by placement (Y_PWR lowered to
+#     48.5 specifically so the power header clears the top break line).
+#
+# Why copper-aware placement instead of KiKit's stock `tabs: fixed`: evenly
+# spaced tabs + the global flush bite offset (0.2mm into the board, holes
+# reaching 0.45mm inside) drilled a bite row straight through a links-main
+# track (measured -0.215mm clearance). The plugins fix that structurally:
 #
 # - EdgeAwareTabs (TabsPlugin): scans the panel's copper (tracks, vias, pads
-#   as bounding boxes) in a strip along each board copy's long edges and
-#   places the 3 tabs per interface only where a bite row would clear the
-#   copper. Two tiers per edge position:
+#   as bounding boxes) in a strip along each tabbed edge and places tabs
+#   only where a bite row clears the copper. Two tiers per position:
 #     tier 1 "flush": no copper within FLUSH_DEPTH of the edge in the tab
 #       window -> bites offset 0.2mm INTO the board (breaks flush, no stub).
 #     tier 2 "stub": no copper within STUB_DEPTH -> bites offset 0.25mm
 #       OUTWARD (hole tangent to the edge, zero intrusion). Breaking leaves
-#       small protruding nubs on the board edge that may need a quick
-#       sanding pass -- the trade-off for not drilling near copper.
-#   Seam tabs (between the two copies) must sit at the same y on both edges
-#   to actually bridge the boards; each end's cut still gets its own
-#   per-edge offset tier. If fewer than 3 clear spots exist on an interface,
-#   2 wider (3mm) tabs are used; below 2 the plugin raises (fail loud).
+#       small protruding nubs that may need a quick sanding pass -- the
+#       trade-off for not drilling near copper. Acceptable on the seam and
+#       short edges; never needed on the outer long edges (no tabs at all).
+#   Seam tabs must sit at the same y on both facing edges to actually
+#   bridge the boards; each end's cut still gets its own per-edge tier.
+#   Fallback: fewer-but-wider (3mm) tabs when an interface lacks clear
+#   spots; hard error below the per-interface minimum (fail loud).
 #
 # - EdgeAwareBites (CutsPlugin): renders each tab cut as a mouse-bite row
 #   using the offset tier the tabs plugin registered for that cut position.
@@ -36,13 +47,11 @@ import math
 from kikit import plugin
 from kikit.annotations import TabAnnotation
 
-# Geometry constants (mm). Bite drill/spacing match the previous pipeline
-# revision; EXPAND is the half-window around a tab center that must be
-# copper-free along the edge: tab halfwidth (1.0) + bite prolongation (0.3)
-# + drill radius (0.25) + 0.35 slack.
+# Geometry constants (mm). EXPAND is the half-window around a tab center
+# that must be copper-free along the edge: tab halfwidth (1.0) + bite
+# prolongation (0.3) + drill radius (0.25) + 0.35 slack.
 TAB_WIDTH = 2.0
 WIDE_TAB_WIDTH = 3.0
-MIN_SEPARATION = 12.0
 CORNER_MARGIN = 3.0
 FLUSH_DEPTH = 0.85   # copper-free depth required for flush bites
 STUB_DEPTH = 0.40    # copper-free depth required for stub (outward) bites
@@ -53,7 +62,11 @@ STUB_OFFSET = -0.25  # hole tangent to the board edge, zero intrusion
 DRILL = 0.5
 SPACING = 0.75
 PROLONG = 0.3
-TARGET_FRACTIONS = (0.2, 0.5, 0.8)
+
+# Per-interface tab plans: (target fractions along the edge span, minimum
+# separation between tabs, minimum acceptable tab count).
+SEAM_PLAN = ((0.2, 0.5, 0.8), 12.0, 2)   # long inner edges, 108.4mm span
+RAIL_PLAN = ((0.15, 0.85), 6.0, 1)       # short edges into the rails, 19mm span
 
 NM = 1e6  # KiCad units per mm
 
@@ -109,14 +122,21 @@ def _copper_boxes_mm(board):
     return boxes
 
 
-def _edge_free_intervals(boxes, edge_x, inside_sign, y_lo, y_hi, depth):
-    """Copper-free tab-center intervals along a vertical board edge."""
-    strip_lo = edge_x - (OUT_DEPTH if inside_sign > 0 else depth)
-    strip_hi = edge_x + (depth if inside_sign > 0 else OUT_DEPTH)
-    blocked = [(y0 - EXPAND, y1 + EXPAND)
-               for (x0, y0, x1, y1) in boxes
-               if x1 >= strip_lo and x0 <= strip_hi]
-    return _complement(blocked, y_lo + CORNER_MARGIN, y_hi - CORNER_MARGIN)
+def _edge_free_intervals(boxes, vertical, edge_c, inside_sign, lo, hi, depth):
+    """Copper-free tab-center intervals along a board edge.
+
+    vertical=True: edge is a vertical line at x=edge_c, intervals along y.
+    vertical=False: edge is a horizontal line at y=edge_c, intervals along x.
+    inside_sign: +1 if the board interior lies at coordinates > edge_c.
+    """
+    strip_lo = edge_c - (OUT_DEPTH if inside_sign > 0 else depth)
+    strip_hi = edge_c + (depth if inside_sign > 0 else OUT_DEPTH)
+    blocked = []
+    for (x0, y0, x1, y1) in boxes:
+        f0, f1, s0, s1 = (x0, x1, y0, y1) if vertical else (y0, y1, x0, x1)
+        if f1 >= strip_lo and f0 <= strip_hi:
+            blocked.append((s0 - EXPAND, s1 + EXPAND))
+    return _complement(blocked, lo + CORNER_MARGIN, hi - CORNER_MARGIN)
 
 
 def _intersect(a, b):
@@ -133,14 +153,14 @@ def _intersect(a, b):
     return out
 
 
-def _subtract_chosen(intervals, chosen):
+def _subtract_chosen(intervals, chosen, min_sep):
     for c in chosen:
         nxt = []
         for a, b in intervals:
-            if c - MIN_SEPARATION > a:
-                nxt.append((a, min(b, c - MIN_SEPARATION)))
-            if c + MIN_SEPARATION < b:
-                nxt.append((max(a, c + MIN_SEPARATION), b))
+            if c - min_sep > a:
+                nxt.append((a, min(b, c - min_sep)))
+            if c + min_sep < b:
+                nxt.append((max(a, c + min_sep), b))
         intervals = nxt
     return intervals
 
@@ -154,21 +174,22 @@ def _nearest_in(intervals, target):
     return best
 
 
-def _pick_positions(tier1, tier2, y_lo, y_hi):
-    """Pick up to 3 spread tab centers, preferring tier-1 (flush) intervals."""
+def _pick_positions(tier1, tier2, lo, hi, plan):
+    """Pick spread tab centers, preferring tier-1 (flush) intervals."""
+    fractions, min_sep, _ = plan
     chosen = []
-    for f in TARGET_FRACTIONS:
-        target = y_lo + f * (y_hi - y_lo)
-        p = _nearest_in(_subtract_chosen(tier1, chosen), target)
+    for f in fractions:
+        target = lo + f * (hi - lo)
+        p = _nearest_in(_subtract_chosen(tier1, chosen, min_sep), target)
         if p is None:
-            p = _nearest_in(_subtract_chosen(tier2, chosen), target)
+            p = _nearest_in(_subtract_chosen(tier2, chosen, min_sep), target)
         if p is not None:
             chosen.append(p)
     return sorted(chosen)
 
 
-def _in_intervals(intervals, y):
-    return any(a <= y <= b for a, b in intervals)
+def _in_intervals(intervals, v):
+    return any(a <= v <= b for a, b in intervals)
 
 
 class EdgeAwareTabs(plugin.TabsPlugin):
@@ -181,10 +202,10 @@ class EdgeAwareTabs(plugin.TabsPlugin):
             raise RuntimeError(f"expected a 1x2 panel, got {len(subs)} substrates")
         boxes = _copper_boxes_mm(panel.board)
 
-        def edge_tiers(edge_x_nm, inside_sign, y_lo, y_hi):
-            e = edge_x_nm / NM
-            flush = _edge_free_intervals(boxes, e, inside_sign, y_lo, y_hi, FLUSH_DEPTH)
-            stub = _edge_free_intervals(boxes, e, inside_sign, y_lo, y_hi, STUB_DEPTH)
+        def edge_tiers(vertical, edge_c_nm, inside_sign, lo, hi):
+            e = edge_c_nm / NM
+            flush = _edge_free_intervals(boxes, vertical, e, inside_sign, lo, hi, FLUSH_DEPTH)
+            stub = _edge_free_intervals(boxes, vertical, e, inside_sign, lo, hi, STUB_DEPTH)
             return flush, stub
 
         a, b = subs
@@ -192,34 +213,49 @@ class EdgeAwareTabs(plugin.TabsPlugin):
         bx0, by0, bx1, by1 = b.bounds()
         y_lo, y_hi = ay0 / NM, ay1 / NM
 
-        a_left = edge_tiers(ax0, +1, y_lo, y_hi)
-        a_right = edge_tiers(ax1, -1, y_lo, y_hi)
-        b_left = edge_tiers(bx0, +1, y_lo, y_hi)
-        b_right = edge_tiers(bx1, -1, y_lo, y_hi)
-
-        def build(name, edges):
-            """edges: list of (substrate, edge_x_nm, direction, (flush, stub))"""
+        def build(name, plan, vertical, edges, lo, hi):
+            """edges: list of (substrate, edge_c_nm, direction, (flush, stub)).
+            Multi-edge interfaces (the seam) require a common position on
+            every edge; each edge's cut offset stays per-edge."""
             tier1 = edges[0][3][0]
             tier2 = _merge(edges[0][3][0] + edges[0][3][1])
             for (_, _, _, (fl, st)) in edges[1:]:
                 tier1 = _intersect(tier1, fl)
                 tier2 = _intersect(tier2, _merge(fl + st))
-            ys = _pick_positions(tier1, tier2, y_lo, y_hi)
-            if len(ys) < 2:
+            positions = _pick_positions(tier1, tier2, lo, hi, plan)
+            min_required = plan[2]
+            if len(positions) < min_required:
                 raise RuntimeError(
-                    f"panel interface '{name}': only {len(ys)} copper-clear tab "
-                    f"positions found (need >= 2) -- board edges too crowded")
-            width = TAB_WIDTH if len(ys) == 3 else WIDE_TAB_WIDTH
-            for y in ys:
-                for (sub, edge_x, direction, (fl, _)) in edges:
+                    f"panel interface '{name}': only {len(positions)} copper-clear tab "
+                    f"positions found (need >= {min_required}) -- edge too crowded")
+            width = TAB_WIDTH if len(positions) >= len(plan[0]) else WIDE_TAB_WIDTH
+            for v in positions:
+                for (sub, edge_c, direction, (fl, _)) in edges:
+                    origin = (edge_c, v * NM) if vertical else (v * NM, edge_c)
                     sub.annotations.append(TabAnnotation(
-                        None, (edge_x, y * NM), direction, width * NM))
-                    offset = FLUSH_OFFSET if _in_intervals(fl, y) else STUB_OFFSET
-                    registry.append((edge_x / NM, y, offset))
+                        None, origin, direction, width * NM))
+                    offset = FLUSH_OFFSET if _in_intervals(fl, v) else STUB_OFFSET
+                    ox, oy = (edge_c / NM, v) if vertical else (v, edge_c / NM)
+                    registry.append((ox, oy, offset))
 
-        build("left-rail", [(a, ax0, (1, 0), a_left)])
-        build("seam", [(a, ax1, (-1, 0), a_right), (b, bx0, (1, 0), b_left)])
-        build("right-rail", [(b, bx1, (-1, 0), b_right)])
+        # Middle seam: the only tabs on any long edge. The outer long edges
+        # (a's left, b's right) get NO annotations -- they stay unbroken.
+        build("seam", SEAM_PLAN, True,
+              [(a, ax1, (-1, 0), edge_tiers(True, ax1, -1, y_lo, y_hi)),
+               (b, bx0, (1, 0), edge_tiers(True, bx0, +1, y_lo, y_hi))],
+              y_lo, y_hi)
+
+        # Short edges into the top (miny) and bottom (maxy) rails,
+        # per copy, positions chosen independently per edge.
+        for label, sub, (sx0, sy0, sx1, sy1) in (
+                ("A", a, (ax0, ay0, ax1, ay1)), ("B", b, (bx0, by0, bx1, by1))):
+            x_lo, x_hi = sx0 / NM, sx1 / NM
+            build(f"top-rail-{label}", RAIL_PLAN, False,
+                  [(sub, sy0, (0, 1), edge_tiers(False, sy0, +1, x_lo, x_hi))],
+                  x_lo, x_hi)
+            build(f"bottom-rail-{label}", RAIL_PLAN, False,
+                  [(sub, sy1, (0, -1), edge_tiers(False, sy1, -1, x_lo, x_hi))],
+                  x_lo, x_hi)
 
 
 class EdgeAwareBites(plugin.CutsPlugin):

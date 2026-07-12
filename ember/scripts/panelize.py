@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
 Panelize a single verified Links board (.kicad_pcb) into a 1x2 JLC panel:
-5mm breakaway rails on the long (108.4mm) edges, 3 mouse-bite tabs per
-long-side interface, 3 fiducials per board copy on the rails.
+5mm breakaway rails on the TOP and BOTTOM (across the copies' short edges),
+3 mouse-bite seam tabs between the copies, 2 tabs per short edge into each
+rail, 3 fiducials on the rails. The boards' outer long edges -- the
+copper-crowded, rack-visible ones -- carry no tabs at all and break out as
+clean unbroken 108.4mm edges.
 
 This is a thin wrapper around KiKit (github.com/yaqwsx/KiKit), installed
 into KiCad 9's bundled python via:
@@ -47,10 +50,12 @@ LAYOUT = "rows: 1; cols: 2; hspace: 2mm; vspace: 2mm"
 # panel_tabs.py (copper-aware; see its header comment).
 TABS = f"type: plugin; code: {PLUGIN_FILE}.EdgeAwareTabs"
 CUTS = f"type: plugin; code: {PLUGIN_FILE}.EdgeAwareBites"
-# railslr = rails on left/right, i.e. on the board's LONG (108.4mm) edges,
-# since the two copies sit side-by-side along the board's 19mm (short) axis.
-FRAMING = "type: railslr; width: 5mm; space: 2mm"
-FIDUCIALS = "3fid; hoffset: 2.5mm; voffset: 0mm; coppersize: 1mm; opening: 2mm"
+# railstb = rails on top/bottom, across the copies' SHORT (19mm) edges.
+# The long edges stay rail-free: the outer two get zero tabs (clean
+# rack-visible edges), the inner two form the mouse-bitten seam.
+FRAMING = "type: railstb; width: 5mm; space: 2mm"
+# voffset 2.5mm centers the fiducials vertically in the 5mm rails.
+FIDUCIALS = "3fid; hoffset: 2.5mm; voffset: 2.5mm; coppersize: 1mm; opening: 2mm"
 TOOLING = "type: none"
 
 

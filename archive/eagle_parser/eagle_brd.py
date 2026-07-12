@@ -55,7 +55,7 @@ ROT_OFFSET = 41
 ROTATION_MAP = {0: 'R0', 1: 'R90', 2: 'R180', 3: 'R270'}
 
 REFDES_RE = re.compile(
-    r'^(LED|IC|JP|R|C|D|J|GND|P\+|VCC|VEE|V|TP|U|Q|Y|X|L|F|S|SW)\d+[A-Z]?$'
+    r'^(LED|IC|JP|SW|R|C|D|J|P|GND|P\+|VCC|VEE|V|TP|U|Q|Y|X|L|F|S)\d+[A-Z]?$'
 )
 
 TRACE_MARKER = b'\x22\x80'

@@ -6,7 +6,7 @@ import { BOARD_WIDTH, BOARD_HEIGHT, Y_1TO3, Y_2X2, Y_3TO1 } from "./interconnect
 
 /**
  * Control board: jacks + LEDs + male headers only (100% THT, ordered as a
- * bare PCB). Same 20×115 outline as the main board; power stays on main.
+ * bare PCB). Same 19×108.4mm outline as the main board; power stays on main.
  */
 export const LinksControlBoard = () => (
   <EurorackPCB width={BOARD_WIDTH} height={BOARD_HEIGHT}>

@@ -42,8 +42,14 @@ export const UtilitySumAmp = ({
 
     {/* IC2 decoupling — each cap flanks the chip on the side of its supply
         pad (rot 270: VEE on the NW pad, VCC on the SE pad). C7 is rotated
-        180° so its pin1 (VEE side) faces the chip. */}
-    <capacitor name="C5" capacitance="100nF" footprint="0603" pcbX={4.5} pcbY={-4} />
+        180° so its pin1 (VEE side) faces the chip. C5's pcbY was -4 (moved
+        to -3, matching sum-mixer's C8): after the 19×108.4mm resize
+        (block Y positions moved) the IN_B_POS→C5.pin2 ground stitch below
+        — a long west-to-east hop across the chip's south row — went from
+        marginal to unroutable; pulling C5 closer to that row (same offset
+        sum-mixer already uses for the equivalent C8) restores the margin
+        with no other layout change. */}
+    <capacitor name="C5" capacitance="100nF" footprint="0603" pcbX={4.5} pcbY={-3} />
     <capacitor name="C7" capacitance="100nF" footprint="0603" pcbX={-4.5} pcbY={3}
       pcbRotation={180} />
     <trace from=".C5 > .pin1" to=".IC2 > .VCC" />

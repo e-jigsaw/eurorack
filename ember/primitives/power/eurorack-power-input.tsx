@@ -19,7 +19,16 @@ export const EurorackPowerInput = ({
        — but note the VEE column moves to +x in board coords. */}
     <DoepferHeader name="JP1" pcbX={0} pcbY={0} layer="bottom" />
     {/* Bulk caps sit on each rail's column side (flipped header: VCC at -x,
-       VEE at +x). */}
+       VEE at +x). pcbX nudged inward (was ∓7.68/7.83, now ∓7.0) for the
+       19mm-wide board: with the narrower board, the block-level VCC/VEE
+       stitch traces (`.BM/.US/.SM > .amp > ... > .VCC/.VEE` to
+       net.VCC/net.VEE` in main.tsx) detour around each cap's own far pad
+       by a fixed clearance-driven distance — at the old x that detour
+       landed past the new ±9.5 edge (`Trace too close to board edge`) and
+       crowded two vias from other blocks' stitches into each other near
+       the top of the board. Moving the caps ~0.7mm inward shifts that
+       detour clear of the edge; ∓7.0 keeps ≥0.27mm pad clearance to JP1's
+       outermost pins (x=±5.08, Ø1.7mm) either side. */}
     <capacitor
       name="C1"
       capacitance="22uF"
@@ -27,7 +36,7 @@ export const EurorackPowerInput = ({
       footprint="0805"
       polarized
       connections={{ pin1: "net.VCC", pin2: "net.GND" }}
-      pcbX={-7.68}
+      pcbX={-7}
       pcbY={-2.64}
       pcbRotation={90}
     />
@@ -38,7 +47,7 @@ export const EurorackPowerInput = ({
       footprint="0805"
       polarized
       connections={{ pin1: "net.GND", pin2: "net.VEE" }}
-      pcbX={7.83}
+      pcbX={7}
       pcbY={-6.3}
       pcbRotation={90}
     />

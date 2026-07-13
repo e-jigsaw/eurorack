@@ -15,7 +15,11 @@ Regenerate it from the repository root:
 python3 ember/modules/ripples/scripts/extract-v9-reference.py
 ```
 
-The extractor is also a consistency gate. It fails on duplicate references,
-BOM quantity mismatches, unknown reference tokens, or any difference between
-the BOM and board reference sets. The expected result is 143 placed components
-plus one accessory row for the two LED holders.
+The extractor is also a consistency gate. It fails on duplicate references, BOM
+quantity mismatches, unknown reference tokens, or any difference between the BOM
+and board reference sets. The expected result is 143 placed components plus one
+accessory row for the two LED holders.
+
+`../fab-parts.ts` records the JLCPCB/LCSC sourcing selection and stock snapshot.
+Potentiometers, the trimmer, and audio jacks are intentionally excluded because
+they will be hand-soldered.

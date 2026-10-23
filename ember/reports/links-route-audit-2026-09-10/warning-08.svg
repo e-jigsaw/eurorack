@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="25" font-family="sans-serif" font-size="18">W08: C7.pin1 - J6.pin2 / 9.20 mm</text>
+<text x="20" y="47" font-family="sans-serif" font-size="12">Top view: red = top, blue = bottom, circles = vias; grey = other copper</text>
+<path d="M137.50,574.94 L292.06,420.39" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M292.06,420.39 L288.29,416.63" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M288.29,416.63 L377.06,327.86" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M377.06,327.86 L377.06,316.50" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M377.06,316.50 L378.86,314.69" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M378.86,314.69 L378.86,314.50" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M378.86,314.50 L482.76,210.61" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M482.76,210.61 L485.14,184.89" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M101.39,381.11 L101.39,342.22" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M137.50,381.11 L137.50,286.67" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M137.50,286.67 L118.06,267.22" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M118.06,156.11 L108.71,165.46" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M108.71,165.46 L108.71,201.21" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M108.71,201.21 L106.53,199.03" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M106.53,199.03 L103.13,199.03" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M298.61,86.67 L315.83,103.89" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M315.83,103.89 L415.72,103.89" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M209.72,381.11 L236.33,381.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M236.33,381.11 L314.21,303.24" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M314.21,303.24 L279.58,268.61" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M279.58,268.61 L211.11,268.61" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M225.35,190.64 L284.71,242.51" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M284.71,242.51 L312.87,242.51" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M312.87,242.51 L311.94,243.44" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M311.94,243.44 L311.94,243.80" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M311.94,243.80 L287.13,268.61" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M287.13,268.61 L211.11,268.61" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M209.72,381.11 L296.71,381.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M296.71,381.11 L323.49,407.89" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M173.61,381.11 L173.61,359.45" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M173.61,359.45 L186.67,345.31" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M186.67,345.31 L171.39,329.78" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M171.39,329.78 L171.39,179.67" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M171.39,179.67 L208.38,179.67" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M208.38,179.67 L211.11,176.94" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M173.61,381.11 L173.61,438.17" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M173.61,438.17 L145.67,466.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M145.67,466.11 L145.27,466.51" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M211.11,176.94 L211.94,176.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M211.94,176.11 L259.96,176.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M259.96,176.11 L265.24,181.39" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M265.24,181.39 L265.24,185.69" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M265.24,185.69 L290.89,211.34" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M290.89,211.34 L323.99,211.34" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M323.99,211.34 L415.72,303.07" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M415.72,303.07 L415.72,553.89" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M211.11,176.94 L211.94,176.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M211.94,176.11 L259.96,176.11" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M259.96,176.11 L261.54,174.54" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M261.54,174.54 L261.54,171.36" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M261.54,171.36 L290.16,142.74" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M290.16,142.74 L289.94,99.69" stroke="#e2e4e7" stroke-width="0.6"/>
+<path d="M211.11,176.94 L211.94,176.11" stroke="#155ab6" stroke-width="8.333334104938343"/>
+<path d="M211.94,176.11 L259.96,176.11" stroke="#155ab6" stroke-width="8.333334104938343"/>
+<path d="M259.96,176.11 L265.24,181.39" stroke="#c52c35" stroke-width="8.333334104938343"/>
+<path d="M265.24,181.39 L265.24,185.69" stroke="#c52c35" stroke-width="8.333334104938343"/>
+<path d="M265.24,185.69 L290.89,211.34" stroke="#c52c35" stroke-width="8.333334104938343"/>
+<path d="M290.89,211.34 L323.99,211.34" stroke="#c52c35" stroke-width="8.333334104938343"/>
+<path d="M323.99,211.34 L415.72,303.07" stroke="#c52c35" stroke-width="8.333334104938343"/>
+<path d="M415.72,303.07 L415.72,553.89" stroke="#c52c35" stroke-width="8.333334104938343"/>
+<circle cx="259.96" cy="176.11" r="16.67" fill="white" stroke="#713b89"/>
+<circle cx="211.11" cy="176.94" r="3" fill="#161b22"/>
+<path d="M211.11,176.94 L77,81" stroke="#444" stroke-width="0.5"/>
+<text x="12" y="85" font-family="monospace" font-size="12">C7.pin1</text>
+<circle cx="415.72" cy="553.89" r="3" fill="#161b22"/>
+<path d="M415.72,553.89 L730,81" stroke="#444" stroke-width="0.5"/>
+<text x="665" y="85" font-family="monospace" font-size="12">J6.pin2</text>
+</svg>

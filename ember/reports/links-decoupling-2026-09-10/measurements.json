@@ -1,0 +1,128 @@
+{
+  "supply_routes": [
+    {
+      "from_pin": "IC1.pin4",
+      "to_pin": "C3.pin1",
+      "length_mm": 1.7249999999999943,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC1.pin11",
+      "to_pin": "C4.pin2",
+      "length_mm": 2.7088607665129,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC2.pin8",
+      "to_pin": "C5.pin1",
+      "length_mm": 2.0353553390593278,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC2.pin4",
+      "to_pin": "C7.pin2",
+      "length_mm": 2.035355339059327,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC4.pin8",
+      "to_pin": "C8.pin1",
+      "length_mm": 2.035355339059319,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC4.pin4",
+      "to_pin": "C10.pin2",
+      "length_mm": 2.035355339059319,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC3.pin5",
+      "to_pin": "C11.pin1",
+      "length_mm": 2.265463986304189,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC3.pin2",
+      "to_pin": "C12.pin1",
+      "length_mm": 2.0374999999999996,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC5.pin5",
+      "to_pin": "C13.pin1",
+      "length_mm": 3.2938137084135044,
+      "vias": 0
+    },
+    {
+      "from_pin": "IC5.pin2",
+      "to_pin": "C14.pin1",
+      "length_mm": 2.0374999999999996,
+      "vias": 0
+    }
+  ],
+  "ground_pads": {
+    "C3.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 0.5405569404967021,
+      "stitch_length_mm": 0.9000000000000017,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C4.pin1": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 0.9417262253978073,
+      "stitch_length_mm": 0.9999999999999991,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C5.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 1.0999999999999996,
+      "stitch_length_mm": 1.6000000000000008,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C7.pin1": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 0.9417262253978065,
+      "stitch_length_mm": 1.3999999999999997,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C8.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 1.0,
+      "stitch_length_mm": 0.9000000000000002,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C10.pin1": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 0.4932825980837289,
+      "stitch_length_mm": 0.8999999999999991,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C11.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 1.1,
+      "stitch_length_mm": 0.9000000000000001,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C12.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 1.1,
+      "stitch_length_mm": 0.9000000000000004,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C13.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 1.1,
+      "stitch_length_mm": 0.8999999999999988,
+      "top_corridor_min_width_mm": 0.5
+    },
+    "C14.pin2": {
+      "same_polygon_as_power_header": true,
+      "centre_to_boundary_mm": 1.1,
+      "stitch_length_mm": 0.9000000000000004,
+      "top_corridor_min_width_mm": 0.5
+    }
+  },
+  "bottom_main_area_mm2": 1578.0690481658203,
+  "limits": "Geometric plane connectivity only; no impedance, noise, fabrication or physical measurements."
+}

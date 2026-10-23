@@ -51,3 +51,6 @@ build
 
 # Playwright MCP logs
 .playwright-mcp/
+
+# Local worktrees
+/.worktrees/

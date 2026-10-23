@@ -1,0 +1,11 @@
+{
+  "circuit_sha256": "7b26c12d2f34e0cb5bc122f700c0f38723d19b57942fef64f65ceb133fd8c7b5",
+  "counts": {
+    "matched": 39,
+    "missing_lcsc": 2,
+    "value_mismatch": 2,
+    "hand_solder": 15
+  },
+  "total": 58,
+  "scope": "Existing selection reconciliation only; no live stock, electrical substitution approval, or JLC upload validation."
+}

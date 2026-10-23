@@ -1,0 +1,884 @@
+{
+  "revision": "E",
+  "nominal_value_checks": 71,
+  "parts": 105,
+  "electrical_parts": 101,
+  "jlc_types": 30,
+  "jlc_parts": 87,
+  "assembly_counts": {
+    "manualWeld": 5,
+    "smtWeld": 82,
+    "user_stock_hand_solder": 4,
+    "domestic_purchase_hand_solder": 2,
+    "user_hand_solder": 8,
+    "user hand solder": 4
+  },
+  "all_jlc_selected_types_in_stock": true,
+  "order_ready": false,
+  "source": "JLCPCB public part-detail server-rendered data, 2026-09-13 UTC",
+  "limitations": [
+    "No stock reservation or purchase",
+    "Routed PCB and per-board BOM/CPL generated; JLC upload/assembly preview still pending",
+    "LEDs are user soldered and separately purchased; saved JLC stock is not loose-part availability",
+    "JLC assembly DFM for remaining parts is pending",
+    "Domestic NJ3FD-V inventory last checked in preceding turn, not refreshed here"
+  ],
+  "groups": [
+    {
+      "mpn": "DC3-2.54-10PAS",
+      "manufacturer": "ZHOURI",
+      "package": "Plugin,P=2.54mm",
+      "jlc": "C2977596",
+      "assembly": "manualWeld",
+      "source": "https://jlcpcb.com/partdetail/C2977596",
+      "board": "main",
+      "refs": [
+        "J_PWR"
+      ],
+      "values": [
+        "Eurorack 2x5 keyed"
+      ],
+      "quantity": 1,
+      "in_stock": 8155,
+      "available_order_qty": 7970,
+      "checked_at": "2026-09-13T09:02:03.838420+00:00",
+      "jlc_assembly": "manualWeld",
+      "library": "expand",
+      "description": "-40℃~+105℃ 1.5A 2 2.54mm 2.54mm 2x5P 5 IDC Header Through Hole 插件,P=2.54mm IDC Connectors ROHS"
+    },
+    {
+      "mpn": "SS14",
+      "manufacturer": "MDD(Microdiode Semiconductor)",
+      "package": "SMA(DO-214AC)",
+      "jlc": "C2480",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C2480",
+      "board": "main",
+      "refs": [
+        "D_PWR_P",
+        "D_PWR_N"
+      ],
+      "values": [
+        "SS14"
+      ],
+      "quantity": 2,
+      "in_stock": 1417596,
+      "available_order_qty": 1329186,
+      "checked_at": "2026-09-13T08:57:27.614969+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "-55℃~+150℃ 1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS"
+    },
+    {
+      "mpn": "RVT1E220M0505",
+      "manufacturer": "Honor Elec",
+      "package": "SMD,D5xL5.4mm",
+      "jlc": "C15848",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C15848",
+      "board": "main",
+      "refs": [
+        "C_BULK_P",
+        "C_BULK_N"
+      ],
+      "values": [
+        "22uF"
+      ],
+      "quantity": 2,
+      "in_stock": 6301,
+      "available_order_qty": 5527,
+      "checked_at": "2026-09-13T08:59:54.781438+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+105℃ 2000hrs@105℃ 22uF 25V 5.4mm 5mm ±20% SMD,D5xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
+    },
+    {
+      "mpn": "0603WAF470JT5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "jlc": "C23182",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C23182",
+      "board": "main",
+      "refs": [
+        "R_LED_SUPPLY"
+      ],
+      "values": [
+        "47"
+      ],
+      "quantity": 1,
+      "in_stock": 1584477,
+      "available_order_qty": 1406144,
+      "checked_at": "2026-09-13T09:01:19.117796+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "-55℃~+155℃ 100mW 47Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RVT1E470M0605",
+      "manufacturer": "Honor Elec",
+      "package": "SMD,D6.3xL5.4mm",
+      "jlc": "C30034",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C30034",
+      "board": "control",
+      "refs": [
+        "C_LED_BULK"
+      ],
+      "values": [
+        "47uF"
+      ],
+      "quantity": 1,
+      "in_stock": 11306,
+      "available_order_qty": 11094,
+      "checked_at": "2026-09-13T08:59:57.676791+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+105℃ 2000hrs@105℃ 25V 47uF 5.4mm 6.3mm ±20% SMD,D6.3xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
+    },
+    {
+      "mpn": "0603WAF2201T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "jlc": "C4190",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C4190",
+      "board": "main",
+      "refs": [
+        "R_REFERENCE"
+      ],
+      "values": [
+        "2.2k"
+      ],
+      "quantity": 1,
+      "in_stock": 6412821,
+      "available_order_qty": 5990433,
+      "checked_at": "2026-09-13T09:01:21.817060+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "-55℃~+155℃ 100mW 2.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "TL431BIDBZR",
+      "manufacturer": "Texas Instruments",
+      "package": "SOT-23-3",
+      "jlc": "C41283",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C41283",
+      "board": "main",
+      "refs": [
+        "U_REF"
+      ],
+      "values": [
+        "TL431BIDBZR"
+      ],
+      "quantity": 1,
+      "in_stock": 119776,
+      "available_order_qty": 118938,
+      "checked_at": "2026-09-13T08:57:26.641948+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-40℃~+85℃ 100mA 2.495V~36V 2.5V~36V 700uA Adjustable Parallel ±0.5% SOT-23-3 Voltage Reference ROHS"
+    },
+    {
+      "mpn": "RT0805BRD07240KL",
+      "manufacturer": "YAGEO",
+      "package": "0805",
+      "jlc": "C784586",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C784586",
+      "board": "main",
+      "refs": [
+        "R_TH_TOP_1"
+      ],
+      "values": [
+        "240k"
+      ],
+      "quantity": 1,
+      "in_stock": 617,
+      "available_order_qty": 520,
+      "checked_at": "2026-09-13T08:57:28.651339+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 125mW 150V 240kΩ Thin Film Resistor ±0.1% ±25ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RT0603BRD0710KL",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C95204",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C95204",
+      "board": "main",
+      "refs": [
+        "R_TH_BOTTOM_1",
+        "R_TH_BOTTOM_2",
+        "R_TH_BOTTOM_3",
+        "R_TH_BOTTOM_4",
+        "R_L_GAIN_G",
+        "R_R_GAIN_G"
+      ],
+      "values": [
+        "10k"
+      ],
+      "quantity": 6,
+      "in_stock": 1765348,
+      "available_order_qty": 971109,
+      "checked_at": "2026-09-13T08:57:28.634996+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RT0603BRD0752K3L",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C861462",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C861462",
+      "board": "main",
+      "refs": [
+        "R_TH_TOP_2"
+      ],
+      "values": [
+        "52.3k"
+      ],
+      "quantity": 1,
+      "in_stock": 18813,
+      "available_order_qty": 18785,
+      "checked_at": "2026-09-13T08:58:14.861760+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 52.3kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RT0603BRD0715KL",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C326733",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C326733",
+      "board": "main",
+      "refs": [
+        "R_TH_TOP_3"
+      ],
+      "values": [
+        "15k"
+      ],
+      "quantity": 1,
+      "in_stock": 96651,
+      "available_order_qty": 82823,
+      "checked_at": "2026-09-13T08:58:17.566480+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 15kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RT0603BRD075K62L",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C705789",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C705789",
+      "board": "main",
+      "refs": [
+        "R_TH_TOP_4"
+      ],
+      "values": [
+        "5.62k"
+      ],
+      "quantity": 1,
+      "in_stock": 22889,
+      "available_order_qty": 22851,
+      "checked_at": "2026-09-13T08:58:20.321575+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 5.62kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "INA1650IPWR",
+      "manufacturer": "Texas Instruments",
+      "package": "TSSOP-14",
+      "jlc": "C553130",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C553130",
+      "board": "main",
+      "refs": [
+        "U_RX"
+      ],
+      "values": [
+        "INA1650IPWR"
+      ],
+      "quantity": 1,
+      "in_stock": 2875,
+      "available_order_qty": 2845,
+      "checked_at": "2026-09-13T08:57:28.012424+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-40℃~+125℃ 4.5V~36V Multi-channel audio Transceiver TSSOP-14 Audio Interface ICs ROHS"
+    },
+    {
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C14663",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C14663",
+      "board": "main",
+      "refs": [
+        "C_RX_P",
+        "C_RX_N",
+        "C_ENV_P",
+        "C_ENV_N",
+        "C_L_VP",
+        "C_L_VN",
+        "C_L_CMP",
+        "C_R_VP",
+        "C_R_VN",
+        "C_R_CMP"
+      ],
+      "values": [
+        "100nF"
+      ],
+      "quantity": 10,
+      "in_stock": 53786465,
+      "available_order_qty": 42114372,
+      "checked_at": "2026-09-13T08:58:25.804922+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+    },
+    {
+      "mpn": "RV9312NO-KQ15A6.0-B10K-060",
+      "manufacturer": "Tayda",
+      "package": "A-5622 9mm T18",
+      "assembly": "user_stock_hand_solder",
+      "source": "https://www.taydaelectronics.com/datasheets/files/A-5622.pdf",
+      "board": "control",
+      "refs": [
+        "RV_L",
+        "RV_R"
+      ],
+      "values": [
+        "10k single-gang linear (B10K)"
+      ],
+      "quantity": 2
+    },
+    {
+      "mpn": "OPA1678IDGKR",
+      "manufacturer": "Texas Instruments",
+      "package": "VSSOP-8",
+      "jlc": "C2863133",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C2863133",
+      "board": "main",
+      "refs": [
+        "U_ENV"
+      ],
+      "values": [
+        "OPA1678IDGKR"
+      ],
+      "quantity": 1,
+      "in_stock": 2945,
+      "available_order_qty": 2914,
+      "checked_at": "2026-09-13T08:58:02.876369+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-18V~-2.25V、2.25V~18V -40℃~+125℃ 10pA 10pA 110dB 16MHz 2 2.5mA 2uV/℃ 4.5V~36V 4.5nV/√Hz@1kHz 500uV 50mA 9V/us Built-in compensation、ESD protection Rail-to-rail output VSSOP-8 Operational Amplifier ROHS"
+    },
+    {
+      "mpn": "NJ3FD-V",
+      "manufacturer": "Neutrik",
+      "package": "NJ3FD-V vertical",
+      "assembly": "domestic_purchase_hand_solder",
+      "source": "https://www.neutrik.com/media/8597/download/nj3fd-v-3.pdf?v=1",
+      "board": "main",
+      "refs": [
+        "J_IN_L",
+        "J_IN_R"
+      ],
+      "values": [
+        "6.35mm TRS"
+      ],
+      "quantity": 2
+    },
+    {
+      "mpn": "0603WAF1004T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "jlc": "C22935",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C22935",
+      "board": "main",
+      "refs": [
+        "R_L_P_BLEED",
+        "R_L_N_BLEED",
+        "R_L_WIPER_FAIL",
+        "R_L_OUT_BLEED",
+        "R_L_RELEASE",
+        "R_R_P_BLEED",
+        "R_R_N_BLEED",
+        "R_R_WIPER_FAIL",
+        "R_R_OUT_BLEED",
+        "R_R_RELEASE"
+      ],
+      "values": [
+        "1M"
+      ],
+      "quantity": 10,
+      "in_stock": 7762105,
+      "available_order_qty": 7229995,
+      "checked_at": "2026-09-13T09:01:16.364612+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "-55℃~+155℃ 100mW 1MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RT0603BRD071KL",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C110776",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C110776",
+      "board": "main",
+      "refs": [
+        "R_L_P_SERIES",
+        "R_L_N_SERIES",
+        "R_R_P_SERIES",
+        "R_R_N_SERIES"
+      ],
+      "values": [
+        "1k"
+      ],
+      "quantity": 4,
+      "in_stock": 523796,
+      "available_order_qty": 427099,
+      "checked_at": "2026-09-13T08:58:05.660248+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 1kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "MKS2C041001F00JSSD",
+      "manufacturer": "WIMA",
+      "package": "Plugin,P=5mm",
+      "jlc": "C92673",
+      "assembly": "manualWeld",
+      "source": "https://jlcpcb.com/partdetail/C92673",
+      "board": "main",
+      "refs": [
+        "C_L_P_AC",
+        "C_L_N_AC",
+        "C_R_P_AC",
+        "C_R_N_AC"
+      ],
+      "values": [
+        "1uF"
+      ],
+      "quantity": 4,
+      "in_stock": 7228,
+      "available_order_qty": 7101,
+      "checked_at": "2026-09-13T08:58:23.126903+00:00",
+      "jlc_assembly": "manualWeld",
+      "library": "expand",
+      "description": "-55℃~+100℃ 1uF 63V Metallized Polyester ±5% 插件,P=5mm Film Capacitors ROHS"
+    },
+    {
+      "mpn": "OPA1679IPWR",
+      "manufacturer": "Texas Instruments",
+      "package": "TSSOP-14",
+      "jlc": "C2057264",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C2057264",
+      "board": "main",
+      "refs": [
+        "U_L",
+        "U_R"
+      ],
+      "values": [
+        "OPA1679IPWR"
+      ],
+      "quantity": 2,
+      "in_stock": 13146,
+      "available_order_qty": 13061,
+      "checked_at": "2026-09-13T08:57:27.351507+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-40℃~+85℃ 0.0001% 2.25V~18V、4.5V~36V 2.5mA 4-Channel ESD protection TSSOP-14 Audio Amplifiers ROHS"
+    },
+    {
+      "mpn": "RT1206BRE0790KL",
+      "manufacturer": "YAGEO",
+      "package": "1206",
+      "jlc": "C871504",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C871504",
+      "board": "main",
+      "refs": [
+        "R_L_GAIN_F",
+        "R_R_GAIN_F"
+      ],
+      "values": [
+        "90k"
+      ],
+      "quantity": 2,
+      "in_stock": 4164,
+      "available_order_qty": 3879,
+      "checked_at": "2026-09-13T08:57:27.993367+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 200V 250mW 90kΩ Thin Film Resistor ±0.1% ±50ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "CL10C100JB8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "0603",
+      "jlc": "C1634",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C1634",
+      "board": "main",
+      "refs": [
+        "C_L_GAIN_F",
+        "C_R_GAIN_F"
+      ],
+      "values": [
+        "10pF"
+      ],
+      "quantity": 2,
+      "in_stock": 1871070,
+      "available_order_qty": 1652687,
+      "checked_at": "2026-09-13T09:01:13.515944+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "10pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+    },
+    {
+      "mpn": "HP06W2F1000T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "1206",
+      "jlc": "C2765755",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C2765755",
+      "board": "main",
+      "refs": [
+        "R_L_OUT",
+        "R_R_OUT"
+      ],
+      "values": [
+        "100"
+      ],
+      "quantity": 2,
+      "in_stock": 16681,
+      "available_order_qty": 16403,
+      "checked_at": "2026-09-13T09:02:06.586492+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100Ω 200V 500mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "WQP-WQP518MA",
+      "manufacturer": "QingPu",
+      "package": "WQP518MA",
+      "assembly": "user_stock_hand_solder",
+      "source": "https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf",
+      "board": "control",
+      "refs": [
+        "J_OUT_L",
+        "J_OUT_R"
+      ],
+      "values": [
+        "3.5mm TS"
+      ],
+      "quantity": 2
+    },
+    {
+      "mpn": "RT0603BRD07100KL",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C122538",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C122538",
+      "board": "main",
+      "refs": [
+        "R_L_HALF_IN",
+        "R_L_HALF_FB",
+        "R_L_ABS_RAW",
+        "R_R_HALF_IN",
+        "R_R_HALF_FB",
+        "R_R_ABS_RAW"
+      ],
+      "values": [
+        "100k"
+      ],
+      "quantity": 6,
+      "in_stock": 1285091,
+      "available_order_qty": 1190009,
+      "checked_at": "2026-09-13T08:58:08.729001+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100kΩ 100mW 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "1N4148W",
+      "manufacturer": "ST(Semtech)",
+      "package": "SOD-123",
+      "jlc": "C81598",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C81598",
+      "board": "main",
+      "refs": [
+        "D_L_HALF_CLAMP",
+        "D_L_HALF_RECT",
+        "D_L_PEAK",
+        "D_R_HALF_CLAMP",
+        "D_R_HALF_RECT",
+        "D_R_PEAK"
+      ],
+      "values": [
+        "1N4148W"
+      ],
+      "quantity": 6,
+      "in_stock": 3306317,
+      "available_order_qty": 3037417,
+      "checked_at": "2026-09-13T08:57:27.358209+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "150mA 1A 1V@50mA 1uA@75V 400mW 4ns 75V Independent SOD-123 Switching Diodes ROHS"
+    },
+    {
+      "mpn": "RT0603BRD0750KL",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C861451",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C861451",
+      "board": "main",
+      "refs": [
+        "R_L_ABS_HALF",
+        "R_R_ABS_HALF"
+      ],
+      "values": [
+        "50k"
+      ],
+      "quantity": 2,
+      "in_stock": 245646,
+      "available_order_qty": 218733,
+      "checked_at": "2026-09-13T08:57:28.097340+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 50kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "RT0603BRD0720KL",
+      "manufacturer": "YAGEO",
+      "package": "0603",
+      "jlc": "C723637",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C723637",
+      "board": "main",
+      "refs": [
+        "R_L_ABS_FB",
+        "R_R_ABS_FB"
+      ],
+      "values": [
+        "20k"
+      ],
+      "quantity": 2,
+      "in_stock": 692817,
+      "available_order_qty": 659736,
+      "checked_at": "2026-09-13T08:58:11.457755+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-55℃~+155℃ 100mW 20kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "0603WAF1001T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "jlc": "C21190",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C21190",
+      "board": "main",
+      "refs": [
+        "R_L_ATTACK",
+        "R_R_ATTACK"
+      ],
+      "values": [
+        "1k"
+      ],
+      "quantity": 2,
+      "in_stock": 26040250,
+      "available_order_qty": 21648298,
+      "checked_at": "2026-09-13T08:58:45.097522+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "GRM31C5C1H104JA01L",
+      "manufacturer": "Murata Electronics",
+      "package": "1206",
+      "jlc": "C97946",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C97946",
+      "board": "main",
+      "refs": [
+        "C_L_HOLD",
+        "C_R_HOLD"
+      ],
+      "values": [
+        "100nF"
+      ],
+      "quantity": 2,
+      "in_stock": 109687,
+      "available_order_qty": 101364,
+      "checked_at": "2026-09-13T08:57:28.319564+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "100nF 50V C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+    },
+    {
+      "mpn": "LM339BIPWR",
+      "manufacturer": "Texas Instruments",
+      "package": "TSSOP-14",
+      "jlc": "C7430196",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C7430196",
+      "board": "main",
+      "refs": [
+        "U_METER_L",
+        "U_METER_R"
+      ],
+      "values": [
+        "LM339BIPWR"
+      ],
+      "quantity": 2,
+      "in_stock": 4368,
+      "available_order_qty": 4044,
+      "checked_at": "2026-09-13T08:57:28.084705+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "expand",
+      "description": "-40℃~+125℃ 0.5nA 1us 1us 2V~36V 3.5nA 36V 370uV 800uA Four channels TTL、CMOS TSSOP-14 Comparators ROHS"
+    },
+    {
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "jlc": "C25804",
+      "assembly": "smtWeld",
+      "source": "https://jlcpcb.com/partdetail/C25804",
+      "board": "control",
+      "refs": [
+        "R_L_LED_1",
+        "R_L_LED_2",
+        "R_L_LED_3",
+        "R_L_LED_4",
+        "R_R_LED_1",
+        "R_R_LED_2",
+        "R_R_LED_3",
+        "R_R_LED_4"
+      ],
+      "values": [
+        "10k"
+      ],
+      "quantity": 8,
+      "in_stock": 26971295,
+      "available_order_qty": 20720709,
+      "checked_at": "2026-09-13T08:58:34.332215+00:00",
+      "jlc_assembly": "smtWeld",
+      "library": "base",
+      "description": "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+    },
+    {
+      "mpn": "XL-302UGD",
+      "manufacturer": "XINGLIGHT",
+      "package": "Plugin,D=3mm",
+      "assembly": "user_hand_solder",
+      "source": "https://jlcpcb.com/partdetail/C2895476",
+      "board": "control",
+      "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+      "catalog_reference": "C2895476",
+      "procurement_status": "separate_purchase_required_stock_not_verified",
+      "refs": [
+        "LED_L_1",
+        "LED_L_2",
+        "LED_R_1",
+        "LED_R_2"
+      ],
+      "values": [
+        "green"
+      ],
+      "quantity": 4
+    },
+    {
+      "mpn": "TZ-L2-03YYBY2YDJ30-001",
+      "manufacturer": "TUOZHAN",
+      "package": "Plugin,D=3mm",
+      "assembly": "user_hand_solder",
+      "source": "https://jlcpcb.com/partdetail/C779430",
+      "board": "control",
+      "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+      "catalog_reference": "C779430",
+      "procurement_status": "separate_purchase_required_stock_not_verified",
+      "refs": [
+        "LED_L_3",
+        "LED_R_3"
+      ],
+      "values": [
+        "amber"
+      ],
+      "quantity": 2
+    },
+    {
+      "mpn": "XL-302SURD",
+      "manufacturer": "XINGLIGHT",
+      "package": "Plugin,D=3mm",
+      "assembly": "user_hand_solder",
+      "source": "https://jlcpcb.com/partdetail/C2895470",
+      "board": "control",
+      "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+      "catalog_reference": "C2895470",
+      "procurement_status": "separate_purchase_required_stock_not_verified",
+      "refs": [
+        "LED_L_4",
+        "LED_R_4"
+      ],
+      "values": [
+        "red"
+      ],
+      "quantity": 2
+    },
+    {
+      "mpn": "TSW-104-07-L-D",
+      "manufacturer": "Samtec",
+      "package": "TSW-2x4",
+      "assembly": "user hand solder",
+      "board": "control",
+      "source": "https://www.samtec.com/products/tsw-104-07-l-d",
+      "refs": [
+        "J_LINK_TOP",
+        "J_LINK_BOTTOM"
+      ],
+      "values": [
+        "2x4 board interconnect"
+      ],
+      "quantity": 2
+    },
+    {
+      "mpn": "SSW-104-01-F-D",
+      "manufacturer": "Samtec",
+      "package": "SSW-2x4",
+      "assembly": "user hand solder",
+      "board": "main",
+      "source": "https://www.samtec.com/products/ssw-104-01-f-d",
+      "refs": [
+        "J_LINK_TOP",
+        "J_LINK_BOTTOM"
+      ],
+      "values": [
+        "2x4 board interconnect"
+      ],
+      "quantity": 2
+    }
+  ]
+}

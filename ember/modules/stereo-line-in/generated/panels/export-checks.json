@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "panels": [
+    "control",
+    "main"
+  ],
+  "checks": [
+    "Gerber profile bounds and lower-left origin",
+    "All 80 mouse-bite and 3 tooling holes matched exported Excellon positions",
+    "Order package hashes and ZIP CRC"
+  ]
+}

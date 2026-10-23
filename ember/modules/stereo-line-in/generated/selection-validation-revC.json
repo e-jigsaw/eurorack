@@ -1,0 +1,16 @@
+{
+  "revision": "C",
+  "source_components": 101,
+  "mpn_matches": 101,
+  "generated_errors": 0,
+  "spice_functional_cases": 7,
+  "lowest_threshold_vpeak": 0.499,
+  "typecheck": "model.ts and index.tsx passed with tscircuit JSX types",
+  "mechanical_check": "24 nominal envelope checks; not full PCB/3D DRC",
+  "not_done": [
+    "Routed PCB and manufacturing DRC",
+    "Manufacturer-model or hardware audio validation",
+    "BOM/CPL upload or purchase"
+  ],
+  "assembly_update": "LED x8 user soldered; JLC 87 parts/29 types; no electrical change; previous SPICE results retained"
+}

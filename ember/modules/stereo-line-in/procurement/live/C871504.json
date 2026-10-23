@@ -1,0 +1,55 @@
+{
+  "componentCode": "C871504",
+  "componentModelEn": "RT1206BRE0790KL",
+  "componentBrandEn": "YAGEO",
+  "componentSpecificationEn": "1206",
+  "describe": "-55℃~+155℃ 200V 250mW 90kΩ Thin Film Resistor ±0.1% ±50ppm/℃ 1206 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210181900_YAGEO-RT1206BRE0790KL_C871504.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C871504",
+      "attribute_value_name": "90kΩ"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C871504",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C871504",
+      "attribute_value_name": "250mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C871504",
+      "attribute_value_name": "Thin Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C871504",
+      "attribute_value_name": "200V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C871504",
+      "attribute_value_name": "±0.1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C871504",
+      "attribute_value_name": "±50ppm/℃"
+    }
+  ],
+  "overseasStockCount": 4164,
+  "canPresaleNumber": 3879,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 146,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C871504",
+  "checked_at": "2026-09-13T08:57:27.993367+00:00"
+}

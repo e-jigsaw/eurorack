@@ -1,0 +1,55 @@
+{
+  "componentCode": "C23182",
+  "componentModelEn": "0603WAF470JT5E",
+  "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+  "componentSpecificationEn": "0603",
+  "describe": "-55℃~+155℃ 100mW 47Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF470JT5E_C23182.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C23182",
+      "attribute_value_name": "47Ω"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C23182",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C23182",
+      "attribute_value_name": "100mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C23182",
+      "attribute_value_name": "Thick Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C23182",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C23182",
+      "attribute_value_name": "±1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C23182",
+      "attribute_value_name": "±100ppm/℃"
+    }
+  ],
+  "overseasStockCount": 1584477,
+  "canPresaleNumber": 1406144,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 2634,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C23182",
+  "checked_at": "2026-09-13T09:01:19.117796+00:00"
+}

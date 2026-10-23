@@ -1,0 +1,60 @@
+{
+  "componentCode": "C41283",
+  "componentModelEn": "TL431BIDBZR",
+  "componentBrandEn": "Texas Instruments",
+  "componentSpecificationEn": "SOT-23-3",
+  "describe": "-40℃~+85℃ 100mA 2.495V~36V 2.5V~36V 700uA Adjustable Parallel ±0.5% SOT-23-3 Voltage Reference ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410122006_Texas-Instruments-TL431BIDBZR_C41283.pdf",
+  "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/tl431",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C41283",
+      "attribute_value_name": "-40℃~+85℃"
+    },
+    {
+      "attribute_name_en": "Voltage - Supply",
+      "component_code": "C41283",
+      "attribute_value_name": "2.5V~36V"
+    },
+    {
+      "attribute_name_en": "Output Type",
+      "component_code": "C41283",
+      "attribute_value_name": "Adjustable"
+    },
+    {
+      "attribute_name_en": "Output Current",
+      "component_code": "C41283",
+      "attribute_value_name": "100mA"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C41283",
+      "attribute_value_name": "±0.5%"
+    },
+    {
+      "attribute_name_en": "Minimum Cathode Current for Regulation",
+      "component_code": "C41283",
+      "attribute_value_name": "700uA"
+    },
+    {
+      "attribute_name_en": "Output Voltage",
+      "component_code": "C41283",
+      "attribute_value_name": "2.495V~36V"
+    },
+    {
+      "attribute_name_en": "Reference Type",
+      "component_code": "C41283",
+      "attribute_value_name": "Parallel"
+    }
+  ],
+  "overseasStockCount": 119776,
+  "canPresaleNumber": 118938,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 142,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C41283",
+  "checked_at": "2026-09-13T08:57:26.641948+00:00"
+}

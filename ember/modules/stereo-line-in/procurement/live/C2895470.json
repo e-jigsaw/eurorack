@@ -1,0 +1,75 @@
+{
+  "componentCode": "C2895470",
+  "componentModelEn": "XL-302SURD",
+  "componentBrandEn": "XINGLIGHT",
+  "componentSpecificationEn": "Plugin,D=3mm",
+  "describe": "-20℃~+85℃ 1cd 2.2V 20mA 35° 3mm Round Lens 50mW 620nm~630nm 625nm Red Red Lens 插件,D=3mm LED Indication - Discrete ROHS",
+  "assemblyMode": "manualWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121451_XINGLIGHT-XL-302SURD_C2895470.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Wavelength - Dominant",
+      "component_code": "C2895470",
+      "attribute_value_name": "620nm~630nm"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C2895470",
+      "attribute_value_name": "-20℃~+85℃"
+    },
+    {
+      "attribute_name_en": "Test Current",
+      "component_code": "C2895470",
+      "attribute_value_name": "20mA"
+    },
+    {
+      "attribute_name_en": "Viewing Angle",
+      "component_code": "C2895470",
+      "attribute_value_name": "35°"
+    },
+    {
+      "attribute_name_en": "Lamp Holder Type",
+      "component_code": "C2895470",
+      "attribute_value_name": "3mm Round Lens"
+    },
+    {
+      "attribute_name_en": "Luminous Intensity",
+      "component_code": "C2895470",
+      "attribute_value_name": "1cd"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C2895470",
+      "attribute_value_name": "50mW"
+    },
+    {
+      "attribute_name_en": "Illumination Color",
+      "component_code": "C2895470",
+      "attribute_value_name": "Red"
+    },
+    {
+      "attribute_name_en": "Lens Color",
+      "component_code": "C2895470",
+      "attribute_value_name": "Red Lens"
+    },
+    {
+      "attribute_name_en": "Peak Wavelength",
+      "component_code": "C2895470",
+      "attribute_value_name": "625nm"
+    },
+    {
+      "attribute_name_en": "Voltage - Forward(Vf)",
+      "component_code": "C2895470",
+      "attribute_value_name": "2.2V"
+    }
+  ],
+  "overseasStockCount": 298674,
+  "canPresaleNumber": 296148,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 439,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C2895470",
+  "checked_at": "2026-09-13T09:01:10.434294+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "componentCode": "C14663",
+  "componentModelEn": "CC0603KRX7R9BB104",
+  "componentBrandEn": "YAGEO",
+  "componentSpecificationEn": "0603",
+  "describe": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C14663",
+      "attribute_value_name": "50V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C14663",
+      "attribute_value_name": "±10%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C14663",
+      "attribute_value_name": "100nF"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C14663",
+      "attribute_value_name": "X7R"
+    }
+  ],
+  "overseasStockCount": 53786465,
+  "canPresaleNumber": 42114372,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 1007,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C14663",
+  "checked_at": "2026-09-13T08:58:25.804922+00:00"
+}

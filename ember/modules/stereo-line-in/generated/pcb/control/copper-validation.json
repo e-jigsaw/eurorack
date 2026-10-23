@@ -1,0 +1,10 @@
+{
+  "board": "control",
+  "copperPrimitives": 256,
+  "nets": 24,
+  "minimumDifferentNetClearanceInLocalSearch": 0.16176,
+  "shorts": [],
+  "clearanceViolations": [],
+  "geometryErrors": [],
+  "unconnected": []
+}

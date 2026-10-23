@@ -1,0 +1,40 @@
+{
+  "componentCode": "C1546",
+  "componentModelEn": "0402CG101J500NT",
+  "componentBrandEn": "FH (Guangdong Fenghua Advanced Tech)",
+  "componentSpecificationEn": "0402",
+  "describe": "100pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C1546",
+      "attribute_value_name": "50V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C1546",
+      "attribute_value_name": "±5%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C1546",
+      "attribute_value_name": "100pF"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C1546",
+      "attribute_value_name": "C0G"
+    }
+  ],
+  "overseasStockCount": 4138171,
+  "canPresaleNumber": 3703419,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 2559,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C1546",
+  "checked_at": "2026-09-13T08:58:28.608738+00:00"
+}

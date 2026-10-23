@@ -1,0 +1,40 @@
+{
+  "componentCode": "C553130",
+  "componentModelEn": "INA1650IPWR",
+  "componentBrandEn": "Texas Instruments",
+  "componentSpecificationEn": "TSSOP-14",
+  "describe": "-40℃~+125℃ 4.5V~36V Multi-channel audio Transceiver TSSOP-14 Audio Interface ICs ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2005211036_Texas-Instruments-INA1650IPWR_C553130.pdf",
+  "dataManualOfficialLink": "https://www.ti.com/cn/lit/ds/symlink/ina1650.pdf",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C553130",
+      "attribute_value_name": "-40℃~+125℃"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C553130",
+      "attribute_value_name": "Transceiver"
+    },
+    {
+      "attribute_name_en": "Voltage - Supply",
+      "component_code": "C553130",
+      "attribute_value_name": "4.5V~36V"
+    },
+    {
+      "attribute_name_en": "Features",
+      "component_code": "C553130",
+      "attribute_value_name": "Multi-channel audio"
+    }
+  ],
+  "overseasStockCount": 2875,
+  "canPresaleNumber": 2845,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 3,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C553130",
+  "checked_at": "2026-09-13T08:57:28.012424+00:00"
+}

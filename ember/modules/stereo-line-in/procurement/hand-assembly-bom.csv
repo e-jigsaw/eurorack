@@ -1,0 +1,9 @@
+Designators,Quantity,Value,Manufacturer,MPN,Package,JLCPCB,Board,Assembly
+"RV_L,RV_R",2,10k single-gang linear (B10K),Tayda,RV9312NO-KQ15A6.0-B10K-060,A-5622 9mm T18,,control,user_stock_hand_solder
+"J_IN_L,J_IN_R",2,6.35mm TRS,Neutrik,NJ3FD-V,NJ3FD-V vertical,,main,domestic_purchase_hand_solder
+"J_OUT_L,J_OUT_R",2,3.5mm TS,QingPu,WQP-WQP518MA,WQP518MA,,control,user_stock_hand_solder
+"LED_L_1,LED_L_2,LED_R_1,LED_R_2",4,green,XINGLIGHT,XL-302UGD,"Plugin,D=3mm",,control,user_hand_solder
+"LED_L_3,LED_R_3",2,amber,TUOZHAN,TZ-L2-03YYBY2YDJ30-001,"Plugin,D=3mm",,control,user_hand_solder
+"LED_L_4,LED_R_4",2,red,XINGLIGHT,XL-302SURD,"Plugin,D=3mm",,control,user_hand_solder
+"J_LINK_TOP,J_LINK_BOTTOM",2,2x4 board interconnect,Samtec,TSW-104-07-L-D,TSW-2x4,,control,user hand solder
+"J_LINK_TOP,J_LINK_BOTTOM",2,2x4 board interconnect,Samtec,SSW-104-01-F-D,SSW-2x4,,main,user hand solder

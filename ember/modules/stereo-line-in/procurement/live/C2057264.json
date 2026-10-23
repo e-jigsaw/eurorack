@@ -1,0 +1,50 @@
+{
+  "componentCode": "C2057264",
+  "componentModelEn": "OPA1679IPWR",
+  "componentBrandEn": "Texas Instruments",
+  "componentSpecificationEn": "TSSOP-14",
+  "describe": "-40℃~+85℃ 0.0001% 2.25V~18V、4.5V~36V 2.5mA 4-Channel ESD protection TSSOP-14 Audio Amplifiers ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2303012330_Texas-Instruments-OPA1679IPWR_C2057264.pdf",
+  "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/opa1679",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C2057264",
+      "attribute_value_name": "-40℃~+85℃"
+    },
+    {
+      "attribute_name_en": "Total Harmonic Distortion + Noise (THD+N)",
+      "component_code": "C2057264",
+      "attribute_value_name": "0.0001%"
+    },
+    {
+      "attribute_name_en": "Voltage - Supply",
+      "component_code": "C2057264",
+      "attribute_value_name": "2.25V~18V、4.5V~36V"
+    },
+    {
+      "attribute_name_en": "Quiescent Current",
+      "component_code": "C2057264",
+      "attribute_value_name": "2.5mA"
+    },
+    {
+      "attribute_name_en": "Features",
+      "component_code": "C2057264",
+      "attribute_value_name": "ESD protection"
+    },
+    {
+      "attribute_name_en": "Speaker Channels",
+      "component_code": "C2057264",
+      "attribute_value_name": "4-Channel"
+    }
+  ],
+  "overseasStockCount": 13146,
+  "canPresaleNumber": 13061,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 8,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C2057264",
+  "checked_at": "2026-09-13T08:57:27.351507+00:00"
+}

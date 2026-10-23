@@ -1,0 +1,33 @@
+{
+  "checked": "2026-09-14",
+  "header": {
+    "mpn": "TSW-104-07-L-D",
+    "quantity": 2,
+    "source": "https://www.samtec.com/products/tsw-104-07-l-d",
+    "ships_tomorrow_display": 453
+  },
+  "socket": {
+    "mpn": "SSW-104-01-F-D",
+    "quantity": 2,
+    "source": "https://www.samtec.com/products/ssw-104-01-f-d",
+    "ships_tomorrow_display": 849
+  },
+  "assembly": "user hand solder; not included in JLC SMT order",
+  "reservation": false,
+  "datasheets": [
+    "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf",
+    "https://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
+  ],
+  "nominal_dimensions_mm": {
+    "header_housing": 2.54,
+    "header_exposed_post": 5.84,
+    "header_tail": 2.54,
+    "socket_housing": 8.51,
+    "socket_tail": 2.64,
+    "min_insertion": 3.68,
+    "max_insertion": 6.35,
+    "board_gap": 12.4,
+    "actual_insertion": 4.49,
+    "plastic_gap": 1.35
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "componentCode": "C72043",
+  "componentModelEn": "19-217/GHC-YR1S2/3T",
+  "componentBrandEn": "Everlight Elec",
+  "componentSpecificationEn": "0603",
+  "describe": "-40℃~+85℃ 110mW 120° 199mcd 20mA 3.3V 518nm 520nm~535nm Discrete Diode Emerald Green Water Clear 0603 LED Indication - Discrete ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Wavelength - Dominant",
+      "component_code": "C72043",
+      "attribute_value_name": "520nm~535nm"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C72043",
+      "attribute_value_name": "-40℃~+85℃"
+    },
+    {
+      "attribute_name_en": "Test Current",
+      "component_code": "C72043",
+      "attribute_value_name": "20mA"
+    },
+    {
+      "attribute_name_en": "Viewing Angle",
+      "component_code": "C72043",
+      "attribute_value_name": "120°"
+    },
+    {
+      "attribute_name_en": "Luminous Intensity",
+      "component_code": "C72043",
+      "attribute_value_name": "199mcd"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C72043",
+      "attribute_value_name": "110mW"
+    },
+    {
+      "attribute_name_en": "Diode Configuration",
+      "component_code": "C72043",
+      "attribute_value_name": "Discrete Diode"
+    },
+    {
+      "attribute_name_en": "Illumination Color",
+      "component_code": "C72043",
+      "attribute_value_name": "Emerald Green"
+    },
+    {
+      "attribute_name_en": "Lens Color",
+      "component_code": "C72043",
+      "attribute_value_name": "Water Clear"
+    },
+    {
+      "attribute_name_en": "Peak Wavelength",
+      "component_code": "C72043",
+      "attribute_value_name": "518nm"
+    },
+    {
+      "attribute_name_en": "Voltage - Forward(Vf)",
+      "component_code": "C72043",
+      "attribute_value_name": "3.3V"
+    }
+  ],
+  "overseasStockCount": 1,
+  "canPresaleNumber": 1,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 377,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C72043",
+  "checked_at": "2026-09-13T08:58:47.748311+00:00"
+}

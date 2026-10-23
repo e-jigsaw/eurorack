@@ -1,0 +1,38 @@
+{
+  "part": "Neutrik NJ3FD-V",
+  "source": "https://www.neutrik.com/media/8597/download/nj3fd-v-3.pdf?v=1",
+  "checked": "2026-09-13",
+  "dimensions_mm": {
+    "body_width": 12.8,
+    "body_height": 15,
+    "cap_diameter": 14.5,
+    "panel_to_body_rear": 24,
+    "panel_thickness_min": 1.2,
+    "panel_thickness_max": 1.5,
+    "panel_cutout_min": 12
+  },
+  "proposal_mm": {
+    "panel_width": 20,
+    "panel_height": 128.5,
+    "panel_thickness": 1.5,
+    "input_center_y": [
+      99,
+      117
+    ]
+  },
+  "nominal_checks_mm": {
+    "body_side_clearance": 3.5999999999999996,
+    "cap_side_clearance": 2.75,
+    "body_gap_between_inputs": 3,
+    "cap_gap_between_inputs": 3.5,
+    "bottom_body_margin": 4.0
+  },
+  "not_validated": [
+    "Case rail and bottom mounting screw interference",
+    "Full pin projection, PCB thickness and rear wiring depth",
+    "WQP-WQP518MA and exact Alpha B10K mounting planes",
+    "Manufacturing tolerances and tool access",
+    "Whole-module 4HP fit"
+  ],
+  "status": "nominal jack envelope fits; whole assembly unverified"
+}

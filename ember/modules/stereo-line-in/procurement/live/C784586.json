@@ -1,0 +1,55 @@
+{
+  "componentCode": "C784586",
+  "componentModelEn": "RT0805BRD07240KL",
+  "componentBrandEn": "YAGEO",
+  "componentSpecificationEn": "0805",
+  "describe": "-55℃~+155℃ 125mW 150V 240kΩ Thin Film Resistor ±0.1% ±25ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YAGEO-RT0805BRD07240KL_C784586.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C784586",
+      "attribute_value_name": "240kΩ"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C784586",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C784586",
+      "attribute_value_name": "125mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C784586",
+      "attribute_value_name": "Thin Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C784586",
+      "attribute_value_name": "150V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C784586",
+      "attribute_value_name": "±0.1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C784586",
+      "attribute_value_name": "±25ppm/℃"
+    }
+  ],
+  "overseasStockCount": 617,
+  "canPresaleNumber": 520,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 253,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C784586",
+  "checked_at": "2026-09-13T08:57:28.651339+00:00"
+}

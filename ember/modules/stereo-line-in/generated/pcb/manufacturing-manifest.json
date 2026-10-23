@@ -1,0 +1,63 @@
+{
+  "control": {
+    "size_mm": [
+      18,
+      77
+    ],
+    "layers": 2,
+    "parts": 23,
+    "jlc_parts": 9,
+    "hand_parts": 14,
+    "jlc_types": 2,
+    "files_sha256": {
+      "control-B_Cu.gbl": "07d08053aca7a1fdf296806e3929e91caf47d2759d9308366ad779063fe91044",
+      "control-B_Mask.gbs": "d36d415b46625898caae3b73a7ed7a58231763dfe3cf90eb710e96771df2a860",
+      "control-B_Paste.gbp": "0fd4e323e794ca598f91209bafeb978a17d96ae5e4511b0568ac5df2d4c74bb5",
+      "control-B_Silkscreen.gbo": "dd9182ea9002dd4029c339866b3fbd5465bbef062a6fc4d924f4949a0e2cff41",
+      "control-Edge_Cuts.gm1": "afd31b33aeafbc2aeb8729dab0a276ad76f5a96cf57ba035ac8ac42fe4d9039a",
+      "control-F_Cu.gtl": "d3d3c3272fd629cbd4da5b84e6da2bd66adf8631d743567cb6b12393a1b19018",
+      "control-F_Mask.gts": "a4379df51928ac562a6063b5e87f062988936a574224429bb181d947882c4249",
+      "control-F_Paste.gtp": "e4a98c7ad22290defa6aa9e155f26242e60e5cc779f8eae3715ce941a8117d3e",
+      "control-F_Silkscreen.gto": "084e35e44515ceac3e28b9eb73186952b4e67ab0c7786fd276f04decce900513",
+      "control-NPTH.drl": "1a06228e02bb28b4ee94a1f565542dc65fefb66f79d65ee003a3ac8afe80109b",
+      "control-PTH.drl": "6e62707b4d6c9f4b88c053a1980a8187ec6195a287724c3816261f3bee4e1db8",
+      "control-job.gbrjob": "0793f85d51fc1082d4a49cc1a4fcb3732cd2d5080cfa6d084a67b68cdb189947"
+    },
+    "cpl_origin": "Lower-left board origin: X=9+pcbX, Y=pcbY+boardHeight/2; top view. Rotation follows explicit footprint local +x. JLC placement preview must verify package zero-angle conventions."
+  },
+  "main": {
+    "size_mm": [
+      18,
+      110
+    ],
+    "layers": 4,
+    "parts": 82,
+    "jlc_parts": 78,
+    "hand_parts": 4,
+    "jlc_types": 28,
+    "files_sha256": {
+      "main-B_Cu.gbl": "b32e8b2bb879b497a9ea29eec4ee6174d912beece4b3ea0862a44af666704b55",
+      "main-B_Mask.gbs": "4be2cd2dffb6f73e371aaa6836f50e84b0bc55a9a524d99f8db89f27a21a65d1",
+      "main-B_Paste.gbp": "00fc7a8d50d7c0bc76b1e9814f1ea2516215b6863d0713e9339cc94e285dc67e",
+      "main-B_Silkscreen.gbo": "9428fe46a211d554f27333c0b72e565fa20ad7354be0cd06c21893408e65e2df",
+      "main-Edge_Cuts.gm1": "5f1e34a12c12d504d6218f6bbee26f3fa55fb604d5e5cea459f10f3421637fa2",
+      "main-F_Cu.gtl": "0a772fc54ce930ddabc4de5497c47057b88f2a7ee9eb90a0a3ed0870640ec117",
+      "main-F_Mask.gts": "c0c42dde37f145b5cd0e4ddf1b5e5557262bae2f02b8d334d1fb0b5c7cd231b6",
+      "main-F_Paste.gtp": "83e8f530486b1b34e7c87d52fa44d113597cd4d4100f29f2a5fa0916e19af3df",
+      "main-F_Silkscreen.gto": "70fb42a48237d50fa80ac9f355af13827078d5a91289f49df463b088fb2ef164",
+      "main-In1_Cu.g1": "ea6d055a87aabbef5a2f977a223d25aaa0918d153bc786afc5aa257ed7e16fdc",
+      "main-In2_Cu.g2": "7814dbb56e9b51195e05757af87254482d659f6e095590d8d943953b53423a99",
+      "main-NPTH.drl": "1402d73626cecd81c4ec055951eaee7c642084458d0a494963bbb9b8ce6e8a1f",
+      "main-PTH.drl": "995047a04715378550c13a50bf63159e90b4fe1456446b509aae0ccc3fe5bdb0",
+      "main-job.gbrjob": "027f771b31e7cbf5432ecf5ac61ad1ab576c1bf361cb7c79f7f29b329ed31bee"
+    },
+    "cpl_origin": "Lower-left board origin: X=9+pcbX, Y=pcbY+boardHeight/2; top view. Rotation follows explicit footprint local +x. JLC placement preview must verify package zero-angle conventions."
+  },
+  "status": "PCB prototype design and manufacturing exports; not an approved production order",
+  "not_verified": [
+    "JLC assembly upload / DFM / orientation preview",
+    "Physical jack/pot seating, socket retention and solder-tail height",
+    "Actual audio/noise/ESD/thermal measurements"
+  ],
+  "inventory_basis": "Saved JLC snapshots 2026-09-13; no reservation; LED loose-stock not verified"
+}

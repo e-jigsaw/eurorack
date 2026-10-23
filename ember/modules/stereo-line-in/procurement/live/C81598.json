@@ -1,0 +1,60 @@
+{
+  "componentCode": "C81598",
+  "componentModelEn": "1N4148W",
+  "componentBrandEn": "ST(Semtech)",
+  "componentSpecificationEn": "SOD-123",
+  "describe": "150mA 1A 1V@50mA 1uA@75V 400mW 4ns 75V Independent SOD-123 Switching Diodes ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061725_ST-Semtech-1N4148W_C81598.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Voltage - Forward(Vf@If)",
+      "component_code": "C81598",
+      "attribute_value_name": "1V@50mA"
+    },
+    {
+      "attribute_name_en": "Non-Repetitive Peak Forward Surge Current",
+      "component_code": "C81598",
+      "attribute_value_name": "1A"
+    },
+    {
+      "attribute_name_en": "Voltage - DC Reverse(Vr)",
+      "component_code": "C81598",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Reverse Recovery Time (trr)",
+      "component_code": "C81598",
+      "attribute_value_name": "4ns"
+    },
+    {
+      "attribute_name_en": "Diode Configuration",
+      "component_code": "C81598",
+      "attribute_value_name": "Standalone"
+    },
+    {
+      "attribute_name_en": "Current - Rectified",
+      "component_code": "C81598",
+      "attribute_value_name": "150mA"
+    },
+    {
+      "attribute_name_en": "Pd - Power Dissipation",
+      "component_code": "C81598",
+      "attribute_value_name": "400mW"
+    },
+    {
+      "attribute_name_en": "Reverse Leakage Current (Ir)",
+      "component_code": "C81598",
+      "attribute_value_name": "1uA@75V"
+    }
+  ],
+  "overseasStockCount": 3306317,
+  "canPresaleNumber": 3037417,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 905,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C81598",
+  "checked_at": "2026-09-13T08:57:27.358209+00:00"
+}

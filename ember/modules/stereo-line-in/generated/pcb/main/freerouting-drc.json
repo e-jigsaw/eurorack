@@ -1,0 +1,891 @@
+{
+  "$schema": "https://schemas.kicad.org/drc.v1.json",
+  "coordinateUnits": "mm",
+  "date": "2026-09-13T23:54:47.208985+09:00",
+  "kicadVersion": "N/A",
+  "freeroutingVersion": "Freerouting 2.4.1",
+  "source": "main.dsn",
+  "unconnectedItems": [
+    {
+      "description": "Unconnected items: Pin [R_DRIVE] and Pin [R_DRIVE] (12 total items in net)",
+      "items": [
+        {
+          "description": "Pin [R_DRIVE]",
+          "pos": {
+            "x": 5.0,
+            "y": 49.55
+          },
+          "uuid": "201"
+        },
+        {
+          "description": "Trace [R_DRIVE]",
+          "pos": {
+            "x": 4.44335,
+            "y": 50.75
+          },
+          "uuid": "780"
+        },
+        {
+          "description": "Trace [R_DRIVE]",
+          "pos": {
+            "x": 1.7503,
+            "y": 51.8386
+          },
+          "uuid": "778"
+        },
+        {
+          "description": "Pin [R_DRIVE]",
+          "pos": {
+            "x": 2.9,
+            "y": 51.95
+          },
+          "uuid": "179"
+        },
+        {
+          "description": "Trace [R_DRIVE]",
+          "pos": {
+            "x": 3.39335,
+            "y": 51.95
+          },
+          "uuid": "779"
+        },
+        {
+          "description": "Via [R_DRIVE]",
+          "pos": {
+            "x": -3.6443,
+            "y": 36.7284
+          },
+          "uuid": "777"
+        },
+        {
+          "description": "Pin [R_DRIVE]",
+          "pos": {
+            "x": -2.5,
+            "y": 41.45
+          },
+          "uuid": "205"
+        },
+        {
+          "description": "Via [R_DRIVE]",
+          "pos": {
+            "x": 1.5685,
+            "y": 51.7272
+          },
+          "uuid": "782"
+        },
+        {
+          "description": "Trace [R_DRIVE]",
+          "pos": {
+            "x": -2.96965,
+            "y": 44.2278
+          },
+          "uuid": "776"
+        },
+        {
+          "description": "Trace [R_DRIVE]",
+          "pos": {
+            "x": 2.41605,
+            "y": 51.95
+          },
+          "uuid": "781"
+        },
+        {
+          "description": "Trace [R_DRIVE]",
+          "pos": {
+            "x": -3.07215,
+            "y": 39.0892
+          },
+          "uuid": "775"
+        },
+        {
+          "description": "Pin [R_DRIVE]",
+          "pos": {
+            "x": 4.5,
+            "y": 44.8
+          },
+          "uuid": "203"
+        }
+      ],
+      "severity": "warning",
+      "type": "unconnectedItems"
+    },
+    {
+      "description": "Unconnected items: Pin [R_LED_2_K] and Pin [R_LED_2_K] (2 total items in net)",
+      "items": [
+        {
+          "description": "Pin [R_LED_2_K]",
+          "pos": {
+            "x": -5.28,
+            "y": 22.65
+          },
+          "uuid": "260"
+        },
+        {
+          "description": "Pin [R_LED_2_K]",
+          "pos": {
+            "x": 2.9,
+            "y": 45.95
+          },
+          "uuid": "231"
+        }
+      ],
+      "severity": "warning",
+      "type": "unconnectedItems"
+    }
+  ],
+  "violations": [
+    {
+      "description": "Hole clearance violation between Pin [R_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 20.11
+          },
+          "uuid": "261"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 20.11
+          },
+          "uuid": "261"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 20.11
+          },
+          "uuid": "261"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 20.11
+          },
+          "uuid": "261"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 22.65
+          },
+          "uuid": "259"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 22.65
+          },
+          "uuid": "259"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 22.65
+          },
+          "uuid": "259"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 22.65
+          },
+          "uuid": "259"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 25.19
+          },
+          "uuid": "257"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 25.19
+          },
+          "uuid": "257"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 25.19
+          },
+          "uuid": "257"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_3_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_3_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 25.19
+          },
+          "uuid": "257"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 27.73
+          },
+          "uuid": "255"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 27.73
+          },
+          "uuid": "255"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 27.73
+          },
+          "uuid": "255"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_LED_1_K] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_LED_1_K]",
+          "pos": {
+            "x": -7.82,
+            "y": 27.73
+          },
+          "uuid": "255"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [GND] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [GND]",
+          "pos": {
+            "x": -7.82,
+            "y": 30.27
+          },
+          "uuid": "253"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [GND] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [GND]",
+          "pos": {
+            "x": -7.82,
+            "y": 30.27
+          },
+          "uuid": "253"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [GND] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [GND]",
+          "pos": {
+            "x": -7.82,
+            "y": 30.27
+          },
+          "uuid": "253"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [GND] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [GND]",
+          "pos": {
+            "x": -7.82,
+            "y": 30.27
+          },
+          "uuid": "253"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_WIPER] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_WIPER]",
+          "pos": {
+            "x": -7.82,
+            "y": 32.81
+          },
+          "uuid": "251"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_WIPER] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_WIPER]",
+          "pos": {
+            "x": -7.82,
+            "y": 32.81
+          },
+          "uuid": "251"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_WIPER] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_WIPER]",
+          "pos": {
+            "x": -7.82,
+            "y": 32.81
+          },
+          "uuid": "251"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [R_WIPER] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [R_WIPER]",
+          "pos": {
+            "x": -7.82,
+            "y": 32.81
+          },
+          "uuid": "251"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 35.35
+          },
+          "uuid": "249"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 35.35
+          },
+          "uuid": "249"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 35.35
+          },
+          "uuid": "249"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 35.35
+          },
+          "uuid": "249"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_RX_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_RX_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 37.89
+          },
+          "uuid": "247"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_RX_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_RX_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 37.89
+          },
+          "uuid": "247"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_RX_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_RX_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 37.89
+          },
+          "uuid": "247"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Hole clearance violation between Pin [L_RX_OUT] and BoardOutline (expected: 0.1600 mm, actual: 0.0201 mm)",
+      "items": [
+        {
+          "description": "Pin [L_RX_OUT]",
+          "pos": {
+            "x": -7.82,
+            "y": 37.89
+          },
+          "uuid": "247"
+        },
+        {
+          "description": "BoardOutline",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uuid": "1"
+        }
+      ],
+      "severity": "error",
+      "type": "holeClearance"
+    },
+    {
+      "description": "Via is not connected or connected on only one layer",
+      "items": [
+        {
+          "description": "Via [L_RING]",
+          "pos": {
+            "x": -1.4681,
+            "y": -10.2052
+          },
+          "uuid": "630"
+        }
+      ],
+      "severity": "warning",
+      "type": "via_dangling"
+    }
+  ],
+  "schematicParity": [],
+  "qualityScore": 956.2355346679688
+}

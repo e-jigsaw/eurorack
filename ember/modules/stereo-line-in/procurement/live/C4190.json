@@ -1,0 +1,55 @@
+{
+  "componentCode": "C4190",
+  "componentModelEn": "0603WAF2201T5E",
+  "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+  "componentSpecificationEn": "0603",
+  "describe": "-55℃~+155℃ 100mW 2.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0603WAF2201T5E_C4190.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C4190",
+      "attribute_value_name": "2.2kΩ"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C4190",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C4190",
+      "attribute_value_name": "100mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C4190",
+      "attribute_value_name": "Thick Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C4190",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C4190",
+      "attribute_value_name": "±1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C4190",
+      "attribute_value_name": "±100ppm/℃"
+    }
+  ],
+  "overseasStockCount": 6412821,
+  "canPresaleNumber": 5990433,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 5000,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C4190",
+  "checked_at": "2026-09-13T09:01:21.817060+00:00"
+}

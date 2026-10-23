@@ -1,0 +1,10 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+C_LED_BULK,9.0000mm,29.0000mm,Bottom,0
+R_L_LED_1,1.0000mm,38.0000mm,Bottom,90
+R_L_LED_2,2.5000mm,41.5000mm,Bottom,0
+R_L_LED_3,1.0000mm,48.0000mm,Bottom,90
+R_L_LED_4,1.0000mm,53.0000mm,Bottom,90
+R_R_LED_1,11.0000mm,38.0000mm,Bottom,90
+R_R_LED_2,12.5000mm,41.5000mm,Bottom,0
+R_R_LED_3,11.0000mm,48.0000mm,Bottom,90
+R_R_LED_4,11.0000mm,53.0000mm,Bottom,90

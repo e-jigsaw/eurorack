@@ -1,0 +1,40 @@
+{
+  "componentCode": "C97946",
+  "componentModelEn": "GRM31C5C1H104JA01L",
+  "componentBrandEn": "Murata Electronics",
+  "componentSpecificationEn": "1206",
+  "describe": "100nF 50V C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C97946",
+      "attribute_value_name": "50V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C97946",
+      "attribute_value_name": "±5%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C97946",
+      "attribute_value_name": "100nF"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C97946",
+      "attribute_value_name": "C0G"
+    }
+  ],
+  "overseasStockCount": 109687,
+  "canPresaleNumber": 101364,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 70,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C97946",
+  "checked_at": "2026-09-13T08:57:28.319564+00:00"
+}

@@ -1,0 +1,24 @@
+Ref,Value,MPN,Assembly,X panel mm,Y panel mm,Board face,Rotation top-view deg
+C_LED_BULK,47uF,RVT1E470M0605,smtWeld,10,56.0,bottom,0
+RV_L,10k single-gang linear (B10K),RV9312NO-KQ15A6.0-B10K-060,user_stock_hand_solder,10,56.0,top,0
+RV_R,10k single-gang linear (B10K),RV9312NO-KQ15A6.0-B10K-060,user_stock_hand_solder,10,69.5,top,0
+J_OUT_L,3.5mm TS,WQP-WQP518MA,user_stock_hand_solder,5,22.0,top,0
+R_L_LED_1,10k,0603WAF1002T5E,smtWeld,2.0,47.0,bottom,90
+LED_L_1,green,XL-302UGD,user_hand_solder,5,47.0,top,0
+R_L_LED_2,10k,0603WAF1002T5E,smtWeld,3.5,43.5,bottom,0
+LED_L_2,green,XL-302UGD,user_hand_solder,5,42.0,top,0
+R_L_LED_3,10k,0603WAF1002T5E,smtWeld,2.0,37.0,bottom,90
+LED_L_3,amber,TZ-L2-03YYBY2YDJ30-001,user_hand_solder,5,37.0,top,0
+R_L_LED_4,10k,0603WAF1002T5E,smtWeld,2.0,32.0,bottom,90
+LED_L_4,red,XL-302SURD,user_hand_solder,5,32.0,top,0
+J_OUT_R,3.5mm TS,WQP-WQP518MA,user_stock_hand_solder,15,22.0,top,0
+R_R_LED_1,10k,0603WAF1002T5E,smtWeld,12.0,47.0,bottom,90
+LED_R_1,green,XL-302UGD,user_hand_solder,15,47.0,top,0
+R_R_LED_2,10k,0603WAF1002T5E,smtWeld,13.5,43.5,bottom,0
+LED_R_2,green,XL-302UGD,user_hand_solder,15,42.0,top,0
+R_R_LED_3,10k,0603WAF1002T5E,smtWeld,12.0,37.0,bottom,90
+LED_R_3,amber,TZ-L2-03YYBY2YDJ30-001,user_hand_solder,15,37.0,top,0
+R_R_LED_4,10k,0603WAF1002T5E,smtWeld,12.0,32.0,bottom,90
+LED_R_4,red,XL-302SURD,user_hand_solder,15,32.0,top,0
+J_LINK_TOP,2x4 board interconnect,TSW-104-07-L-D,user hand solder,10,12.0,bottom,90
+J_LINK_BOTTOM,2x4 board interconnect,TSW-104-07-L-D,user hand solder,10,81.0,bottom,90

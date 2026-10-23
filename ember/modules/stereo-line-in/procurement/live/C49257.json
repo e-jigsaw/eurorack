@@ -1,0 +1,90 @@
+{
+  "componentCode": "C49257",
+  "componentModelEn": "2.54-1*3PPin",
+  "componentBrandEn": "BOOMELE(Boom Precision Elec)",
+  "componentSpecificationEn": "Plugin,P=2.54mm",
+  "describe": "-40℃~+105℃ 1 1x3P 2.54mm 2.5mm 3A 3P 3mm 6mm Black Brass Gold Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+  "assemblyMode": "manualWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2212121130_BOOMELE-Boom-Precision-Elec-2-54-1-3P_C49257.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C49257",
+      "attribute_value_name": "-40℃~+105℃"
+    },
+    {
+      "attribute_name_en": "Number of Rows",
+      "component_code": "C49257",
+      "attribute_value_name": "1"
+    },
+    {
+      "attribute_name_en": "Insulation Height",
+      "component_code": "C49257",
+      "attribute_value_name": "2.5mm"
+    },
+    {
+      "attribute_name_en": "Length of End Connection Pin",
+      "component_code": "C49257",
+      "attribute_value_name": "3mm"
+    },
+    {
+      "attribute_name_en": "Color",
+      "component_code": "C49257",
+      "attribute_value_name": "Black"
+    },
+    {
+      "attribute_name_en": "Current Rating",
+      "component_code": "C49257",
+      "attribute_value_name": "3A"
+    },
+    {
+      "attribute_name_en": "Mounting Type",
+      "component_code": "C49257",
+      "attribute_value_name": "Through Hole"
+    },
+    {
+      "attribute_name_en": "Contact Plating",
+      "component_code": "C49257",
+      "attribute_value_name": "Gold"
+    },
+    {
+      "attribute_name_en": "Number of Pins",
+      "component_code": "C49257",
+      "attribute_value_name": "3P"
+    },
+    {
+      "attribute_name_en": "Pitch",
+      "component_code": "C49257",
+      "attribute_value_name": "2.54mm"
+    },
+    {
+      "attribute_name_en": "Contact Material",
+      "component_code": "C49257",
+      "attribute_value_name": "Brass"
+    },
+    {
+      "attribute_name_en": "Pin Structure",
+      "component_code": "C49257",
+      "attribute_value_name": "1x3P"
+    },
+    {
+      "attribute_name_en": "Length of Mating Pin",
+      "component_code": "C49257",
+      "attribute_value_name": "6mm"
+    },
+    {
+      "attribute_name_en": "Circluar Pins/Square Pins",
+      "component_code": "C49257",
+      "attribute_value_name": "Square pin"
+    }
+  ],
+  "overseasStockCount": 314963,
+  "canPresaleNumber": 305987,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 395,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C49257",
+  "checked_at": "2026-09-13T08:58:55.985739+00:00"
+}

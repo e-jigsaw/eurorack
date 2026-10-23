@@ -1,0 +1,55 @@
+{
+  "componentCode": "C22859",
+  "componentModelEn": "0603WAF100JT5E",
+  "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+  "componentSpecificationEn": "0603",
+  "describe": "-55℃~+155℃ 100mW 10Ω 75V Thick Film Resistor ±1% ±400ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100JT5E_C22859.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C22859",
+      "attribute_value_name": "10Ω"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C22859",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C22859",
+      "attribute_value_name": "100mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C22859",
+      "attribute_value_name": "Thick Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C22859",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C22859",
+      "attribute_value_name": "±1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C22859",
+      "attribute_value_name": "±400ppm/℃"
+    }
+  ],
+  "overseasStockCount": 8979224,
+  "canPresaleNumber": 8246278,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 3445,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C22859",
+  "checked_at": "2026-09-13T08:58:42.484965+00:00"
+}

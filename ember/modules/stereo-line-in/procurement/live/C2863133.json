@@ -1,0 +1,100 @@
+{
+  "componentCode": "C2863133",
+  "componentModelEn": "OPA1678IDGKR",
+  "componentBrandEn": "Texas Instruments",
+  "componentSpecificationEn": "VSSOP-8",
+  "describe": "-18V~-2.25V、2.25V~18V -40℃~+125℃ 10pA 10pA 110dB 16MHz 2 2.5mA 2uV/℃ 4.5V~36V 4.5nV/√Hz@1kHz 500uV 50mA 9V/us Built-in compensation、ESD protection Rail-to-rail output VSSOP-8 Operational Amplifier ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010800_Texas-Instruments-OPA1678IDGKR_C2863133.pdf",
+  "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/opa1679",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C2863133",
+      "attribute_value_name": "-40℃~+125℃"
+    },
+    {
+      "attribute_name_en": "Vos - Input Offset Voltage",
+      "component_code": "C2863133",
+      "attribute_value_name": "500uV"
+    },
+    {
+      "attribute_name_en": "Input Offset Current(Ios)",
+      "component_code": "C2863133",
+      "attribute_value_name": "10pA"
+    },
+    {
+      "attribute_name_en": "Output Current",
+      "component_code": "C2863133",
+      "attribute_value_name": "50mA"
+    },
+    {
+      "attribute_name_en": "Input Offset Voltage Drift(Vos TC)",
+      "component_code": "C2863133",
+      "attribute_value_name": "2uV/℃"
+    },
+    {
+      "attribute_name_en": "Slew Rate",
+      "component_code": "C2863133",
+      "attribute_value_name": "9V/us"
+    },
+    {
+      "attribute_name_en": "Gain Bandwidth Product",
+      "component_code": "C2863133",
+      "attribute_value_name": "16MHz"
+    },
+    {
+      "attribute_name_en": "Single supply",
+      "component_code": "C2863133",
+      "attribute_value_name": "4.5V~36V"
+    },
+    {
+      "attribute_name_en": "Common Mode Rejection Ratio(CMRR)",
+      "component_code": "C2863133",
+      "attribute_value_name": "110dB"
+    },
+    {
+      "attribute_name_en": "Rail to Rail",
+      "component_code": "C2863133",
+      "attribute_value_name": "Rail-to-rail output"
+    },
+    {
+      "attribute_name_en": "Number of Channels",
+      "component_code": "C2863133",
+      "attribute_value_name": "2"
+    },
+    {
+      "attribute_name_en": "Input Voltage Noise Density",
+      "component_code": "C2863133",
+      "attribute_value_name": "4.5nV/√Hz@1kHz"
+    },
+    {
+      "attribute_name_en": "Quiescent Current",
+      "component_code": "C2863133",
+      "attribute_value_name": "2.5mA"
+    },
+    {
+      "attribute_name_en": "Features",
+      "component_code": "C2863133",
+      "attribute_value_name": "Built-in compensation、ESD protection"
+    },
+    {
+      "attribute_name_en": "Ib - Input Bias Current",
+      "component_code": "C2863133",
+      "attribute_value_name": "10pA"
+    },
+    {
+      "attribute_name_en": "Dual Supply",
+      "component_code": "C2863133",
+      "attribute_value_name": "-18V~-2.25V、2.25V~18V"
+    }
+  ],
+  "overseasStockCount": 2945,
+  "canPresaleNumber": 2914,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 5,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C2863133",
+  "checked_at": "2026-09-13T08:58:02.876369+00:00"
+}

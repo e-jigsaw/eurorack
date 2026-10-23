@@ -1,0 +1,67 @@
+{
+  "model": "ngspice; generic finite-gain single-pole rail-limited amplifiers and generic diodes; not manufacturer macro-models; 15.9MHz nominal gain-bandwidth; no slew-rate model",
+  "results": [
+    {
+      "name": "1kHz-unity",
+      "outPeak": 0.9942131752872246,
+      "envPeak": 0.19487404504657668,
+      "heldPeakErrorPercent": -1.9958446083365056,
+      "maxRectifierCommutationError": 0.004271607296931417
+    },
+    {
+      "name": "20Hz-10Vpp",
+      "outPeak": 5.015262455068451,
+      "envPeak": 1.0019462926387745,
+      "heldPeakErrorPercent": -0.1102831990176023,
+      "maxRectifierCommutationError": 0.0012759066730828154
+    },
+    {
+      "name": "20kHz-10Vpp",
+      "outPeak": 4.924050244183945,
+      "envPeak": 0.9400399702461507,
+      "heldPeakErrorPercent": -4.546062323746458,
+      "maxRectifierCommutationError": 0.045958103840078326
+    },
+    {
+      "name": "minus10dBV-maxgain",
+      "outPeak": 4.450252614036872,
+      "envPeak": 0.877544042646342,
+      "heldPeakErrorPercent": -1.4051427239865855,
+      "maxRectifierCommutationError": 0.008703786574904268
+    },
+    {
+      "name": "17dBu-source-attenuated",
+      "outPeak": 4.977080040667697,
+      "envPeak": 0.9816150301683209,
+      "heldPeakErrorPercent": -1.3864532871132096,
+      "maxRectifierCommutationError": 0.009060509421666762
+    },
+    {
+      "name": "negative-pulse-and-release",
+      "outPeak": 4.949867564315688,
+      "envPeak": 0.9891558182102425,
+      "heldPeakErrorPercent": -0.08259762935780568,
+      "maxRectifierCommutationError": 0.009272955605811047,
+      "releaseRatio": 0.36787155444645275
+    },
+    {
+      "name": "mute",
+      "outPeak": 0.000007725553547386249,
+      "envPeak": 2.5644882888866996e-8,
+      "heldPeakErrorPercent": 0,
+      "maxRectifierCommutationError": 0.0000036795808655360256
+    }
+  ],
+  "thresholds": [
+    0.499,
+    2.0024077046548956,
+    4.989999999999999,
+    7.986555697823303
+  ],
+  "partCount": 101,
+  "notValidated": [
+    "Manufacturer macro-model behavior, THD+N, CMRR, slew rate and overload recovery",
+    "Actual 4HP placement, footprints, potentiometer fit and jack fit",
+    "EMC/ESD, rail reversal transient, live component availability, physical hardware"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "componentCode": "C72037",
+  "componentModelEn": "17-21SURC/S530-A3/TR8",
+  "componentBrandEn": "Everlight Elec",
+  "componentSpecificationEn": "0805",
+  "describe": "-40℃~+85℃ 140° 20mA 2V 41mcd~61mcd 60mW 624nm 632nm Orange Red Water Clear 0805 LED Indication - Discrete ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Everlight-Elec-17-21SURC-S530-A3-TR8_C72037.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Wavelength - Dominant",
+      "component_code": "C72037",
+      "attribute_value_name": "624nm"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C72037",
+      "attribute_value_name": "-40℃~+85℃"
+    },
+    {
+      "attribute_name_en": "Test Current",
+      "component_code": "C72037",
+      "attribute_value_name": "20mA"
+    },
+    {
+      "attribute_name_en": "Viewing Angle",
+      "component_code": "C72037",
+      "attribute_value_name": "140°"
+    },
+    {
+      "attribute_name_en": "Luminous Intensity",
+      "component_code": "C72037",
+      "attribute_value_name": "41mcd~61mcd"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C72037",
+      "attribute_value_name": "60mW"
+    },
+    {
+      "attribute_name_en": "Illumination Color",
+      "component_code": "C72037",
+      "attribute_value_name": "Orange Red"
+    },
+    {
+      "attribute_name_en": "Lens Color",
+      "component_code": "C72037",
+      "attribute_value_name": "Water Clear"
+    },
+    {
+      "attribute_name_en": "Peak Wavelength",
+      "component_code": "C72037",
+      "attribute_value_name": "632nm"
+    },
+    {
+      "attribute_name_en": "Voltage - Forward(Vf)",
+      "component_code": "C72037",
+      "attribute_value_name": "2V"
+    }
+  ],
+  "overseasStockCount": 0,
+  "canPresaleNumber": 0,
+  "isBuyComponent": "0",
+  "preMinPurchaseNum": 423,
+  "noBuyReason": "This product is no longer manufactured.",
+  "url": "https://jlcpcb.com/partdetail/C72037",
+  "checked_at": "2026-09-13T08:58:53.037654+00:00"
+}

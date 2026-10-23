@@ -1,0 +1,70 @@
+{
+  "componentCode": "C72038",
+  "componentModelEn": "19-213/Y2C-CQ2R2L/3T(CY)",
+  "componentBrandEn": "Everlight Elec",
+  "componentSpecificationEn": "0603",
+  "describe": "-40℃~+85℃ 1.7V~2.3V 120° 20mA 585.5nm~591.5nm 591nm 60mW 90mcd~180mcd Water Clear Yellow 0603 LED Indication - Discrete ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://atta.szlcsc.com/upload/public/pdf/source/20160507/1462613613586.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Wavelength - Dominant",
+      "component_code": "C72038",
+      "attribute_value_name": "585.5nm~591.5nm"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C72038",
+      "attribute_value_name": "-40℃~+85℃"
+    },
+    {
+      "attribute_name_en": "Test Current",
+      "component_code": "C72038",
+      "attribute_value_name": "20mA"
+    },
+    {
+      "attribute_name_en": "Viewing Angle",
+      "component_code": "C72038",
+      "attribute_value_name": "120°"
+    },
+    {
+      "attribute_name_en": "Luminous Intensity",
+      "component_code": "C72038",
+      "attribute_value_name": "90mcd~180mcd"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C72038",
+      "attribute_value_name": "60mW"
+    },
+    {
+      "attribute_name_en": "Illumination Color",
+      "component_code": "C72038",
+      "attribute_value_name": "Yellow"
+    },
+    {
+      "attribute_name_en": "Lens Color",
+      "component_code": "C72038",
+      "attribute_value_name": "Water Clear"
+    },
+    {
+      "attribute_name_en": "Peak Wavelength",
+      "component_code": "C72038",
+      "attribute_value_name": "591nm"
+    },
+    {
+      "attribute_name_en": "Voltage - Forward(Vf)",
+      "component_code": "C72038",
+      "attribute_value_name": "1.7V~2.3V"
+    }
+  ],
+  "overseasStockCount": 0,
+  "canPresaleNumber": 0,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 487,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C72038",
+  "checked_at": "2026-09-13T08:58:50.370758+00:00"
+}

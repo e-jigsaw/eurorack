@@ -1,0 +1,3579 @@
+{
+  "shapes": {
+    "1206": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -1.55,
+          "y": 0,
+          "w": 1.2,
+          "h": 1.8
+        },
+        {
+          "pin": "2",
+          "x": 1.55,
+          "y": 0,
+          "w": 1.2,
+          "h": 1.8
+        }
+      ],
+      "body": [
+        3.2,
+        1.6
+      ],
+      "height": 1.8,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "0603": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -0.8,
+          "y": 0,
+          "w": 0.9,
+          "h": 1
+        },
+        {
+          "pin": "2",
+          "x": 0.8,
+          "y": 0,
+          "w": 0.9,
+          "h": 1
+        }
+      ],
+      "body": [
+        1.6,
+        0.8
+      ],
+      "height": 0.9,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "0805": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -1,
+          "y": 0,
+          "w": 1.1,
+          "h": 1.4
+        },
+        {
+          "pin": "2",
+          "x": 1,
+          "y": 0,
+          "w": 1.1,
+          "h": 1.4
+        }
+      ],
+      "body": [
+        2,
+        1.25
+      ],
+      "height": 1.4,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "TSSOP-14": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.9,
+          "y": 1.9500000000000002,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "2",
+          "x": -2.9,
+          "y": 1.3,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "3",
+          "x": -2.9,
+          "y": 0.65,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "4",
+          "x": -2.9,
+          "y": 0,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "5",
+          "x": -2.9,
+          "y": -0.65,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "6",
+          "x": -2.9,
+          "y": -1.3,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "7",
+          "x": -2.9,
+          "y": -1.9500000000000002,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "8",
+          "x": 2.9,
+          "y": -1.9500000000000002,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "9",
+          "x": 2.9,
+          "y": -1.3,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "10",
+          "x": 2.9,
+          "y": -0.65,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "11",
+          "x": 2.9,
+          "y": 0,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "12",
+          "x": 2.9,
+          "y": 0.65,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "13",
+          "x": 2.9,
+          "y": 1.3,
+          "w": 1.5,
+          "h": 0.45
+        },
+        {
+          "pin": "14",
+          "x": 2.9,
+          "y": 1.9500000000000002,
+          "w": 1.5,
+          "h": 0.45
+        }
+      ],
+      "body": [
+        4.4,
+        5
+      ],
+      "height": 1.2,
+      "source": "TI PW0014A / DGK0008A land pattern, OPA167x datasheet pp48/54"
+    },
+    "VSSOP-8": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.2,
+          "y": 0.9750000000000001,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "2",
+          "x": -2.2,
+          "y": 0.325,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "3",
+          "x": -2.2,
+          "y": -0.325,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "4",
+          "x": -2.2,
+          "y": -0.9750000000000001,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "5",
+          "x": 2.2,
+          "y": -0.9750000000000001,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "6",
+          "x": 2.2,
+          "y": -0.325,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "7",
+          "x": 2.2,
+          "y": 0.325,
+          "w": 1.4,
+          "h": 0.45
+        },
+        {
+          "pin": "8",
+          "x": 2.2,
+          "y": 0.9750000000000001,
+          "w": 1.4,
+          "h": 0.45
+        }
+      ],
+      "body": [
+        3,
+        3
+      ],
+      "height": 1.2,
+      "source": "TI PW0014A / DGK0008A land pattern, OPA167x datasheet pp48/54"
+    },
+    "SOT-23-3": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -0.95,
+          "y": -1.1,
+          "w": 0.8,
+          "h": 1
+        },
+        {
+          "pin": "2",
+          "x": 0.95,
+          "y": -1.1,
+          "w": 0.8,
+          "h": 1
+        },
+        {
+          "pin": "3",
+          "x": 0,
+          "y": 1.1,
+          "w": 0.8,
+          "h": 1
+        }
+      ],
+      "body": [
+        2.9,
+        1.3
+      ],
+      "height": 1.2,
+      "source": "TI DBZ SOT23-3; K/REF shorted in this circuit"
+    },
+    "SOD-123": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -1.6,
+          "y": 0,
+          "w": 1,
+          "h": 1.2
+        },
+        {
+          "pin": "2",
+          "x": 1.6,
+          "y": 0,
+          "w": 1,
+          "h": 1.2
+        }
+      ],
+      "body": [
+        2.7,
+        1.6
+      ],
+      "height": 1.35,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "SMA(DO-214AC)": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.15,
+          "y": 0,
+          "w": 2,
+          "h": 2
+        },
+        {
+          "pin": "2",
+          "x": 2.15,
+          "y": 0,
+          "w": 2,
+          "h": 2
+        }
+      ],
+      "body": [
+        4.5,
+        2.8
+      ],
+      "height": 2.5,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "SMD,D5xL5.4mm": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.2,
+          "y": 0,
+          "w": 2.6,
+          "h": 1.6
+        },
+        {
+          "pin": "2",
+          "x": 2.2,
+          "y": 0,
+          "w": 2.6,
+          "h": 1.6
+        }
+      ],
+      "body": [
+        5.3,
+        5.3
+      ],
+      "height": 5.4,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "SMD,D6.3xL5.4mm": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.7,
+          "y": 0,
+          "w": 2.8,
+          "h": 1.8
+        },
+        {
+          "pin": "2",
+          "x": 2.7,
+          "y": 0,
+          "w": 2.8,
+          "h": 1.8
+        }
+      ],
+      "body": [
+        6.6,
+        6.6
+      ],
+      "height": 5.4,
+      "source": "IPC nominal land pattern; selected package dimensions"
+    },
+    "WIMA": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.5,
+          "y": 0,
+          "drill": 0.8,
+          "outer": [
+            1.5,
+            1.5
+          ]
+        },
+        {
+          "pin": "2",
+          "x": 2.5,
+          "y": 0,
+          "drill": 0.8,
+          "outer": [
+            1.5,
+            1.5
+          ]
+        }
+      ],
+      "body": [
+        7.2,
+        5
+      ],
+      "height": 10,
+      "source": "WIMA MKS2 C041001F00, 7.2x5x10, P5; e_WIMA_MKS_2.pdf"
+    },
+    "Tayda": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -2.5,
+          "y": -7.5,
+          "drill": 1.2,
+          "outer": [
+            1.9,
+            1.9
+          ]
+        },
+        {
+          "pin": "2",
+          "x": 0,
+          "y": -7.5,
+          "drill": 1.2,
+          "outer": [
+            1.9,
+            1.9
+          ]
+        },
+        {
+          "pin": "3",
+          "x": 2.5,
+          "y": -7.5,
+          "drill": 1.2,
+          "outer": [
+            1.9,
+            1.9
+          ]
+        },
+        {
+          "pin": "4",
+          "x": -5.65,
+          "y": 0,
+          "slot": [
+            2,
+            1.4
+          ],
+          "outer": [
+            2.7,
+            2.1
+          ]
+        },
+        {
+          "pin": "5",
+          "x": 5.65,
+          "y": 0,
+          "slot": [
+            2,
+            1.4
+          ],
+          "outer": [
+            2.7,
+            2.1
+          ]
+        }
+      ],
+      "body": [
+        12.1,
+        10.8
+      ],
+      "offset": [
+        0,
+        -0.6
+      ],
+      "height": 10,
+      "source": "Tayda A-5622.pdf; front view signal pins; signal pitch2.5, retention11.3, setback7.5"
+    },
+    "WQP": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": 0,
+          "y": 4.92,
+          "drill": 1.8,
+          "outer": [
+            2.4,
+            2.4
+          ]
+        },
+        {
+          "pin": "2",
+          "x": 0,
+          "y": -6.48,
+          "drill": 1.8,
+          "outer": [
+            2.4,
+            2.4
+          ]
+        },
+        {
+          "pin": "3",
+          "x": 0,
+          "y": -3.38,
+          "drill": 1.8,
+          "outer": [
+            2.4,
+            2.4
+          ]
+        }
+      ],
+      "body": [
+        9,
+        12.5
+      ],
+      "offset": [
+        0,
+        -0.25
+      ],
+      "height": 9,
+      "source": "WQP-WQP518MA.pdf TOP VIEW: logical1->physical3 tip; logical2->physical1 sleeve; physical2 normal NC"
+    },
+    "NJ3FD-V": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": 0,
+          "y": -5.72,
+          "drill": 1.2,
+          "outer": [
+            1.9,
+            1.9
+          ]
+        },
+        {
+          "pin": "2",
+          "x": -5.08,
+          "y": 0,
+          "drill": 1.6,
+          "outer": [
+            2.3,
+            2.3
+          ]
+        },
+        {
+          "pin": "3",
+          "x": 5.08,
+          "y": 0,
+          "drill": 1.6,
+          "outer": [
+            2.3,
+            2.3
+          ]
+        },
+        {
+          "pin": "4",
+          "x": 3.18,
+          "y": 6.35,
+          "drill": 1.6,
+          "outer": [
+            2.3,
+            2.3
+          ]
+        },
+        {
+          "pin": "5",
+          "x": -3.81,
+          "y": -3.81,
+          "drill": 2.1,
+          "outer": [
+            2.8,
+            2.8
+          ]
+        }
+      ],
+      "body": [
+        12.8,
+        15
+      ],
+      "height": 24,
+      "source": "Neutrik3102 St0715 component-side layout; logical1=T,2=R,3=S; two mechanical solder pads"
+    },
+    "LED3": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": 1.27,
+          "y": 0,
+          "drill": 0.9,
+          "outer": [
+            1.6,
+            1.6
+          ]
+        },
+        {
+          "pin": "2",
+          "x": -1.27,
+          "y": 0,
+          "drill": 0.9,
+          "outer": [
+            1.6,
+            1.6
+          ]
+        }
+      ],
+      "body": [
+        4.3,
+        4.3
+      ],
+      "height": 11.9,
+      "source": "XINGLIGHT XL-302 / TUOZHAN: 2.54 pitch, logical1 cathode,2 anode"
+    },
+    "DC3": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -1.27,
+          "y": -5.08,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "2",
+          "x": 1.27,
+          "y": -5.08,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "3",
+          "x": -1.27,
+          "y": -2.54,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "4",
+          "x": 1.27,
+          "y": -2.54,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "5",
+          "x": -1.27,
+          "y": 0,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "6",
+          "x": 1.27,
+          "y": 0,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "7",
+          "x": -1.27,
+          "y": 2.54,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "8",
+          "x": 1.27,
+          "y": 2.54,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "9",
+          "x": -1.27,
+          "y": 5.08,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "10",
+          "x": 1.27,
+          "y": 5.08,
+          "drill": 1,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        }
+      ],
+      "body": [
+        8.4,
+        20.3
+      ],
+      "height": 8.6,
+      "source": "ZHOURI DC3-2.54-10PAS: PCB pitch2.54, housing8.4x20.3, height8.6"
+    },
+    "TSW-2x4": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -1.27,
+          "y": 3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "2",
+          "x": 1.27,
+          "y": 3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "3",
+          "x": -1.27,
+          "y": 1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "4",
+          "x": 1.27,
+          "y": 1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "5",
+          "x": -1.27,
+          "y": -1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "6",
+          "x": 1.27,
+          "y": -1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "7",
+          "x": -1.27,
+          "y": -3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "8",
+          "x": 1.27,
+          "y": -3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        }
+      ],
+      "body": [
+        5.08,
+        10.16
+      ],
+      "height": 8.38,
+      "source": "Samtec tsw_th.pdf: housing2.54, post5.84, tail2.54; 0.635 square pins; 2.54 pitch. Envelope includes exposed post."
+    },
+    "SSW-2x4": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": 1.27,
+          "y": 3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "2",
+          "x": -1.27,
+          "y": 3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "3",
+          "x": 1.27,
+          "y": 1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "4",
+          "x": -1.27,
+          "y": 1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "5",
+          "x": 1.27,
+          "y": -1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "6",
+          "x": -1.27,
+          "y": -1.27,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "7",
+          "x": 1.27,
+          "y": -3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "8",
+          "x": -1.27,
+          "y": -3.81,
+          "drill": 1.02,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        }
+      ],
+      "body": [
+        4.95,
+        10.67
+      ],
+      "height": 8.51,
+      "source": "Samtec ssw_th.pdf: housing8.51, tail2.64, 2.54 pitch; insertion3.68..6.35. Logical IDs mirror the mating header viewed from opposite faces."
+    },
+    "WIRE": {
+      "pads": [
+        {
+          "pin": "1",
+          "x": -1.27,
+          "y": 8.89,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "2",
+          "x": 1.27,
+          "y": 8.89,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "3",
+          "x": -1.27,
+          "y": 6.35,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "4",
+          "x": 1.27,
+          "y": 6.35,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "5",
+          "x": -1.27,
+          "y": 3.81,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "6",
+          "x": 1.27,
+          "y": 3.81,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "7",
+          "x": -1.27,
+          "y": 1.27,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "8",
+          "x": 1.27,
+          "y": 1.27,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "9",
+          "x": -1.27,
+          "y": -1.27,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "10",
+          "x": 1.27,
+          "y": -1.27,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "11",
+          "x": -1.27,
+          "y": -3.81,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "12",
+          "x": 1.27,
+          "y": -3.81,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "13",
+          "x": -1.27,
+          "y": -6.35,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "14",
+          "x": 1.27,
+          "y": -6.35,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "15",
+          "x": -1.27,
+          "y": -8.89,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        },
+        {
+          "pin": "16",
+          "x": 1.27,
+          "y": -8.89,
+          "drill": 0.9,
+          "outer": [
+            1.7,
+            1.7
+          ]
+        }
+      ],
+      "body": [
+        4.5,
+        20
+      ],
+      "height": 2,
+      "source": "2x8 labelled wire solder pads, 2.54pitch; not an IDC connector"
+    }
+  },
+  "parts": [
+    {
+      "ref": "J_PWR",
+      "kind": "CONNECTOR",
+      "value": "Eurorack 2x5 keyed",
+      "pins": {
+        "1": "VN_RAW",
+        "2": "VN_RAW",
+        "3": "GND",
+        "4": "GND",
+        "5": "GND",
+        "6": "GND",
+        "7": "GND",
+        "8": "GND",
+        "9": "VP_RAW",
+        "10": "VP_RAW"
+      },
+      "section": "power",
+      "note": "ZHOURI DC3-2.54-10PAS; key and pin-1 orientation to follow mechanical plan",
+      "procurement": {
+        "mpn": "DC3-2.54-10PAS",
+        "manufacturer": "ZHOURI",
+        "package": "Plugin,P=2.54mm",
+        "jlc": "C2977596",
+        "assembly": "manualWeld",
+        "source": "https://jlcpcb.com/partdetail/C2977596",
+        "board": "main"
+      },
+      "shapeKey": "DC3",
+      "board": "main"
+    },
+    {
+      "ref": "D_PWR_P",
+      "kind": "D",
+      "value": "SS14",
+      "pins": {
+        "1": "VP",
+        "2": "VP_RAW"
+      },
+      "section": "power",
+      "note": "Series reverse-polarity protection; pin 1 cathode",
+      "procurement": {
+        "mpn": "SS14",
+        "manufacturer": "MDD(Microdiode Semiconductor)",
+        "package": "SMA(DO-214AC)",
+        "jlc": "C2480",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2480",
+        "board": "main"
+      },
+      "shapeKey": "SMA(DO-214AC)",
+      "board": "main"
+    },
+    {
+      "ref": "D_PWR_N",
+      "kind": "D",
+      "value": "SS14",
+      "pins": {
+        "1": "VN_RAW",
+        "2": "VN"
+      },
+      "section": "power",
+      "note": "Negative rail diode points towards the header",
+      "procurement": {
+        "mpn": "SS14",
+        "manufacturer": "MDD(Microdiode Semiconductor)",
+        "package": "SMA(DO-214AC)",
+        "jlc": "C2480",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2480",
+        "board": "main"
+      },
+      "shapeKey": "SMA(DO-214AC)",
+      "board": "main"
+    },
+    {
+      "ref": "C_BULK_P",
+      "kind": "C",
+      "value": "22uF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "power",
+      "note": "Electrolytic >=25V; positive terminal VP",
+      "procurement": {
+        "mpn": "RVT1E220M0505",
+        "manufacturer": "Honor Elec",
+        "package": "SMD,D5xL5.4mm",
+        "jlc": "C15848",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C15848",
+        "board": "main"
+      },
+      "shapeKey": "SMD,D5xL5.4mm",
+      "board": "main"
+    },
+    {
+      "ref": "C_BULK_N",
+      "kind": "C",
+      "value": "22uF",
+      "pins": {
+        "1": "GND",
+        "2": "VN"
+      },
+      "section": "power",
+      "note": "Electrolytic >=25V; positive terminal GND",
+      "procurement": {
+        "mpn": "RVT1E220M0505",
+        "manufacturer": "Honor Elec",
+        "package": "SMD,D5xL5.4mm",
+        "jlc": "C15848",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C15848",
+        "board": "main"
+      },
+      "shapeKey": "SMD,D5xL5.4mm",
+      "board": "main"
+    },
+    {
+      "ref": "R_LED_SUPPLY",
+      "kind": "R",
+      "value": "47",
+      "pins": {
+        "1": "VP",
+        "2": "VLED"
+      },
+      "section": "power",
+      "procurement": {
+        "mpn": "0603WAF470JT5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C23182",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C23182",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_LED_BULK",
+      "kind": "C",
+      "value": "47uF",
+      "pins": {
+        "1": "VLED",
+        "2": "GND"
+      },
+      "section": "power",
+      "note": "Electrolytic >=25V",
+      "procurement": {
+        "mpn": "RVT1E470M0605",
+        "manufacturer": "Honor Elec",
+        "package": "SMD,D6.3xL5.4mm",
+        "jlc": "C30034",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C30034",
+        "board": "control"
+      },
+      "shapeKey": "SMD,D6.3xL5.4mm",
+      "board": "control"
+    },
+    {
+      "ref": "R_REFERENCE",
+      "kind": "R",
+      "value": "2.2k",
+      "pins": {
+        "1": "VP",
+        "2": "VREF"
+      },
+      "section": "power",
+      "procurement": {
+        "mpn": "0603WAF2201T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C4190",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C4190",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "U_REF",
+      "kind": "IC",
+      "value": "TL431BIDBZR",
+      "pins": {
+        "1": "VREF",
+        "2": "VREF",
+        "3": "GND"
+      },
+      "section": "power",
+      "note": "2.495V shunt; no cathode capacitor (stability region must be respected)",
+      "labels": {
+        "1": "K",
+        "2": "REF",
+        "3": "A"
+      },
+      "procurement": {
+        "mpn": "TL431BIDBZR",
+        "manufacturer": "Texas Instruments",
+        "package": "SOT-23-3",
+        "jlc": "C41283",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C41283",
+        "board": "main"
+      },
+      "shapeKey": "SOT-23-3",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_TOP_1",
+      "kind": "R",
+      "value": "240k",
+      "pins": {
+        "1": "VREF",
+        "2": "TH_1"
+      },
+      "section": "power",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0805BRD07240KL",
+        "manufacturer": "YAGEO",
+        "package": "0805",
+        "jlc": "C784586",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C784586",
+        "board": "main"
+      },
+      "shapeKey": "0805",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_BOTTOM_1",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "TH_1",
+        "2": "GND"
+      },
+      "section": "power",
+      "note": "0.1%; shared by L/R",
+      "procurement": {
+        "mpn": "RT0603BRD0710KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C95204",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C95204",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_TOP_2",
+      "kind": "R",
+      "value": "52.3k",
+      "pins": {
+        "1": "VREF",
+        "2": "TH_2"
+      },
+      "section": "power",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD0752K3L",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C861462",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C861462",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_BOTTOM_2",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "TH_2",
+        "2": "GND"
+      },
+      "section": "power",
+      "note": "0.1%; shared by L/R",
+      "procurement": {
+        "mpn": "RT0603BRD0710KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C95204",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C95204",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_TOP_3",
+      "kind": "R",
+      "value": "15k",
+      "pins": {
+        "1": "VREF",
+        "2": "TH_3"
+      },
+      "section": "power",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD0715KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C326733",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C326733",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_BOTTOM_3",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "TH_3",
+        "2": "GND"
+      },
+      "section": "power",
+      "note": "0.1%; shared by L/R",
+      "procurement": {
+        "mpn": "RT0603BRD0710KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C95204",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C95204",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_TOP_4",
+      "kind": "R",
+      "value": "5.62k",
+      "pins": {
+        "1": "VREF",
+        "2": "TH_4"
+      },
+      "section": "power",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD075K62L",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C705789",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C705789",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_TH_BOTTOM_4",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "TH_4",
+        "2": "GND"
+      },
+      "section": "power",
+      "note": "0.1%; shared by L/R",
+      "procurement": {
+        "mpn": "RT0603BRD0710KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C95204",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C95204",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "U_RX",
+      "kind": "IC",
+      "value": "INA1650IPWR",
+      "pins": {
+        "1": "VP",
+        "2": "L_RX_P",
+        "3": "GND",
+        "4": "L_RX_N",
+        "5": "R_RX_N",
+        "6": "GND",
+        "7": "R_RX_P",
+        "8": "R_RX_OUT",
+        "9": "GND",
+        "10": "NC_RX_10",
+        "11": "NC_RX_11",
+        "12": "GND",
+        "13": "L_RX_OUT",
+        "14": "VN"
+      },
+      "section": "receiver",
+      "note": "VMID pins intentionally open; COM and REF to GND",
+      "labels": {
+        "1": "VP",
+        "2": "IN_P_L",
+        "3": "COM_L",
+        "4": "IN_N_L",
+        "5": "IN_N_R",
+        "6": "COM_R",
+        "7": "IN_P_R",
+        "8": "OUT_R",
+        "9": "REF_R",
+        "10": "VMID_OUT_NC",
+        "11": "VMID_IN_NC",
+        "12": "REF_L",
+        "13": "OUT_L",
+        "14": "VN"
+      },
+      "procurement": {
+        "mpn": "INA1650IPWR",
+        "manufacturer": "Texas Instruments",
+        "package": "TSSOP-14",
+        "jlc": "C553130",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C553130",
+        "board": "main"
+      },
+      "shapeKey": "TSSOP-14",
+      "board": "main"
+    },
+    {
+      "ref": "C_RX_P",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_RX_N",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "GND",
+        "2": "VN"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "RV_L",
+      "kind": "POT",
+      "value": "10k single-gang linear (B10K)",
+      "pins": {
+        "1": "GND",
+        "2": "L_WIPER",
+        "3": "L_RX_OUT"
+      },
+      "section": "receiver",
+      "note": "User-owned Tayda A-5622 RV9312NO-KQ15A6.0-B10K-060; manufacturer drawing selected. Logical terminals only; CW towards RX_OUT",
+      "labels": {
+        "1": "CCW",
+        "2": "WIPER",
+        "3": "CW"
+      },
+      "procurement": {
+        "mpn": "RV9312NO-KQ15A6.0-B10K-060",
+        "manufacturer": "Tayda",
+        "package": "A-5622 9mm T18",
+        "assembly": "user_stock_hand_solder",
+        "source": "https://www.taydaelectronics.com/datasheets/files/A-5622.pdf",
+        "board": "control"
+      },
+      "shapeKey": "Tayda",
+      "board": "control"
+    },
+    {
+      "ref": "RV_R",
+      "kind": "POT",
+      "value": "10k single-gang linear (B10K)",
+      "pins": {
+        "1": "GND",
+        "2": "R_WIPER",
+        "3": "R_RX_OUT"
+      },
+      "section": "receiver",
+      "note": "User-owned Tayda A-5622 RV9312NO-KQ15A6.0-B10K-060; manufacturer drawing selected. Logical terminals only; CW towards RX_OUT",
+      "labels": {
+        "1": "CCW",
+        "2": "WIPER",
+        "3": "CW"
+      },
+      "procurement": {
+        "mpn": "RV9312NO-KQ15A6.0-B10K-060",
+        "manufacturer": "Tayda",
+        "package": "A-5622 9mm T18",
+        "assembly": "user_stock_hand_solder",
+        "source": "https://www.taydaelectronics.com/datasheets/files/A-5622.pdf",
+        "board": "control"
+      },
+      "shapeKey": "Tayda",
+      "board": "control"
+    },
+    {
+      "ref": "U_ENV",
+      "kind": "IC",
+      "value": "OPA1678IDGKR",
+      "pins": {
+        "1": "L_ENV_BUF",
+        "2": "L_ENV_BUF",
+        "3": "L_ENV",
+        "4": "VN",
+        "5": "R_ENV",
+        "6": "R_ENV_BUF",
+        "7": "R_ENV_BUF",
+        "8": "VP"
+      },
+      "section": "receiver",
+      "note": "Dual FET-input envelope buffer; prevents comparator bias from charging hold capacitors",
+      "labels": {
+        "1": "OUT_L",
+        "2": "NEG_L",
+        "3": "POS_L",
+        "4": "VN",
+        "5": "POS_R",
+        "6": "NEG_R",
+        "7": "OUT_R",
+        "8": "VP"
+      },
+      "procurement": {
+        "mpn": "OPA1678IDGKR",
+        "manufacturer": "Texas Instruments",
+        "package": "VSSOP-8",
+        "jlc": "C2863133",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2863133",
+        "board": "main"
+      },
+      "shapeKey": "VSSOP-8",
+      "board": "main"
+    },
+    {
+      "ref": "C_ENV_P",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_ENV_N",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "GND",
+        "2": "VN"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "J_IN_L",
+      "kind": "CONNECTOR",
+      "value": "6.35mm TRS",
+      "pins": {
+        "1": "L_TIP",
+        "2": "L_RING",
+        "3": "GND"
+      },
+      "section": "receiver",
+      "note": "Neutrik NJ3FD-V selected. Logical pin 1 tip, 2 ring, 3 sleeve. TS plug grounds ring. No mono normalization",
+      "procurement": {
+        "mpn": "NJ3FD-V",
+        "manufacturer": "Neutrik",
+        "package": "NJ3FD-V vertical",
+        "assembly": "domestic_purchase_hand_solder",
+        "source": "https://www.neutrik.com/media/8597/download/nj3fd-v-3.pdf?v=1",
+        "board": "main"
+      },
+      "shapeKey": "NJ3FD-V",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_P_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "L_TIP",
+        "2": "GND"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_P_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "pins": {
+        "1": "L_TIP",
+        "2": "L_P_SERIES"
+      },
+      "section": "receiver",
+      "note": "0.1%; matched pair",
+      "procurement": {
+        "mpn": "RT0603BRD071KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C110776",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C110776",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_P_AC",
+      "kind": "C",
+      "value": "1uF",
+      "pins": {
+        "1": "L_P_SERIES",
+        "2": "L_RX_P"
+      },
+      "section": "receiver",
+      "note": "Film, >=50V, 5%; input DC blocking",
+      "procurement": {
+        "mpn": "MKS2C041001F00JSSD",
+        "manufacturer": "WIMA",
+        "package": "Plugin,P=5mm",
+        "jlc": "C92673",
+        "assembly": "manualWeld",
+        "source": "https://jlcpcb.com/partdetail/C92673",
+        "board": "main"
+      },
+      "shapeKey": "WIMA",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_N_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "L_RING",
+        "2": "GND"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_N_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "pins": {
+        "1": "L_RING",
+        "2": "L_N_SERIES"
+      },
+      "section": "receiver",
+      "note": "0.1%; matched pair",
+      "procurement": {
+        "mpn": "RT0603BRD071KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C110776",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C110776",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_N_AC",
+      "kind": "C",
+      "value": "1uF",
+      "pins": {
+        "1": "L_N_SERIES",
+        "2": "L_RX_N"
+      },
+      "section": "receiver",
+      "note": "Film, >=50V, 5%; input DC blocking",
+      "procurement": {
+        "mpn": "MKS2C041001F00JSSD",
+        "manufacturer": "WIMA",
+        "package": "Plugin,P=5mm",
+        "jlc": "C92673",
+        "assembly": "manualWeld",
+        "source": "https://jlcpcb.com/partdetail/C92673",
+        "board": "main"
+      },
+      "shapeKey": "WIMA",
+      "board": "main"
+    },
+    {
+      "ref": "U_L",
+      "kind": "IC",
+      "value": "OPA1679IPWR",
+      "pins": {
+        "1": "L_DRIVE",
+        "2": "L_GAIN_FB",
+        "3": "L_WIPER",
+        "4": "VP",
+        "5": "GND",
+        "6": "L_HALF_SUM",
+        "7": "L_HALF_DRIVE",
+        "8": "L_ABS",
+        "9": "L_ABS_SUM",
+        "10": "GND",
+        "11": "VN",
+        "12": "L_ABS",
+        "13": "L_PEAK_FOLLOW",
+        "14": "L_PEAK_DRIVE"
+      },
+      "section": "L-analog",
+      "note": "TSSOP-14 pin map; all four amplifiers used",
+      "labels": {
+        "1": "OUT_A",
+        "2": "NEG_A",
+        "3": "POS_A",
+        "4": "VP",
+        "5": "POS_B",
+        "6": "NEG_B",
+        "7": "OUT_B",
+        "8": "OUT_C",
+        "9": "NEG_C",
+        "10": "POS_C",
+        "11": "VN",
+        "12": "POS_D",
+        "13": "NEG_D",
+        "14": "OUT_D"
+      },
+      "procurement": {
+        "mpn": "OPA1679IPWR",
+        "manufacturer": "Texas Instruments",
+        "package": "TSSOP-14",
+        "jlc": "C2057264",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2057264",
+        "board": "main"
+      },
+      "shapeKey": "TSSOP-14",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_VP",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_VN",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "GND",
+        "2": "VN"
+      },
+      "section": "L-analog",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_WIPER_FAIL",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "L_WIPER",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "note": "Open-wiper bias; potentiometer loaded by <=0.25%",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_GAIN_G",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "L_GAIN_FB",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD0710KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C95204",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C95204",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_GAIN_F",
+      "kind": "R",
+      "value": "90k",
+      "pins": {
+        "1": "L_DRIVE",
+        "2": "L_GAIN_FB"
+      },
+      "section": "L-analog",
+      "note": "0.1%; 1+90k/10k=10",
+      "procurement": {
+        "mpn": "RT1206BRE0790KL",
+        "manufacturer": "YAGEO",
+        "package": "1206",
+        "jlc": "C871504",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C871504",
+        "board": "main"
+      },
+      "shapeKey": "1206",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_GAIN_F",
+      "kind": "C",
+      "value": "10pF",
+      "pins": {
+        "1": "L_DRIVE",
+        "2": "L_GAIN_FB"
+      },
+      "section": "L-analog",
+      "note": "C0G",
+      "procurement": {
+        "mpn": "CL10C100JB8NNNC",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "package": "0603",
+        "jlc": "C1634",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C1634",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_OUT",
+      "kind": "R",
+      "value": "100",
+      "pins": {
+        "1": "L_DRIVE",
+        "2": "L_OUT"
+      },
+      "section": "L-analog",
+      "note": "Output isolation; 100 ohm 0.5W HP06W2F1000T5E; feedback before this resistor",
+      "procurement": {
+        "mpn": "HP06W2F1000T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "1206",
+        "jlc": "C2765755",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2765755",
+        "board": "main"
+      },
+      "shapeKey": "1206",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_OUT_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "L_OUT",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "J_OUT_L",
+      "kind": "CONNECTOR",
+      "value": "3.5mm TS",
+      "pins": {
+        "1": "L_OUT",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "note": "QingPu WQP-WQP518MA selected. Logical 1=tip maps to physical 3; logical 2=GND maps to physical 1; physical 2 NC unused",
+      "procurement": {
+        "mpn": "WQP-WQP518MA",
+        "manufacturer": "QingPu",
+        "package": "WQP518MA",
+        "assembly": "user_stock_hand_solder",
+        "source": "https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf",
+        "board": "control"
+      },
+      "shapeKey": "WQP",
+      "board": "control"
+    },
+    {
+      "ref": "R_L_HALF_IN",
+      "kind": "R",
+      "value": "100k",
+      "pins": {
+        "1": "L_OUT",
+        "2": "L_HALF_SUM"
+      },
+      "section": "L-analog",
+      "note": "0.1%; meter senses actual output jack",
+      "procurement": {
+        "mpn": "RT0603BRD07100KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C122538",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C122538",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_HALF_FB",
+      "kind": "R",
+      "value": "100k",
+      "pins": {
+        "1": "L_HALF",
+        "2": "L_HALF_SUM"
+      },
+      "section": "L-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD07100KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C122538",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C122538",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "D_L_HALF_CLAMP",
+      "kind": "D",
+      "value": "1N4148W",
+      "pins": {
+        "1": "L_HALF_SUM",
+        "2": "L_HALF_DRIVE"
+      },
+      "section": "L-analog",
+      "note": "pin 1 cathode; pin 2 anode",
+      "procurement": {
+        "mpn": "1N4148W",
+        "manufacturer": "ST(Semtech)",
+        "package": "SOD-123",
+        "jlc": "C81598",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C81598",
+        "board": "main"
+      },
+      "shapeKey": "SOD-123",
+      "board": "main"
+    },
+    {
+      "ref": "D_L_HALF_RECT",
+      "kind": "D",
+      "value": "1N4148W",
+      "pins": {
+        "1": "L_HALF_DRIVE",
+        "2": "L_HALF"
+      },
+      "section": "L-analog",
+      "note": "pin 1 cathode; pin 2 anode",
+      "procurement": {
+        "mpn": "1N4148W",
+        "manufacturer": "ST(Semtech)",
+        "package": "SOD-123",
+        "jlc": "C81598",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C81598",
+        "board": "main"
+      },
+      "shapeKey": "SOD-123",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_ABS_RAW",
+      "kind": "R",
+      "value": "100k",
+      "pins": {
+        "1": "L_OUT",
+        "2": "L_ABS_SUM"
+      },
+      "section": "L-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD07100KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C122538",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C122538",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_ABS_HALF",
+      "kind": "R",
+      "value": "50k",
+      "pins": {
+        "1": "L_HALF",
+        "2": "L_ABS_SUM"
+      },
+      "section": "L-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD0750KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C861451",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C861451",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_ABS_FB",
+      "kind": "R",
+      "value": "20k",
+      "pins": {
+        "1": "L_ABS",
+        "2": "L_ABS_SUM"
+      },
+      "section": "L-analog",
+      "note": "0.1%; ABS=-0.2*OUT-0.4*HALF",
+      "procurement": {
+        "mpn": "RT0603BRD0720KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C723637",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C723637",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "D_L_PEAK",
+      "kind": "D",
+      "value": "1N4148W",
+      "pins": {
+        "1": "L_PEAK_FOLLOW",
+        "2": "L_PEAK_DRIVE"
+      },
+      "section": "L-analog",
+      "note": "pin 1 cathode; pin 2 anode",
+      "procurement": {
+        "mpn": "1N4148W",
+        "manufacturer": "ST(Semtech)",
+        "package": "SOD-123",
+        "jlc": "C81598",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C81598",
+        "board": "main"
+      },
+      "shapeKey": "SOD-123",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_ATTACK",
+      "kind": "R",
+      "value": "1k",
+      "pins": {
+        "1": "L_PEAK_FOLLOW",
+        "2": "L_ENV"
+      },
+      "section": "L-analog",
+      "note": "Capacitor isolated outside feedback loop",
+      "procurement": {
+        "mpn": "0603WAF1001T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C21190",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C21190",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_HOLD",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "L_ENV",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "note": "5% film or C0G",
+      "procurement": {
+        "mpn": "GRM31C5C1H104JA01L",
+        "manufacturer": "Murata Electronics",
+        "package": "1206",
+        "jlc": "C97946",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C97946",
+        "board": "main"
+      },
+      "shapeKey": "1206",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_RELEASE",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "L_ENV",
+        "2": "GND"
+      },
+      "section": "L-analog",
+      "note": "Nominal 100ms release time constant",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "U_METER_L",
+      "kind": "IC",
+      "value": "LM339BIPWR",
+      "pins": {
+        "1": "L_LED_2_K",
+        "2": "L_LED_1_K",
+        "3": "VP",
+        "4": "L_ENV_BUF",
+        "5": "TH_1",
+        "6": "L_ENV_BUF",
+        "7": "TH_2",
+        "8": "L_ENV_BUF",
+        "9": "TH_3",
+        "10": "L_ENV_BUF",
+        "11": "TH_4",
+        "12": "GND",
+        "13": "L_LED_4_K",
+        "14": "L_LED_3_K"
+      },
+      "section": "L-meter",
+      "note": "Open collector sinks current when ENV exceeds threshold",
+      "labels": {
+        "1": "OUT_2",
+        "2": "OUT_1",
+        "3": "VP",
+        "4": "NEG_1",
+        "5": "POS_1",
+        "6": "NEG_2",
+        "7": "POS_2",
+        "8": "NEG_3",
+        "9": "POS_3",
+        "10": "NEG_4",
+        "11": "POS_4",
+        "12": "GND",
+        "13": "OUT_4",
+        "14": "OUT_3"
+      },
+      "procurement": {
+        "mpn": "LM339BIPWR",
+        "manufacturer": "Texas Instruments",
+        "package": "TSSOP-14",
+        "jlc": "C7430196",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C7430196",
+        "board": "main"
+      },
+      "shapeKey": "TSSOP-14",
+      "board": "main"
+    },
+    {
+      "ref": "C_L_CMP",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "L-meter",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_L_LED_1",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "L_LED_1_A"
+      },
+      "section": "L-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_L_1",
+      "kind": "LED",
+      "value": "green",
+      "pins": {
+        "1": "L_LED_1_K",
+        "2": "L_LED_1_A"
+      },
+      "section": "L-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "XL-302UGD",
+        "manufacturer": "XINGLIGHT",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C2895476",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C2895476",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "R_L_LED_2",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "L_LED_2_A"
+      },
+      "section": "L-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_L_2",
+      "kind": "LED",
+      "value": "green",
+      "pins": {
+        "1": "L_LED_2_K",
+        "2": "L_LED_2_A"
+      },
+      "section": "L-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "XL-302UGD",
+        "manufacturer": "XINGLIGHT",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C2895476",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C2895476",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "R_L_LED_3",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "L_LED_3_A"
+      },
+      "section": "L-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_L_3",
+      "kind": "LED",
+      "value": "amber",
+      "pins": {
+        "1": "L_LED_3_K",
+        "2": "L_LED_3_A"
+      },
+      "section": "L-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "TZ-L2-03YYBY2YDJ30-001",
+        "manufacturer": "TUOZHAN",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C779430",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C779430",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "R_L_LED_4",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "L_LED_4_A"
+      },
+      "section": "L-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_L_4",
+      "kind": "LED",
+      "value": "red",
+      "pins": {
+        "1": "L_LED_4_K",
+        "2": "L_LED_4_A"
+      },
+      "section": "L-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "XL-302SURD",
+        "manufacturer": "XINGLIGHT",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C2895470",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C2895470",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "J_IN_R",
+      "kind": "CONNECTOR",
+      "value": "6.35mm TRS",
+      "pins": {
+        "1": "R_TIP",
+        "2": "R_RING",
+        "3": "GND"
+      },
+      "section": "receiver",
+      "note": "Neutrik NJ3FD-V selected. Logical pin 1 tip, 2 ring, 3 sleeve. TS plug grounds ring. No mono normalization",
+      "procurement": {
+        "mpn": "NJ3FD-V",
+        "manufacturer": "Neutrik",
+        "package": "NJ3FD-V vertical",
+        "assembly": "domestic_purchase_hand_solder",
+        "source": "https://www.neutrik.com/media/8597/download/nj3fd-v-3.pdf?v=1",
+        "board": "main"
+      },
+      "shapeKey": "NJ3FD-V",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_P_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "R_TIP",
+        "2": "GND"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_P_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "pins": {
+        "1": "R_TIP",
+        "2": "R_P_SERIES"
+      },
+      "section": "receiver",
+      "note": "0.1%; matched pair",
+      "procurement": {
+        "mpn": "RT0603BRD071KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C110776",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C110776",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_P_AC",
+      "kind": "C",
+      "value": "1uF",
+      "pins": {
+        "1": "R_P_SERIES",
+        "2": "R_RX_P"
+      },
+      "section": "receiver",
+      "note": "Film, >=50V, 5%; input DC blocking",
+      "procurement": {
+        "mpn": "MKS2C041001F00JSSD",
+        "manufacturer": "WIMA",
+        "package": "Plugin,P=5mm",
+        "jlc": "C92673",
+        "assembly": "manualWeld",
+        "source": "https://jlcpcb.com/partdetail/C92673",
+        "board": "main"
+      },
+      "shapeKey": "WIMA",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_N_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "R_RING",
+        "2": "GND"
+      },
+      "section": "receiver",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_N_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "pins": {
+        "1": "R_RING",
+        "2": "R_N_SERIES"
+      },
+      "section": "receiver",
+      "note": "0.1%; matched pair",
+      "procurement": {
+        "mpn": "RT0603BRD071KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C110776",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C110776",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_N_AC",
+      "kind": "C",
+      "value": "1uF",
+      "pins": {
+        "1": "R_N_SERIES",
+        "2": "R_RX_N"
+      },
+      "section": "receiver",
+      "note": "Film, >=50V, 5%; input DC blocking",
+      "procurement": {
+        "mpn": "MKS2C041001F00JSSD",
+        "manufacturer": "WIMA",
+        "package": "Plugin,P=5mm",
+        "jlc": "C92673",
+        "assembly": "manualWeld",
+        "source": "https://jlcpcb.com/partdetail/C92673",
+        "board": "main"
+      },
+      "shapeKey": "WIMA",
+      "board": "main"
+    },
+    {
+      "ref": "U_R",
+      "kind": "IC",
+      "value": "OPA1679IPWR",
+      "pins": {
+        "1": "R_DRIVE",
+        "2": "R_GAIN_FB",
+        "3": "R_WIPER",
+        "4": "VP",
+        "5": "GND",
+        "6": "R_HALF_SUM",
+        "7": "R_HALF_DRIVE",
+        "8": "R_ABS",
+        "9": "R_ABS_SUM",
+        "10": "GND",
+        "11": "VN",
+        "12": "R_ABS",
+        "13": "R_PEAK_FOLLOW",
+        "14": "R_PEAK_DRIVE"
+      },
+      "section": "R-analog",
+      "note": "TSSOP-14 pin map; all four amplifiers used",
+      "labels": {
+        "1": "OUT_A",
+        "2": "NEG_A",
+        "3": "POS_A",
+        "4": "VP",
+        "5": "POS_B",
+        "6": "NEG_B",
+        "7": "OUT_B",
+        "8": "OUT_C",
+        "9": "NEG_C",
+        "10": "POS_C",
+        "11": "VN",
+        "12": "POS_D",
+        "13": "NEG_D",
+        "14": "OUT_D"
+      },
+      "procurement": {
+        "mpn": "OPA1679IPWR",
+        "manufacturer": "Texas Instruments",
+        "package": "TSSOP-14",
+        "jlc": "C2057264",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2057264",
+        "board": "main"
+      },
+      "shapeKey": "TSSOP-14",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_VP",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_VN",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "GND",
+        "2": "VN"
+      },
+      "section": "R-analog",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_WIPER_FAIL",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "R_WIPER",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "note": "Open-wiper bias; potentiometer loaded by <=0.25%",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_GAIN_G",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "R_GAIN_FB",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD0710KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C95204",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C95204",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_GAIN_F",
+      "kind": "R",
+      "value": "90k",
+      "pins": {
+        "1": "R_DRIVE",
+        "2": "R_GAIN_FB"
+      },
+      "section": "R-analog",
+      "note": "0.1%; 1+90k/10k=10",
+      "procurement": {
+        "mpn": "RT1206BRE0790KL",
+        "manufacturer": "YAGEO",
+        "package": "1206",
+        "jlc": "C871504",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C871504",
+        "board": "main"
+      },
+      "shapeKey": "1206",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_GAIN_F",
+      "kind": "C",
+      "value": "10pF",
+      "pins": {
+        "1": "R_DRIVE",
+        "2": "R_GAIN_FB"
+      },
+      "section": "R-analog",
+      "note": "C0G",
+      "procurement": {
+        "mpn": "CL10C100JB8NNNC",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "package": "0603",
+        "jlc": "C1634",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C1634",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_OUT",
+      "kind": "R",
+      "value": "100",
+      "pins": {
+        "1": "R_DRIVE",
+        "2": "R_OUT"
+      },
+      "section": "R-analog",
+      "note": "Output isolation; 100 ohm 0.5W HP06W2F1000T5E; feedback before this resistor",
+      "procurement": {
+        "mpn": "HP06W2F1000T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "1206",
+        "jlc": "C2765755",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C2765755",
+        "board": "main"
+      },
+      "shapeKey": "1206",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_OUT_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "R_OUT",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "J_OUT_R",
+      "kind": "CONNECTOR",
+      "value": "3.5mm TS",
+      "pins": {
+        "1": "R_OUT",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "note": "QingPu WQP-WQP518MA selected. Logical 1=tip maps to physical 3; logical 2=GND maps to physical 1; physical 2 NC unused",
+      "procurement": {
+        "mpn": "WQP-WQP518MA",
+        "manufacturer": "QingPu",
+        "package": "WQP518MA",
+        "assembly": "user_stock_hand_solder",
+        "source": "https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf",
+        "board": "control"
+      },
+      "shapeKey": "WQP",
+      "board": "control"
+    },
+    {
+      "ref": "R_R_HALF_IN",
+      "kind": "R",
+      "value": "100k",
+      "pins": {
+        "1": "R_OUT",
+        "2": "R_HALF_SUM"
+      },
+      "section": "R-analog",
+      "note": "0.1%; meter senses actual output jack",
+      "procurement": {
+        "mpn": "RT0603BRD07100KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C122538",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C122538",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_HALF_FB",
+      "kind": "R",
+      "value": "100k",
+      "pins": {
+        "1": "R_HALF",
+        "2": "R_HALF_SUM"
+      },
+      "section": "R-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD07100KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C122538",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C122538",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "D_R_HALF_CLAMP",
+      "kind": "D",
+      "value": "1N4148W",
+      "pins": {
+        "1": "R_HALF_SUM",
+        "2": "R_HALF_DRIVE"
+      },
+      "section": "R-analog",
+      "note": "pin 1 cathode; pin 2 anode",
+      "procurement": {
+        "mpn": "1N4148W",
+        "manufacturer": "ST(Semtech)",
+        "package": "SOD-123",
+        "jlc": "C81598",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C81598",
+        "board": "main"
+      },
+      "shapeKey": "SOD-123",
+      "board": "main"
+    },
+    {
+      "ref": "D_R_HALF_RECT",
+      "kind": "D",
+      "value": "1N4148W",
+      "pins": {
+        "1": "R_HALF_DRIVE",
+        "2": "R_HALF"
+      },
+      "section": "R-analog",
+      "note": "pin 1 cathode; pin 2 anode",
+      "procurement": {
+        "mpn": "1N4148W",
+        "manufacturer": "ST(Semtech)",
+        "package": "SOD-123",
+        "jlc": "C81598",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C81598",
+        "board": "main"
+      },
+      "shapeKey": "SOD-123",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_ABS_RAW",
+      "kind": "R",
+      "value": "100k",
+      "pins": {
+        "1": "R_OUT",
+        "2": "R_ABS_SUM"
+      },
+      "section": "R-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD07100KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C122538",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C122538",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_ABS_HALF",
+      "kind": "R",
+      "value": "50k",
+      "pins": {
+        "1": "R_HALF",
+        "2": "R_ABS_SUM"
+      },
+      "section": "R-analog",
+      "note": "0.1%",
+      "procurement": {
+        "mpn": "RT0603BRD0750KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C861451",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C861451",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_ABS_FB",
+      "kind": "R",
+      "value": "20k",
+      "pins": {
+        "1": "R_ABS",
+        "2": "R_ABS_SUM"
+      },
+      "section": "R-analog",
+      "note": "0.1%; ABS=-0.2*OUT-0.4*HALF",
+      "procurement": {
+        "mpn": "RT0603BRD0720KL",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C723637",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C723637",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "D_R_PEAK",
+      "kind": "D",
+      "value": "1N4148W",
+      "pins": {
+        "1": "R_PEAK_FOLLOW",
+        "2": "R_PEAK_DRIVE"
+      },
+      "section": "R-analog",
+      "note": "pin 1 cathode; pin 2 anode",
+      "procurement": {
+        "mpn": "1N4148W",
+        "manufacturer": "ST(Semtech)",
+        "package": "SOD-123",
+        "jlc": "C81598",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C81598",
+        "board": "main"
+      },
+      "shapeKey": "SOD-123",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_ATTACK",
+      "kind": "R",
+      "value": "1k",
+      "pins": {
+        "1": "R_PEAK_FOLLOW",
+        "2": "R_ENV"
+      },
+      "section": "R-analog",
+      "note": "Capacitor isolated outside feedback loop",
+      "procurement": {
+        "mpn": "0603WAF1001T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C21190",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C21190",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_HOLD",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "R_ENV",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "note": "5% film or C0G",
+      "procurement": {
+        "mpn": "GRM31C5C1H104JA01L",
+        "manufacturer": "Murata Electronics",
+        "package": "1206",
+        "jlc": "C97946",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C97946",
+        "board": "main"
+      },
+      "shapeKey": "1206",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_RELEASE",
+      "kind": "R",
+      "value": "1M",
+      "pins": {
+        "1": "R_ENV",
+        "2": "GND"
+      },
+      "section": "R-analog",
+      "note": "Nominal 100ms release time constant",
+      "procurement": {
+        "mpn": "0603WAF1004T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C22935",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C22935",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "U_METER_R",
+      "kind": "IC",
+      "value": "LM339BIPWR",
+      "pins": {
+        "1": "R_LED_2_K",
+        "2": "R_LED_1_K",
+        "3": "VP",
+        "4": "R_ENV_BUF",
+        "5": "TH_1",
+        "6": "R_ENV_BUF",
+        "7": "TH_2",
+        "8": "R_ENV_BUF",
+        "9": "TH_3",
+        "10": "R_ENV_BUF",
+        "11": "TH_4",
+        "12": "GND",
+        "13": "R_LED_4_K",
+        "14": "R_LED_3_K"
+      },
+      "section": "R-meter",
+      "note": "Open collector sinks current when ENV exceeds threshold",
+      "labels": {
+        "1": "OUT_2",
+        "2": "OUT_1",
+        "3": "VP",
+        "4": "NEG_1",
+        "5": "POS_1",
+        "6": "NEG_2",
+        "7": "POS_2",
+        "8": "NEG_3",
+        "9": "POS_3",
+        "10": "NEG_4",
+        "11": "POS_4",
+        "12": "GND",
+        "13": "OUT_4",
+        "14": "OUT_3"
+      },
+      "procurement": {
+        "mpn": "LM339BIPWR",
+        "manufacturer": "Texas Instruments",
+        "package": "TSSOP-14",
+        "jlc": "C7430196",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C7430196",
+        "board": "main"
+      },
+      "shapeKey": "TSSOP-14",
+      "board": "main"
+    },
+    {
+      "ref": "C_R_CMP",
+      "kind": "C",
+      "value": "100nF",
+      "pins": {
+        "1": "VP",
+        "2": "GND"
+      },
+      "section": "R-meter",
+      "procurement": {
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "jlc": "C14663",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C14663",
+        "board": "main"
+      },
+      "shapeKey": "0603",
+      "board": "main"
+    },
+    {
+      "ref": "R_R_LED_1",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "R_LED_1_A"
+      },
+      "section": "R-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_R_1",
+      "kind": "LED",
+      "value": "green",
+      "pins": {
+        "1": "R_LED_1_K",
+        "2": "R_LED_1_A"
+      },
+      "section": "R-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "XL-302UGD",
+        "manufacturer": "XINGLIGHT",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C2895476",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C2895476",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "R_R_LED_2",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "R_LED_2_A"
+      },
+      "section": "R-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_R_2",
+      "kind": "LED",
+      "value": "green",
+      "pins": {
+        "1": "R_LED_2_K",
+        "2": "R_LED_2_A"
+      },
+      "section": "R-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "XL-302UGD",
+        "manufacturer": "XINGLIGHT",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C2895476",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C2895476",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "R_R_LED_3",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "R_LED_3_A"
+      },
+      "section": "R-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_R_3",
+      "kind": "LED",
+      "value": "amber",
+      "pins": {
+        "1": "R_LED_3_K",
+        "2": "R_LED_3_A"
+      },
+      "section": "R-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "TZ-L2-03YYBY2YDJ30-001",
+        "manufacturer": "TUOZHAN",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C779430",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C779430",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "R_R_LED_4",
+      "kind": "R",
+      "value": "10k",
+      "pins": {
+        "1": "VLED",
+        "2": "R_LED_4_A"
+      },
+      "section": "R-meter",
+      "note": "About 0.9mA; brightness to verify",
+      "procurement": {
+        "mpn": "0603WAF1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "package": "0603",
+        "jlc": "C25804",
+        "assembly": "smtWeld",
+        "source": "https://jlcpcb.com/partdetail/C25804",
+        "board": "control"
+      },
+      "shapeKey": "0603",
+      "board": "control"
+    },
+    {
+      "ref": "LED_R_4",
+      "kind": "LED",
+      "value": "red",
+      "pins": {
+        "1": "R_LED_4_K",
+        "2": "R_LED_4_A"
+      },
+      "section": "R-meter",
+      "note": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "procurement": {
+        "mpn": "XL-302SURD",
+        "manufacturer": "XINGLIGHT",
+        "package": "Plugin,D=3mm",
+        "assembly": "user_hand_solder",
+        "source": "https://jlcpcb.com/partdetail/C2895470",
+        "board": "control",
+        "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+        "catalog_reference": "C2895470",
+        "procurement_status": "separate_purchase_required_stock_not_verified"
+      },
+      "shapeKey": "LED3",
+      "board": "control"
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "kind": "CONNECTOR",
+      "value": "2x4 board interconnect",
+      "pins": {
+        "1": "L_LED_1_K",
+        "2": "L_LED_2_K",
+        "3": "L_LED_3_K",
+        "4": "L_LED_4_K",
+        "5": "R_LED_1_K",
+        "6": "R_LED_2_K",
+        "7": "R_LED_3_K",
+        "8": "R_LED_4_K"
+      },
+      "section": "interconnect",
+      "shapeKey": "TSW-2x4",
+      "board": "control",
+      "procurement": {
+        "mpn": "TSW-104-07-L-D",
+        "manufacturer": "Samtec",
+        "package": "TSW-2x4",
+        "assembly": "user hand solder",
+        "board": "control",
+        "source": "https://www.samtec.com/products/tsw-104-07-l-d"
+      },
+      "note": "Logical pin IDs follow mated coordinates. Unkeyed: both rows are horizontal; align marked board tops before inserting."
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "kind": "CONNECTOR",
+      "value": "2x4 board interconnect",
+      "pins": {
+        "1": "L_RX_OUT",
+        "2": "L_WIPER",
+        "3": "L_OUT",
+        "4": "R_RX_OUT",
+        "5": "R_WIPER",
+        "6": "R_OUT",
+        "7": "GND",
+        "8": "VLED"
+      },
+      "section": "interconnect",
+      "shapeKey": "TSW-2x4",
+      "board": "control",
+      "procurement": {
+        "mpn": "TSW-104-07-L-D",
+        "manufacturer": "Samtec",
+        "package": "TSW-2x4",
+        "assembly": "user hand solder",
+        "board": "control",
+        "source": "https://www.samtec.com/products/tsw-104-07-l-d"
+      },
+      "note": "Logical pin IDs follow mated coordinates. Unkeyed: both rows are horizontal; align marked board tops before inserting."
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "kind": "CONNECTOR",
+      "value": "2x4 board interconnect",
+      "pins": {
+        "1": "L_LED_1_K",
+        "2": "L_LED_2_K",
+        "3": "L_LED_3_K",
+        "4": "L_LED_4_K",
+        "5": "R_LED_1_K",
+        "6": "R_LED_2_K",
+        "7": "R_LED_3_K",
+        "8": "R_LED_4_K"
+      },
+      "section": "interconnect",
+      "shapeKey": "SSW-2x4",
+      "board": "main",
+      "procurement": {
+        "mpn": "SSW-104-01-F-D",
+        "manufacturer": "Samtec",
+        "package": "SSW-2x4",
+        "assembly": "user hand solder",
+        "board": "main",
+        "source": "https://www.samtec.com/products/ssw-104-01-f-d"
+      },
+      "note": "Logical pin IDs follow mated coordinates. Unkeyed: both rows are horizontal; align marked board tops before inserting."
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "kind": "CONNECTOR",
+      "value": "2x4 board interconnect",
+      "pins": {
+        "1": "L_RX_OUT",
+        "2": "L_WIPER",
+        "3": "L_OUT",
+        "4": "R_RX_OUT",
+        "5": "R_WIPER",
+        "6": "R_OUT",
+        "7": "GND",
+        "8": "VLED"
+      },
+      "section": "interconnect",
+      "shapeKey": "SSW-2x4",
+      "board": "main",
+      "procurement": {
+        "mpn": "SSW-104-01-F-D",
+        "manufacturer": "Samtec",
+        "package": "SSW-2x4",
+        "assembly": "user hand solder",
+        "board": "main",
+        "source": "https://www.samtec.com/products/ssw-104-01-f-d"
+      },
+      "note": "Logical pin IDs follow mated coordinates. Unkeyed: both rows are horizontal; align marked board tops before inserting."
+    }
+  ]
+}

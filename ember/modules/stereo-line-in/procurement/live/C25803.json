@@ -1,0 +1,55 @@
+{
+  "componentCode": "C25803",
+  "componentModelEn": "0603WAF1003T5E",
+  "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+  "componentSpecificationEn": "0603",
+  "describe": "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C25803",
+      "attribute_value_name": "100kΩ"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C25803",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C25803",
+      "attribute_value_name": "100mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C25803",
+      "attribute_value_name": "Thick Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C25803",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C25803",
+      "attribute_value_name": "±1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C25803",
+      "attribute_value_name": "±100ppm/℃"
+    }
+  ],
+  "overseasStockCount": 23832895,
+  "canPresaleNumber": 22250871,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 2799,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C25803",
+  "checked_at": "2026-09-13T08:58:31.472332+00:00"
+}

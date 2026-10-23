@@ -1,0 +1,580 @@
+(session control
+  (base_design control)
+  (placement
+    (resolution mm 10000)
+    (component "C_LED_BULK"
+      (place "C_LED_BULK" 0 0 front 0)
+    )
+    (component "RV_L"
+      (place "RV_L" 0 0 front 0)
+    )
+    (component "RV_R"
+      (place "RV_R" 0 0 front 0)
+    )
+    (component "J_OUT_L"
+      (place "J_OUT_L" 0 0 front 0)
+    )
+    (component "R_L_LED_1"
+      (place "R_L_LED_1" 0 0 front 0)
+    )
+    (component "LED_L_1"
+      (place "LED_L_1" 0 0 front 0)
+    )
+    (component "R_L_LED_2"
+      (place "R_L_LED_2" 0 0 front 0)
+    )
+    (component "LED_L_2"
+      (place "LED_L_2" 0 0 front 0)
+    )
+    (component "R_L_LED_3"
+      (place "R_L_LED_3" 0 0 front 0)
+    )
+    (component "LED_L_3"
+      (place "LED_L_3" 0 0 front 0)
+    )
+    (component "R_L_LED_4"
+      (place "R_L_LED_4" 0 0 front 0)
+    )
+    (component "LED_L_4"
+      (place "LED_L_4" 0 0 front 0)
+    )
+    (component "J_OUT_R"
+      (place "J_OUT_R" 0 0 front 0)
+    )
+    (component "R_R_LED_1"
+      (place "R_R_LED_1" 0 0 front 0)
+    )
+    (component "LED_R_1"
+      (place "LED_R_1" 0 0 front 0)
+    )
+    (component "R_R_LED_2"
+      (place "R_R_LED_2" 0 0 front 0)
+    )
+    (component "LED_R_2"
+      (place "LED_R_2" 0 0 front 0)
+    )
+    (component "R_R_LED_3"
+      (place "R_R_LED_3" 0 0 front 0)
+    )
+    (component "LED_R_3"
+      (place "LED_R_3" 0 0 front 0)
+    )
+    (component "R_R_LED_4"
+      (place "R_R_LED_4" 0 0 front 0)
+    )
+    (component "LED_R_4"
+      (place "LED_R_4" 0 0 front 0)
+    )
+    (component "J_LINK_TOP"
+      (place "J_LINK_TOP" 0 0 front 0)
+    )
+    (component "J_LINK_BOTTOM"
+      (place "J_LINK_BOTTOM" 0 0 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mm 10000)
+    (parser
+    )
+    (library_out 
+      (padstack "VIA_06"
+        (shape
+          (circle top 6000 0 0)
+        )
+        (shape
+          (circle bottom 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net VLED
+        (wire
+          (path bottom 1500
+            20000 10717
+            8795 10717
+            -13588 33100
+          )
+        )
+        (wire
+          (path bottom 1500
+            36133 30000
+            36133 26000
+            20850 10717
+            20000 10717
+          )
+        )
+        (wire
+          (path bottom 1500
+            20000 9867
+            20000 10717
+          )
+        )
+        (wire
+          (path bottom 1500
+            27000 -95000
+            27000 -106367
+          )
+        )
+        (wire
+          (path bottom 1500
+            38100 -357700
+            49463 -346337
+            49463 -250311
+            38367 -239215
+            38367 -117734
+            27000 -106367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -13588 33100
+            -13588 66837
+            15708 96133
+            20000 96133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -52333 33100
+            -13588 33100
+          )
+        )
+        (wire
+          (path bottom 1500
+            43000 30000
+            36133 30000
+          )
+        )
+        (wire
+          (path bottom 1500
+            20000 3000
+            20000 9867
+          )
+        )
+        (wire
+          (path bottom 1500
+            27000 -83633
+            12633 -69266
+            12633 -4367
+            20000 3000
+          )
+        )
+        (wire
+          (path bottom 1500
+            27000 -95000
+            27000 -83633
+          )
+        )
+        (wire
+          (path bottom 1500
+            20000 153000
+            20000 146133
+          )
+        )
+        (wire
+          (path bottom 1500
+            20000 103000
+            20000 109867
+          )
+        )
+        (wire
+          (path bottom 1500
+            20000 109867
+            12633 117234
+            12633 143058
+            15708 146133
+            20000 146133
+          )
+        )
+        (wire
+          (path bottom 1500
+            20000 103000
+            20000 96133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -52333 33100
+            -53900 33100
+            -57000 30000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -71095 118772
+            -52333 100009
+            -52333 33100
+          )
+        )
+        (wire
+          (path bottom 1500
+            -71095 118772
+            -80000 109867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -72633 153000
+            -69691 155942
+            -58435 155942
+            -51826 149333
+            -51826 138041
+            -71095 118772
+          )
+        )
+        (wire
+          (path bottom 1500
+            -80000 3000
+            -80000 9867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -57000 30000
+            -63867 30000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -63867 30000
+            -63867 26000
+            -80000 9867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -80000 103000
+            -80000 109867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -80000 153000
+            -72633 153000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path top 1500
+            -25000 180200
+            -50000 180200
+          )
+        )
+        (wire
+          (path top 1500
+            50000 180200
+            -25000 180200
+          )
+        )
+        (wire
+          (path top 1500
+            -25000 -170000
+            -25000 180200
+          )
+        )
+        (wire
+          (path bottom 1500
+            38100 -332300
+            38100 -301042
+            29937 -292879
+            -12879 -292879
+            -25000 -305000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -27000 -95000
+            -27000 -106367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -25000 -170000
+            -25000 -108367
+            -27000 -106367
+          )
+        )
+        (wire
+          (path top 1500
+            -25000 -305000
+            -25000 -170000
+          )
+        )
+      )
+      (net "L_LED_1_A"
+        (wire
+          (path bottom 1500
+            -80000 -13000
+            -80000 -6133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -62700 -5000
+            -78867 -5000
+            -80000 -6133
+          )
+        )
+      )
+      (net "L_LED_2_A"
+        (wire
+          (path bottom 1500
+            -73000 30000
+            -73000 37367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -62700 45000
+            -70333 37367
+            -73000 37367
+          )
+        )
+      )
+      (net "L_LED_3_A"
+        (wire
+          (path bottom 1500
+            -80000 87000
+            -80000 93867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -62700 95000
+            -78867 95000
+            -80000 93867
+          )
+        )
+      )
+      (net "L_LED_4_A"
+        (wire
+          (path bottom 1500
+            -80000 137000
+            -80000 143867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -62700 145000
+            -78867 145000
+            -80000 143867
+          )
+        )
+      )
+      (net "R_LED_1_A"
+        (wire
+          (path bottom 1500
+            20000 -13000
+            20000 -6133
+          )
+        )
+        (wire
+          (path bottom 1500
+            37300 -5000
+            21133 -5000
+            20000 -6133
+          )
+        )
+      )
+      (net "R_LED_2_A"
+        (wire
+          (path bottom 1500
+            27000 30000
+            27000 37367
+          )
+        )
+        (wire
+          (path bottom 1500
+            37300 45000
+            29667 37367
+            27000 37367
+          )
+        )
+      )
+      (net "R_LED_3_A"
+        (wire
+          (path bottom 1500
+            37300 95000
+            29300 87000
+            20000 87000
+          )
+        )
+      )
+      (net "R_LED_4_A"
+        (wire
+          (path bottom 1500
+            37300 145000
+            29300 137000
+            20000 137000
+          )
+        )
+      )
+      (net "L_WIPER"
+        (wire
+          (path top 1500
+            -38100 -357700
+            -25400 -345000
+            -9640 -345000
+            314 -335046
+            314 -328660
+            12500 -316474
+            12500 -182500
+            0 -170000
+          )
+        )
+      )
+      (net "L_RX_OUT"
+        (wire
+          (path bottom 1500
+            -38100 -332300
+            -38100 -233100
+            25000 -170000
+          )
+        )
+      )
+      (net "R_WIPER"
+        (wire
+          (path bottom 1500
+            12700 -332300
+            12700 -317700
+            0 -305000
+          )
+        )
+      )
+      (net "R_RX_OUT"
+        (wire
+          (path bottom 1500
+            -12700 -357700
+            0 -345000
+            15760 -345000
+            25000 -335760
+            25000 -305000
+          )
+        )
+      )
+      (net "L_OUT"
+        (wire
+          (path top 1500
+            -12700 -332300
+            -12700 -84939
+            50000 -22239
+            50000 149997
+            64403 164400
+            64403 187038
+            55741 195700
+            45138 195700
+            18649 222189
+            18649 225552
+            18648 225552
+            -50000 294200
+          )
+        )
+      )
+      (net "L_LED_1_K"
+        (wire
+          (path top 1500
+            -38100 357700
+            -64996 330804
+            -64996 170671
+            -50000 155675
+            -50000 7700
+            -37300 -5000
+          )
+        )
+      )
+      (net "L_LED_2_K"
+        (wire
+          (path bottom 1500
+            -38100 332300
+            -35472 329672
+            -35472 170202
+            -47667 158007
+            -47667 55367
+            -37300 45000
+          )
+        )
+      )
+      (net "L_LED_3_K"
+        (wire
+          (path bottom 1500
+            -12700 357700
+            -1394 346394
+            -1394 130906
+            -37300 95000
+          )
+        )
+      )
+      (net "L_LED_4_K"
+        (wire
+          (path bottom 1500
+            -12700 332300
+            -12700 169600
+            -37300 145000
+          )
+        )
+      )
+      (net "R_OUT"
+        (wire
+          (path top 1500
+            12700 -357700
+            25400 -345000
+            25400 -322733
+            73436 -274697
+            73436 270764
+            50000 294200
+          )
+        )
+      )
+      (net "R_LED_1_K"
+        (wire
+          (path bottom 1500
+            12700 357700
+            1778 346778
+            1778 199488
+            49216 152050
+            49216 84906
+            52333 81789
+            52333 5367
+            62700 -5000
+          )
+        )
+      )
+      (net "R_LED_2_K"
+        (wire
+          (path bottom 1500
+            12700 332300
+            12700 192975
+            52333 153342
+            52333 87750
+            62700 77383
+            62700 45000
+          )
+        )
+      )
+      (net "R_LED_3_K"
+        (wire
+          (path bottom 1500
+            38100 357700
+            73745 322055
+            73745 106045
+            62700 95000
+          )
+        )
+      )
+      (net "R_LED_4_K"
+        (wire
+          (path bottom 1500
+            38100 332300
+            64882 305518
+            64882 147182
+            62700 145000
+          )
+        )
+      )
+    )
+  )
+)

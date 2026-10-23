@@ -1,0 +1,78 @@
+{
+  "board": "main",
+  "copies": 4,
+  "size_mm": [
+    92.0,
+    124.0
+  ],
+  "unit_size_mm": [
+    18,
+    110
+  ],
+  "layers": 4,
+  "thickness_mm": 1.6,
+  "rail_mm": 5.0,
+  "routed_gap_mm": 2.0,
+  "mouse_bite_diameter_mm": 0.6,
+  "mouse_bite_pitch_mm": 0.9,
+  "tab_width_mm": 5.0,
+  "tab_rows_from_unit_top_mm": [
+    31.0,
+    79.0
+  ],
+  "mouse_bite_holes": 80,
+  "minimum_bite_to_copper_mm": 0.5718999999999994,
+  "copy_inverse_checks": 5388,
+  "jlc_components_per_panel": 312,
+  "placements": [
+    {
+      "copy": 1,
+      "left_mm": 7.0,
+      "top_mm": 7.0,
+      "bottom_origin_mm": [
+        7.0,
+        7.0
+      ]
+    },
+    {
+      "copy": 2,
+      "left_mm": 27.0,
+      "top_mm": 7.0,
+      "bottom_origin_mm": [
+        27.0,
+        7.0
+      ]
+    },
+    {
+      "copy": 3,
+      "left_mm": 47.0,
+      "top_mm": 7.0,
+      "bottom_origin_mm": [
+        47.0,
+        7.0
+      ]
+    },
+    {
+      "copy": 4,
+      "left_mm": 67.0,
+      "top_mm": 7.0,
+      "bottom_origin_mm": [
+        67.0,
+        7.0
+      ]
+    }
+  ],
+  "origin": "panel lower left; CPL X right / Y up; both faces in top view",
+  "drc_violations": 0,
+  "unconnected": 0,
+  "source_sha256": {
+    "main.kicad_pcb": "8c3f5390281380868891cd03754c1579dd234166e968a8885098e20b1ac49146",
+    "BOM-JLC.csv": "681ffdf7767fb1db987231a1a96a10b76edb984e4911eee65925bc16606b6c8c",
+    "CPL-JLC.csv": "73bc6f21a248160463ef01ecd90e35d37631396c33bee186ef7f67461e9fd0c4"
+  },
+  "not_verified": [
+    "JLC upload, milling/tooling review and assembly angle preview",
+    "Live stock and order quantity",
+    "Physical break-off strength and burr removal"
+  ]
+}

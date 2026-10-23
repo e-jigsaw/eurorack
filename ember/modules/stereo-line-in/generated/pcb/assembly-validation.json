@@ -1,0 +1,204 @@
+{
+  "status": "nominal geometry checked; physical tolerances/retention not measured",
+  "board_gap_mm": 12.4,
+  "pin_insertion_mm": 4.49,
+  "permitted_pin_insertion_mm": [
+    3.68,
+    6.35
+  ],
+  "connector_housing_gap_mm": 1.35,
+  "max_solder_tail_including_solder_mm": 1.5,
+  "mating_pin_checks": [
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "1",
+      "x": 6.1899999999999995,
+      "y": 10.729999999999997,
+      "net": "L_LED_1_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "2",
+      "x": 6.1899999999999995,
+      "y": 13.270000000000003,
+      "net": "L_LED_2_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "3",
+      "x": 8.73,
+      "y": 10.729999999999997,
+      "net": "L_LED_3_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "4",
+      "x": 8.73,
+      "y": 13.270000000000003,
+      "net": "L_LED_4_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "5",
+      "x": 11.27,
+      "y": 10.729999999999997,
+      "net": "R_LED_1_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "6",
+      "x": 11.27,
+      "y": 13.270000000000003,
+      "net": "R_LED_2_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "7",
+      "x": 13.81,
+      "y": 10.729999999999997,
+      "net": "R_LED_3_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_TOP",
+      "pin": "8",
+      "x": 13.81,
+      "y": 13.270000000000003,
+      "net": "R_LED_4_K",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "1",
+      "x": 6.1899999999999995,
+      "y": 79.72999999999999,
+      "net": "L_RX_OUT",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "2",
+      "x": 6.1899999999999995,
+      "y": 82.27000000000001,
+      "net": "L_WIPER",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "3",
+      "x": 8.73,
+      "y": 79.72999999999999,
+      "net": "L_OUT",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "4",
+      "x": 8.73,
+      "y": 82.27000000000001,
+      "net": "R_RX_OUT",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "5",
+      "x": 11.27,
+      "y": 79.72999999999999,
+      "net": "R_WIPER",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "6",
+      "x": 11.27,
+      "y": 82.27000000000001,
+      "net": "R_OUT",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "7",
+      "x": 13.81,
+      "y": 79.72999999999999,
+      "net": "GND",
+      "xy_error_mm": 0.0
+    },
+    {
+      "ref": "J_LINK_BOTTOM",
+      "pin": "8",
+      "x": 13.81,
+      "y": 82.27000000000001,
+      "net": "VLED",
+      "xy_error_mm": 0.0
+    }
+  ],
+  "capacitors": [
+    {
+      "ref": "C_BULK_P",
+      "body_z_mm": [
+        18.6,
+        24
+      ],
+      "control_pcb_clearance_mm": 7.0,
+      "clearance_after_1_5mm_tail_mm": 5.5
+    },
+    {
+      "ref": "C_BULK_N",
+      "body_z_mm": [
+        18.6,
+        24
+      ],
+      "control_pcb_clearance_mm": 7.0,
+      "clearance_after_1_5mm_tail_mm": 5.5
+    },
+    {
+      "ref": "C_L_P_AC",
+      "body_z_mm": [
+        14,
+        24
+      ],
+      "control_pcb_clearance_mm": 2.4,
+      "clearance_after_1_5mm_tail_mm": 0.9
+    },
+    {
+      "ref": "C_L_N_AC",
+      "body_z_mm": [
+        14,
+        24
+      ],
+      "control_pcb_clearance_mm": 2.4,
+      "clearance_after_1_5mm_tail_mm": 0.9
+    },
+    {
+      "ref": "C_R_P_AC",
+      "body_z_mm": [
+        14,
+        24
+      ],
+      "control_pcb_clearance_mm": 2.4,
+      "clearance_after_1_5mm_tail_mm": 0.9
+    },
+    {
+      "ref": "C_R_N_AC",
+      "body_z_mm": [
+        14,
+        24
+      ],
+      "control_pcb_clearance_mm": 2.4,
+      "clearance_after_1_5mm_tail_mm": 0.9
+    }
+  ],
+  "errors": [],
+  "not_verified": [
+    "Combined panel/jack/pot/connector tolerances",
+    "Mated retention under handling and shock",
+    "Actual lead trimming and solder protrusion",
+    "Real hardware assembly"
+  ]
+}

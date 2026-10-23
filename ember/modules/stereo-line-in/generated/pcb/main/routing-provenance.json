@@ -1,0 +1,16 @@
+{
+  "engine": "Freerouting 2.4.1, local Java 25",
+  "tscircuit": "0.0.2046",
+  "layers": [
+    "top",
+    "inner1",
+    "inner2",
+    "bottom"
+  ],
+  "traces": 513,
+  "vias": 91,
+  "adjustments_sha256": "714837b2f2bebc42fca50be871ac5e66065f019f421120b62d701a52c4474f0a",
+  "placement_sha256": "995058859cc91f849e15b2b8eec375b1a609ba7788af7f581ad75686315c5739",
+  "dsn_sha256": "32a7334a5317c05c1eb45f77a73e44f728a6ae9e77d2a246ef4e7deaaeb7c941",
+  "ses_sha256": "8a5a4e4fc94b65b23dff910d62990379a4f145e483e7afe236389f9ed36b6493"
+}

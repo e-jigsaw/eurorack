@@ -1,0 +1,45 @@
+{
+  "componentCode": "C92673",
+  "componentModelEn": "MKS2C041001F00JSSD",
+  "componentBrandEn": "WIMA",
+  "componentSpecificationEn": "Plugin,P=5mm",
+  "describe": "-55℃~+100℃ 1uF 63V Metallized Polyester ±5% 插件,P=5mm Film Capacitors ROHS",
+  "assemblyMode": "manualWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://datasheet.lcsc.com/lcsc/1810010527_WIMA-MKS2C041001F00JSSD_C92673.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C92673",
+      "attribute_value_name": "-55℃~+100℃"
+    },
+    {
+      "attribute_name_en": "Dielectric Material",
+      "component_code": "C92673",
+      "attribute_value_name": "Metallized Polyester"
+    },
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C92673",
+      "attribute_value_name": "63V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C92673",
+      "attribute_value_name": "±5%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C92673",
+      "attribute_value_name": "1uF"
+    }
+  ],
+  "overseasStockCount": 7228,
+  "canPresaleNumber": 7101,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 8,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C92673",
+  "checked_at": "2026-09-13T08:58:23.126903+00:00"
+}

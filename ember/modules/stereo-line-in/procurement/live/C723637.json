@@ -1,0 +1,55 @@
+{
+  "componentCode": "C723637",
+  "componentModelEn": "RT0603BRD0720KL",
+  "componentBrandEn": "YAGEO",
+  "componentSpecificationEn": "0603",
+  "describe": "-55℃~+155℃ 100mW 20kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008171335_YAGEO-RT0603BRD0720KL_C723637.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C723637",
+      "attribute_value_name": "20kΩ"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C723637",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C723637",
+      "attribute_value_name": "100mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C723637",
+      "attribute_value_name": "Thin Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C723637",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C723637",
+      "attribute_value_name": "±0.1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C723637",
+      "attribute_value_name": "±25ppm/℃"
+    }
+  ],
+  "overseasStockCount": 692817,
+  "canPresaleNumber": 659736,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 307,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C723637",
+  "checked_at": "2026-09-13T08:58:11.457755+00:00"
+}

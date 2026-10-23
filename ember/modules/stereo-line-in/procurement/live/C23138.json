@@ -1,0 +1,55 @@
+{
+  "componentCode": "C23138",
+  "componentModelEn": "0603WAF3300T5E",
+  "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+  "componentSpecificationEn": "0603",
+  "describe": "-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C23138",
+      "attribute_value_name": "330Ω"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C23138",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C23138",
+      "attribute_value_name": "100mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C23138",
+      "attribute_value_name": "Thick Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C23138",
+      "attribute_value_name": "75V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C23138",
+      "attribute_value_name": "±1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C23138",
+      "attribute_value_name": "±100ppm/℃"
+    }
+  ],
+  "overseasStockCount": 4009023,
+  "canPresaleNumber": 3603635,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 4071,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C23138",
+  "checked_at": "2026-09-13T08:58:37.000591+00:00"
+}

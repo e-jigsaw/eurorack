@@ -1,0 +1,17 @@
+{
+  "revision": "D",
+  "source_components": 101,
+  "mpn_matches": 101,
+  "nominal_R_C_value_matches": 71,
+  "jlc_parts": 87,
+  "jlc_types": 30,
+  "pcb": "Both boards routed; independent copper and KiCad DRC pass; see generated/pcb/*/build-report.json",
+  "spice_functional_cases": 7,
+  "spice_status": "Recorded earlier for unchanged electrical values; not rerun during PCB-only revision",
+  "typecheck": "Scoped pinned dependencies: PCB JSX and preview build passed",
+  "not_done": [
+    "JLC upload / assembly orientation preview / DFM acceptance",
+    "Physical seating / interboard wiring bend / solder height",
+    "Manufacturer-model or hardware audio validation"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "componentCode": "C15848",
+  "componentModelEn": "RVT1E220M0505",
+  "componentBrandEn": "Honor Elec",
+  "componentSpecificationEn": "SMD,D5xL5.4mm",
+  "describe": "-55℃~+105℃ 2000hrs@105℃ 22uF 25V 5.4mm 5mm ±20% SMD,D5xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Honor-Elec-RVT1E220M0505_C15848.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C15848",
+      "attribute_value_name": "-55℃~+105℃"
+    },
+    {
+      "attribute_name_en": "Lifetime",
+      "component_code": "C15848",
+      "attribute_value_name": "2000hrs@105℃"
+    },
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C15848",
+      "attribute_value_name": "25V"
+    },
+    {
+      "attribute_name_en": "Height - Seated (Max)",
+      "component_code": "C15848",
+      "attribute_value_name": "5.4mm"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C15848",
+      "attribute_value_name": "±20%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C15848",
+      "attribute_value_name": "22uF"
+    },
+    {
+      "attribute_name_en": "Diameter",
+      "component_code": "C15848",
+      "attribute_value_name": "5mm"
+    }
+  ],
+  "overseasStockCount": 6301,
+  "canPresaleNumber": 5527,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 380,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C15848",
+  "checked_at": "2026-09-13T08:59:54.781438+00:00"
+}

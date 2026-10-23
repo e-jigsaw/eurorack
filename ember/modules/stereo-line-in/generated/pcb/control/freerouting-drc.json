@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.kicad.org/drc.v1.json",
+  "coordinateUnits": "mm",
+  "date": "2026-09-13T23:54:48.405719+09:00",
+  "kicadVersion": "N/A",
+  "freeroutingVersion": "Freerouting 2.4.1",
+  "source": "control.dsn",
+  "unconnectedItems": [],
+  "violations": [],
+  "schematicParity": [],
+  "qualityScore": 999.9912719726562
+}

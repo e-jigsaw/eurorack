@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "board": "control",
+  "routing": "Offline Freerouting 2.4.1 + checked route adjustments; reproduced in tscircuit",
+  "preview": {
+    "board": "control",
+    "traces": 59,
+    "viaCount": 0,
+    "cadModels": 23,
+    "copperMatchesManufacturingSource": true,
+    "errors": []
+  },
+  "copper": {
+    "board": "control",
+    "copperPrimitives": 256,
+    "nets": 24,
+    "minimumDifferentNetClearanceInLocalSearch": 0.16176,
+    "shorts": [],
+    "clearanceViolations": [],
+    "geometryErrors": [],
+    "unconnected": []
+  },
+  "kicad": {
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-15T00:41:57+0900",
+    "kicad_version": "9.0.7",
+    "schematic_parity": [],
+    "source": "control.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+  }
+}

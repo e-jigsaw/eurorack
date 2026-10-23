@@ -1,0 +1,5 @@
+{
+  "mainEntrypoint": "control.circuit.tsx",
+  "includeBoardFiles": ["control.circuit.tsx", "main.circuit.tsx"],
+  "ignoredFiles": ["generated/**", "**/*.lck", "mechanical/*.pdf"]
+}

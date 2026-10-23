@@ -1,0 +1,8 @@
+{
+  "board": "main",
+  "traces": 514,
+  "viaCount": 93,
+  "cadModels": 82,
+  "copperMatchesManufacturingSource": true,
+  "errors": []
+}

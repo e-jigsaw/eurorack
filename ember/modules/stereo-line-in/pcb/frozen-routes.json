@@ -1,0 +1,18 @@
+{
+  "control": {
+    "geometry_and_nets_sha256": "0466a85407ea9757a56658e918586b539f2eea14eb64e6545845fbace7903a6f",
+    "dsn_sha256": "904dea560646034ccaf4c3b6b85a791e8f723a79eab38a2fe4ff1d4f30c14522",
+    "ses_sha256": "169d57dfc56fce00239511fc317b4f80f0f5fb54deeb4186936d89740aa32670",
+    "additional-copper.json_sha256": "e5af9bc26c56e848f5a15bb43e5a4c22792985dd61cab2675c0add9e81089682",
+    "route-removals.json_sha256": "3a1432a7c9e2dc28fb0fb59b3c956575b045bfb39a2bf8bb432dd33c4c051a45",
+    "route-adjustments.json_sha256": "714837b2f2bebc42fca50be871ac5e66065f019f421120b62d701a52c4474f0a"
+  },
+  "main": {
+    "geometry_and_nets_sha256": "b3aa67286849ceeab194452ef055fe1dbe429ae0922c5925507b535b4e2544df",
+    "dsn_sha256": "32a7334a5317c05c1eb45f77a73e44f728a6ae9e77d2a246ef4e7deaaeb7c941",
+    "ses_sha256": "8a5a4e4fc94b65b23dff910d62990379a4f145e483e7afe236389f9ed36b6493",
+    "additional-copper.json_sha256": "e5af9bc26c56e848f5a15bb43e5a4c22792985dd61cab2675c0add9e81089682",
+    "route-removals.json_sha256": "3a1432a7c9e2dc28fb0fb59b3c956575b045bfb39a2bf8bb432dd33c4c051a45",
+    "route-adjustments.json_sha256": "714837b2f2bebc42fca50be871ac5e66065f019f421120b62d701a52c4474f0a"
+  }
+}

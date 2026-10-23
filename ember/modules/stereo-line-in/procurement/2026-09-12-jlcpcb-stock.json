@@ -1,0 +1,1006 @@
+{
+  "checked_date": "2026-09-12",
+  "timezone": "Asia/Tokyo",
+  "source": "Live JLCPCB rendered part-detail pages, In Stock and Available Order Qty",
+  "circuit_revision": "A",
+  "circuit_modified": false,
+  "order_ready": false,
+  "entries": [
+    {
+      "mpn": "INA1650IPWR",
+      "jlc": "C553130",
+      "package": "TSSOP-14",
+      "in_stock": 875,
+      "available_order_qty": 845,
+      "library": "Extended",
+      "refs": [
+        "U_RX"
+      ],
+      "quantity_per_module": 1,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C553130",
+      "status": "exact_mpn_stock_verified"
+    },
+    {
+      "mpn": "OPA1679IPWR",
+      "jlc": "C2057264",
+      "package": "TSSOP-14",
+      "in_stock": 13146,
+      "available_order_qty": 13061,
+      "library": "Extended",
+      "refs": [
+        "U_L",
+        "U_R"
+      ],
+      "quantity_per_module": 2,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C2057264",
+      "status": "exact_mpn_stock_verified"
+    },
+    {
+      "mpn": "OPA1678IDGKR",
+      "jlc": "C2863133",
+      "package": "VSSOP-8",
+      "in_stock": 2945,
+      "available_order_qty": 2913,
+      "library": "Extended",
+      "refs": [
+        "U_ENV"
+      ],
+      "quantity_per_module": 1,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C2863133",
+      "status": "exact_mpn_stock_verified"
+    },
+    {
+      "mpn": "LM339BIPWR",
+      "jlc": "C7430196",
+      "package": "TSSOP-14",
+      "in_stock": 4368,
+      "available_order_qty": 4021,
+      "library": "Extended",
+      "refs": [
+        "U_METER_L",
+        "U_METER_R"
+      ],
+      "quantity_per_module": 2,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C7430196",
+      "status": "exact_mpn_stock_verified"
+    },
+    {
+      "mpn": "TL431BIDBZR",
+      "jlc": "C41283",
+      "package": "SOT-23-3",
+      "in_stock": 119826,
+      "available_order_qty": 118961,
+      "library": "Extended",
+      "refs": [
+        "U_REF"
+      ],
+      "quantity_per_module": 1,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C41283",
+      "status": "exact_mpn_stock_verified"
+    },
+    {
+      "mpn": "1N4148W (ST/Semtech)",
+      "jlc": "C81598",
+      "package": "SOD-123",
+      "in_stock": 3348302,
+      "available_order_qty": 3079137,
+      "library": "Basic",
+      "refs": [
+        "D_L_HALF_CLAMP",
+        "D_L_HALF_RECT",
+        "D_L_PEAK",
+        "D_R_HALF_CLAMP",
+        "D_R_HALF_RECT",
+        "D_R_PEAK"
+      ],
+      "quantity_per_module": 6,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C81598",
+      "status": "package_candidate_not_applied"
+    },
+    {
+      "mpn": "SS14 (MDD)",
+      "jlc": "C2480",
+      "package": "SMA/DO-214AC",
+      "in_stock": 1419052,
+      "available_order_qty": 1330883,
+      "library": "Basic",
+      "refs": [
+        "D_PWR_P",
+        "D_PWR_N"
+      ],
+      "quantity_per_module": 2,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C2480",
+      "status": "package_candidate_not_applied"
+    },
+    {
+      "mpn": "RT1206BRE0790KL",
+      "jlc": "C871504",
+      "package": "1206; 90k 0.1%",
+      "in_stock": 4174,
+      "available_order_qty": 3887,
+      "library": "Extended",
+      "refs": [
+        "R_L_GAIN_F",
+        "R_R_GAIN_F"
+      ],
+      "quantity_per_module": 2,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C871504",
+      "status": "package_candidate_not_applied"
+    },
+    {
+      "mpn": "RT0603BRD0750KL",
+      "jlc": "C861451",
+      "package": "0603; 50k 0.1%",
+      "in_stock": 246709,
+      "available_order_qty": 219629,
+      "library": "Extended",
+      "refs": [
+        "R_L_ABS_HALF",
+        "R_R_ABS_HALF"
+      ],
+      "quantity_per_module": 2,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C861451",
+      "status": "package_candidate_not_applied"
+    },
+    {
+      "mpn": "GRM31C5C1H104JA01L",
+      "jlc": "C97946",
+      "package": "1206; 100nF 50V C0G 5%",
+      "in_stock": 109215,
+      "available_order_qty": 101112,
+      "library": "Extended",
+      "refs": [
+        "C_L_HOLD",
+        "C_R_HOLD"
+      ],
+      "quantity_per_module": 2,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C97946",
+      "status": "package_candidate_not_applied"
+    },
+    {
+      "mpn": "RT0805BRD07240KL",
+      "jlc": "C784586",
+      "package": "0805; 240k 0.1%",
+      "in_stock": 717,
+      "available_order_qty": 624,
+      "library": "Extended",
+      "refs": [
+        "R_TH_TOP_1"
+      ],
+      "quantity_per_module": 1,
+      "assembly": "SMT Assembly",
+      "pcba": "Economic and Standard",
+      "url": "https://jlcpcb.com/partdetail/C784586",
+      "status": "value_change_candidate_not_applied"
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "J_PWR",
+      "kind": "CONNECTOR",
+      "value": "Eurorack 2x5 keyed",
+      "requirements": "Physical header and orientation not selected",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "D_PWR_P",
+      "kind": "D",
+      "value": "SS14",
+      "requirements": "Series reverse-polarity protection; pin 1 cathode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C2480"
+    },
+    {
+      "ref": "D_PWR_N",
+      "kind": "D",
+      "value": "SS14",
+      "requirements": "Negative rail diode points towards the header",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C2480"
+    },
+    {
+      "ref": "C_BULK_P",
+      "kind": "C",
+      "value": "22uF",
+      "requirements": "Electrolytic >=25V; positive terminal VP",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_BULK_N",
+      "kind": "C",
+      "value": "22uF",
+      "requirements": "Electrolytic >=25V; positive terminal GND",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_LED_SUPPLY",
+      "kind": "R",
+      "value": "47",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_LED_BULK",
+      "kind": "C",
+      "value": "47uF",
+      "requirements": "Electrolytic >=25V",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_REFERENCE",
+      "kind": "R",
+      "value": "2.2k",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_REF",
+      "kind": "IC",
+      "value": "TL431BIDBZR",
+      "requirements": "2.495V shunt; no cathode capacitor (stability region must be respected)",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C41283"
+    },
+    {
+      "ref": "R_TH_TOP_1",
+      "kind": "R",
+      "value": "239k",
+      "requirements": "0.1%",
+      "status": "value_change_candidate_not_applied",
+      "candidate_jlc": "C784586"
+    },
+    {
+      "ref": "R_TH_BOTTOM_1",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "0.1%; shared by L/R",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_TH_TOP_2",
+      "kind": "R",
+      "value": "52.3k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_TH_BOTTOM_2",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "0.1%; shared by L/R",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_TH_TOP_3",
+      "kind": "R",
+      "value": "15k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_TH_BOTTOM_3",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "0.1%; shared by L/R",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_TH_TOP_4",
+      "kind": "R",
+      "value": "5.62k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_TH_BOTTOM_4",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "0.1%; shared by L/R",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_RX",
+      "kind": "IC",
+      "value": "INA1650IPWR",
+      "requirements": "VMID pins intentionally open; COM and REF to GND",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C553130"
+    },
+    {
+      "ref": "C_RX_P",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_RX_N",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "RV1",
+      "kind": "POT",
+      "value": "10k dual-gang audio taper",
+      "requirements": "Logical terminals only, not a manufacturer pinout; CW towards RX_OUT. Tracking spec and body dimensions unselected",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_ENV",
+      "kind": "IC",
+      "value": "OPA1678IDGKR",
+      "requirements": "Dual FET-input envelope buffer; prevents comparator bias from charging hold capacitors",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C2863133"
+    },
+    {
+      "ref": "C_ENV_P",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_ENV_N",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "J_IN_L",
+      "kind": "CONNECTOR",
+      "value": "6.35mm TRS",
+      "requirements": "Logical pin 1 tip, 2 ring, 3 sleeve. TS plug grounds ring. No mono normalization",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_P_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_P_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "requirements": "0.1%; matched pair",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_L_P_AC",
+      "kind": "C",
+      "value": "1uF",
+      "requirements": "Film, >=50V, 5%; input DC blocking",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_N_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_N_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "requirements": "0.1%; matched pair",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_L_N_AC",
+      "kind": "C",
+      "value": "1uF",
+      "requirements": "Film, >=50V, 5%; input DC blocking",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_L",
+      "kind": "IC",
+      "value": "OPA1679IPWR",
+      "requirements": "TSSOP-14 pin map; all four amplifiers used",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C2057264"
+    },
+    {
+      "ref": "C_L_VP",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_L_VN",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_WIPER_FAIL",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "Open-wiper bias; audio taper loaded by <=0.25%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_GAIN_G",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_GAIN_F",
+      "kind": "R",
+      "value": "90k",
+      "requirements": "0.1%; 1+90k/10k=10",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C871504"
+    },
+    {
+      "ref": "C_L_GAIN_F",
+      "kind": "C",
+      "value": "10pF",
+      "requirements": "C0G",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_OUT",
+      "kind": "R",
+      "value": "100",
+      "requirements": "Output isolation; feedback before this resistor",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_OUT_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "J_OUT_L",
+      "kind": "CONNECTOR",
+      "value": "3.5mm TS",
+      "requirements": "Logical pins; physical jack not selected",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_HALF_IN",
+      "kind": "R",
+      "value": "100k",
+      "requirements": "0.1%; meter senses actual output jack",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_HALF_FB",
+      "kind": "R",
+      "value": "100k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "D_L_HALF_CLAMP",
+      "kind": "D",
+      "value": "1N4148W",
+      "requirements": "pin 1 cathode; pin 2 anode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C81598"
+    },
+    {
+      "ref": "D_L_HALF_RECT",
+      "kind": "D",
+      "value": "1N4148W",
+      "requirements": "pin 1 cathode; pin 2 anode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C81598"
+    },
+    {
+      "ref": "R_L_ABS_RAW",
+      "kind": "R",
+      "value": "100k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_ABS_HALF",
+      "kind": "R",
+      "value": "50k",
+      "requirements": "0.1%",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C861451"
+    },
+    {
+      "ref": "R_L_ABS_FB",
+      "kind": "R",
+      "value": "20k",
+      "requirements": "0.1%; ABS=-0.2*OUT-0.4*HALF",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "D_L_PEAK",
+      "kind": "D",
+      "value": "1N4148W",
+      "requirements": "pin 1 cathode; pin 2 anode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C81598"
+    },
+    {
+      "ref": "R_L_ATTACK",
+      "kind": "R",
+      "value": "1k",
+      "requirements": "Capacitor isolated outside feedback loop",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_L_HOLD",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "5% film or C0G",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C97946"
+    },
+    {
+      "ref": "R_L_RELEASE",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "Nominal 100ms release time constant",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_METER_L",
+      "kind": "IC",
+      "value": "LM339BIPWR",
+      "requirements": "Open collector sinks current when ENV exceeds threshold",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C7430196"
+    },
+    {
+      "ref": "C_L_CMP",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_LED_1",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_L_1",
+      "kind": "LED",
+      "value": "green",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_LED_2",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_L_2",
+      "kind": "LED",
+      "value": "green",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_LED_3",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_L_3",
+      "kind": "LED",
+      "value": "amber",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_L_LED_4",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_L_4",
+      "kind": "LED",
+      "value": "red",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "J_IN_R",
+      "kind": "CONNECTOR",
+      "value": "6.35mm TRS",
+      "requirements": "Logical pin 1 tip, 2 ring, 3 sleeve. TS plug grounds ring. No mono normalization",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_P_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_P_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "requirements": "0.1%; matched pair",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_R_P_AC",
+      "kind": "C",
+      "value": "1uF",
+      "requirements": "Film, >=50V, 5%; input DC blocking",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_N_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_N_SERIES",
+      "kind": "R",
+      "value": "1k",
+      "requirements": "0.1%; matched pair",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_R_N_AC",
+      "kind": "C",
+      "value": "1uF",
+      "requirements": "Film, >=50V, 5%; input DC blocking",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_R",
+      "kind": "IC",
+      "value": "OPA1679IPWR",
+      "requirements": "TSSOP-14 pin map; all four amplifiers used",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C2057264"
+    },
+    {
+      "ref": "C_R_VP",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_R_VN",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_WIPER_FAIL",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "Open-wiper bias; audio taper loaded by <=0.25%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_GAIN_G",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_GAIN_F",
+      "kind": "R",
+      "value": "90k",
+      "requirements": "0.1%; 1+90k/10k=10",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C871504"
+    },
+    {
+      "ref": "C_R_GAIN_F",
+      "kind": "C",
+      "value": "10pF",
+      "requirements": "C0G",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_OUT",
+      "kind": "R",
+      "value": "100",
+      "requirements": "Output isolation; feedback before this resistor",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_OUT_BLEED",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "J_OUT_R",
+      "kind": "CONNECTOR",
+      "value": "3.5mm TS",
+      "requirements": "Logical pins; physical jack not selected",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_HALF_IN",
+      "kind": "R",
+      "value": "100k",
+      "requirements": "0.1%; meter senses actual output jack",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_HALF_FB",
+      "kind": "R",
+      "value": "100k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "D_R_HALF_CLAMP",
+      "kind": "D",
+      "value": "1N4148W",
+      "requirements": "pin 1 cathode; pin 2 anode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C81598"
+    },
+    {
+      "ref": "D_R_HALF_RECT",
+      "kind": "D",
+      "value": "1N4148W",
+      "requirements": "pin 1 cathode; pin 2 anode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C81598"
+    },
+    {
+      "ref": "R_R_ABS_RAW",
+      "kind": "R",
+      "value": "100k",
+      "requirements": "0.1%",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_ABS_HALF",
+      "kind": "R",
+      "value": "50k",
+      "requirements": "0.1%",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C861451"
+    },
+    {
+      "ref": "R_R_ABS_FB",
+      "kind": "R",
+      "value": "20k",
+      "requirements": "0.1%; ABS=-0.2*OUT-0.4*HALF",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "D_R_PEAK",
+      "kind": "D",
+      "value": "1N4148W",
+      "requirements": "pin 1 cathode; pin 2 anode",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C81598"
+    },
+    {
+      "ref": "R_R_ATTACK",
+      "kind": "R",
+      "value": "1k",
+      "requirements": "Capacitor isolated outside feedback loop",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "C_R_HOLD",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "5% film or C0G",
+      "status": "package_candidate_not_applied",
+      "candidate_jlc": "C97946"
+    },
+    {
+      "ref": "R_R_RELEASE",
+      "kind": "R",
+      "value": "1M",
+      "requirements": "Nominal 100ms release time constant",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "U_METER_R",
+      "kind": "IC",
+      "value": "LM339BIPWR",
+      "requirements": "Open collector sinks current when ENV exceeds threshold",
+      "status": "exact_mpn_stock_verified",
+      "candidate_jlc": "C7430196"
+    },
+    {
+      "ref": "C_R_CMP",
+      "kind": "C",
+      "value": "100nF",
+      "requirements": "",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_LED_1",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_R_1",
+      "kind": "LED",
+      "value": "green",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_LED_2",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_R_2",
+      "kind": "LED",
+      "value": "green",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_LED_3",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_R_3",
+      "kind": "LED",
+      "value": "amber",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "R_R_LED_4",
+      "kind": "R",
+      "value": "10k",
+      "requirements": "About 0.9mA; brightness to verify",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    },
+    {
+      "ref": "LED_R_4",
+      "kind": "LED",
+      "value": "red",
+      "requirements": "pin 1 cathode, pin 2 anode; high-efficiency LED",
+      "status": "mpn_unselected_stock_unverified",
+      "candidate_jlc": null
+    }
+  ],
+  "notes": [
+    "239k and 239k 0.1% 0603 searches returned no results; not proof of global unavailability.",
+    "240k replacement proposal: nominal lowest output threshold 0.501004 -> 0.499 Vpeak. Not applied.",
+    "Unselected parts are not confirmed out of stock. Exact package/MPN required.",
+    "No PCB footprints assigned. Stock verification does not prove electrical suitability, 4HP fit, BOM/CPL acceptance or completed purchase.",
+    "Snapshot only; no reservation, BOM upload or purchase."
+  ]
+}

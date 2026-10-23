@@ -1,0 +1,70 @@
+{
+  "componentCode": "C134985",
+  "componentModelEn": "SMAJ40A-13-F",
+  "componentBrandEn": "Diodes Incorporated",
+  "componentSpecificationEn": "SMA",
+  "describe": "-55℃~+150℃ 400W 40V 49.1V 5uA 6.2A@8/20us 64.5V TVS Unidirectional SMA ESD and Surge Protection (TVS/ESD) ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-SMAJ40A-13-F_C134985.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C134985",
+      "attribute_value_name": "-55℃~+150℃"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C134985",
+      "attribute_value_name": "TVS"
+    },
+    {
+      "attribute_name_en": "Number of Channels",
+      "component_code": "C134985",
+      "attribute_value_name": "1"
+    },
+    {
+      "attribute_name_en": "Peak Pulse Power Dissipation (Ppp)",
+      "component_code": "C134985",
+      "attribute_value_name": "400W"
+    },
+    {
+      "attribute_name_en": "Clamping Voltage",
+      "component_code": "C134985",
+      "attribute_value_name": "64.5V"
+    },
+    {
+      "attribute_name_en": "Polarity",
+      "component_code": "C134985",
+      "attribute_value_name": "Unidirectional"
+    },
+    {
+      "attribute_name_en": "Voltage - Breakdown",
+      "component_code": "C134985",
+      "attribute_value_name": "49.1V"
+    },
+    {
+      "attribute_name_en": "Peak Pulse Current (Ipp)",
+      "component_code": "C134985",
+      "attribute_value_name": "6.2A@8/20us"
+    },
+    {
+      "attribute_name_en": "Reverse Stand-Off Voltage (Vrwm)",
+      "component_code": "C134985",
+      "attribute_value_name": "40V"
+    },
+    {
+      "attribute_name_en": "Reverse Leakage Current (Ir)",
+      "component_code": "C134985",
+      "attribute_value_name": "5uA"
+    }
+  ],
+  "overseasStockCount": 4961,
+  "canPresaleNumber": 4905,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 84,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C134985",
+  "checked_at": "2026-09-13T08:58:58.583080+00:00"
+}

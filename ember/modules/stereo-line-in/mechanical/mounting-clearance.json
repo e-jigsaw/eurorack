@@ -1,0 +1,42 @@
+{
+  "status": "conditional envelope check; not complete fit verification",
+  "panel_mm": [
+    20,
+    128.5
+  ],
+  "mounting_screw_center_mm": [
+    7.5,
+    125.5
+  ],
+  "assumed_screw_head_diameter_mm": 6,
+  "assumed_washer_diameter_mm": 7,
+  "cap_diameter_mm": 14.5,
+  "old_lower_input_center_mm": [
+    10,
+    117
+  ],
+  "proposed_lower_input_center_mm": [
+    10,
+    113
+  ],
+  "proposed_upper_input_center_mm": [
+    10,
+    95
+  ],
+  "old_cap_to_screw_head_gap_mm": -1.3899774266653253,
+  "new_cap_to_screw_head_gap_mm": 2.497548783981962,
+  "new_cap_to_washer_gap_mm": 1.9975487839819621,
+  "new_lower_body_to_panel_bottom_mm": 8.0,
+  "wqp_body_width_mm": 9,
+  "wqp_pair_pitch_mm": 10,
+  "wqp_nominal_body_gap_mm": 1,
+  "wqp_body_depth_mm": 9,
+  "nj_body_depth_mm": 24,
+  "unverified": [
+    "Actual case rail cross-section, lips and depth",
+    "Actual screw/washer diameters and driver clearance",
+    "Alpha T18 B10K dimensions; vendor page supplies no complete part number/drawing",
+    "WQP panel seating shoulder, washers, tolerances and PCB seating details",
+    "PCB interconnect and whole module depth"
+  ]
+}

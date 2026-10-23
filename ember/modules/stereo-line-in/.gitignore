@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+__pycache__/
+*.kicad_prl
+!procurement/*.csv
+!generated/pcb/**/*.csv
+!generated/pcb/*/*-gerbers.zip
+!generated/panels/**/*.csv
+!generated/panels/**/*.zip

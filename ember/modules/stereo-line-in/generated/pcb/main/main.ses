@@ -1,0 +1,4170 @@
+(session main
+  (base_design main)
+  (placement
+    (resolution mm 10000)
+    (component "J_PWR"
+      (place "J_PWR" 0 0 front 0)
+    )
+    (component "D_PWR_P"
+      (place "D_PWR_P" 0 0 front 0)
+    )
+    (component "D_PWR_N"
+      (place "D_PWR_N" 0 0 front 0)
+    )
+    (component "C_BULK_P"
+      (place "C_BULK_P" 0 0 front 0)
+    )
+    (component "C_BULK_N"
+      (place "C_BULK_N" 0 0 front 0)
+    )
+    (component "R_LED_SUPPLY"
+      (place "R_LED_SUPPLY" 0 0 front 0)
+    )
+    (component "R_REFERENCE"
+      (place "R_REFERENCE" 0 0 front 0)
+    )
+    (component "U_REF"
+      (place "U_REF" 0 0 front 0)
+    )
+    (component "R_TH_TOP_1"
+      (place "R_TH_TOP_1" 0 0 front 0)
+    )
+    (component "R_TH_BOTTOM_1"
+      (place "R_TH_BOTTOM_1" 0 0 front 0)
+    )
+    (component "R_TH_TOP_2"
+      (place "R_TH_TOP_2" 0 0 front 0)
+    )
+    (component "R_TH_BOTTOM_2"
+      (place "R_TH_BOTTOM_2" 0 0 front 0)
+    )
+    (component "R_TH_TOP_3"
+      (place "R_TH_TOP_3" 0 0 front 0)
+    )
+    (component "R_TH_BOTTOM_3"
+      (place "R_TH_BOTTOM_3" 0 0 front 0)
+    )
+    (component "R_TH_TOP_4"
+      (place "R_TH_TOP_4" 0 0 front 0)
+    )
+    (component "R_TH_BOTTOM_4"
+      (place "R_TH_BOTTOM_4" 0 0 front 0)
+    )
+    (component "U_RX"
+      (place "U_RX" 0 0 front 0)
+    )
+    (component "C_RX_P"
+      (place "C_RX_P" 0 0 front 0)
+    )
+    (component "C_RX_N"
+      (place "C_RX_N" 0 0 front 0)
+    )
+    (component "U_ENV"
+      (place "U_ENV" 0 0 front 0)
+    )
+    (component "C_ENV_P"
+      (place "C_ENV_P" 0 0 front 0)
+    )
+    (component "C_ENV_N"
+      (place "C_ENV_N" 0 0 front 0)
+    )
+    (component "J_IN_L"
+      (place "J_IN_L" 0 0 front 0)
+    )
+    (component "R_L_P_BLEED"
+      (place "R_L_P_BLEED" 0 0 front 0)
+    )
+    (component "R_L_P_SERIES"
+      (place "R_L_P_SERIES" 0 0 front 0)
+    )
+    (component "C_L_P_AC"
+      (place "C_L_P_AC" 0 0 front 0)
+    )
+    (component "R_L_N_BLEED"
+      (place "R_L_N_BLEED" 0 0 front 0)
+    )
+    (component "R_L_N_SERIES"
+      (place "R_L_N_SERIES" 0 0 front 0)
+    )
+    (component "C_L_N_AC"
+      (place "C_L_N_AC" 0 0 front 0)
+    )
+    (component "U_L"
+      (place "U_L" 0 0 front 0)
+    )
+    (component "C_L_VP"
+      (place "C_L_VP" 0 0 front 0)
+    )
+    (component "C_L_VN"
+      (place "C_L_VN" 0 0 front 0)
+    )
+    (component "R_L_WIPER_FAIL"
+      (place "R_L_WIPER_FAIL" 0 0 front 0)
+    )
+    (component "R_L_GAIN_G"
+      (place "R_L_GAIN_G" 0 0 front 0)
+    )
+    (component "R_L_GAIN_F"
+      (place "R_L_GAIN_F" 0 0 front 0)
+    )
+    (component "C_L_GAIN_F"
+      (place "C_L_GAIN_F" 0 0 front 0)
+    )
+    (component "R_L_OUT"
+      (place "R_L_OUT" 0 0 front 0)
+    )
+    (component "R_L_OUT_BLEED"
+      (place "R_L_OUT_BLEED" 0 0 front 0)
+    )
+    (component "R_L_HALF_IN"
+      (place "R_L_HALF_IN" 0 0 front 0)
+    )
+    (component "R_L_HALF_FB"
+      (place "R_L_HALF_FB" 0 0 front 0)
+    )
+    (component "D_L_HALF_CLAMP"
+      (place "D_L_HALF_CLAMP" 0 0 front 0)
+    )
+    (component "D_L_HALF_RECT"
+      (place "D_L_HALF_RECT" 0 0 front 0)
+    )
+    (component "R_L_ABS_RAW"
+      (place "R_L_ABS_RAW" 0 0 front 0)
+    )
+    (component "R_L_ABS_HALF"
+      (place "R_L_ABS_HALF" 0 0 front 0)
+    )
+    (component "R_L_ABS_FB"
+      (place "R_L_ABS_FB" 0 0 front 0)
+    )
+    (component "D_L_PEAK"
+      (place "D_L_PEAK" 0 0 front 0)
+    )
+    (component "R_L_ATTACK"
+      (place "R_L_ATTACK" 0 0 front 0)
+    )
+    (component "C_L_HOLD"
+      (place "C_L_HOLD" 0 0 front 0)
+    )
+    (component "R_L_RELEASE"
+      (place "R_L_RELEASE" 0 0 front 0)
+    )
+    (component "U_METER_L"
+      (place "U_METER_L" 0 0 front 0)
+    )
+    (component "C_L_CMP"
+      (place "C_L_CMP" 0 0 front 0)
+    )
+    (component "J_IN_R"
+      (place "J_IN_R" 0 0 front 0)
+    )
+    (component "R_R_P_BLEED"
+      (place "R_R_P_BLEED" 0 0 front 0)
+    )
+    (component "R_R_P_SERIES"
+      (place "R_R_P_SERIES" 0 0 front 0)
+    )
+    (component "C_R_P_AC"
+      (place "C_R_P_AC" 0 0 front 0)
+    )
+    (component "R_R_N_BLEED"
+      (place "R_R_N_BLEED" 0 0 front 0)
+    )
+    (component "R_R_N_SERIES"
+      (place "R_R_N_SERIES" 0 0 front 0)
+    )
+    (component "C_R_N_AC"
+      (place "C_R_N_AC" 0 0 front 0)
+    )
+    (component "U_R"
+      (place "U_R" 0 0 front 0)
+    )
+    (component "C_R_VP"
+      (place "C_R_VP" 0 0 front 0)
+    )
+    (component "C_R_VN"
+      (place "C_R_VN" 0 0 front 0)
+    )
+    (component "R_R_WIPER_FAIL"
+      (place "R_R_WIPER_FAIL" 0 0 front 0)
+    )
+    (component "R_R_GAIN_G"
+      (place "R_R_GAIN_G" 0 0 front 0)
+    )
+    (component "R_R_GAIN_F"
+      (place "R_R_GAIN_F" 0 0 front 0)
+    )
+    (component "C_R_GAIN_F"
+      (place "C_R_GAIN_F" 0 0 front 0)
+    )
+    (component "R_R_OUT"
+      (place "R_R_OUT" 0 0 front 0)
+    )
+    (component "R_R_OUT_BLEED"
+      (place "R_R_OUT_BLEED" 0 0 front 0)
+    )
+    (component "R_R_HALF_IN"
+      (place "R_R_HALF_IN" 0 0 front 0)
+    )
+    (component "R_R_HALF_FB"
+      (place "R_R_HALF_FB" 0 0 front 0)
+    )
+    (component "D_R_HALF_CLAMP"
+      (place "D_R_HALF_CLAMP" 0 0 front 0)
+    )
+    (component "D_R_HALF_RECT"
+      (place "D_R_HALF_RECT" 0 0 front 0)
+    )
+    (component "R_R_ABS_RAW"
+      (place "R_R_ABS_RAW" 0 0 front 0)
+    )
+    (component "R_R_ABS_HALF"
+      (place "R_R_ABS_HALF" 0 0 front 0)
+    )
+    (component "R_R_ABS_FB"
+      (place "R_R_ABS_FB" 0 0 front 0)
+    )
+    (component "D_R_PEAK"
+      (place "D_R_PEAK" 0 0 front 0)
+    )
+    (component "R_R_ATTACK"
+      (place "R_R_ATTACK" 0 0 front 0)
+    )
+    (component "C_R_HOLD"
+      (place "C_R_HOLD" 0 0 front 0)
+    )
+    (component "R_R_RELEASE"
+      (place "R_R_RELEASE" 0 0 front 0)
+    )
+    (component "U_METER_R"
+      (place "U_METER_R" 0 0 front 0)
+    )
+    (component "C_R_CMP"
+      (place "C_R_CMP" 0 0 front 0)
+    )
+    (component "J_LINK_TOP"
+      (place "J_LINK_TOP" 0 0 front 0)
+    )
+    (component "J_LINK_BOTTOM"
+      (place "J_LINK_BOTTOM" 0 0 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mm 10000)
+    (parser
+    )
+    (library_out 
+      (padstack "VIA_06"
+        (shape
+          (circle top 6000 0 0)
+        )
+        (shape
+          (circle inner1 6000 0 0)
+        )
+        (shape
+          (circle inner2 6000 0 0)
+        )
+        (shape
+          (circle bottom 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net VP
+        (wire
+          (path bottom 1500
+            13000 412367
+            16008 415375
+            37552 415375
+            41191 419014
+            41191 422655
+          )
+        )
+        (wire
+          (path inner1 1500
+            70632 -63790
+            36910 -30068
+            36910 16486
+          )
+        )
+        (wire
+          (path bottom 1500
+            34067 9500
+            36909 12342
+            36909 16486
+            36910 16486
+          )
+        )
+        (wire
+          (path bottom 1500
+            856 -165286
+            856 -185333
+            -7785 -193974
+            -17795 -193974
+            -20867 -197046
+            -20867 -220000
+          )
+        )
+        (wire
+          (path bottom 1500
+            28000 490000
+            28000 497367
+          )
+        )
+        (wire
+          (path bottom 1500
+            28986 520806
+            26993 518813
+            26993 498374
+            28000 497367
+          )
+        )
+        (via "VIA_06" 28986 520806
+        )
+        (wire
+          (path inner2 1500
+            41191 422655
+            27233 436613
+            27233 519053
+            28986 520806
+          )
+        )
+        (wire
+          (path bottom 1500
+            44000 -65000
+            53867 -65000
+          )
+        )
+        (wire
+          (path bottom 1500
+            53867 -65000
+            55077 -63790
+            70632 -63790
+          )
+        )
+        (via "VIA_06" 70632 -63790
+        )
+        (via "VIA_06" 36910 16486
+        )
+        (wire
+          (path bottom 1500
+            34067 9500
+            29133 9500
+          )
+        )
+        (wire
+          (path bottom 1500
+            39000 9500
+            34067 9500
+          )
+        )
+        (wire
+          (path bottom 1500
+            856 -165286
+            1133 -165009
+            1133 -140000
+          )
+        )
+        (wire
+          (path inner2 1500
+            -18897 -74963
+            -28794 -84860
+          )
+        )
+        (wire
+          (path inner2 1500
+            -5691 9676
+            -5691 -61757
+            -18897 -74963
+          )
+        )
+        (wire
+          (path inner2 1500
+            856 -165286
+            856 -94717
+            -18897 -74963
+          )
+        )
+        (via "VIA_06" 856 -165286
+        )
+        (wire
+          (path bottom 1500
+            8000 -140000
+            1133 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -11000 -220000
+            -20867 -220000
+          )
+        )
+        (wire
+          (path inner1 1500
+            -50673 422621
+            -50639 422655
+            41191 422655
+          )
+        )
+        (wire
+          (path bottom 1500
+            -5691 9676
+            -5031 10336
+            28297 10336
+            29133 9500
+          )
+        )
+        (wire
+          (path inner1 1500
+            -25309 307326
+            -25309 378221
+            -51262 404174
+            -51262 422032
+            -50673 422621
+          )
+        )
+        (wire
+          (path inner1 1500
+            -50673 422621
+            -62733 434680
+          )
+        )
+        (wire
+          (path top 1500
+            -53867 471500
+            -62733 462634
+            -62733 434680
+          )
+        )
+        (wire
+          (path top 1500
+            -72000 420367
+            -62733 429634
+            -62733 434680
+          )
+        )
+        (wire
+          (path bottom 1500
+            -64750 432367
+            -62733 434384
+            -62733 434680
+          )
+        )
+        (via "VIA_06" 41191 422655
+        )
+        (wire
+          (path top 1500
+            -44000 471500
+            -53867 471500
+          )
+        )
+        (wire
+          (path top 1500
+            -7367 -58000
+            -7367 -63433
+            -28794 -84860
+          )
+        )
+        (wire
+          (path inner1 1500
+            -25309 307326
+            -39215 293420
+            -39215 232513
+            -21511 214809
+          )
+        )
+        (wire
+          (path top 1500
+            -21500 200000
+            -21500 214798
+            -21511 214809
+          )
+        )
+        (wire
+          (path inner1 1500
+            -21511 214809
+            -30000 206320
+            -30000 62840
+          )
+        )
+        (wire
+          (path top 1500
+            -30000 65133
+            -30000 62840
+          )
+        )
+        (wire
+          (path inner1 1500
+            -5691 9676
+            -5691 38531
+            -30000 62840
+          )
+        )
+        (wire
+          (path top 1500
+            -8000 7367
+            -5691 9676
+          )
+        )
+        (wire
+          (path bottom 1500
+            13000 405000
+            13000 412367
+          )
+        )
+        (wire
+          (path top 1500
+            0 -58000
+            -7367 -58000
+          )
+        )
+        (via "VIA_06" -28794 -84860
+        )
+        (via "VIA_06" -21511 214809
+        )
+        (wire
+          (path top 1500
+            -8000 0
+            -8000 7367
+          )
+        )
+        (via "VIA_06" -5691 9676
+        )
+        (wire
+          (path top 1500
+            -30000 72000
+            -30000 65133
+          )
+        )
+        (via "VIA_06" -30000 62840
+        )
+        (wire
+          (path top 1500
+            -8000 290000
+            -14867 290000
+          )
+        )
+        (wire
+          (path top 1500
+            -25309 307326
+            -25309 300442
+            -14867 290000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -25309 307326
+            -25000 307017
+            -25000 298000
+          )
+        )
+        (via "VIA_06" -25309 307326
+        )
+        (wire
+          (path bottom 1500
+            -64750 423000
+            -64750 432367
+          )
+        )
+        (via "VIA_06" -62733 434680
+        )
+        (wire
+          (path top 1500
+            -72000 410000
+            -72000 420367
+          )
+        )
+      )
+      (net "VP_RAW"
+        (wire
+          (path inner1 1500
+            12700 170800
+            -12700 170800
+          )
+        )
+        (wire
+          (path top 1500
+            12700 170800
+            21500 179600
+            21500 200000
+          )
+        )
+      )
+      (net "VN_RAW"
+        (wire
+          (path bottom 1500
+            -12700 69200
+            12700 69200
+          )
+        )
+        (wire
+          (path top 1500
+            -21500 40000
+            -21500 52367
+          )
+        )
+        (wire
+          (path top 1500
+            -12700 69200
+            -12700 61167
+            -21500 52367
+          )
+        )
+      )
+      (net VN
+        (wire
+          (path top 1500
+            33867 40000
+            36247 37620
+            36279 37620
+          )
+        )
+        (wire
+          (path inner1 1500
+            46206 431420
+            46206 428343
+            54159 420390
+            54159 410234
+            50711 406786
+            44338 406786
+            22648 385096
+            22648 283420
+            36279 269789
+            36279 37620
+          )
+        )
+        (wire
+          (path bottom 1500
+            -15000 16371
+            6248 37619
+            36279 37619
+            36279 37620
+          )
+        )
+        (wire
+          (path bottom 1500
+            -23867 -65000
+            -23867 -59613
+            -46137 -37343
+            -46137 -33313
+          )
+        )
+        (wire
+          (path inner1 1500
+            72321 492049
+            72321 456027
+            52227 435933
+            49350 435933
+            46206 432789
+            46206 431420
+          )
+        )
+        (wire
+          (path inner1 1500
+            -51032 438305
+            -44147 431420
+            46206 431420
+          )
+        )
+        (wire
+          (path bottom 1500
+            -38000 -140000
+            -31133 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -45444 -205701
+            -25400 -185657
+            -25400 -152600
+            -31133 -146867
+            -31133 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -46137 -33313
+            -76027 -33313
+            -79936 -37222
+            -79936 -159988
+            -68704 -171220
+            -68704 -187684
+            -50687 -205701
+            -45444 -205701
+          )
+        )
+        (wire
+          (path bottom 1500
+            -59133 -220000
+            -58592 -220541
+            -48487 -220541
+            -45444 -217498
+            -45444 -205701
+          )
+        )
+        (wire
+          (path bottom 1500
+            72321 492049
+            67003 497367
+            51942 497367
+            48867 494292
+            48867 490000
+          )
+        )
+        (wire
+          (path top 1500
+            72000 410000
+            72000 491728
+            72321 492049
+          )
+        )
+        (wire
+          (path bottom 1500
+            -46137 -33313
+            -46137 -5382
+            -31255 9500
+            -28867 9500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -69000 -220000
+            -59133 -220000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -45250 467000
+            -45250 444087
+            -51032 438305
+          )
+        )
+        (wire
+          (path bottom 1500
+            -14000 -65000
+            -23867 -65000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -19000 9500
+            -15000 13500
+            -15000 16371
+          )
+        )
+        (via "VIA_06" -51032 438305
+        )
+        (wire
+          (path bottom 1500
+            42000 490000
+            48867 490000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -50000 72000
+            -50000 65133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -28867 9500
+            -28867 44000
+            -50000 65133
+          )
+        )
+        (wire
+          (path top 1500
+            -15000 16371
+            -15000 -42000
+          )
+        )
+        (via "VIA_06" -15000 16371
+        )
+        (via "VIA_06" 72321 492049
+        )
+        (wire
+          (path top 1500
+            21500 40000
+            33867 40000
+          )
+        )
+        (via "VIA_06" 36279 37620
+        )
+        (wire
+          (path bottom 1500
+            -19000 9500
+            -28867 9500
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path bottom 1500
+            51573 430566
+            45000 437139
+            45000 445133
+          )
+        )
+        (wire
+          (path inner2 1500
+            7234 -9894
+            7234 -18012
+            11426 -22204
+            11426 -51160
+            31766 -71500
+          )
+        )
+        (wire
+          (path inner1 1500
+            50800 -290000
+            66877 -273923
+            66877 -186077
+            38100 -157300
+          )
+        )
+        (wire
+          (path inner1 1500
+            55518 497416
+            55518 502657
+            55271 502904
+          )
+        )
+        (wire
+          (path inner1 1500
+            -8592 445331
+            -5673 442412
+            1544 442412
+            55518 496386
+            55518 497416
+          )
+        )
+        (wire
+          (path inner1 1500
+            55518 497416
+            74545 497416
+            77688 494273
+            77688 474378
+          )
+        )
+        (wire
+          (path top 1500
+            55271 502904
+            23867 471500
+          )
+        )
+        (wire
+          (path top 1500
+            14000 471500
+            23867 471500
+          )
+        )
+        (via "VIA_06" 55271 502904
+        )
+        (wire
+          (path inner1 1500
+            77688 474378
+            77688 456681
+            51573 430566
+          )
+        )
+        (wire
+          (path inner1 1500
+            77688 474378
+            77718 474378
+          )
+        )
+        (wire
+          (path bottom 1500
+            58000 490000
+            64867 490000
+          )
+        )
+        (wire
+          (path bottom 1500
+            77718 474378
+            64867 487229
+            64867 490000
+          )
+        )
+        (via "VIA_06" 77718 474378
+        )
+        (wire
+          (path bottom 1500
+            7234 -3500
+            -9133 -3500
+          )
+        )
+        (wire
+          (path bottom 1500
+            39000 -3500
+            7234 -3500
+          )
+        )
+        (wire
+          (path bottom 1500
+            7234 -3500
+            7234 -9894
+          )
+        )
+        (wire
+          (path top 1500
+            7234 -9894
+            7234 -10660
+            0 -17894
+            0 -35133
+          )
+        )
+        (wire
+          (path top 1500
+            8000 0
+            8000 -9128
+            7234 -9894
+          )
+        )
+        (wire
+          (path inner1 1500
+            1700 81900
+            1700 -4360
+            7234 -9894
+          )
+        )
+        (wire
+          (path inner1 1500
+            34777 -116072
+            34777 -153977
+            38100 -157300
+          )
+        )
+        (wire
+          (path inner1 1500
+            28016 382730
+            31064 382730
+            57296 408962
+            57296 424843
+            51573 430566
+          )
+        )
+        (wire
+          (path inner1 1500
+            -8592 445331
+            -9096 445331
+            -51737 487972
+            -51737 491516
+            -51738 491516
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29000 446500
+            -9761 446500
+            -8592 445331
+          )
+        )
+        (wire
+          (path inner1 1500
+            34777 -116072
+            34777 -98472
+            25940 -89635
+            25940 -77326
+            31766 -71500
+          )
+        )
+        (wire
+          (path bottom 1500
+            44000 -71500
+            31766 -71500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -59133 -226500
+            -45628 -226500
+            -37907 -218779
+          )
+        )
+        (wire
+          (path top 1500
+            -38867 -205000
+            -38867 -217819
+            -37907 -218779
+          )
+        )
+        (wire
+          (path inner1 1500
+            -50295 -130602
+            -55364 -135671
+            -55364 -201322
+            -37907 -218779
+          )
+        )
+        (wire
+          (path bottom 1500
+            -37907 -218779
+            -37300 -218779
+            -31477 -224602
+          )
+        )
+        (wire
+          (path bottom 1500
+            45000 452000
+            45000 445133
+          )
+        )
+        (via "VIA_06" 51573 430566
+        )
+        (wire
+          (path bottom 1500
+            -57133 485000
+            -51738 490395
+            -51738 491516
+          )
+        )
+        (wire
+          (path bottom 1500
+            -51738 491516
+            -46854 496400
+          )
+        )
+        (wire
+          (path bottom 1500
+            -35848 496400
+            -46854 496400
+          )
+        )
+        (wire
+          (path bottom 1500
+            18867 490000
+            18867 496867
+            23636 501636
+            23636 512443
+            14424 521655
+            -20255 521655
+            -22000 523400
+            -31569 523400
+            -34969 520000
+            -41325 520000
+            -49278 512047
+            -49278 498824
+            -46854 496400
+          )
+        )
+        (wire
+          (path bottom 1500
+            12000 490000
+            18867 490000
+          )
+        )
+        (wire
+          (path bottom 1500
+            22000 -132633
+            23187 -132633
+            34777 -121043
+            34777 -116072
+          )
+        )
+        (via "VIA_06" 34777 -116072
+        )
+        (wire
+          (path bottom 1500
+            -26648 -73398
+            -31057 -73398
+            -37447 -79788
+            -37447 -112420
+            -24867 -125000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -47170 -133465
+            -50033 -130602
+            -50295 -130602
+          )
+        )
+        (wire
+          (path bottom 1500
+            -69000 -226500
+            -59133 -226500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -181133
+            -59292 -181133
+            -62433 -177992
+            -62433 -166291
+            -61009 -164867
+            -55000 -164867
+          )
+        )
+        (via "VIA_06" -8592 445331
+        )
+        (via "VIA_06" 31766 -71500
+        )
+        (wire
+          (path top 1500
+            28000 410000
+            28000 382746
+            28016 382730
+          )
+        )
+        (wire
+          (path bottom 1500
+            3867 390000
+            3867 385708
+            7624 381951
+            27237 381951
+            28016 382730
+          )
+        )
+        (wire
+          (path inner1 1500
+            -12700 145400
+            -23710 156410
+            -23710 198284
+            -15687 206307
+            -15687 230313
+            -36098 250724
+            -36098 274763
+            0 310861
+          )
+        )
+        (wire
+          (path bottom 1500
+            -60500 405000
+            -68867 405000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -68867 405000
+            -69367 405500
+            -69367 481133
+            -65500 485000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -23979 -71500
+            -23979 -71800
+          )
+        )
+        (wire
+          (path bottom 1124
+            -23979 -71500
+            -23679 -71500
+          )
+        )
+        (wire
+          (path bottom 1124
+            -26648 -73398
+            -25577 -73398
+            -23979 -71800
+          )
+        )
+        (wire
+          (path inner2 1500
+            12700 120000
+            12700 94600
+          )
+        )
+        (wire
+          (path inner2 1500
+            -12700 120000
+            -12700 94600
+          )
+        )
+        (wire
+          (path inner2 1500
+            12700 145400
+            12700 120000
+          )
+        )
+        (wire
+          (path inner1 1500
+            -12700 145400
+            12700 145400
+          )
+        )
+        (wire
+          (path inner1 1500
+            0 310861
+            0 365527
+            -17162 382689
+          )
+        )
+        (wire
+          (path inner1 1500
+            1700 81900
+            12700 92900
+            12700 94600
+          )
+        )
+        (wire
+          (path inner1 1500
+            -12700 94600
+            0 81900
+            1700 81900
+          )
+        )
+        (wire
+          (path inner1 1500
+            -24868 -394331
+            50800 -318663
+            50800 -290000
+          )
+        )
+        (wire
+          (path inner1 1500
+            -40000 -397388
+            -27925 -397388
+            -24868 -394331
+          )
+        )
+        (wire
+          (path inner1 1500
+            50800 -470000
+            -24868 -394331
+          )
+        )
+        (wire
+          (path bottom 1500
+            -58000 367367
+            -58000 391133
+            -60500 393633
+          )
+        )
+        (wire
+          (path bottom 1500
+            -15000 385133
+            -17162 382971
+            -17162 382689
+          )
+        )
+        (wire
+          (path top 1500
+            -28000 399633
+            -17162 388795
+            -17162 382689
+          )
+        )
+        (wire
+          (path bottom 1500
+            -15000 392000
+            -15000 385133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -47170 -133465
+            -47170 -147595
+            -50708 -151133
+            -55000 -151133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -18000 -131961
+            -45666 -131961
+            -47170 -133465
+          )
+        )
+        (wire
+          (path top 1500
+            -32000 -205000
+            -38867 -205000
+          )
+        )
+        (via "VIA_06" -37907 -218779
+        )
+        (via "VIA_06" 7234 -9894
+        )
+        (wire
+          (path bottom 1500
+            -18000 -125000
+            -24867 -125000
+          )
+        )
+        (wire
+          (path bottom 1124
+            -14000 -71500
+            -23679 -71500
+          )
+        )
+        (wire
+          (path top 1500
+            -28000 410000
+            -28000 399633
+          )
+        )
+        (via "VIA_06" -17162 382689
+        )
+        (wire
+          (path bottom 1500
+            -3000 390000
+            3867 390000
+          )
+        )
+        (wire
+          (path top 1500
+            28000 415184
+            13184 430000
+            9867 430000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -9133 -3500
+            -9133 -21087
+            -9148 -21102
+          )
+        )
+        (wire
+          (path top 1500
+            3000 430000
+            9867 430000
+          )
+        )
+        (wire
+          (path bottom 1124
+            -11000 -226500
+            -20679 -226500
+          )
+        )
+        (wire
+          (path bottom 1124
+            -31477 -224602
+            -22577 -224602
+            -20679 -226500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -60500 405000
+            -60500 393633
+          )
+        )
+        (via "VIA_06" -50295 -130602
+        )
+        (wire
+          (path bottom 1500
+            22000 -140000
+            22000 -132633
+          )
+        )
+        (wire
+          (path bottom 1500
+            14852 -132648
+            14867 -132633
+            22000 -132633
+          )
+        )
+        (wire
+          (path bottom 1124
+            -8000 -132648
+            14852 -132648
+          )
+        )
+        (wire
+          (path bottom 1500
+            -8000 -140000
+            -8000 -132648
+          )
+        )
+        (via "VIA_06" -51738 491516
+        )
+        (wire
+          (path bottom 1124
+            -9148 -21102
+            -9321 -21275
+            -9321 -23000
+          )
+        )
+        (wire
+          (path top 1500
+            28000 410000
+            28000 415184
+          )
+        )
+        (wire
+          (path bottom 1500
+            -3000 405000
+            -3000 390000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -18000 -140000
+            -8000 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            62000 -130000
+            62000 -137367
+          )
+        )
+        (wire
+          (path bottom 1500
+            58608 -157300
+            62367 -161059
+            62367 -173058
+            59292 -176133
+            55000 -176133
+          )
+        )
+        (wire
+          (path bottom 1500
+            38100 -157300
+            58608 -157300
+          )
+        )
+        (wire
+          (path bottom 1500
+            58608 -157300
+            58608 -140759
+            62000 -137367
+          )
+        )
+        (wire
+          (path bottom 1124
+            -26148 496352
+            -35800 496352
+            -35848 496400
+          )
+        )
+        (wire
+          (path bottom 1500
+            -40000 -397388
+            -40000 -388000
+          )
+        )
+        (via "VIA_06" -40000 -397388
+        )
+        (wire
+          (path bottom 1500
+            -8000 -510000
+            -1133 -510000
+          )
+        )
+        (wire
+          (path bottom 1500
+            50800 -470000
+            34575 -470000
+            -1133 -505708
+            -1133 -510000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -58000 360000
+            -58000 367367
+          )
+        )
+        (wire
+          (path bottom 1500
+            55000 -183000
+            55000 -176133
+          )
+        )
+        (wire
+          (path bottom 1500
+            50800 -290000
+            50000 -289200
+            50000 -263000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -50000 88000
+            -42633 88000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -12700 94600
+            -36033 94600
+            -42633 88000
+          )
+        )
+        (wire
+          (path top 1500
+            -30000 88000
+            -22633 88000
+          )
+        )
+        (wire
+          (path top 1500
+            -12700 94600
+            -16033 94600
+            -22633 88000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -18000 -131961
+            -18000 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -18000 -125000
+            -18000 -131961
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -158000
+            -55000 -151133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -188000
+            -55000 -181133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -158000
+            -55000 -164867
+          )
+        )
+        (wire
+          (path top 1500
+            -15000 -58000
+            -15000 -51133
+          )
+        )
+        (wire
+          (path top 1500
+            0 -42000
+            0 -48867
+          )
+        )
+        (wire
+          (path top 1500
+            0 -48867
+            -12734 -48867
+            -15000 -51133
+          )
+        )
+        (wire
+          (path top 1500
+            0 -42000
+            0 -35133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -22000 -140000
+            -18000 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -3000 390000
+            -9867 390000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -15000 392000
+            -11867 392000
+            -9867 390000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -65500 485000
+            -57133 485000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -18000 490000
+            -24867 490000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -26148 496352
+            -24867 495071
+            -24867 490000
+          )
+        )
+        (via "VIA_06" 28016 382730
+        )
+        (wire
+          (path bottom 1500
+            0 310861
+            0 301000
+          )
+        )
+        (via "VIA_06" 0 310861
+        )
+        (wire
+          (path bottom 1500
+            39000 -3500
+            48679 -3500
+          )
+        )
+        (wire
+          (path bottom 1124
+            48679 -3500
+            48679 -23000
+          )
+        )
+        (wire
+          (path bottom 1124
+            39000 -23000
+            48679 -23000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -19000 -3500
+            -9133 -3500
+          )
+        )
+        (wire
+          (path bottom 1124
+            -19000 -23000
+            -9321 -23000
+          )
+        )
+      )
+      (net VLED
+        (wire
+          (path inner1 1500
+            -13101 269355
+            -3598 259852
+            -3598 247531
+            29126 214807
+            29126 16680
+            32348 13458
+            32348 -47281
+            9885 -69744
+            9885 -125349
+            24013 -139477
+            24013 -164534
+            38100 -178621
+            38100 -182700
+          )
+        )
+        (wire
+          (path bottom 1500
+            -13101 269355
+            -18879 275133
+            -25000 275133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -25000 282000
+            -25000 275133
+          )
+        )
+        (via "VIA_06" -13101 269355
+        )
+      )
+      (net VREF
+        (wire
+          (path bottom 1500
+            33000 475000
+            39867 475000
+          )
+        )
+        (wire
+          (path bottom 1500
+            50933 417537
+            54159 414311
+            54159 317292
+            15867 279000
+          )
+        )
+        (wire
+          (path bottom 1500
+            32367 408000
+            36217 408000
+            45754 417537
+            50933 417537
+          )
+        )
+        (wire
+          (path bottom 1500
+            39867 475000
+            39867 478434
+            44066 482633
+            49420 482633
+            57483 474570
+            57483 424087
+            50933 417537
+          )
+        )
+        (wire
+          (path bottom 1500
+            25417 479398
+            28602 479398
+            33000 475000
+          )
+        )
+        (wire
+          (path bottom 1500
+            18198 274162
+            15867 276493
+            15867 279000
+          )
+        )
+        (wire
+          (path bottom 1500
+            25000 408000
+            32367 408000
+          )
+        )
+        (wire
+          (path bottom 1500
+            9500 279000
+            15867 279000
+          )
+        )
+        (wire
+          (path bottom 1500
+            23704 482500
+            11616 482500
+            7867 478751
+            7867 475000
+          )
+        )
+        (wire
+          (path bottom 1124
+            23704 482500
+            23704 481111
+            25417 479398
+          )
+        )
+        (wire
+          (path bottom 1500
+            0 475000
+            7867 475000
+          )
+        )
+        (wire
+          (path top 1500
+            8000 290000
+            8000 381703
+            -1133 390836
+            -1133 415000
+          )
+        )
+        (wire
+          (path top 1500
+            -8000 415000
+            -1133 415000
+          )
+        )
+        (wire
+          (path top 1500
+            8000 290000
+            8000 282633
+          )
+        )
+        (wire
+          (path top 1500
+            18198 274162
+            9727 282633
+            8000 282633
+          )
+        )
+        (via "VIA_06" 18198 274162
+        )
+        (wire
+          (path bottom 1500
+            -9500 279000
+            9500 279000
+          )
+        )
+      )
+      (net "TH_1"
+        (wire
+          (path bottom 1500
+            29000 433500
+            19133 433500
+          )
+        )
+        (wire
+          (path bottom 1500
+            19133 433500
+            19133 435798
+            1784 453147
+            434 453147
+            -12133 465714
+            -12133 475000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -27059 517463
+            -25984 518538
+            -8178 518538
+            -1400 511760
+            -1400 497967
+            -2000 497367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -2000 490000
+            -2000 497367
+          )
+        )
+        (wire
+          (path top 1500
+            -44000 458500
+            -34133 458500
+          )
+        )
+        (wire
+          (path top 1500
+            -34133 458500
+            -27059 465574
+            -27059 517463
+          )
+        )
+        (via "VIA_06" -27059 517463
+        )
+        (wire
+          (path bottom 1500
+            -20000 475000
+            -12133 475000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -2000 490000
+            -8867 490000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -8867 490000
+            -8867 478266
+            -12133 475000
+          )
+        )
+      )
+      (net "TH_2"
+        (wire
+          (path inner1 1500
+            -45640 408521
+            -42008 412153
+            48213 412153
+          )
+        )
+        (wire
+          (path bottom 1500
+            25000 398867
+            34927 398867
+            48213 412153
+          )
+        )
+        (wire
+          (path bottom 1500
+            29000 420500
+            15262 420500
+            6133 411371
+            6133 396867
+            13000 390000
+          )
+        )
+        (wire
+          (path bottom 1500
+            25000 392000
+            25000 398867
+          )
+        )
+        (via "VIA_06" 48213 412153
+        )
+        (wire
+          (path top 1500
+            -45640 408521
+            -45640 443860
+            -44000 445500
+          )
+        )
+        (via "VIA_06" -45640 408521
+        )
+        (wire
+          (path bottom 1500
+            25000 392000
+            17633 392000
+          )
+        )
+        (wire
+          (path bottom 1500
+            13000 390000
+            15633 390000
+            17633 392000
+          )
+        )
+      )
+      (net "TH_3"
+        (wire
+          (path top 1500
+            -6133 430000
+            -6133 438866
+            -974 444025
+            -974 447779
+          )
+        )
+        (wire
+          (path top 1500
+            -974 447779
+            -950 447803
+            -950 447811
+          )
+        )
+        (wire
+          (path bottom 1500
+            -19133 427000
+            -974 445159
+            -974 447779
+          )
+        )
+        (wire
+          (path top 1500
+            437 447811
+            437 449198
+          )
+        )
+        (wire
+          (path top 1124
+            437 447811
+            -950 447811
+          )
+        )
+        (wire
+          (path top 1124
+            4321 452000
+            1519 449198
+            437 449198
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29000 427000
+            -19133 427000
+          )
+        )
+        (via "VIA_06" -974 447779
+        )
+        (wire
+          (path top 1124
+            14000 452000
+            4321 452000
+          )
+        )
+        (wire
+          (path top 1500
+            8000 415000
+            5000 415000
+            -6133 426133
+            -6133 430000
+          )
+        )
+        (wire
+          (path top 1500
+            -13000 430000
+            -6133 430000
+          )
+        )
+      )
+      (net "TH_4"
+        (wire
+          (path inner1 1500
+            -16844 440238
+            -15901 439295
+            9134 439295
+            46964 477125
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29000 440000
+            -17082 440000
+            -16844 440238
+          )
+        )
+        (via "VIA_06" -16844 440238
+        )
+        (wire
+          (path bottom 1500
+            45000 468000
+            44408 467408
+            26699 467408
+            23399 470708
+            23399 475000
+          )
+        )
+        (wire
+          (path bottom 1500
+            17000 475000
+            23399 475000
+          )
+        )
+        (wire
+          (path bottom 1500
+            45000 468000
+            45000 474867
+          )
+        )
+        (wire
+          (path bottom 1500
+            46964 477125
+            46964 476831
+            45000 474867
+          )
+        )
+        (wire
+          (path top 1500
+            46964 477125
+            34839 465000
+            14000 465000
+          )
+        )
+        (via "VIA_06" 46964 477125
+        )
+      )
+      (net "L_RX_P"
+        (wire
+          (path inner1 1500
+            -20000 250000
+            25886 204114
+            25886 4892
+            25887 4892
+          )
+        )
+        (wire
+          (path bottom 1124
+            29321 3000
+            27429 4892
+            25887 4892
+          )
+        )
+        (wire
+          (path bottom 1124
+            39000 3000
+            29321 3000
+          )
+        )
+        (via "VIA_06" 25887 4892
+        )
+      )
+      (net "L_RX_N"
+        (wire
+          (path inner2 1500
+            70000 250000
+            29126 209126
+            29126 16680
+            31958 13848
+            31958 -3995
+            26879 -9074
+          )
+        )
+        (wire
+          (path bottom 1500
+            29133 -10000
+            28207 -9074
+            26879 -9074
+          )
+        )
+        (wire
+          (path bottom 1500
+            39000 -10000
+            29133 -10000
+          )
+        )
+        (via "VIA_06" 26879 -9074
+        )
+      )
+      (net "R_RX_N"
+        (wire
+          (path inner2 1500
+            70000 -100000
+            32121 -62121
+            32121 -23721
+            26798 -18398
+          )
+        )
+        (wire
+          (path bottom 1124
+            29321 -16500
+            27423 -18398
+            26798 -18398
+          )
+        )
+        (wire
+          (path bottom 1124
+            39000 -16500
+            29321 -16500
+          )
+        )
+        (via "VIA_06" 26798 -18398
+        )
+      )
+      (net "R_RX_P"
+        (wire
+          (path inner1 1500
+            -20000 -100000
+            -20000 -46577
+            3766 -22811
+            12049 -22811
+            18738 -29500
+            26710 -29500
+          )
+        )
+        (wire
+          (path bottom 1500
+            39000 -29500
+            26710 -29500
+          )
+        )
+        (via "VIA_06" 26710 -29500
+        )
+      )
+      (net "R_RX_OUT"
+        (wire
+          (path inner1 1500
+            -12700 -182700
+            -23816 -171584
+            -23816 -149550
+            5590 -120144
+            5590 -28702
+          )
+        )
+        (wire
+          (path bottom 1500
+            -9133 -29500
+            -8335 -28702
+            5590 -28702
+          )
+        )
+        (wire
+          (path bottom 1500
+            -19000 -29500
+            -9133 -29500
+          )
+        )
+        (via "VIA_06" 5590 -28702
+        )
+      )
+      (net "L_RX_OUT"
+        (wire
+          (path inner1 1500
+            -31128 1086
+            -31128 -23830
+            -37170 -29872
+            -37170 -156370
+            -38100 -157300
+          )
+        )
+        (wire
+          (path bottom 1124
+            -28679 3000
+            -30593 1086
+            -31128 1086
+          )
+        )
+        (wire
+          (path bottom 1124
+            -19000 3000
+            -28679 3000
+          )
+        )
+        (via "VIA_06" -31128 1086
+        )
+      )
+      (net "L_ENV_BUF"
+        (wire
+          (path top 1500
+            -53867 453073
+            -56496 453073
+          )
+        )
+        (wire
+          (path bottom 1500
+            -58250 457633
+            -58250 454827
+            -56496 453073
+          )
+        )
+        (wire
+          (path top 1500
+            14000 458500
+            4133 458500
+          )
+        )
+        (wire
+          (path top 1500
+            -44000 452000
+            -17468 452000
+            -10968 458500
+            -3591 458500
+            -3103 458012
+            3645 458012
+            4133 458500
+          )
+        )
+        (wire
+          (path top 1500
+            -53679 453073
+            -53867 453073
+          )
+        )
+        (wire
+          (path top 1500
+            -53867 465000
+            -53867 453073
+          )
+        )
+        (wire
+          (path bottom 1500
+            -58250 467000
+            -58250 457633
+          )
+        )
+        (via "VIA_06" -56496 453073
+        )
+        (wire
+          (path top 1124
+            -53679 453073
+            -53679 452000
+          )
+        )
+        (wire
+          (path top 1500
+            14000 445500
+            23679 445500
+          )
+        )
+        (wire
+          (path top 1124
+            23679 445500
+            23679 458500
+          )
+        )
+        (wire
+          (path top 1124
+            14000 458500
+            23679 458500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -58250 467000
+            -64750 467000
+          )
+        )
+        (wire
+          (path top 1500
+            -44000 465000
+            -53867 465000
+          )
+        )
+        (wire
+          (path top 1124
+            -44000 452000
+            -53679 452000
+          )
+        )
+      )
+      (net "L_ENV"
+        (wire
+          (path inner1 1500
+            -32744 357611
+            -68101 392968
+            -68101 437257
+            -60155 445203
+            -56244 445203
+          )
+        )
+        (wire
+          (path bottom 1500
+            -56244 445203
+            -50652 450795
+            -50652 456535
+            -51750 457633
+          )
+        )
+        (wire
+          (path bottom 1500
+            -51750 467000
+            -51750 457633
+          )
+        )
+        (via "VIA_06" -56244 445203
+        )
+        (wire
+          (path inner1 1500
+            -32744 357611
+            -55894 334461
+            -55894 151787
+            -68000 139681
+          )
+        )
+        (wire
+          (path bottom 1500
+            -32744 357611
+            -35133 360000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -42000 360000
+            -35133 360000
+          )
+        )
+        (via "VIA_06" -32744 357611
+        )
+        (wire
+          (path bottom 1500
+            -68000 139681
+            -68000 130000
+          )
+        )
+        (via "VIA_06" -68000 139681
+        )
+        (wire
+          (path bottom 1500
+            -51750 467000
+            -51750 476367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -34500 485000
+            -42867 485000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -42867 485000
+            -51500 476367
+            -51750 476367
+          )
+        )
+      )
+      (net "R_ENV"
+        (wire
+          (path bottom 1500
+            -27321 405000
+            -29500 405000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -22367 408000
+            -25367 405000
+            -27321 405000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -38000 230000
+            -38000 339627
+            -27321 350306
+            -27321 405000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -37867 405000
+            -37867 408339
+            -45250 415722
+            -45250 423000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29500 405000
+            -37867 405000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -15000 408000
+            -22367 408000
+          )
+        )
+      )
+      (net "R_ENV_BUF"
+        (wire
+          (path bottom 1500
+            29000 440000
+            38867 440000
+          )
+        )
+        (wire
+          (path bottom 1500
+            29000 427000
+            35835 427000
+            38867 430032
+            38867 440000
+          )
+        )
+        (wire
+          (path bottom 1500
+            29000 427000
+            15535 427000
+            9035 420500
+            -29000 420500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -51750 432367
+            -55213 432367
+            -58250 429330
+            -58250 423000
+          )
+        )
+        (wire
+          (path bottom 1124
+            -38679 432367
+            -38679 432352
+          )
+        )
+        (wire
+          (path bottom 1124
+            -38679 433500
+            -38679 432367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -38679 432367
+            -51750 432367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -51750 423000
+            -51750 432367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -38679 432150
+            -38679 432352
+          )
+        )
+        (wire
+          (path bottom 1124
+            -38679 432150
+            -38679 420500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29000 433500
+            -38679 433500
+          )
+        )
+        (wire
+          (path bottom 1124
+            -29000 420500
+            -38679 420500
+          )
+        )
+      )
+      (net "L_TIP"
+        (wire
+          (path inner1 1500
+            -31007 -171219
+            -42118 -171219
+          )
+        )
+        (wire
+          (path bottom 1500
+            -31007 -171219
+            -46852 -171219
+            -47633 -172000
+          )
+        )
+        (wire
+          (path inner1 1500
+            0 -347200
+            5039 -342161
+            5039 -296078
+            -39999 -251040
+            -39999 -232871
+            -29423 -222295
+            -29423 -211979
+            -48967 -192435
+            -48967 -178068
+            -42118 -171219
+          )
+        )
+        (wire
+          (path inner1 1500
+            -47625 -66674
+            -40824 -73475
+            -40824 -143794
+            -49041 -152011
+            -49041 -164296
+            -42118 -171219
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -48867
+            -50708 -48867
+            -47625 -51950
+            -47625 -66674
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -172000
+            -47633 -172000
+          )
+        )
+        (via "VIA_06" -31007 -171219
+        )
+        (wire
+          (path bottom 1500
+            -55000 -42000
+            -55000 -48867
+          )
+        )
+        (via "VIA_06" -47625 -66674
+        )
+      )
+      (net "L_P_SERIES"
+        (wire
+          (path inner2 1500
+            -70000 250000
+            -73623 246377
+            -73623 -39377
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -58000
+            -73623 -39377
+          )
+        )
+        (via "VIA_06" -73623 -39377
+        )
+      )
+      (net "L_RING"
+        (wire
+          (path inner2 1500
+            -27375 -43682
+            -36259 -52566
+            -36259 -108660
+            -60301 -132702
+          )
+        )
+        (wire
+          (path inner1 1500
+            -60301 -132702
+            -60301 -280499
+            -50800 -290000
+          )
+        )
+        (wire
+          (path top 1500
+            -23000 -27367
+            -27375 -31742
+            -27375 -43682
+          )
+        )
+        (wire
+          (path top 1500
+            -23000 -20000
+            -23000 -27367
+          )
+        )
+        (via "VIA_06" -27375 -43682
+        )
+        (wire
+          (path bottom 1500
+            -60301 -132702
+            -57870 -135133
+            -55000 -135133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -55000 -142000
+            -55000 -135133
+          )
+        )
+        (via "VIA_06" -60301 -132702
+        )
+      )
+      (net "L_N_SERIES"
+        (wire
+          (path top 1500
+            20000 250000
+            1133 231133
+            1133 -11867
+            -7000 -20000
+          )
+        )
+      )
+      (net "L_DRIVE"
+        (wire
+          (path bottom 1500
+            -11000 -200500
+            -1133 -200500
+          )
+        )
+        (wire
+          (path bottom 1500
+            41367 -198045
+            39954 -196632
+            2735 -196632
+            -1133 -200500
+          )
+        )
+        (wire
+          (path bottom 1500
+            20500 -255000
+            12133 -255000
+          )
+        )
+        (wire
+          (path inner1 1500
+            9832 -257782
+            25022 -257782
+            60643 -222161
+            60643 -217321
+            41367 -198045
+          )
+        )
+        (wire
+          (path bottom 1500
+            12133 -255000
+            12133 -255481
+            9832 -257782
+          )
+        )
+        (wire
+          (path bottom 1500
+            41367 -198045
+            42178 -198045
+            43633 -199500
+          )
+        )
+        (wire
+          (path bottom 1500
+            55000 -199500
+            43633 -199500
+          )
+        )
+        (via "VIA_06" 41367 -198045
+        )
+        (via "VIA_06" 9832 -257782
+        )
+        (wire
+          (path bottom 1500
+            20500 -255000
+            28867 -255000
+          )
+        )
+        (wire
+          (path bottom 1500
+            35000 -247000
+            28867 -253133
+            28867 -255000
+          )
+        )
+      )
+      (net "L_GAIN_FB"
+        (wire
+          (path bottom 1500
+            12148 -266352
+            9219 -266352
+            -2133 -255000
+          )
+        )
+        (wire
+          (path bottom 1500
+            50000 -247000
+            50000 -253867
+          )
+        )
+        (wire
+          (path bottom 1500
+            -10500 -255000
+            -2133 -255000
+          )
+        )
+        (wire
+          (path bottom 1124
+            35000 -266352
+            12148 -266352
+          )
+        )
+        (wire
+          (path bottom 1500
+            35000 -263000
+            35000 -266352
+          )
+        )
+        (wire
+          (path bottom 1500
+            35000 -263000
+            35000 -256133
+          )
+        )
+        (wire
+          (path bottom 1500
+            35000 -256133
+            47734 -256133
+            50000 -253867
+          )
+        )
+      )
+      (net "L_WIPER"
+        (wire
+          (path bottom 1500
+            -11000 -213500
+            -1133 -213500
+          )
+        )
+        (wire
+          (path bottom 1500
+            3063 -215276
+            643 -215276
+            -1133 -213500
+          )
+        )
+        (via "VIA_06" 3063 -215276
+        )
+        (wire
+          (path inner1 1500
+            -38100 -182700
+            -5524 -215276
+            3063 -215276
+          )
+        )
+        (wire
+          (path top 1500
+            -38100 -182700
+            -48000 -192600
+            -48000 -205000
+          )
+        )
+      )
+      (net "L_HALF_SUM"
+        (wire
+          (path inner1 1500
+            10626 -305516
+            10626 -297255
+            -8079 -278550
+            -8079 -261269
+            11432 -241758
+            11432 -221568
+            18228 -214772
+          )
+        )
+        (wire
+          (path bottom 1500
+            332 -231102
+            10000 -221434
+            10000 -211367
+          )
+        )
+        (wire
+          (path bottom 1500
+            10626 -305516
+            10137 -306005
+            -15108 -306005
+            -30000 -291113
+            -30000 -283000
+          )
+        )
+        (via "VIA_06" 10626 -305516
+        )
+        (wire
+          (path bottom 1500
+            18228 -214772
+            13405 -214772
+            10000 -211367
+          )
+        )
+        (wire
+          (path top 1500
+            18228 -214772
+            28000 -205000
+          )
+        )
+        (via "VIA_06" 18228 -214772
+        )
+        (wire
+          (path bottom 1500
+            10000 -204000
+            10000 -211367
+          )
+        )
+        (wire
+          (path bottom 1124
+            -11000 -233000
+            -1321 -233000
+          )
+        )
+        (wire
+          (path bottom 1124
+            332 -231102
+            -1321 -232755
+            -1321 -233000
+          )
+        )
+      )
+      (net "L_HALF_DRIVE"
+        (wire
+          (path bottom 1500
+            16000 -275000
+            3553 -275000
+            -4799 -266648
+            -5252 -266648
+          )
+        )
+        (wire
+          (path bottom 1500
+            -11000 -239500
+            -20867 -239500
+          )
+        )
+        (wire
+          (path bottom 1124
+            -5252 -266648
+            -17152 -266648
+            -18852 -264948
+            -18852 -250104
+            -24308 -244648
+          )
+        )
+        (wire
+          (path bottom 1500
+            -24308 -244648
+            -20867 -241207
+            -20867 -239500
+          )
+        )
+        (wire
+          (path bottom 1124
+            -11000 -239500
+            -1321 -239500
+          )
+        )
+        (wire
+          (path bottom 1124
+            10000 -237602
+            577 -237602
+            -1321 -239500
+          )
+        )
+        (wire
+          (path bottom 1500
+            10000 -236000
+            10000 -237602
+          )
+        )
+      )
+      (net "L_ABS"
+        (wire
+          (path bottom 1500
+            -78867 -239500
+            -78867 -213500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -69000 -213500
+            -78867 -213500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -69000 -239500
+            -78867 -239500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -59916 -239500
+            -59148 -239500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -59148 -239500
+            -59133 -239500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -69000 -239500
+            -59916 -239500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -59133 -239500
+            -59133 -242963
+            -63867 -247697
+            -63867 -255000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -57000 -255000
+            -63867 -255000
+          )
+        )
+      )
+      (net "L_ABS_SUM"
+        (wire
+          (path top 1500
+            -2000 -212367
+            -2304 -212671
+            -2304 -243059
+            118 -245481
+          )
+        )
+        (wire
+          (path inner1 1500
+            -34476 -244971
+            -392 -244971
+            118 -245481
+          )
+        )
+        (wire
+          (path bottom 1500
+            -43000 -247648
+            -57648 -233000
+            -69000 -233000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -43000 -247648
+            -43000 -247633
+          )
+        )
+        (wire
+          (path bottom 1500
+            -43000 -248416
+            -43000 -247648
+          )
+        )
+        (wire
+          (path bottom 1500
+            -43000 -255000
+            -43000 -248416
+          )
+        )
+        (wire
+          (path bottom 1500
+            -43000 -247633
+            -37138 -247633
+            -34476 -244971
+          )
+        )
+        (via "VIA_06" -34476 -244971
+        )
+        (wire
+          (path bottom 1500
+            -43000 -255000
+            -49867 -255000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -49867 -255000
+            -49867 -261009
+            -51737 -262879
+            -65121 -262879
+            -73000 -255000
+          )
+        )
+        (wire
+          (path top 1500
+            -2000 -205000
+            -2000 -212367
+          )
+        )
+        (via "VIA_06" 118 -245481
+        )
+      )
+      (net "L_PEAK_FOLLOW"
+        (wire
+          (path bottom 1500
+            -69000 -207000
+            -59133 -207000
+          )
+        )
+        (wire
+          (path inner2 1500
+            -51233 -215102
+            -75000 -238869
+            -75000 -264623
+          )
+        )
+        (wire
+          (path bottom 1500
+            -59133 -207000
+            -59133 -207202
+            -51233 -215102
+          )
+        )
+        (via "VIA_06" -51233 -215102
+        )
+        (wire
+          (path inner1 1500
+            -58867 120650
+            -80531 98986
+            -80531 -259092
+            -75000 -264623
+          )
+        )
+        (wire
+          (path top 1500
+            -75000 -264623
+            -75000 -216000
+          )
+        )
+        (via "VIA_06" -75000 -264623
+        )
+        (wire
+          (path bottom 1500
+            -58867 130000
+            -58867 120650
+          )
+        )
+        (wire
+          (path bottom 1500
+            -52000 130000
+            -58867 130000
+          )
+        )
+        (via "VIA_06" -58867 120650
+        )
+      )
+      (net "L_PEAK_DRIVE"
+        (wire
+          (path top 1500
+            -75000 -184000
+            -75000 -174369
+          )
+        )
+        (wire
+          (path bottom 1500
+            -78867 -200500
+            -78867 -178236
+            -75000 -174369
+          )
+        )
+        (wire
+          (path bottom 1500
+            -69000 -200500
+            -78867 -200500
+          )
+        )
+        (via "VIA_06" -75000 -174369
+        )
+      )
+      (net "L_OUT"
+        (wire
+          (path inner1 1500
+            26510 -175730
+            26510 -191383
+            55000 -219873
+          )
+        )
+        (wire
+          (path bottom 1500
+            55000 -230500
+            55000 -219873
+          )
+        )
+        (wire
+          (path top 1500
+            26510 -175730
+            26509 -175730
+            26509 -189761
+            18867 -197403
+            18867 -205000
+          )
+        )
+        (wire
+          (path inner1 1500
+            -12700 -157300
+            -12700 -159506
+            -930 -171276
+            22056 -171276
+            26510 -175730
+          )
+        )
+        (wire
+          (path bottom 1500
+            47633 -167000
+            44051 -170582
+            31658 -170582
+            26510 -175730
+          )
+        )
+        (wire
+          (path top 1500
+            -18000 -197633
+            -23726 -191907
+            -23726 -168326
+            -12700 -157300
+          )
+        )
+        (wire
+          (path top 1500
+            -18000 -205000
+            -18000 -197633
+          )
+        )
+        (wire
+          (path top 1500
+            12000 -205000
+            18867 -205000
+          )
+        )
+        (wire
+          (path bottom 1500
+            55000 -167000
+            47633 -167000
+          )
+        )
+        (via "VIA_06" 26510 -175730
+        )
+        (via "VIA_06" 55000 -219873
+        )
+      )
+      (net "L_HALF"
+        (wire
+          (path bottom 1500
+            -30000 -267000
+            -22633 -267000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -22633 -267000
+            -22633 -268367
+            -16000 -275000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -27000 -255000
+            -27000 -262367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -27000 -262367
+            -30000 -265367
+            -30000 -267000
+          )
+        )
+      )
+      (net "L_LED_2_K"
+        (wire
+          (path top 1500
+            -44000 484500
+            -34133 484500
+          )
+        )
+        (wire
+          (path top 1500
+            -38100 507300
+            -34133 503333
+            -34133 484500
+          )
+        )
+      )
+      (net "L_LED_1_K"
+        (wire
+          (path top 1500
+            -38100 532700
+            -57105 513695
+            -57105 481238
+            -53867 478000
+          )
+        )
+        (wire
+          (path top 1500
+            -44000 478000
+            -53867 478000
+          )
+        )
+      )
+      (net "L_LED_4_K"
+        (wire
+          (path top 1124
+            14000 478000
+            4321 478000
+          )
+        )
+        (wire
+          (path top 1124
+            -9739 479898
+            2423 479898
+            4321 478000
+          )
+        )
+        (wire
+          (path top 1500
+            -12700 507300
+            -9739 504339
+            -9739 479898
+          )
+        )
+      )
+      (net "L_LED_3_K"
+        (wire
+          (path top 1500
+            14000 484500
+            4133 484500
+          )
+        )
+        (wire
+          (path top 1500
+            -12700 532700
+            1 519999
+            1 488632
+            4133 484500
+          )
+        )
+      )
+      (net "R_TIP"
+        (wire
+          (path inner2 1500
+            -12000 -389734
+            -12000 -515200
+            0 -527200
+          )
+        )
+        (wire
+          (path bottom 1500
+            -12000 -389734
+            -12000 -380000
+          )
+        )
+        (via "VIA_06" -12000 -389734
+        )
+        (wire
+          (path bottom 1500
+            0 -527200
+            8000 -519200
+            8000 -510000
+          )
+        )
+      )
+      (net "R_P_SERIES"
+        (wire
+          (path inner1 1500
+            -28000 -370078
+            -28000 -357958
+            1627 -328331
+            1627 -297075
+            -43530 -251918
+            -43530 -231993
+            -32540 -221003
+            -32540 -215657
+            -52247 -195950
+            -52247 -140147
+            -44283 -132183
+            -44283 -125717
+            -70000 -100000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -28000 -370078
+            -28000 -380000
+          )
+        )
+        (via "VIA_06" -28000 -370078
+        )
+      )
+      (net "R_RING"
+        (wire
+          (path inner1 1500
+            -37664 -362797
+            -3787 -328920
+            -3787 -300349
+          )
+        )
+        (wire
+          (path bottom 1500
+            -2000 -290000
+            -2000 -298562
+            -3787 -300349
+          )
+        )
+        (wire
+          (path inner1 1500
+            -37664 -362797
+            -50800 -375933
+            -50800 -470000
+          )
+        )
+        (via "VIA_06" -3787 -300349
+        )
+        (wire
+          (path bottom 1500
+            -37664 -362797
+            -40000 -365133
+          )
+        )
+        (wire
+          (path bottom 1500
+            -40000 -372000
+            -40000 -365133
+          )
+        )
+        (via "VIA_06" -37664 -362797
+        )
+      )
+      (net "R_N_SERIES"
+        (wire
+          (path inner1 1500
+            -2556 -276482
+            10731 -276482
+            63760 -223453
+            63760 -192478
+            41282 -170000
+            34865 -170000
+            27130 -162265
+            27130 -148622
+            30700 -145052
+            30700 -119586
+            20000 -108886
+            20000 -100000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -11133 -290000
+            -11133 -285059
+            -2556 -276482
+          )
+        )
+        (wire
+          (path bottom 1500
+            -18000 -290000
+            -11133 -290000
+          )
+        )
+        (via "VIA_06" -2556 -276482
+        )
+      )
+      (net "R_DRIVE"
+        (wire
+          (path inner1 1500
+            80262 -92784
+            80262 -103752
+            50376 -133638
+            47771 -133638
+          )
+        )
+        (wire
+          (path bottom 1500
+            45500 -131367
+            47771 -133638
+          )
+        )
+        (wire
+          (path bottom 1500
+            65000 -49500
+            65000 -57867
+          )
+        )
+        (wire
+          (path bottom 1500
+            65000 -57867
+            72321 -57867
+            80262 -65808
+            80262 -92784
+          )
+        )
+        (wire
+          (path bottom 1500
+            78000 -107633
+            80262 -105371
+            80262 -92784
+          )
+        )
+        (wire
+          (path bottom 1500
+            45500 -120000
+            45500 -131367
+          )
+        )
+        (via "VIA_06" 47771 -133638
+        )
+        (wire
+          (path bottom 1500
+            78000 -115000
+            78000 -107633
+          )
+        )
+        (via "VIA_06" 80262 -92784
+        )
+        (wire
+          (path bottom 1124
+            44000 -45500
+            53679 -45500
+          )
+        )
+        (wire
+          (path bottom 1124
+            63484 -47398
+            55577 -47398
+            53679 -45500
+          )
+        )
+        (wire
+          (path bottom 1500
+            65000 -49500
+            63484 -47984
+            63484 -47398
+          )
+        )
+      )
+      (net "R_GAIN_FB"
+        (wire
+          (path inner1 1500
+            78000 -139644
+            46177 -139644
+            42088 -135555
+            42088 -104365
+            79131 -67322
+            79131 -49861
+            53969 -24699
+          )
+        )
+        (wire
+          (path bottom 1500
+            34133 -52000
+            34133 -41579
+            37610 -38102
+            44206 -38102
+            49500 -32808
+            49500 -29168
+            53969 -24699
+          )
+        )
+        (wire
+          (path bottom 1500
+            44000 -52000
+            34133 -52000
+          )
+        )
+        (via "VIA_06" 53969 -24699
+        )
+        (wire
+          (path bottom 1500
+            78000 -139644
+            78000 -130000
+          )
+        )
+        (via "VIA_06" 78000 -139644
+        )
+        (wire
+          (path bottom 1500
+            60148 -93572
+            64853 -88867
+            65000 -88867
+          )
+        )
+        (wire
+          (path bottom 1500
+            62000 -115000
+            61330 -115000
+            60148 -113818
+          )
+        )
+        (wire
+          (path bottom 1124
+            60148 -113818
+            60148 -93572
+          )
+        )
+        (wire
+          (path bottom 1500
+            63252 -115000
+            62000 -115000
+          )
+        )
+        (wire
+          (path bottom 1500
+            65000 -80500
+            65000 -88867
+          )
+        )
+        (wire
+          (path bottom 1500
+            63252 -115000
+            68867 -115000
+          )
+        )
+        (wire
+          (path bottom 1500
+            78000 -130000
+            71133 -130000
+          )
+        )
+        (wire
+          (path bottom 1500
+            68867 -115000
+            68867 -127734
+            71133 -130000
+          )
+        )
+      )
+      (net "R_WIPER"
+        (wire
+          (path inner2 1500
+            12700 -157300
+            9851 -154451
+            9851 -84334
+            16869 -77316
+          )
+        )
+        (wire
+          (path bottom 1500
+            34133 -58500
+            16869 -75764
+            16869 -77316
+          )
+        )
+        (wire
+          (path bottom 1500
+            44000 -58500
+            34133 -58500
+          )
+        )
+        (via "VIA_06" 16869 -77316
+        )
+        (wire
+          (path bottom 1500
+            38000 -140000
+            31133 -140000
+          )
+        )
+        (wire
+          (path bottom 1500
+            12700 -157300
+            18125 -157300
+            31133 -144292
+            31133 -140000
+          )
+        )
+      )
+      (net "R_HALF_SUM"
+        (wire
+          (path bottom 1500
+            19442 20194
+            29745 30497
+            37187 30497
+            59470 8214
+            59470 -32530
+            57000 -35000
+          )
+        )
+        (via "VIA_06" 19442 20194
+        )
+        (wire
+          (path top 1500
+            24337 -45188
+            21017 -41868
+            21017 2163
+            19442 3738
+            19442 20194
+          )
+        )
+        (wire
+          (path top 1500
+            29000 -51633
+            24337 -46970
+            24337 -45188
+          )
+        )
+        (wire
+          (path bottom 1500
+            26053 -82987
+            14948 -82987
+            11502 -79541
+            11502 -58023
+            24337 -45188
+          )
+        )
+        (wire
+          (path bottom 1500
+            26053 -82987
+            26053 -80713
+            29329 -77437
+            43437 -77437
+            44000 -78000
+          )
+        )
+        (wire
+          (path bottom 1500
+            30133 -100000
+            30133 -95708
+            26053 -91628
+            26053 -82987
+          )
+        )
+        (wire
+          (path top 1500
+            29000 -60000
+            29000 -51633
+          )
+        )
+        (via "VIA_06" 24337 -45188
+        )
+        (wire
+          (path bottom 1500
+            37000 -100000
+            30133 -100000
+          )
+        )
+      )
+      (net "R_HALF_DRIVE"
+        (wire
+          (path inner1 1500
+            34493 24751
+            36261 24751
+            48600 12412
+            48600 -26936
+            76014 -54350
+            76014 -66030
+            59239 -82805
+            31594 -82805
+          )
+        )
+        (wire
+          (path top 1500
+            34493 24751
+            31287 21545
+            31287 -5209
+            34000 -7922
+            34000 -40000
+          )
+        )
+        (via "VIA_06" 34493 24751
+        )
+        (wire
+          (path top 1500
+            41367 -40000
+            49367 -40000
+            61000 -51633
+          )
+        )
+        (wire
+          (path bottom 1500
+            34133 -84500
+            32438 -82805
+            31594 -82805
+          )
+        )
+        (wire
+          (path bottom 1500
+            44000 -84500
+            34133 -84500
+          )
+        )
+        (via "VIA_06" 31594 -82805
+        )
+        (wire
+          (path top 1500
+            34000 -40000
+            41367 -40000
+          )
+        )
+        (wire
+          (path top 1500
+            61000 -60000
+            61000 -51633
+          )
+        )
+      )
+      (net "R_ABS"
+        (wire
+          (path top 1500
+            0 -88000
+            0 -102329
+            -9679 -112008
+          )
+        )
+        (wire
+          (path bottom 1500
+            -23397 -84500
+            -23397 -89400
+            -30301 -96304
+            -30301 -104382
+            -22675 -112008
+            -9679 -112008
+          )
+        )
+        (wire
+          (path bottom 1500
+            -14000 -58500
+            -4133 -58500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -14000 -84500
+            -4133 -84500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -4133 -84500
+            -4133 -58500
+          )
+        )
+        (wire
+          (path bottom 1500
+            -14000 -84500
+            -23397 -84500
+          )
+        )
+        (via "VIA_06" -9679 -112008
+        )
+      )
+      (net "R_ABS_SUM"
+        (wire
+          (path bottom 1500
+            -23867 -78000
+            -30154 -78000
+            -34330 -82176
+            -34330 -105442
+            -22323 -117449
+            -4449 -117449
+            0 -113000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -14000 -78000
+            -23867 -78000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -10573 -91448
+            -7561 -94460
+            -7561 -102864
+            -4292 -106133
+            0 -106133
+          )
+        )
+        (wire
+          (path top 1500
+            0 -72000
+            0 -78867
+          )
+        )
+        (via "VIA_06" -10573 -91448
+        )
+        (wire
+          (path top 1500
+            0 -78867
+            -4292 -78867
+            -10573 -85148
+            -10573 -91448
+          )
+        )
+        (wire
+          (path top 1500
+            7148 -64852
+            6867 -65133
+            0 -65133
+          )
+        )
+        (wire
+          (path top 1124
+            7648 -45133
+            7648 -64352
+            7148 -64852
+          )
+        )
+        (wire
+          (path top 1500
+            15000 -45133
+            7648 -45133
+          )
+        )
+        (wire
+          (path top 1500
+            0 -72000
+            0 -65133
+          )
+        )
+        (wire
+          (path top 1500
+            15000 -52000
+            15000 -45133
+          )
+        )
+        (wire
+          (path bottom 1500
+            0 -113000
+            0 -106133
+          )
+        )
+      )
+      (net "R_PEAK_FOLLOW"
+        (wire
+          (path bottom 1500
+            -35000 -41367
+            -35000 -43894
+            -26894 -52000
+            -14000 -52000
+          )
+        )
+        (wire
+          (path inner2 1500
+            -40431 198424
+            -40431 -24236
+          )
+        )
+        (wire
+          (path bottom 1500
+            -28867 230000
+            -28867 209988
+            -40431 198424
+          )
+        )
+        (wire
+          (path bottom 1500
+            -35000 -34000
+            -35000 -41367
+          )
+        )
+        (wire
+          (path bottom 1500
+            -35000 -30316
+            -35000 -34000
+          )
+        )
+        (wire
+          (path bottom 1500
+            -35000 -30316
+            -35000 -26633
+          )
+        )
+        (wire
+          (path bottom 1500
+            -40431 -24236
+            -38034 -26633
+            -35000 -26633
+          )
+        )
+        (via "VIA_06" -40431 -24236
+        )
+        (wire
+          (path bottom 1500
+            -22000 230000
+            -28867 230000
+          )
+        )
+        (via "VIA_06" -40431 198424
+        )
+      )
+      (net "R_PEAK_DRIVE"
+        (wire
+          (path inner1 1500
+            -42581 -48490
+            -46181 -44890
+            -46181 -5683
+            -34044 6454
+            -18358 6454
+            6536 -18440
+            15276 -18440
+          )
+        )
+        (wire
+          (path bottom 1500
+            -14000 -45500
+            -2800 -45500
+            15276 -27424
+            15276 -18440
+          )
+        )
+        (wire
+          (path bottom 1500
+            -35000 -66000
+            -35000 -56071
+            -42581 -48490
+          )
+        )
+        (via "VIA_06" 15276 -18440
+        )
+        (via "VIA_06" -42581 -48490
+        )
+      )
+      (net "R_OUT"
+        (wire
+          (path bottom 1500
+            33918 -108000
+            22867 -119051
+            22867 -120000
+          )
+        )
+        (wire
+          (path inner2 1500
+            12700 -182700
+            12700 -178439
+            25192 -165947
+            25192 -122325
+          )
+        )
+        (wire
+          (path bottom 1500
+            22867 -120000
+            25192 -122325
+          )
+        )
+        (via "VIA_06" 25192 -122325
+        )
+        (wire
+          (path bottom 1500
+            14500 -120000
+            22867 -120000
+          )
+        )
+        (wire
+          (path bottom 1500
+            53000 -100000
+            46133 -100000
+          )
+        )
+        (wire
+          (path bottom 1500
+            43852 -107352
+            46133 -105071
+            46133 -100000
+          )
+        )
+        (wire
+          (path bottom 1124
+            33918 -108000
+            34566 -107352
+            43852 -107352
+          )
+        )
+        (wire
+          (path bottom 1500
+            9547 -120000
+            6133 -120000
+          )
+        )
+        (wire
+          (path bottom 1500
+            14500 -120000
+            9547 -120000
+          )
+        )
+        (wire
+          (path bottom 1500
+            9547 -112047
+            9547 -120000
+          )
+        )
+        (wire
+          (path bottom 1124
+            7352 -101284
+            7352 -109852
+            9547 -112047
+          )
+        )
+        (wire
+          (path bottom 1500
+            0 -97000
+            4284 -101284
+            7352 -101284
+          )
+        )
+        (wire
+          (path bottom 1500
+            -2000 -125000
+            4867 -125000
+          )
+        )
+        (wire
+          (path bottom 1500
+            4867 -125000
+            4867 -121266
+            6133 -120000
+          )
+        )
+      )
+      (net "R_HALF"
+        (wire
+          (path top 1500
+            66000 -31633
+            66000 -25925
+          )
+        )
+        (wire
+          (path bottom 1500
+            73000 -27633
+            67708 -27633
+            66000 -25925
+          )
+        )
+        (wire
+          (path top 1500
+            15000 -68000
+            22367 -68000
+          )
+        )
+        (wire
+          (path top 1500
+            66000 -48367
+            76521 -58888
+            76521 -65967
+            65147 -77341
+            29657 -77341
+            22367 -70051
+            22367 -68000
+          )
+        )
+        (wire
+          (path top 1500
+            66000 -40000
+            66000 -48367
+          )
+        )
+        (wire
+          (path bottom 1500
+            73000 -35000
+            73000 -27633
+          )
+        )
+        (wire
+          (path top 1500
+            66000 -40000
+            66000 -31633
+          )
+        )
+        (via "VIA_06" 66000 -25925
+        )
+      )
+      (net "R_LED_2_K"
+        (wire
+          (path inner1 1500
+            12700 507300
+            1833 496433
+            -49061 496433
+            -49726 497098
+            -54353 497098
+            -57531 493920
+            -57531 472969
+            -19132 434570
+            43273 434570
+            51467 442764
+          )
+        )
+        (wire
+          (path bottom 1500
+            51467 442764
+            52688 443985
+            52688 457302
+            50490 459500
+            29000 459500
+          )
+        )
+        (via "VIA_06" 51467 442764
+        )
+      )
+      (net "R_LED_1_K"
+        (wire
+          (path bottom 1500
+            -880 463379
+            9499 453000
+            29000 453000
+          )
+        )
+        (via "VIA_06" -880 463379
+        )
+        (wire
+          (path inner2 1500
+            12700 532700
+            -880 519120
+            -880 463379
+          )
+        )
+      )
+      (net "R_LED_4_K"
+        (wire
+          (path inner1 1500
+            -8896 452980
+            -3688 452980
+            38100 494768
+            38100 507300
+          )
+        )
+        (wire
+          (path bottom 1500
+            -19133 453000
+            -8916 453000
+            -8896 452980
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29000 453000
+            -19133 453000
+          )
+        )
+        (via "VIA_06" -8896 452980
+        )
+      )
+      (net "R_LED_3_K"
+        (wire
+          (path inner1 1500
+            38100 532700
+            33290 532700
+            23619 523029
+            23619 501567
+            -16643 461305
+          )
+        )
+        (wire
+          (path bottom 1500
+            -19133 459500
+            -17328 461305
+            -16643 461305
+          )
+        )
+        (wire
+          (path bottom 1500
+            -29000 459500
+            -19133 459500
+          )
+        )
+        (via "VIA_06" -16643 461305
+        )
+      )
+    )
+  )
+)

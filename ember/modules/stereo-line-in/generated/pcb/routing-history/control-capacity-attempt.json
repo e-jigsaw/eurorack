@@ -1,0 +1,518 @@
+{
+  "board": "control",
+  "routing": true,
+  "seconds": 8.469,
+  "errors": [
+    {
+      "type": "pcb_autorouting_error",
+      "pcb_autorouting_error_id": "pcb_autorouting_error_0",
+      "pcb_error_id": "pcb_autorouter_error_subcircuit_subcircuit_source_group_0",
+      "error_type": "pcb_autorouting_error",
+      "message": "Failed to solve 1 nodes via hd-cache. First failure: cmn_63 (Remote solve failed (getaddrinfo ENOTFOUND hd-cache.tscircuit.com); local fallback failed (All solvers failed in hyper solver. Example failures: MultiHeadPolyLineIntraNodeSolver3 ran out of iterations (MAX_ITERATIONS=1000), MultiHeadPolyLineIntraNodeSolver3 ran out of iterations (MAX_ITERATIONS=1000), Convergence failure: exceeded MAX_RIPS 200, Convergence failure: exceeded MAX_RIPS 200, Ran out of candidate nodes to explore)) (capacity-autorouter@0.0.662)"
+    }
+  ],
+  "warnings": [
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_0",
+      "message": "<trace#427(from:.C_LED_BULK > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_0",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_1",
+      "message": "<trace#428(from:.C_LED_BULK > .pin2 to:net.GND) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_1",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_2",
+      "message": "<trace#429(from:.RV_L > .pin1 to:net.GND) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_2",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_3",
+      "message": "<trace#430(from:.RV_L > .pin2 to:net.L_WIPER) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_3",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_4",
+      "message": "<trace#431(from:.RV_L > .pin3 to:net.L_RX_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_4",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_5",
+      "message": "<trace#432(from:.RV_R > .pin1 to:net.GND) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_5",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_6",
+      "message": "<trace#433(from:.RV_R > .pin2 to:net.R_WIPER) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_6",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_7",
+      "message": "<trace#434(from:.RV_R > .pin3 to:net.R_RX_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_7",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_8",
+      "message": "<trace#435(from:.J_OUT_L > .pin1 to:net.L_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_8",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_9",
+      "message": "<trace#436(from:.J_OUT_L > .pin2 to:net.GND) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_9",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_10",
+      "message": "<trace#437(from:.R_L_LED_1 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_10",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_11",
+      "message": "<trace#438(from:.R_L_LED_1 > .pin2 to:net.L_LED_1_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_11",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_12",
+      "message": "<trace#439(from:.LED_L_1 > .pin1 to:net.L_LED_1_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_12",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_13",
+      "message": "<trace#440(from:.LED_L_1 > .pin2 to:net.L_LED_1_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_13",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_14",
+      "message": "<trace#441(from:.R_L_LED_2 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_14",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_15",
+      "message": "<trace#442(from:.R_L_LED_2 > .pin2 to:net.L_LED_2_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_15",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_16",
+      "message": "<trace#443(from:.LED_L_2 > .pin1 to:net.L_LED_2_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_16",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_17",
+      "message": "<trace#444(from:.LED_L_2 > .pin2 to:net.L_LED_2_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_17",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_18",
+      "message": "<trace#445(from:.R_L_LED_3 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_18",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_19",
+      "message": "<trace#446(from:.R_L_LED_3 > .pin2 to:net.L_LED_3_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_19",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_20",
+      "message": "<trace#447(from:.LED_L_3 > .pin1 to:net.L_LED_3_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_20",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_21",
+      "message": "<trace#448(from:.LED_L_3 > .pin2 to:net.L_LED_3_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_21",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_22",
+      "message": "<trace#449(from:.R_L_LED_4 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_22",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_23",
+      "message": "<trace#450(from:.R_L_LED_4 > .pin2 to:net.L_LED_4_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_23",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_24",
+      "message": "<trace#451(from:.LED_L_4 > .pin1 to:net.L_LED_4_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_24",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_25",
+      "message": "<trace#452(from:.LED_L_4 > .pin2 to:net.L_LED_4_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_25",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_26",
+      "message": "<trace#453(from:.J_OUT_R > .pin1 to:net.R_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_26",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_27",
+      "message": "<trace#454(from:.J_OUT_R > .pin2 to:net.GND) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_27",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_28",
+      "message": "<trace#455(from:.R_R_LED_1 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_28",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_29",
+      "message": "<trace#456(from:.R_R_LED_1 > .pin2 to:net.R_LED_1_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_29",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_30",
+      "message": "<trace#457(from:.LED_R_1 > .pin1 to:net.R_LED_1_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_30",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_31",
+      "message": "<trace#458(from:.LED_R_1 > .pin2 to:net.R_LED_1_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_31",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_32",
+      "message": "<trace#459(from:.R_R_LED_2 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_32",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_33",
+      "message": "<trace#460(from:.R_R_LED_2 > .pin2 to:net.R_LED_2_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_33",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_34",
+      "message": "<trace#461(from:.LED_R_2 > .pin1 to:net.R_LED_2_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_34",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_35",
+      "message": "<trace#462(from:.LED_R_2 > .pin2 to:net.R_LED_2_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_35",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_36",
+      "message": "<trace#463(from:.R_R_LED_3 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_36",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_37",
+      "message": "<trace#464(from:.R_R_LED_3 > .pin2 to:net.R_LED_3_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_37",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_38",
+      "message": "<trace#465(from:.LED_R_3 > .pin1 to:net.R_LED_3_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_38",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_39",
+      "message": "<trace#466(from:.LED_R_3 > .pin2 to:net.R_LED_3_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_39",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_40",
+      "message": "<trace#467(from:.R_R_LED_4 > .pin1 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_40",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_41",
+      "message": "<trace#468(from:.R_R_LED_4 > .pin2 to:net.R_LED_4_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_41",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_42",
+      "message": "<trace#469(from:.LED_R_4 > .pin1 to:net.R_LED_4_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_42",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_43",
+      "message": "<trace#470(from:.LED_R_4 > .pin2 to:net.R_LED_4_A) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_43",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_44",
+      "message": "<trace#471(from:.J_LINK > .pin1 to:net.L_RX_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_44",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_45",
+      "message": "<trace#472(from:.J_LINK > .pin2 to:net.L_WIPER) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_45",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_46",
+      "message": "<trace#473(from:.J_LINK > .pin3 to:net.L_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_46",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_47",
+      "message": "<trace#474(from:.J_LINK > .pin4 to:net.R_RX_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_47",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_48",
+      "message": "<trace#475(from:.J_LINK > .pin5 to:net.R_WIPER) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_48",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_49",
+      "message": "<trace#476(from:.J_LINK > .pin6 to:net.R_OUT) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_49",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_50",
+      "message": "<trace#477(from:.J_LINK > .pin7 to:net.GND) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_50",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_51",
+      "message": "<trace#478(from:.J_LINK > .pin8 to:net.VLED) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_51",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_52",
+      "message": "<trace#479(from:.J_LINK > .pin9 to:net.L_LED_1_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_52",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_53",
+      "message": "<trace#480(from:.J_LINK > .pin10 to:net.L_LED_2_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_53",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_54",
+      "message": "<trace#481(from:.J_LINK > .pin11 to:net.L_LED_3_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_54",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_55",
+      "message": "<trace#482(from:.J_LINK > .pin12 to:net.L_LED_4_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_55",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_56",
+      "message": "<trace#483(from:.J_LINK > .pin13 to:net.R_LED_1_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_56",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_57",
+      "message": "<trace#484(from:.J_LINK > .pin14 to:net.R_LED_2_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_57",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_58",
+      "message": "<trace#485(from:.J_LINK > .pin15 to:net.R_LED_3_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_58",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    },
+    {
+      "type": "source_unnamed_trace_warning",
+      "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_59",
+      "message": "<trace#486(from:.J_LINK > .pin16 to:net.R_LED_4_K) /> is missing a name. Add a name prop to make the trace easier to identify.",
+      "source_trace_id": "source_trace_59",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "warning_type": "source_unnamed_trace_warning"
+    }
+  ],
+  "counts": {
+    "source_project_metadata": 1,
+    "source_group": 1,
+    "source_net": 24,
+    "source_port": 66,
+    "source_component": 22,
+    "source_board": 1,
+    "source_trace": 60,
+    "source_unnamed_trace_warning": 60,
+    "schematic_port": 66,
+    "pcb_component": 22,
+    "pcb_board": 1,
+    "pcb_hole": 1,
+    "pcb_keepout": 5,
+    "pcb_smtpad": 18,
+    "pcb_solder_paste": 114,
+    "pcb_silkscreen_rect": 22,
+    "pcb_plated_hole": 48,
+    "pcb_port": 66,
+    "cad_component": 22,
+    "pcb_autorouting_error": 1
+  }
+}

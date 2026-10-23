@@ -1,0 +1,921 @@
+{
+  "J_PWR": {
+    "mpn": "DC3-2.54-10PAS",
+    "manufacturer": "ZHOURI",
+    "package": "Plugin,P=2.54mm",
+    "jlc": "C2977596",
+    "assembly": "manualWeld",
+    "source": "https://jlcpcb.com/partdetail/C2977596",
+    "board": "main"
+  },
+  "D_PWR_P": {
+    "mpn": "SS14",
+    "manufacturer": "MDD(Microdiode Semiconductor)",
+    "package": "SMA(DO-214AC)",
+    "jlc": "C2480",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2480",
+    "board": "main"
+  },
+  "D_PWR_N": {
+    "mpn": "SS14",
+    "manufacturer": "MDD(Microdiode Semiconductor)",
+    "package": "SMA(DO-214AC)",
+    "jlc": "C2480",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2480",
+    "board": "main"
+  },
+  "C_BULK_P": {
+    "mpn": "RVT1E220M0505",
+    "manufacturer": "Honor Elec",
+    "package": "SMD,D5xL5.4mm",
+    "jlc": "C15848",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C15848",
+    "board": "main"
+  },
+  "C_BULK_N": {
+    "mpn": "RVT1E220M0505",
+    "manufacturer": "Honor Elec",
+    "package": "SMD,D5xL5.4mm",
+    "jlc": "C15848",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C15848",
+    "board": "main"
+  },
+  "R_LED_SUPPLY": {
+    "mpn": "0603WAF470JT5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C23182",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C23182",
+    "board": "main"
+  },
+  "C_LED_BULK": {
+    "mpn": "RVT1E470M0605",
+    "manufacturer": "Honor Elec",
+    "package": "SMD,D6.3xL5.4mm",
+    "jlc": "C30034",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C30034",
+    "board": "control"
+  },
+  "R_REFERENCE": {
+    "mpn": "0603WAF2201T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C4190",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C4190",
+    "board": "main"
+  },
+  "U_REF": {
+    "mpn": "TL431BIDBZR",
+    "manufacturer": "Texas Instruments",
+    "package": "SOT-23-3",
+    "jlc": "C41283",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C41283",
+    "board": "main"
+  },
+  "R_TH_TOP_1": {
+    "mpn": "RT0805BRD07240KL",
+    "manufacturer": "YAGEO",
+    "package": "0805",
+    "jlc": "C784586",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C784586",
+    "board": "main"
+  },
+  "R_TH_BOTTOM_1": {
+    "mpn": "RT0603BRD0710KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C95204",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C95204",
+    "board": "main"
+  },
+  "R_TH_TOP_2": {
+    "mpn": "RT0603BRD0752K3L",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C861462",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C861462",
+    "board": "main"
+  },
+  "R_TH_BOTTOM_2": {
+    "mpn": "RT0603BRD0710KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C95204",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C95204",
+    "board": "main"
+  },
+  "R_TH_TOP_3": {
+    "mpn": "RT0603BRD0715KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C326733",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C326733",
+    "board": "main"
+  },
+  "R_TH_BOTTOM_3": {
+    "mpn": "RT0603BRD0710KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C95204",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C95204",
+    "board": "main"
+  },
+  "R_TH_TOP_4": {
+    "mpn": "RT0603BRD075K62L",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C705789",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C705789",
+    "board": "main"
+  },
+  "R_TH_BOTTOM_4": {
+    "mpn": "RT0603BRD0710KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C95204",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C95204",
+    "board": "main"
+  },
+  "U_RX": {
+    "mpn": "INA1650IPWR",
+    "manufacturer": "Texas Instruments",
+    "package": "TSSOP-14",
+    "jlc": "C553130",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C553130",
+    "board": "main"
+  },
+  "C_RX_P": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "C_RX_N": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "RV_L": {
+    "mpn": "RV9312NO-KQ15A6.0-B10K-060",
+    "manufacturer": "Tayda",
+    "package": "A-5622 9mm T18",
+    "assembly": "user_stock_hand_solder",
+    "source": "https://www.taydaelectronics.com/datasheets/files/A-5622.pdf",
+    "board": "control"
+  },
+  "RV_R": {
+    "mpn": "RV9312NO-KQ15A6.0-B10K-060",
+    "manufacturer": "Tayda",
+    "package": "A-5622 9mm T18",
+    "assembly": "user_stock_hand_solder",
+    "source": "https://www.taydaelectronics.com/datasheets/files/A-5622.pdf",
+    "board": "control"
+  },
+  "U_ENV": {
+    "mpn": "OPA1678IDGKR",
+    "manufacturer": "Texas Instruments",
+    "package": "VSSOP-8",
+    "jlc": "C2863133",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2863133",
+    "board": "main"
+  },
+  "C_ENV_P": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "C_ENV_N": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "J_IN_L": {
+    "mpn": "NJ3FD-V",
+    "manufacturer": "Neutrik",
+    "package": "NJ3FD-V vertical",
+    "assembly": "domestic_purchase_hand_solder",
+    "source": "https://www.neutrik.com/media/8597/download/nj3fd-v-3.pdf?v=1",
+    "board": "main"
+  },
+  "R_L_P_BLEED": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "R_L_P_SERIES": {
+    "mpn": "RT0603BRD071KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C110776",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C110776",
+    "board": "main"
+  },
+  "C_L_P_AC": {
+    "mpn": "MKS2C041001F00JSSD",
+    "manufacturer": "WIMA",
+    "package": "Plugin,P=5mm",
+    "jlc": "C92673",
+    "assembly": "manualWeld",
+    "source": "https://jlcpcb.com/partdetail/C92673",
+    "board": "main"
+  },
+  "R_L_N_BLEED": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "R_L_N_SERIES": {
+    "mpn": "RT0603BRD071KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C110776",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C110776",
+    "board": "main"
+  },
+  "C_L_N_AC": {
+    "mpn": "MKS2C041001F00JSSD",
+    "manufacturer": "WIMA",
+    "package": "Plugin,P=5mm",
+    "jlc": "C92673",
+    "assembly": "manualWeld",
+    "source": "https://jlcpcb.com/partdetail/C92673",
+    "board": "main"
+  },
+  "U_L": {
+    "mpn": "OPA1679IPWR",
+    "manufacturer": "Texas Instruments",
+    "package": "TSSOP-14",
+    "jlc": "C2057264",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2057264",
+    "board": "main"
+  },
+  "C_L_VP": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "C_L_VN": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "R_L_WIPER_FAIL": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "R_L_GAIN_G": {
+    "mpn": "RT0603BRD0710KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C95204",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C95204",
+    "board": "main"
+  },
+  "R_L_GAIN_F": {
+    "mpn": "RT1206BRE0790KL",
+    "manufacturer": "YAGEO",
+    "package": "1206",
+    "jlc": "C871504",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C871504",
+    "board": "main"
+  },
+  "C_L_GAIN_F": {
+    "mpn": "CL10C100JB8NNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0603",
+    "jlc": "C1634",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C1634",
+    "board": "main"
+  },
+  "R_L_OUT": {
+    "mpn": "HP06W2F1000T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "1206",
+    "jlc": "C2765755",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2765755",
+    "board": "main"
+  },
+  "R_L_OUT_BLEED": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "J_OUT_L": {
+    "mpn": "WQP-WQP518MA",
+    "manufacturer": "QingPu",
+    "package": "WQP518MA",
+    "assembly": "user_stock_hand_solder",
+    "source": "https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf",
+    "board": "control"
+  },
+  "R_L_HALF_IN": {
+    "mpn": "RT0603BRD07100KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C122538",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C122538",
+    "board": "main"
+  },
+  "R_L_HALF_FB": {
+    "mpn": "RT0603BRD07100KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C122538",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C122538",
+    "board": "main"
+  },
+  "D_L_HALF_CLAMP": {
+    "mpn": "1N4148W",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "jlc": "C81598",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C81598",
+    "board": "main"
+  },
+  "D_L_HALF_RECT": {
+    "mpn": "1N4148W",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "jlc": "C81598",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C81598",
+    "board": "main"
+  },
+  "R_L_ABS_RAW": {
+    "mpn": "RT0603BRD07100KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C122538",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C122538",
+    "board": "main"
+  },
+  "R_L_ABS_HALF": {
+    "mpn": "RT0603BRD0750KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C861451",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C861451",
+    "board": "main"
+  },
+  "R_L_ABS_FB": {
+    "mpn": "RT0603BRD0720KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C723637",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C723637",
+    "board": "main"
+  },
+  "D_L_PEAK": {
+    "mpn": "1N4148W",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "jlc": "C81598",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C81598",
+    "board": "main"
+  },
+  "R_L_ATTACK": {
+    "mpn": "0603WAF1001T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C21190",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C21190",
+    "board": "main"
+  },
+  "C_L_HOLD": {
+    "mpn": "GRM31C5C1H104JA01L",
+    "manufacturer": "Murata Electronics",
+    "package": "1206",
+    "jlc": "C97946",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C97946",
+    "board": "main"
+  },
+  "R_L_RELEASE": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "U_METER_L": {
+    "mpn": "LM339BIPWR",
+    "manufacturer": "Texas Instruments",
+    "package": "TSSOP-14",
+    "jlc": "C7430196",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C7430196",
+    "board": "main"
+  },
+  "C_L_CMP": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "R_L_LED_1": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_L_1": {
+    "mpn": "XL-302UGD",
+    "manufacturer": "XINGLIGHT",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C2895476",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C2895476",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "R_L_LED_2": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_L_2": {
+    "mpn": "XL-302UGD",
+    "manufacturer": "XINGLIGHT",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C2895476",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C2895476",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "R_L_LED_3": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_L_3": {
+    "mpn": "TZ-L2-03YYBY2YDJ30-001",
+    "manufacturer": "TUOZHAN",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C779430",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C779430",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "R_L_LED_4": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_L_4": {
+    "mpn": "XL-302SURD",
+    "manufacturer": "XINGLIGHT",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C2895470",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C2895470",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "J_IN_R": {
+    "mpn": "NJ3FD-V",
+    "manufacturer": "Neutrik",
+    "package": "NJ3FD-V vertical",
+    "assembly": "domestic_purchase_hand_solder",
+    "source": "https://www.neutrik.com/media/8597/download/nj3fd-v-3.pdf?v=1",
+    "board": "main"
+  },
+  "R_R_P_BLEED": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "R_R_P_SERIES": {
+    "mpn": "RT0603BRD071KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C110776",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C110776",
+    "board": "main"
+  },
+  "C_R_P_AC": {
+    "mpn": "MKS2C041001F00JSSD",
+    "manufacturer": "WIMA",
+    "package": "Plugin,P=5mm",
+    "jlc": "C92673",
+    "assembly": "manualWeld",
+    "source": "https://jlcpcb.com/partdetail/C92673",
+    "board": "main"
+  },
+  "R_R_N_BLEED": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "R_R_N_SERIES": {
+    "mpn": "RT0603BRD071KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C110776",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C110776",
+    "board": "main"
+  },
+  "C_R_N_AC": {
+    "mpn": "MKS2C041001F00JSSD",
+    "manufacturer": "WIMA",
+    "package": "Plugin,P=5mm",
+    "jlc": "C92673",
+    "assembly": "manualWeld",
+    "source": "https://jlcpcb.com/partdetail/C92673",
+    "board": "main"
+  },
+  "U_R": {
+    "mpn": "OPA1679IPWR",
+    "manufacturer": "Texas Instruments",
+    "package": "TSSOP-14",
+    "jlc": "C2057264",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2057264",
+    "board": "main"
+  },
+  "C_R_VP": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "C_R_VN": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "R_R_WIPER_FAIL": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "R_R_GAIN_G": {
+    "mpn": "RT0603BRD0710KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C95204",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C95204",
+    "board": "main"
+  },
+  "R_R_GAIN_F": {
+    "mpn": "RT1206BRE0790KL",
+    "manufacturer": "YAGEO",
+    "package": "1206",
+    "jlc": "C871504",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C871504",
+    "board": "main"
+  },
+  "C_R_GAIN_F": {
+    "mpn": "CL10C100JB8NNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0603",
+    "jlc": "C1634",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C1634",
+    "board": "main"
+  },
+  "R_R_OUT": {
+    "mpn": "HP06W2F1000T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "1206",
+    "jlc": "C2765755",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C2765755",
+    "board": "main"
+  },
+  "R_R_OUT_BLEED": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "J_OUT_R": {
+    "mpn": "WQP-WQP518MA",
+    "manufacturer": "QingPu",
+    "package": "WQP518MA",
+    "assembly": "user_stock_hand_solder",
+    "source": "https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf",
+    "board": "control"
+  },
+  "R_R_HALF_IN": {
+    "mpn": "RT0603BRD07100KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C122538",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C122538",
+    "board": "main"
+  },
+  "R_R_HALF_FB": {
+    "mpn": "RT0603BRD07100KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C122538",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C122538",
+    "board": "main"
+  },
+  "D_R_HALF_CLAMP": {
+    "mpn": "1N4148W",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "jlc": "C81598",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C81598",
+    "board": "main"
+  },
+  "D_R_HALF_RECT": {
+    "mpn": "1N4148W",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "jlc": "C81598",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C81598",
+    "board": "main"
+  },
+  "R_R_ABS_RAW": {
+    "mpn": "RT0603BRD07100KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C122538",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C122538",
+    "board": "main"
+  },
+  "R_R_ABS_HALF": {
+    "mpn": "RT0603BRD0750KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C861451",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C861451",
+    "board": "main"
+  },
+  "R_R_ABS_FB": {
+    "mpn": "RT0603BRD0720KL",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C723637",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C723637",
+    "board": "main"
+  },
+  "D_R_PEAK": {
+    "mpn": "1N4148W",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "jlc": "C81598",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C81598",
+    "board": "main"
+  },
+  "R_R_ATTACK": {
+    "mpn": "0603WAF1001T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C21190",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C21190",
+    "board": "main"
+  },
+  "C_R_HOLD": {
+    "mpn": "GRM31C5C1H104JA01L",
+    "manufacturer": "Murata Electronics",
+    "package": "1206",
+    "jlc": "C97946",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C97946",
+    "board": "main"
+  },
+  "R_R_RELEASE": {
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C22935",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C22935",
+    "board": "main"
+  },
+  "U_METER_R": {
+    "mpn": "LM339BIPWR",
+    "manufacturer": "Texas Instruments",
+    "package": "TSSOP-14",
+    "jlc": "C7430196",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C7430196",
+    "board": "main"
+  },
+  "C_R_CMP": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "jlc": "C14663",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C14663",
+    "board": "main"
+  },
+  "R_R_LED_1": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_R_1": {
+    "mpn": "XL-302UGD",
+    "manufacturer": "XINGLIGHT",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C2895476",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C2895476",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "R_R_LED_2": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_R_2": {
+    "mpn": "XL-302UGD",
+    "manufacturer": "XINGLIGHT",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C2895476",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C2895476",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "R_R_LED_3": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_R_3": {
+    "mpn": "TZ-L2-03YYBY2YDJ30-001",
+    "manufacturer": "TUOZHAN",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C779430",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C779430",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  },
+  "R_R_LED_4": {
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "package": "0603",
+    "jlc": "C25804",
+    "assembly": "smtWeld",
+    "source": "https://jlcpcb.com/partdetail/C25804",
+    "board": "control"
+  },
+  "LED_R_4": {
+    "mpn": "XL-302SURD",
+    "manufacturer": "XINGLIGHT",
+    "package": "Plugin,D=3mm",
+    "assembly": "user_hand_solder",
+    "source": "https://jlcpcb.com/partdetail/C2895470",
+    "board": "control",
+    "assembly_requirement": "User aligns lens tips using final panel, then solders; nominal tip 11.9mm forward of control PCB face.",
+    "catalog_reference": "C2895470",
+    "procurement_status": "separate_purchase_required_stock_not_verified"
+  }
+}

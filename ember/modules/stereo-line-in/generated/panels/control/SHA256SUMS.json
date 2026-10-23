@@ -1,0 +1,10 @@
+{
+  "control-panel-gerbers.zip": "9f80dd01b1135010860d8f86d63dcbca4d7d5546d0fc7c2eed1882a85cd165eb",
+  "BOM-JLC.csv": "53ef826a8634b9ec6d670e09ade287d142dc00c0edb19ea7f6dc3239fcf74c31",
+  "CPL-JLC.csv": "fe672e623c8532aa65259ea629afbfdf6b7dabfdead22ad6003aea6dfd381593",
+  "ORDER-NOTES.md": "89a55c8049f22ea2b0cbce25e7d22d90dbdb53da67dbce4b0f408e8228120d4d",
+  "validation.json": "7e20254479b29d826cb922be29584266d6ba6ee620b8be2c631d4b6f4f6c9419",
+  "kicad-drc.json": "fefd36901b814b48f666d205a8cbfe05653508ed7d72ef0388b08fe87c9f50d9",
+  "assembly-F.svg": "1afdfebf8175479979fbbb846ad27ee086e5f36bd7cd642e58e29adf16b080b1",
+  "assembly-B.svg": "920ba071ea6e86a26898e78939f3e4278fefa53067f03f548e86826f274bc9f1"
+}

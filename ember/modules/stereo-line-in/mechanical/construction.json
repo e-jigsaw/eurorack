@@ -1,0 +1,402 @@
+{
+  "status": "PCB revision G: pot signal pins towards panel bottom; physical fit pending",
+  "panel": {
+    "width": 20,
+    "height": 128.5,
+    "thickness": 1.4,
+    "thickness_tolerance": 0.05,
+    "material": "Aluminium, machined to thickness",
+    "hole_diameter_tolerance": 0.05,
+    "hole_position_tolerance": 0.1
+  },
+  "controls": [
+    {
+      "ref": "J_OUT_L",
+      "x": 5,
+      "y": 22,
+      "hole": 6.2,
+      "envelope": 9
+    },
+    {
+      "ref": "J_OUT_R",
+      "x": 15,
+      "y": 22,
+      "hole": 6.2,
+      "envelope": 9
+    },
+    {
+      "ref": "RV_L",
+      "x": 10,
+      "y": 56,
+      "hole": 7.5,
+      "envelope": 12.5
+    },
+    {
+      "ref": "RV_R",
+      "x": 10,
+      "y": 69.5,
+      "hole": 7.5,
+      "envelope": 12.5
+    },
+    {
+      "ref": "J_IN_L",
+      "x": 10,
+      "y": 93,
+      "hole": 12.2,
+      "envelope": 14.5
+    },
+    {
+      "ref": "J_IN_R",
+      "x": 10,
+      "y": 111,
+      "hole": 12.2,
+      "envelope": 14.5
+    }
+  ],
+  "leds": [
+    {
+      "ref": "LED_L_1",
+      "x": 5,
+      "y": 47,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#62c38b"
+    },
+    {
+      "ref": "LED_L_2",
+      "x": 5,
+      "y": 42,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#62c38b"
+    },
+    {
+      "ref": "LED_L_3",
+      "x": 5,
+      "y": 37,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#e7b34c"
+    },
+    {
+      "ref": "LED_L_4",
+      "x": 5,
+      "y": 32,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#ed665d"
+    },
+    {
+      "ref": "LED_R_1",
+      "x": 15,
+      "y": 47,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#62c38b"
+    },
+    {
+      "ref": "LED_R_2",
+      "x": 15,
+      "y": 42,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#62c38b"
+    },
+    {
+      "ref": "LED_R_3",
+      "x": 15,
+      "y": 37,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#e7b34c"
+    },
+    {
+      "ref": "LED_R_4",
+      "x": 15,
+      "y": 32,
+      "hole": 3.6,
+      "envelope": 4.3,
+      "color": "#ed665d"
+    }
+  ],
+  "fixings": [
+    {
+      "ref": "PANEL_TOP",
+      "x": 7.5,
+      "y": 3,
+      "hole": 3.2,
+      "envelope": 7
+    },
+    {
+      "ref": "PANEL_BOTTOM",
+      "x": 7.5,
+      "y": 125.5,
+      "hole": 3.2,
+      "envelope": 7
+    }
+  ],
+  "boards": [
+    {
+      "name": "control",
+      "x": 1,
+      "y": 8,
+      "width": 18,
+      "height": 77,
+      "z": 10,
+      "thickness": 1.6
+    },
+    {
+      "name": "main",
+      "x": 1,
+      "y": 9,
+      "width": 18,
+      "height": 110,
+      "z": 24,
+      "thickness": 1.6
+    }
+  ],
+  "film_capacitors": [
+    {
+      "ref": "C_L_P_AC",
+      "x": 5.5,
+      "y": 39,
+      "width": 7.2,
+      "height": 5,
+      "zmin": 14,
+      "zmax": 24,
+      "board": "main_front"
+    },
+    {
+      "ref": "C_L_N_AC",
+      "x": 14.5,
+      "y": 39,
+      "width": 7.2,
+      "height": 5,
+      "zmin": 14,
+      "zmax": 24,
+      "board": "main_front"
+    },
+    {
+      "ref": "C_R_P_AC",
+      "x": 5.5,
+      "y": 74,
+      "width": 7.2,
+      "height": 5,
+      "zmin": 14,
+      "zmax": 24,
+      "board": "main_front"
+    },
+    {
+      "ref": "C_R_N_AC",
+      "x": 14.5,
+      "y": 74,
+      "width": 7.2,
+      "height": 5,
+      "zmin": 14,
+      "zmax": 24,
+      "board": "main_front"
+    }
+  ],
+  "spacers": [],
+  "jack_shims": {
+    "quantity": 2,
+    "thickness": 1.0,
+    "inside_diameter": 6.2,
+    "outside_diameter": 8.5,
+    "material": "insulating washer behind panel",
+    "purpose": "WQP 9mm body to common 10mm PCB datum"
+  },
+  "knobs": {
+    "quantity": 2,
+    "shaft": "6mm T18 spline",
+    "nominal_diameter": 12,
+    "maximum_diameter": 12.5,
+    "maximum_height": 15
+  },
+  "led_mounting": {
+    "tip_z": -1.9,
+    "assembler": "user",
+    "method": "Align using panel and flat jig, then hand solder; individual support heights follow LED body lengths; do not bottom LEDs on PCB"
+  },
+  "interconnect": {
+    "method": "Two 2x4 Samtec TSW headers on control bottom; SSW sockets on main top. Panel-mounted pots/jacks establish board planes. Do not push connector housings fully together.",
+    "nets": [
+      "L_RX_OUT",
+      "L_WIPER",
+      "L_OUT",
+      "R_RX_OUT",
+      "R_WIPER",
+      "R_OUT",
+      "GND",
+      "VLED",
+      "L_LED_1_K",
+      "L_LED_2_K",
+      "L_LED_3_K",
+      "L_LED_4_K",
+      "R_LED_1_K",
+      "R_LED_2_K",
+      "R_LED_3_K",
+      "R_LED_4_K"
+    ],
+    "physical_implementation": "J_LINK_TOP panel (10,12), J_LINK_BOTTOM (10,81), both long axes horizontal. Header on control bottom, socket on main top. Matched logical pins; maximum clipped tail plus solder 1.5 mm.",
+    "board_gap_mm": 12.4,
+    "header_post_mm": 5.84,
+    "header_housing_mm": 2.54,
+    "socket_housing_mm": 8.51,
+    "insertion_mm": 4.49,
+    "allowed_insertion_mm": [
+      3.68,
+      6.35
+    ],
+    "housing_gap_mm": 1.35,
+    "positions": [
+      {
+        "ref": "J_LINK_TOP",
+        "x": 10,
+        "y": 12,
+        "rotation": 90
+      },
+      {
+        "ref": "J_LINK_BOTTOM",
+        "x": 10,
+        "y": 81,
+        "rotation": 90
+      }
+    ],
+    "assembly": "Mate with panel hardware loosely fitted; verify 12.4 mm face-to-face separation, then hand solder. No permanent spacer. Avoid loading sockets while tightening panel nuts.",
+    "physical_validation": "Insertion/pull-out forces, combined dimensional tolerances and actual panel seating not measured.",
+    "pot_rotations_deg": {
+      "RV_L": 0,
+      "RV_R": 0
+    }
+  },
+  "power_header": {
+    "mpn": "DC3-2.54-10PAS",
+    "x": 10,
+    "y": 52,
+    "orientation": "20.3mm length along y; key towards +x; logical pin1/2 -12V at lower panel end; pin1 top-view x=11.27, y=57.08",
+    "width": 8.4,
+    "height": 20.3,
+    "zmin": 25.6,
+    "zmax": 34.2
+  },
+  "depth": {
+    "bare_nominal": 34.2,
+    "bare_target_max": 36,
+    "cable_target_max": 45,
+    "cable_note": "45mm is allocated space, not a measured cable assembly"
+  },
+  "not_validated": [
+    "Actual mounting planes/tolerances including NJ3FD-V PCB seating",
+    "WQP supplied nut outer diameter must be <=9mm; shim and thread engagement to check on sample",
+    "Actual clipped solder tails and socket retention/tolerance stack",
+    "LED luminous intensity balance at approx 1mA",
+    "Cable and case fit; thermal/ESD/real-device audio performance"
+  ],
+  "pot_rotations_degrees": {
+    "RV_L": 0,
+    "RV_R": 0
+  },
+  "nominal_checks": [
+    {
+      "check": "J_OUT_L panel side envelope",
+      "gap": 0.5
+    },
+    {
+      "check": "J_OUT_R panel side envelope",
+      "gap": 0.5
+    },
+    {
+      "check": "RV_L panel side envelope",
+      "gap": 3.75
+    },
+    {
+      "check": "RV_R panel side envelope",
+      "gap": 3.75
+    },
+    {
+      "check": "J_IN_L panel side envelope",
+      "gap": 2.75
+    },
+    {
+      "check": "J_IN_R panel side envelope",
+      "gap": 2.75
+    },
+    {
+      "check": "LED_L_1 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_L_2 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_L_3 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_L_4 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_R_1 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_R_2 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_R_3 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "LED_R_4 panel side envelope",
+      "gap": 2.85
+    },
+    {
+      "check": "J_OUT_L to J_OUT_R",
+      "gap": 1.0
+    },
+    {
+      "check": "J_IN_L to J_IN_R",
+      "gap": 3.5
+    },
+    {
+      "check": "J_IN_R to PANEL_BOTTOM",
+      "gap": 3.963938969562161
+    },
+    {
+      "check": "RV_R to J_IN_L",
+      "gap": 10.0
+    },
+    {
+      "check": "RV_L to RV_R",
+      "gap": 1.0
+    },
+    {
+      "check": "LED_L_1 to LED_L_2",
+      "gap": 0.7000000000000002
+    },
+    {
+      "check": "LED_L_2 to LED_L_3",
+      "gap": 0.7000000000000002
+    },
+    {
+      "check": "LED_L_3 to LED_L_4",
+      "gap": 0.7000000000000002
+    },
+    {
+      "check": "LED_R_1 to LED_R_2",
+      "gap": 0.7000000000000002
+    },
+    {
+      "check": "LED_R_2 to LED_R_3",
+      "gap": 0.7000000000000002
+    },
+    {
+      "check": "LED_R_3 to LED_R_4",
+      "gap": 0.7000000000000002
+    }
+  ]
+}

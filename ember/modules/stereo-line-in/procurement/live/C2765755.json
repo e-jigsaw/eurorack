@@ -1,0 +1,55 @@
+{
+  "componentCode": "C2765755",
+  "componentModelEn": "HP06W2F1000T5E",
+  "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+  "componentSpecificationEn": "1206",
+  "describe": "-55℃~+155℃ 100Ω 200V 500mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-HP06W2F1000T5E_C2765755.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Resistance",
+      "component_code": "C2765755",
+      "attribute_value_name": "100Ω"
+    },
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C2765755",
+      "attribute_value_name": "-55℃~+155℃"
+    },
+    {
+      "attribute_name_en": "Power(Watts)",
+      "component_code": "C2765755",
+      "attribute_value_name": "500mW"
+    },
+    {
+      "attribute_name_en": "Type",
+      "component_code": "C2765755",
+      "attribute_value_name": "Thick Film Resistor"
+    },
+    {
+      "attribute_name_en": "Voltage-Supply(Max)",
+      "component_code": "C2765755",
+      "attribute_value_name": "200V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C2765755",
+      "attribute_value_name": "±1%"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C2765755",
+      "attribute_value_name": "±100ppm/℃"
+    }
+  ],
+  "overseasStockCount": 16681,
+  "canPresaleNumber": 16403,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 1298,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C2765755",
+  "checked_at": "2026-09-13T09:02:06.586492+00:00"
+}

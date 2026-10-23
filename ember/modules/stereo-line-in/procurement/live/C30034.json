@@ -1,0 +1,55 @@
+{
+  "componentCode": "C30034",
+  "componentModelEn": "RVT1E470M0605",
+  "componentBrandEn": "Honor Elec",
+  "componentSpecificationEn": "SMD,D6.3xL5.4mm",
+  "describe": "-55℃~+105℃ 2000hrs@105℃ 25V 47uF 5.4mm 6.3mm ±20% SMD,D6.3xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "expand",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Honor-Elec-RVT1E470M0605_C30034.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Operating Temperature",
+      "component_code": "C30034",
+      "attribute_value_name": "-55℃~+105℃"
+    },
+    {
+      "attribute_name_en": "Lifetime",
+      "component_code": "C30034",
+      "attribute_value_name": "2000hrs@105℃"
+    },
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C30034",
+      "attribute_value_name": "25V"
+    },
+    {
+      "attribute_name_en": "Height - Seated (Max)",
+      "component_code": "C30034",
+      "attribute_value_name": "5.4mm"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C30034",
+      "attribute_value_name": "±20%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C30034",
+      "attribute_value_name": "47uF"
+    },
+    {
+      "attribute_name_en": "Diameter",
+      "component_code": "C30034",
+      "attribute_value_name": "6.3mm"
+    }
+  ],
+  "overseasStockCount": 11306,
+  "canPresaleNumber": 11094,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 281,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C30034",
+  "checked_at": "2026-09-13T08:59:57.676791+00:00"
+}

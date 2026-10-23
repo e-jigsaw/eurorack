@@ -1,0 +1,40 @@
+{
+  "componentCode": "C1634",
+  "componentModelEn": "CL10C100JB8NNNC",
+  "componentBrandEn": "Samsung Electro-Mechanics",
+  "componentSpecificationEn": "0603",
+  "describe": "10pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "assemblyMode": "smtWeld",
+  "componentLibraryType": "base",
+  "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf",
+  "dataManualOfficialLink": "",
+  "attributes": [
+    {
+      "attribute_name_en": "Voltage Rating",
+      "component_code": "C1634",
+      "attribute_value_name": "50V"
+    },
+    {
+      "attribute_name_en": "Tolerance",
+      "component_code": "C1634",
+      "attribute_value_name": "±5%"
+    },
+    {
+      "attribute_name_en": "Capacitance",
+      "component_code": "C1634",
+      "attribute_value_name": "10pF"
+    },
+    {
+      "attribute_name_en": "Temperature Coefficient",
+      "component_code": "C1634",
+      "attribute_value_name": "C0G"
+    }
+  ],
+  "overseasStockCount": 1871070,
+  "canPresaleNumber": 1652687,
+  "isBuyComponent": "1",
+  "preMinPurchaseNum": 1544,
+  "noBuyReason": null,
+  "url": "https://jlcpcb.com/partdetail/C1634",
+  "checked_at": "2026-09-13T09:01:13.515944+00:00"
+}

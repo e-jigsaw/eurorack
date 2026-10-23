@@ -1,0 +1,286 @@
+{
+  "source": "links/hardware_design/pcb/links_v40.9.sch",
+  "pinMappingNotes": [
+    "JP1 remapped to standard Doepfer numbering: 1/2=-12V,9/10=+12V",
+    "Jack P1=sleeve -> pin3; P2=normal -> pin2; P3=tip -> pin1",
+    "LM321 uses TI datasheet pin1=+IN,2=V-,3=-IN,4=OUT,5=V+"
+  ],
+  "nets": {
+    "GND": [
+      "C1.pin2",
+      "C10.pin1",
+      "C2.pin1",
+      "C3.pin2",
+      "C4.pin1",
+      "C5.pin2",
+      "C7.pin1",
+      "C8.pin2",
+      "IC2.pin3",
+      "IC2.pin5",
+      "IC4.pin3",
+      "IC4.pin5",
+      "J1.pin2",
+      "J1.pin3",
+      "J10.pin2",
+      "J10.pin3",
+      "J11.pin2",
+      "J11.pin3",
+      "J12.pin3",
+      "J2.pin3",
+      "J3.pin3",
+      "J4.pin3",
+      "J5.pin2",
+      "J5.pin3",
+      "J6.pin2",
+      "J6.pin3",
+      "J7.pin3",
+      "J8.pin3",
+      "J9.pin2",
+      "J9.pin3",
+      "JP1.pin3",
+      "JP1.pin4",
+      "JP1.pin5",
+      "JP1.pin6",
+      "JP1.pin7",
+      "JP1.pin8",
+      "R1.pin1",
+      "R11.pin2",
+      "R19.pin2",
+      "R3.pin2"
+    ],
+    "VEE": [
+      "C10.pin2",
+      "C2.pin2",
+      "C4.pin2",
+      "C7.pin2",
+      "D2.pin1",
+      "IC1.pin11",
+      "IC2.pin4",
+      "IC3.pin2",
+      "IC4.pin4",
+      "IC5.pin2"
+    ],
+    "VCC": [
+      "C1.pin1",
+      "C3.pin1",
+      "C5.pin1",
+      "C8.pin1",
+      "D1.pin2",
+      "IC1.pin4",
+      "IC2.pin8",
+      "IC3.pin5",
+      "IC4.pin8",
+      "IC5.pin5"
+    ],
+    "N_6": [
+      "D1.pin1",
+      "JP1.pin10",
+      "JP1.pin9"
+    ],
+    "N_20": [
+      "D2.pin2",
+      "JP1.pin1",
+      "JP1.pin2"
+    ],
+    "N_3": [
+      "IC1.pin1",
+      "IC1.pin2",
+      "R5.pin1"
+    ],
+    "N_4": [
+      "IC1.pin8",
+      "IC1.pin9",
+      "R2.pin1"
+    ],
+    "N_5": [
+      "IC1.pin13",
+      "IC1.pin14",
+      "R4.pin1"
+    ],
+    "N_7": [
+      "IC1.pin10",
+      "IC1.pin12",
+      "IC1.pin3",
+      "IC1.pin5",
+      "J1.pin1",
+      "R1.pin2"
+    ],
+    "N_8": [
+      "IC1.pin7",
+      "LED1.pin2"
+    ],
+    "N_11": [
+      "J4.pin1",
+      "R5.pin2"
+    ],
+    "N_12": [
+      "J2.pin1",
+      "R2.pin2"
+    ],
+    "N_13": [
+      "J3.pin1",
+      "R4.pin2"
+    ],
+    "N_10": [
+      "J6.pin1",
+      "R9.pin1"
+    ],
+    "N_15": [
+      "J5.pin1",
+      "R8.pin1"
+    ],
+    "N_16": [
+      "J7.pin1",
+      "R12.pin2"
+    ],
+    "N_17": [
+      "J8.pin1",
+      "R13.pin2"
+    ],
+    "N_31": [
+      "IC2.pin2",
+      "R6.pin1",
+      "R8.pin2",
+      "R9.pin2"
+    ],
+    "N_1": [
+      "IC2.pin1",
+      "R10.pin1",
+      "R6.pin2"
+    ],
+    "N_32": [
+      "C6.pin1",
+      "IC2.pin6",
+      "R10.pin2",
+      "R7.pin1"
+    ],
+    "N_2": [
+      "J11.pin1",
+      "R17.pin1"
+    ],
+    "N_9": [
+      "J10.pin1",
+      "R20.pin1"
+    ],
+    "N_23": [
+      "J12.pin1",
+      "R21.pin2"
+    ],
+    "N_24": [
+      "IC4.pin2",
+      "R15.pin1",
+      "R17.pin2",
+      "R18.pin2",
+      "R20.pin2"
+    ],
+    "N_25": [
+      "IC4.pin1",
+      "R14.pin1",
+      "R15.pin2"
+    ],
+    "N_27": [
+      "C9.pin1",
+      "IC4.pin6",
+      "R14.pin2",
+      "R16.pin1"
+    ],
+    "N_22": [
+      "J9.pin1",
+      "R18.pin1"
+    ],
+    "N_29": [
+      "IC3.pin3",
+      "LED2.pin1",
+      "R11.pin1"
+    ],
+    "N_14": [
+      "IC3.pin4",
+      "LED2.pin2"
+    ],
+    "N_26": [
+      "C6.pin2",
+      "IC2.pin7",
+      "IC3.pin1",
+      "R12.pin1",
+      "R13.pin1",
+      "R7.pin2"
+    ],
+    "N_30": [
+      "IC5.pin4",
+      "LED3.pin2"
+    ],
+    "N_18": [
+      "C9.pin2",
+      "IC4.pin7",
+      "IC5.pin1",
+      "R16.pin2",
+      "R21.pin1"
+    ],
+    "N_19": [
+      "IC5.pin3",
+      "LED3.pin1",
+      "R19.pin1"
+    ],
+    "N_21": [
+      "IC1.pin6",
+      "LED1.pin1",
+      "R3.pin1"
+    ]
+  },
+  "values": {
+    "JP1": "",
+    "R5": "51",
+    "C1": "4.7u",
+    "C2": "4.7u",
+    "C4": "100n",
+    "C3": "100n",
+    "D2": "1N5819HW",
+    "D1": "1N5819HW",
+    "LED1": "WP937EGW",
+    "LED2": "WP937EGW",
+    "IC1": "OPA4171",
+    "R2": "51",
+    "R4": "51",
+    "R3": "1.0k",
+    "R1": "10M",
+    "IC2": "",
+    "R9": "100k",
+    "R8": "100k",
+    "R7": "100k",
+    "R12": "51",
+    "R11": "1.0k",
+    "R13": "51",
+    "IC4": "",
+    "C5": "100n",
+    "C7": "100n",
+    "C6": "10p",
+    "R6": "100k",
+    "R10": "100k",
+    "LED3": "WP937EGW",
+    "R17": "100k",
+    "R20": "100k",
+    "R16": "100k",
+    "R18": "100k",
+    "R19": "1.0k",
+    "R21": "51",
+    "C9": "10p",
+    "R15": "33k",
+    "R14": "100k",
+    "IC3": "",
+    "IC5": "",
+    "C8": "100n",
+    "C10": "100n",
+    "J1": "",
+    "J4": "",
+    "J2": "",
+    "J3": "",
+    "J8": "",
+    "J7": "",
+    "J5": "",
+    "J6": "",
+    "J12": "",
+    "J9": "",
+    "J10": "",
+    "J11": ""
+  }
+}

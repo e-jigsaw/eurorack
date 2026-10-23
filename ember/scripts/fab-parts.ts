@@ -6,7 +6,9 @@
 //
 // Sourced against the jlcsearch community API
 // (https://jlcsearch.tscircuit.com), ~0.5s between calls, 2026-07-12.
-// Selection rule applied throughout: package MUST match the footprint used
+// Selection rule: original electrical specifications take priority over stock
+// and basic-part status. 100k updated 2026-09-10 to the original Panasonic part.
+// Package MUST match the footprint used
 // in the design; prefer `is_basic` (no JLCPCB assembly setup fee) parts;
 // among basic (or, failing that, all) candidates, prefer highest stock.
 //
@@ -35,9 +37,9 @@ export interface FabPart {
   /** JLCPCB package/footprint as returned by jlcsearch. */
   package: string;
   /** true = JLCPCB basic part (no assembly setup fee). */
-  basic: boolean;
+  basic: boolean | null;
   /** Stock at time of sourcing (2026-07-12) — informational only. */
-  stock: number;
+  stock: number | null;
   /** One-line rationale / tradeoff note. */
   note: string;
 }
@@ -110,12 +112,17 @@ export const RESISTOR_PARTS: Record<string, FabPart> = {
     note: "Basic part, highest stock for 0603/33k.",
   },
   "100000": {
-    lcsc: "C25803",
-    mpn: "0603WAF1003T5E",
+    lcsc: "C190609",
+    mpn: "ERA3AEB104V",
     package: "0603",
-    basic: true,
-    stock: 14797688,
-    note: "Basic part, highest stock for 0603/100k.",
+    basic: null,
+    stock: null,
+    note: "Original Links BOM ERA-3AEB104V: 100k, 0.1%, thin film, " +
+      "25ppm/K, 0.1W. Panasonic official specifications and LCSC/JLCPCB " +
+      "C190609 mapping checked 2026-09-10. Replaces non-equivalent 1% " +
+      "thick-film C25803. Live assembly stock/basic status unverified (null). " +
+      "https://industrial.panasonic.com/ww/products/pt/high-precision-chip-resistors/models/ERA3AEB104V " +
+      "https://jlcpcb.com/partdetail/PANASONIC-ERA3AEB104V/C190609",
   },
   "10000000": {
     lcsc: "C7250",

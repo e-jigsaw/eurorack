@@ -4,6 +4,8 @@ export interface WP937EGWProps {
   pcbX?: number
   pcbY?: number
   pcbRotation?: number
+  schX?: number
+  schY?: number
   connections?: {
     pin1?: string
     anode?: string
@@ -18,6 +20,8 @@ export const WP937EGW = ({
   pcbX,
   pcbY,
   pcbRotation,
+  schX,
+  schY,
   connections,
 }: WP937EGWProps) => (
   <led
@@ -26,6 +30,8 @@ export const WP937EGW = ({
     pcbX={pcbX}
     pcbY={pcbY}
     pcbRotation={pcbRotation}
+    schX={schX}
+    schY={schY}
     connections={connections}
     footprint={
       <footprint>

@@ -19,12 +19,15 @@
     "check:interconnect": "bun scripts/check-interconnect.ts dist/links-control/circuit.json dist/links-main/circuit.json",
     "check:dfm": "bun scripts/check-dfm.ts dist/links-control/circuit.json && bun scripts/check-dfm.ts dist/links-main/circuit.json",
     "export:fab": "bun scripts/export-fab.ts",
-    "export:panel": "bun scripts/export-panel.ts"
+    "export:panel": "bun scripts/export-panel.ts",
+    "build:single": "tsci build links-single.circuit.tsx --disable-parts-engine && bun run check:single",
+    "check:single": "bun scripts/check-links-single.ts && bun scripts/check-dfm.ts dist/links-single/circuit.json",
+    "preview:single": "tsci build links-single.circuit.tsx --disable-parts-engine --pcb-png --schematic-png && bun run check:single"
   },
   "devDependencies": {
-    "@tscircuit/capacity-autorouter": "0.0.662",
+    "@tscircuit/capacity-autorouter": "0.0.890",
     "@types/react": "^19.2.14",
-    "tscircuit": "0.0.2046",
+    "tscircuit": "0.0.2476",
     "typescript": "^5.0.0"
   }
 }

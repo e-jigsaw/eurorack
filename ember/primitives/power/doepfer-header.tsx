@@ -1,4 +1,5 @@
 import type { ChipProps } from "tscircuit";
+import { Fragment } from "react";
 
 const pinLabels = {
   pin1: "VEE_A",
@@ -48,6 +49,7 @@ export const DoepferHeader = (props: DoepferHeaderProps) => (
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((p) => {
           const { x, y } = pinXY(p);
           return (
+            <Fragment key={p}>
             <platedhole
               portHints={[`pin${p}`]}
               pcbX={x}
@@ -56,6 +58,7 @@ export const DoepferHeader = (props: DoepferHeaderProps) => (
               holeDiameter={1.0}
               outerDiameter={1.7}
             />
+            </Fragment>
           );
         })}
         <silkscreenrect pcbX={0} pcbY={0} width={12.7} height={8.38} />

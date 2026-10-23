@@ -66,6 +66,10 @@ const sourceTraces = new Map(
 );
 
 let failures: string[] = [];
+if (sourceTraces.size > 0 && !pcbTraces.some(t =>
+  ((t.route as RoutePoint[] | undefined) ?? []).some(p => p.route_type === "wire"))) {
+  failures.push("source traces exist but no routed copper was generated");
+}
 
 let minTraceWidth = Infinity;
 let minTraceWidthWhere = "";

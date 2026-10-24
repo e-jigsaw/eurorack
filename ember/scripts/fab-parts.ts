@@ -84,6 +84,19 @@ export const CHIP_PARTS: Record<string, FabPart> = {
       "differ from the specified TI part number, so the exact-MPN match " +
       "was kept.",
   },
+  "1N5819HW-7-F": {
+    lcsc: "C82544",
+    mpn: "1N5819HW-7-F",
+    package: "SOD-123",
+    basic: false,
+    stock: 431900,
+    note:
+      "Exact MPN match (Diodes Inc), 40V/1A Schottky — the PSU input " +
+      "protection diodes D1/D2 (ftype simple_diode, resolved via this " +
+      "map by export-fab.ts). Verified on LCSC 2026-10-24: stock " +
+      "431,900, extended (SMT Extended). " +
+      "https://www.lcsc.com/product-detail/C82544.html",
+  },
 };
 
 export const RESISTOR_PARTS: Record<string, FabPart> = {
@@ -141,6 +154,7 @@ export const RESISTOR_PARTS: Record<string, FabPart> = {
 // Capacitance values as they appear in source_component.capacitance (farads).
 const F_100N = 1e-7;
 const F_10P = 1e-11;
+const F_4U7 = 4.7e-6;
 const F_22U = 2.2e-5;
 
 export const CAPACITOR_PARTS: Record<string, FabPart> = {
@@ -159,6 +173,19 @@ export const CAPACITOR_PARTS: Record<string, FabPart> = {
     basic: true,
     stock: 1340862,
     note: "C0G/NP0, 50V (>=50V required) — basic, huge stock, easy pick.",
+  },
+  [`${F_4U7}:0805`]: {
+    lcsc: "C1779",
+    mpn: "CL21A475KAQNNNE",
+    package: "0805",
+    basic: true,
+    stock: 533960,
+    note:
+      "X5R, 25V — same Samsung CL21A series as the 22uF pick below. " +
+      "The single-board design's C1/C2 (PSU bulk) are 4.7uF, not the " +
+      "22uF of the original BOM, so the C45783 entry must not carry " +
+      "over. Basic part, verified on LCSC 2026-10-24: stock 533,960. " +
+      "https://www.lcsc.com/product-detail/C1779.html",
   },
   [`${F_22U}:0805`]: {
     lcsc: "C45783",

@@ -198,6 +198,24 @@ const resolvePart = (sc: SourceComponent): Resolved => {
         lcsc: part?.lcsc ?? null,
       };
     }
+    case "simple_diode": {
+      const mpn = sc.manufacturer_part_number ?? "";
+      const part = lookupChip(mpn);
+      if (part) {
+        return {
+          designator: sc.name,
+          comment: part.mpn,
+          footprint: part.package,
+          lcsc: part.lcsc,
+        };
+      }
+      return {
+        designator: sc.name,
+        comment: mpn || sc.name,
+        footprint: mpn || "unknown",
+        lcsc: null,
+      };
+    }
     case "simple_chip": {
       const mpn = sc.manufacturer_part_number ?? "";
       if (explicitLcsc) {
